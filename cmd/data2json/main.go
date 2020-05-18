@@ -1,26 +1,31 @@
 package main
 
 import (
-	"github.com/duskwuff/pogo"
-	"github.com/spf13/pflag"
-
 	"encoding/json"
 	"fmt"
+	"io"
 	"os"
+	"path"
 	"strconv"
+	"strings"
+
+	"github.com/duskwuff/pogo/dat"
+	"github.com/duskwuff/pogo/ggpk"
+
+	flag "github.com/spf13/pflag"
 )
 
-var formats = pflag.StringArrayP("formats", "f", []string{}, "path to a Go configuration file containing formats")
+var formats = flag.StringArrayP("format", "f", []string{}, "path to a Go configuration file containing formats")
 
 func main() {
-	pflag.Parse()
+	flag.Parse()
 
 	if len(*formats) != 1 {
 		fmt.Fprintf(os.Stderr, "must specify a format file\n")
 		os.Exit(1)
 	}
 
-	p := pogo.InitParser()
+	p := dat.InitParser()
 	for _, path := range *formats {
 		err := p.LoadFormats(path)
 		if err != nil {
@@ -29,13 +34,19 @@ func main() {
 		}
 	}
 
-	args := pflag.Args()
+	args := flag.Args()
 	if len(args) < 1 {
 		fmt.Fprintf(os.Stderr, "usage: data2json [options] DataFile.dat [<row IDs>]\n")
 		os.Exit(1)
 	}
 
-	rows, err := p.ParseFile(pflag.Arg(0), nil)
+	f, err := openPath(flag.Arg(0))
+	if err != nil {
+		panic(err)
+	}
+	basename := strings.TrimSuffix(path.Base(flag.Arg(0)), ".dat")
+
+	rows, err := p.Parse(f, basename)
 	if err != nil {
 		panic(err)
 	}
@@ -67,5 +78,23 @@ func main() {
 				panic(err)
 			}
 		}
+	}
+}
+
+func openPath(path string) (io.Reader, error) {
+	parts := strings.Split(path, ":")
+	switch len(parts) {
+	case 1:
+		return os.Open(path)
+
+	case 2:
+		gf, err := ggpk.Open(parts[0])
+		if err != nil {
+			return nil, fmt.Errorf("couldn't open GGPK: %w", err)
+		}
+		return gf.Open(parts[1])
+
+	default:
+		return nil, fmt.Errorf("%s: too many colons (use fewer)", path)
 	}
 }
