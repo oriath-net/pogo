@@ -1,5 +1,8 @@
-module github.com/duskwuff/pogo
+module github.com/oriath-net/pogo
 
 go 1.14
 
-require github.com/spf13/pflag v1.0.5
+require (
+	github.com/cpuguy83/go-md2man/v2 v2.0.0 // indirect
+	github.com/urfave/cli/v2 v2.2.0
+)

@@ -4,7 +4,7 @@ Path of Go - Golang tools for reading PoE data files
 Installation
 ------------
 
-    make
+    go get -u github.com/oriath.net/pogo
 
 You'll need to have [Go 1.14](https://golang.org/dl/) or later installed.
 
@@ -12,12 +12,12 @@ You'll need to have [Go 1.14](https://golang.org/dl/) or later installed.
 Usage
 -----
 
-    bin/ggpk list -f Content.ggpk
+    pogo ggpk list Content.ggpk
 
 List the contents of a GGPK file.
 
 
-    bin/ggpk extract -f Content.ggpk --no-recurse Data/ --into root/
+    pogo ggpk extract --no-recurse --into root/ Content.ggpk Data/
 
 Extract the `Data` directory from `Content.ggpk` into the `root` directory,
 skipping any subdirectories.
@@ -26,7 +26,7 @@ skipping any subdirectories.
 details.)
 
 
-    bin/data2json -f formats/demo.go Content.ggpk:Data/ActiveSkills.dat
+    pogo data2json -f formats/demo.go Content.ggpk:Data/ActiveSkills.dat
 
 Dump a data file (directly from the GGPK!) to JSON. This currently only works
 for ActiveSkills (since it's the only format specified in `formats/demo.go`),

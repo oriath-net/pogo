@@ -14,8 +14,9 @@ type FileNode struct {
 	headerSize int64
 }
 
-func (n *FileNode) Name() string { return n.name }
-func (n *FileNode) Type() string { return "FILE" }
+func (n *FileNode) Name() string      { return n.name }
+func (n *FileNode) Type() string      { return "FILE" }
+func (n *FileNode) Signature() []byte { return n.signature[:] }
 
 func (g *File) initNodeFILE(offset int64, data []byte) (*FileNode, error) {
 	var node physFILE
@@ -52,10 +53,6 @@ func (g *File) initNodeFILE(offset int64, data []byte) (*FileNode, error) {
 
 func (n *FileNode) Size() int64 {
 	return n.nodeCommon.length - n.headerSize
-}
-
-func (n *FileNode) Signature() []byte {
-	return n.signature[:]
 }
 
 func (n *FileNode) Reader() *io.SectionReader {

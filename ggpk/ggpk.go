@@ -11,7 +11,7 @@ import (
 
 // File represents a GGPK archive.
 type File struct {
-	file *os.File
+	file io.ReaderAt
 	root HeaderNode
 }
 

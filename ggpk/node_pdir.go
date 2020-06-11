@@ -10,10 +10,12 @@ type DirectoryNode struct {
 	nodeCommon
 	name         string
 	childOffsets []int64
+	signature    [32]byte
 }
 
-func (n *DirectoryNode) Name() string { return n.name }
-func (n *DirectoryNode) Type() string { return "PDIR" }
+func (n *DirectoryNode) Name() string      { return n.name }
+func (n *DirectoryNode) Type() string      { return "PDIR" }
+func (n *DirectoryNode) Signature() []byte { return n.signature[:] }
 
 func (g *File) initNodePDIR(offset int64, data []byte) (*DirectoryNode, error) {
 	var node physPDIR
@@ -60,6 +62,7 @@ func (g *File) initNodePDIR(offset int64, data []byte) (*DirectoryNode, error) {
 			length: int64(node.Length),
 		},
 		name:         name,
+		signature:    node.Signature,
 		childOffsets: offsets,
 	}, nil
 }
