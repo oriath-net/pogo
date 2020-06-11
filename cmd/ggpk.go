@@ -1,7 +1,6 @@
 package cmd
 
 import (
-	"encoding/hex"
 	"fmt"
 	cli "github.com/urfave/cli/v2"
 	"io"
@@ -134,7 +133,7 @@ func excluded(rc *ggpkRuntimeContext, path string) bool {
 
 func iterate(rc *ggpkRuntimeContext, fn fileVisitor, paths []string) {
 	for i := range paths {
-		rootPath := path.Clean(paths[i])
+		rootPath := path.Clean("/" + paths[i])
 		rootNode, err := rc.ggpk.NodeAtPath(rootPath)
 		if err != nil {
 			log.Fatal(err)
@@ -175,14 +174,7 @@ func iterate(rc *ggpkRuntimeContext, fn fileVisitor, paths []string) {
 
 func do_list(rc *ggpkRuntimeContext, path string, node ggpk.AnyNode) error {
 	if rc.verbose {
-		switch n := node.(type) {
-		case *ggpk.FileNode:
-			fmt.Printf("F %12d %64s %s\n", n.Size(), hex.EncodeToString(n.Signature()), path)
-		case *ggpk.DirectoryNode:
-			fmt.Printf("D %12s %64s %s/\n", "", hex.EncodeToString(n.Signature()), path)
-		default:
-			log.Fatalf("unexpected %T while iterating", n)
-		}
+		listNodeVerbosely(node, path)
 	} else {
 		switch n := node.(type) {
 		case *ggpk.FileNode:

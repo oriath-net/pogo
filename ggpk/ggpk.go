@@ -90,34 +90,31 @@ func (g *File) RootNode() (*DirectoryNode, error) {
 }
 
 func (g *File) NodeAtPath(path string) (AnyNode, error) {
+	var node AnyNode
+
 	node, err := g.RootNode()
 	if err != nil {
 		return nil, err
 	}
 
-	if path == "." {
-		return node, nil
-	}
-
 	parts := strings.Split(path, "/")
 	for i := range parts {
-		child, err := node.childNamed(parts[i])
-		if err != nil {
-			return nil, err
+		if parts[i] == "" || parts[i] == "." {
+			continue
 		}
-		if child == nil {
-			return nil, fmt.Errorf("%s: file not found", path)
-		}
-		if i == len(parts)-1 {
-			return child, nil
-		}
-		dirChild, ok := child.(*DirectoryNode)
+		dirNode, ok := node.(*DirectoryNode)
 		if !ok {
 			return nil, fmt.Errorf("%s: not a directory", path)
 		}
-		node = dirChild
+		node, err = dirNode.childNamed(parts[i])
+		if err != nil {
+			return nil, err
+		}
+		if node == nil {
+			return nil, fmt.Errorf("%s: file not found", path)
+		}
 	}
-	panic("unreachable")
+	return node, nil
 }
 
 func (g *File) Open(path string) (io.Reader, error) {

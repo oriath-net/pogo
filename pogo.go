@@ -23,6 +23,8 @@ func main() {
 			&cmd.Ggpk,
 			&cmd.Data2json,
 			&cmd.Analyze,
+			&cmd.Cat,
+			&cmd.Ls,
 		},
 	}
 
