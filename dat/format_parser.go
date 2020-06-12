@@ -29,36 +29,40 @@ func (ps *parserState) resolveTypeName(name string) (FieldType, error) {
 
 func (ps *parserState) parseField(f ast.Field) (FieldType, error) {
 	flt := f.Type
+	prefix := ""
 	var typename string
-	isArray := false
-	switch flt.(type) {
+	switch flt := flt.(type) {
 	case *ast.Ident:
-		typename = flt.(*ast.Ident).Name
+		typename = flt.Name
 	case *ast.ArrayType:
-		at := flt.(*ast.ArrayType)
-		if at.Len != nil {
+		if flt.Len != nil {
 			return "", fmt.Errorf("array field may not have a length")
 		}
-		elt, elt_ok := at.Elt.(*ast.Ident)
+		elt, elt_ok := flt.Elt.(*ast.Ident)
 		if !elt_ok {
 			return "", fmt.Errorf("unknown or unsupported field type in array")
 		}
 		typename = elt.Name
-		isArray = true
+		prefix = "[]"
+	case *ast.StarExpr:
+		id, id_ok := flt.X.(*ast.Ident)
+		if !id_ok {
+			return "", fmt.Errorf("unsupported starred field type %T", flt.X)
+		}
+		typename = id.Name
+		prefix = "*"
 	default:
-		return "", fmt.Errorf("unsupported field type")
+		return "", fmt.Errorf("unsupported field type %T", flt)
 	}
 
 	dt, err := ps.resolveTypeName(typename)
 	if err != nil {
 		return "", err
 	}
-	if isArray {
-		dt = "[]" + dt
-	}
+	dt = FieldType(prefix) + dt
 
 	if !dt.Valid() {
-		return "", fmt.Errorf("unknown or unsupported field type %s", typename)
+		return "", fmt.Errorf("unknown or unsupported field type %s", prefix+typename)
 	}
 
 	return dt, nil

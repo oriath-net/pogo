@@ -24,6 +24,10 @@ var Data2json = cli.Command{
 			Usage:    "path to a Go configuration file containing formats",
 			Required: true,
 		},
+		&cli.BoolFlag{
+			Name:  "debug",
+			Usage: "Enable format debugging log messages",
+		},
 	},
 
 	Action: do_data2json,
@@ -31,6 +35,10 @@ var Data2json = cli.Command{
 
 func do_data2json(c *cli.Context) error {
 	p := dat.InitParser()
+
+	if c.Bool("debug") {
+		p.EnableDebug()
+	}
 
 	err := p.LoadFormats(c.String("fmt"))
 	if err != nil {

@@ -7,26 +7,28 @@ import (
 type FieldType string
 
 const (
-	TypeUint8       FieldType = "uint8"
-	TypeUint16                = "uint16"
-	TypeUint32                = "uint32"
-	TypeUint64                = "uint64"
-	TypeInt32                 = "int32"
-	TypeInt64                 = "int64"
-	TypeFloat32               = "float32"
-	TypeFloat64               = "float64"
-	TypeBool                  = "bool"
-	TypeString                = "string"
-	TypeListUint8             = "[]uint8"
-	TypeListUint16            = "[]uint16"
-	TypeListUint32            = "[]uint32"
-	TypeListUint64            = "[]uint64"
-	TypeListInt32             = "[]int32"
-	TypeListInt64             = "[]int64"
-	TypeListFloat32           = "[]float32"
-	TypeListFloat64           = "[]float64"
-	TypeListBool              = "[]bool"
-	TypeListString            = "[]string"
+	TypeUint8         FieldType = "uint8"
+	TypeUint16                  = "uint16"
+	TypeUint32                  = "uint32"
+	TypeUint64                  = "uint64"
+	TypeInt32                   = "int32"
+	TypeInt64                   = "int64"
+	TypeFloat32                 = "float32"
+	TypeFloat64                 = "float64"
+	TypeBool                    = "bool"
+	TypeString                  = "string"
+	TypeListUint8               = "[]uint8"
+	TypeListUint16              = "[]uint16"
+	TypeListUint32              = "[]uint32"
+	TypeListUint64              = "[]uint64"
+	TypeListInt32               = "[]int32"
+	TypeListInt64               = "[]int64"
+	TypeListFloat32             = "[]float32"
+	TypeListFloat64             = "[]float64"
+	TypeListBool                = "[]bool"
+	TypeListString              = "[]string"
+	TypeNullableInt32           = "*int32"
+	TypeNullableInt64           = "*int64"
 )
 
 func (ft FieldType) Valid() bool {
@@ -40,7 +42,8 @@ func (ft FieldType) Valid() bool {
 		TypeListUint32, TypeListUint64,
 		TypeListInt32, TypeListInt64,
 		TypeListFloat32, TypeListFloat64,
-		TypeListBool, TypeListString:
+		TypeListBool, TypeListString,
+		TypeNullableInt32, TypeNullableInt64:
 		return true
 	default:
 		return false
@@ -53,13 +56,9 @@ func (ft FieldType) Size() int {
 		return 1
 	case TypeUint16:
 		return 2
-	case TypeUint32:
+	case TypeInt32, TypeUint32, TypeNullableInt32:
 		return 4
-	case TypeUint64:
-		return 8
-	case TypeInt32:
-		return 4
-	case TypeInt64:
+	case TypeInt64, TypeUint64, TypeNullableInt64:
 		return 8
 	case TypeFloat32:
 		return 4
@@ -80,7 +79,7 @@ func (ft FieldType) Size() int {
 	}
 }
 
-func (ft FieldType) ReflectType() reflect.Type {
+func (ft FieldType) reflectType() reflect.Type {
 	switch ft {
 	case TypeUint8:
 		return reflect.TypeOf(uint8(0))
@@ -120,6 +119,10 @@ func (ft FieldType) ReflectType() reflect.Type {
 		return reflect.TypeOf([]float64{})
 	case TypeListString:
 		return reflect.TypeOf([]string{})
+	case TypeNullableInt32:
+		return reflect.TypeOf((*int32)(nil))
+	case TypeNullableInt64:
+		return reflect.TypeOf((*int64)(nil))
 	default:
 		panic("invalid FieldType")
 	}
@@ -155,7 +158,7 @@ func (df *DataFormat) buildType() {
 	for i := range df.Fields {
 		reflectFields[i+1] = reflect.StructField{
 			Name: df.Fields[i].Name,
-			Type: df.Fields[i].Type.ReflectType(),
+			Type: df.Fields[i].Type.reflectType(),
 		}
 	}
 
