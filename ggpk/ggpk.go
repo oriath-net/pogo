@@ -18,6 +18,7 @@ type File struct {
 type AnyNode interface {
 	Name() string
 	Type() string
+	Signature() []byte
 }
 
 type nodeCommon struct {

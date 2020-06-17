@@ -25,6 +25,7 @@ func main() {
 			&cmd.Analyze,
 			&cmd.Cat,
 			&cmd.Ls,
+			&cmd.Diff,
 		},
 	}
 
