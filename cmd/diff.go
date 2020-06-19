@@ -13,7 +13,7 @@ import (
 var Diff = cli.Command{
 	Name:      "diff",
 	Usage:     "Show changes between two GGPKs",
-	UsageText: "pogo diff [command options] <Content1.ggpk> <Content2.ggpk>",
+	UsageText: "pogo diff [options] <Content1.ggpk> <Content2.ggpk>",
 
 	Flags: []cli.Flag{},
 

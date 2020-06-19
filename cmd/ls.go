@@ -14,7 +14,7 @@ import (
 var Ls = cli.Command{
 	Name:      "ls",
 	Usage:     "List contents within a single directory in a GGPK",
-	UsageText: "pogo ls [command options] <Content.ggpk:Data/>",
+	UsageText: "pogo ls [options] <Content.ggpk>[:<path>]",
 
 	Flags: []cli.Flag{},
 

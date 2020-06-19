@@ -10,7 +10,7 @@ import (
 var Cat = cli.Command{
 	Name:      "cat",
 	Usage:     "Extract a file from a GGPK to standard output",
-	UsageText: "pogo cat [command options] <Content.ggpk:Data/File.dat>",
+	UsageText: "pogo cat [options] <Content.ggpk>:<Data/File.dat>",
 
 	Flags: []cli.Flag{},
 

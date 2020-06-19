@@ -13,6 +13,7 @@ Usage
 -----
 
     pogo ggpk list Content.ggpk
+    pogo ggpk ls Content.ggpk:/Data
 
 List the contents of a GGPK file.
 
@@ -26,9 +27,23 @@ skipping any subdirectories.
 details.)
 
 
+     pogo cat Content.ggpk:Metadata/StatDescriptions/stat_descriptions.txt
+
+Output the contents of a single file in the GGPK to standard output.
+
+(Piping the output of this command to `iconv -f utf16 -t utf8` may be useful,
+as most text files in the container are encoded as UTF-16.)
+
+
     pogo data2json -f formats/demo.go Content.ggpk:Data/ActiveSkills.dat
 
 Dump a data file (directly from the GGPK!) to JSON. This currently only works
 for ActiveSkills (since it's the only format specified in `formats/demo.go`),
 but adding other formats to that or another file will make them supported as
 well.
+
+
+    pogo analyze Content.ggpk:Data/ActiveSkills.dat
+
+Analyze the contents of ActiveSkills.dat, providing information which may be
+useful in interpreting it.

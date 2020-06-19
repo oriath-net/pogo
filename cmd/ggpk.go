@@ -14,7 +14,7 @@ import (
 var Ggpk = cli.Command{
 	Name:      "ggpk",
 	Usage:     "List or extract files in a GGPK archive",
-	UsageText: "ggpk <command> [options...] <Content.ggpk> [<path...>]",
+	UsageText: "ggpk <subcommand> [options] <Content.ggpk> [<path...>]",
 
 	Subcommands: []*cli.Command{
 		{

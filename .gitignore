@@ -1,2 +1,5 @@
-Data/
-bin/
+*.ggpk
+/Data/
+/out/
+/pogo
+/pogo.exe

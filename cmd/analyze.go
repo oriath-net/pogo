@@ -15,7 +15,7 @@ import (
 var Analyze = cli.Command{
 	Name:      "analyze",
 	Usage:     "Analyze a .dat file",
-	UsageText: "pogo analyze [command options] [<Content.ggpk>:]<Data/File.dat>",
+	UsageText: "pogo analyze [options] [<Content.ggpk>:]<Data/File.dat>",
 
 	Flags: []cli.Flag{},
 

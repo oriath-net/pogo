@@ -16,7 +16,7 @@ import (
 var Data2json = cli.Command{
 	Name:      "data2json",
 	Usage:     "Convert .dat files to JSON",
-	UsageText: "pogo data2json [command options] [<Content.ggpk>:]<Data/File.dat> [<row id...>]",
+	UsageText: "pogo data2json [options] [<Content.ggpk>:]<Data/File.dat> [<row id...>]",
 
 	Flags: []cli.Flag{
 		&cli.StringFlag{

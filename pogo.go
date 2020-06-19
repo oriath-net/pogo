@@ -26,6 +26,9 @@ func main() {
 			&cmd.Cat,
 			&cmd.Ls,
 			&cmd.Diff,
+			&cmd.JsonSchema,
+			&cmd.RiverParser,
+			&cmd.RiverDl,
 		},
 	}
 
