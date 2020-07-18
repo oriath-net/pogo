@@ -26,16 +26,22 @@ func do_ls(c *cli.Context) error {
 		cli.ShowCommandHelpAndExit(c, "ls", 1)
 	}
 
-	parts := strings.SplitN(c.Args().First(), ":", 2)
+	arg0 := c.Args().First()
+	colonIdx := strings.LastIndex(arg0, ":")
 
-	gf, err := ggpk.Open(parts[0])
-	if err != nil {
-		return err
+	var ggpkPath string
+	var root string
+	if colonIdx < 0 {
+		ggpkPath = arg0
+		root = "/"
+	} else {
+		ggpkPath = arg0[:colonIdx]
+		root = path.Clean("/" + string(arg0[colonIdx+1:]))
 	}
 
-	var root = ""
-	if len(parts) > 1 {
-		root = path.Clean("/" + parts[1])
+	gf, err := ggpk.Open(ggpkPath)
+	if err != nil {
+		return err
 	}
 
 	node, err := gf.NodeAtPath(root)
