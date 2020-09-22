@@ -27,12 +27,10 @@ skipping any subdirectories.
 details.)
 
 
-     pogo cat Content.ggpk:Metadata/StatDescriptions/stat_descriptions.txt
+     pogo cat --utf16 Content.ggpk:Metadata/StatDescriptions/stat_descriptions.txt
 
-Output the contents of a single file in the GGPK to standard output.
-
-(Piping the output of this command to `iconv -f utf16 -t utf8` may be useful,
-as most text files in the container are encoded as UTF-16.)
+Output the contents of a single file in the GGPK to standard output, converting
+UTF-16 to UTF-8 for output.
 
 
     pogo data2json -f formats/demo.go Content.ggpk:Data/ActiveSkills.dat
