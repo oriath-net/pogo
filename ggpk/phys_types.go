@@ -9,7 +9,7 @@ type physHeader struct {
 
 type physGGPK struct {
 	physHeader
-	NodeCount  int32 // should always be 2
+	Version    int32
 	RootOffset int64
 	FreeOffset int64
 }

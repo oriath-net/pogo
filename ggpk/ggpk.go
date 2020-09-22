@@ -11,8 +11,10 @@ import (
 
 // File represents a GGPK archive.
 type File struct {
-	file io.ReaderAt
-	root HeaderNode
+	file          io.ReaderAt
+	root          HeaderNode
+	useBundles    bool
+	useUTF32Names bool
 }
 
 type AnyNode interface {
@@ -48,6 +50,20 @@ func Open(path string) (*File, error) {
 		return nil, fmt.Errorf("not a GGPK file")
 	}
 	ggpk.root = *typedNode
+
+	switch ggpk.root.version {
+	case 2:
+		break
+	case 3:
+		ggpk.useBundles = true
+		break
+	case 4:
+		ggpk.useBundles = true
+		ggpk.useUTF32Names = true
+		break
+	default:
+		return nil, fmt.Errorf("unknown GGPK version %d", ggpk.root.version)
+	}
 
 	return ggpk, nil
 }

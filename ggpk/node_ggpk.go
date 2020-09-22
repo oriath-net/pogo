@@ -10,6 +10,7 @@ type HeaderNode struct {
 	nodeCommon
 	rootOffset int64
 	freeOffset int64
+	version    int32
 }
 
 func (n *HeaderNode) Name() string      { return "" }
@@ -22,16 +23,13 @@ func (g *File) initNodeGGPK(offset int64, data []byte) (*HeaderNode, error) {
 		return nil, fmt.Errorf("unable to read GGPK header at %08x: %w", offset, err)
 	}
 
-	if node.NodeCount != 2 {
-		return nil, fmt.Errorf("count is %d in GGPK header at %08x, wtf?", node.NodeCount, offset)
-	}
-
 	return &HeaderNode{
 		nodeCommon: nodeCommon{
 			src:    g,
 			offset: offset,
 			length: int64(node.Length),
 		},
+		version:    node.Version,
 		rootOffset: int64(node.RootOffset),
 		freeOffset: int64(node.FreeOffset),
 	}, nil

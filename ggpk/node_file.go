@@ -24,8 +24,8 @@ func (g *File) initNodeFILE(offset int64, data []byte) (*FileNode, error) {
 		return nil, fmt.Errorf("unable to read FILE header at %08x: %w", offset, err)
 	}
 
-	if len(data) < int(44+2*node.NameLen) {
-		data = make([]byte, 44+2*node.NameLen)
+	if len(data) < int(44+g.sizeofName(node.NameLen)) {
+		data = make([]byte, 44+g.sizeofName(node.NameLen))
 		_, err := g.file.ReadAt(data, offset)
 		if err != nil {
 			return nil, fmt.Errorf("unable to read FILE data at %08x: %w", offset, err)
@@ -34,7 +34,7 @@ func (g *File) initNodeFILE(offset int64, data []byte) (*FileNode, error) {
 
 	br := bytes.NewReader(data[44:])
 
-	name, err := readStringFrom(br)
+	name, err := g.readStringFrom(br)
 	if err != nil {
 		return nil, fmt.Errorf("unable to read FILE name at %08x: %w", offset, err)
 	}
@@ -47,7 +47,7 @@ func (g *File) initNodeFILE(offset int64, data []byte) (*FileNode, error) {
 		},
 		name:       name,
 		signature:  node.Signature,
-		headerSize: 44 + int64(2*node.NameLen),
+		headerSize: int64(44 + g.sizeofName(2*node.NameLen)),
 	}, nil
 }
 

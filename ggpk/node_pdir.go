@@ -23,7 +23,7 @@ func (g *File) initNodePDIR(offset int64, data []byte) (*DirectoryNode, error) {
 		return nil, fmt.Errorf("unable to read PDIR header at %08x: %w", offset, err)
 	}
 
-	if node.Length != uint32(48+2*node.NameLen+12*node.ChildCount) {
+	if node.Length != uint32(48+g.sizeofName(node.NameLen)+12*node.ChildCount) {
 		return nil, fmt.Errorf("PDIR at %08x has unexpected length %d (%+v)", offset, node.Length, node)
 	}
 
@@ -38,7 +38,7 @@ func (g *File) initNodePDIR(offset int64, data []byte) (*DirectoryNode, error) {
 
 	br := bytes.NewReader(data[48:])
 
-	name, err := readStringFrom(br)
+	name, err := g.readStringFrom(br)
 	if err != nil {
 		return nil, fmt.Errorf("unable to read PDIR name at %08x: %w", offset, err)
 	}
