@@ -47,7 +47,7 @@ func (g *File) initNodeFILE(offset int64, data []byte) (*FileNode, error) {
 		},
 		name:       name,
 		signature:  node.Signature,
-		headerSize: int64(44 + g.sizeofName(2*node.NameLen)),
+		headerSize: int64(44 + g.sizeofName(node.NameLen)),
 	}, nil
 }
 
