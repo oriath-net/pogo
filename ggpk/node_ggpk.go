@@ -15,6 +15,8 @@ type HeaderNode struct {
 
 func (n *HeaderNode) Name() string      { return "" }
 func (n *HeaderNode) Type() string      { return "GGPK" }
+func (n *HeaderNode) Offset() int64     { return n.offset }
+func (n *HeaderNode) Length() int64     { return n.length }
 func (n *HeaderNode) Signature() []byte { return nil }
 
 func (g *File) initNodeGGPK(offset int64, data []byte) (*HeaderNode, error) {

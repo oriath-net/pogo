@@ -174,16 +174,9 @@ func iterate(rc *ggpkRuntimeContext, fn fileVisitor, paths []string) {
 
 func do_list(rc *ggpkRuntimeContext, path string, node ggpk.AnyNode) error {
 	if rc.verbose {
-		listNodeVerbosely(node, path)
+		listNode(node, path, 1, false)
 	} else {
-		switch n := node.(type) {
-		case *ggpk.FileNode:
-			fmt.Printf("%s\n", path)
-		case *ggpk.DirectoryNode:
-			fmt.Printf("%s/\n", path)
-		default:
-			log.Fatalf("unexpected %T while iterating", n)
-		}
+		listNode(node, path, 0, false)
 	}
 	return nil
 }

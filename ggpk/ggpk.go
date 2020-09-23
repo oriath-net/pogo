@@ -20,6 +20,8 @@ type File struct {
 type AnyNode interface {
 	Name() string
 	Type() string
+	Offset() int64
+	Length() int64
 	Signature() []byte
 }
 

@@ -16,6 +16,8 @@ type FileNode struct {
 
 func (n *FileNode) Name() string      { return n.name }
 func (n *FileNode) Type() string      { return "FILE" }
+func (n *FileNode) Offset() int64     { return n.offset }
+func (n *FileNode) Length() int64     { return n.length }
 func (n *FileNode) Signature() []byte { return n.signature[:] }
 
 func (g *File) initNodeFILE(offset int64, data []byte) (*FileNode, error) {
