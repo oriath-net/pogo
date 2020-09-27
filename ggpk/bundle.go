@@ -91,8 +91,9 @@ func (b *Bundle) ReadAt(p []byte, off int64) (int, error) {
 		return 0, fmt.Errorf("read outside bounds of file")
 	}
 
-	// Temporary buffer for compressed data
-	buf := make([]byte, b.granularity+64)
+	// Temporary buffers for compressed and decompressed data
+	ibuf := make([]byte, b.granularity+64)
+	obuf := make([]byte, b.granularity)
 
 	n := 0
 	for n < len(p) {
@@ -105,17 +106,17 @@ func (b *Bundle) ReadAt(p []byte, off int64) (int, error) {
 			rawSize = int(b.size - int64(blkId)*b.granularity)
 		}
 
-		oodleBlk := buf[:blk.length]
+		oodleBlk := ibuf[:blk.length]
 		if n, err := b.data.ReadAt(oodleBlk, blk.offset); n != len(oodleBlk) {
 			return 0, err
 		}
 
-		rawBlk, err := gooz.Decompress(oodleBlk, rawSize)
+		_, err := gooz.Decompress(oodleBlk, obuf[:rawSize])
 		if err != nil {
 			return 0, fmt.Errorf("decompression failed: %w", err)
 		}
 
-		copied := copy(p[n:], rawBlk[blkOff:])
+		copied := copy(p[n:], obuf[blkOff:])
 		n += copied
 		off += int64(copied)
 	}
