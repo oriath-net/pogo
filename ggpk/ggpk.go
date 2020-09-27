@@ -15,6 +15,7 @@ type File struct {
 	root          HeaderNode
 	useBundles    bool
 	useUTF32Names bool
+	bundleIndex   *BundleIndex
 }
 
 type AnyNode interface {
@@ -29,6 +30,11 @@ type nodeCommon struct {
 	src    *File
 	offset int64
 	length int64
+}
+
+type ReadSeekerAt interface {
+	io.ReadSeeker
+	io.ReaderAt
 }
 
 // Open() opens a GGPK archive at a specified path and returns a handle to the archive.
@@ -65,6 +71,13 @@ func Open(path string) (*File, error) {
 		break
 	default:
 		return nil, fmt.Errorf("unknown GGPK version %d", ggpk.root.version)
+	}
+
+	if ggpk.useBundles {
+		ggpk.bundleIndex, err = loadBundleIndex(ggpk)
+		if err != nil {
+			return nil, fmt.Errorf("unable to load bundle index: %w", err)
+		}
 	}
 
 	return ggpk, nil
@@ -136,7 +149,15 @@ func (g *File) NodeAtPath(path string) (AnyNode, error) {
 	return node, nil
 }
 
-func (g *File) Open(path string) (io.Reader, error) {
+func (g *File) Open(path string) (ReadSeekerAt, error) {
+	if g.bundleIndex != nil {
+		f, _ := g.OpenFileFromBundle(path)
+		if f != nil {
+			return f, nil
+		}
+		// assume all errors are "file not found" and continue
+	}
+
 	node, err := g.NodeAtPath(path)
 	if err != nil {
 		return nil, err

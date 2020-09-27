@@ -57,7 +57,7 @@ func (n *FileNode) Size() int64 {
 	return n.nodeCommon.length - n.headerSize
 }
 
-func (n *FileNode) Reader() *io.SectionReader {
+func (n *FileNode) Reader() ReadSeekerAt {
 	return io.NewSectionReader(
 		n.src.file,
 		n.offset+n.headerSize,

@@ -37,6 +37,9 @@ func do_cat(c *cli.Context) error {
 		f = xunicode.UTF16(xunicode.LittleEndian, xunicode.UseBOM).NewDecoder().Reader(f)
 	}
 
-	_, err = io.Copy(os.Stdout, f)
+	// Use a 256K buffer to match Oodle compression block size
+	buf := make([]byte, 262144)
+
+	_, err = io.CopyBuffer(os.Stdout, f, buf)
 	return err
 }
