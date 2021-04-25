@@ -4,9 +4,9 @@ Path of Go - Golang tools for reading PoE data files
 Installation
 ------------
 
-    go get -u github.com/oriath.net/pogo
+    go get -u github.com/oriath-net/pogo
 
-You'll need to have [Go 1.14](https://golang.org/dl/) or later installed.
+You'll need to have [Go 1.16](https://golang.org/dl/) or later installed.
 
 
 Usage
