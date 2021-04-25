@@ -17,7 +17,12 @@ var Analyze = cli.Command{
 	Usage:     "Analyze a .dat file",
 	UsageText: "pogo analyze [options] [<Content.ggpk>:]<Data/File.dat>",
 
-	Flags: []cli.Flag{},
+	Flags: []cli.Flag{
+		&cli.BoolFlag{
+			Name:  "short",
+			Usage: "Display overview only, not data",
+		},
+	},
 
 	Action: do_analyze,
 }
@@ -31,21 +36,26 @@ func do_analyze(c *cli.Context) error {
 		return fmt.Errorf("Must specify a data file")
 	}
 
+	short := c.Bool("short")
+
 	for _, path := range c.Args().Slice() {
 		f, err := openGgpkPath(path)
 		if err != nil {
-			return fmt.Errorf("%s: %s", path, err)
+			fmt.Printf("%s: %s\n\n", path, err)
+			continue
 		}
 
 		dat, err := ioutil.ReadAll(f)
 		if err != nil {
-			return fmt.Errorf("%s: %s", path, err)
+			fmt.Printf("%s: %s\n\n", path, err)
+			continue
 		}
 
 		var rowCount32 uint32
 		err = binary.Read(bytes.NewReader(dat), binary.LittleEndian, &rowCount32)
 		if err != nil {
-			return fmt.Errorf("%s: unable to get row count: %s", path, err)
+			fmt.Printf("%s: unable to get row count: %s\n\n", path, err)
+			continue
 		}
 		rowCount := int(rowCount32)
 
@@ -66,6 +76,10 @@ func do_analyze(c *cli.Context) error {
 		fmt.Printf("  variable data: %d bytes (%.1f per row)\n", varBytes, float64(varBytes)/float64(rowCount))
 
 		fmt.Println("")
+
+		if short {
+			continue
+		}
 
 		hdr := make([]byte, 3*rowBytes)
 		sep := strings.Repeat("-- ", rowBytes)

@@ -7,28 +7,30 @@ import (
 type FieldType string
 
 const (
-	TypeUint8         FieldType = "uint8"
-	TypeUint16                  = "uint16"
-	TypeUint32                  = "uint32"
-	TypeUint64                  = "uint64"
-	TypeInt32                   = "int32"
-	TypeInt64                   = "int64"
-	TypeFloat32                 = "float32"
-	TypeFloat64                 = "float64"
-	TypeBool                    = "bool"
-	TypeString                  = "string"
-	TypeListUint8               = "[]uint8"
-	TypeListUint16              = "[]uint16"
-	TypeListUint32              = "[]uint32"
-	TypeListUint64              = "[]uint64"
-	TypeListInt32               = "[]int32"
-	TypeListInt64               = "[]int64"
-	TypeListFloat32             = "[]float32"
-	TypeListFloat64             = "[]float64"
-	TypeListBool                = "[]bool"
-	TypeListString              = "[]string"
-	TypeNullableInt32           = "*int32"
-	TypeNullableInt64           = "*int64"
+	TypeUint8             FieldType = "u8"
+	TypeUint16                      = "u16"
+	TypeUint32                      = "u32"
+	TypeUint64                      = "u64"
+	TypeInt32                       = "i32"
+	TypeInt64                       = "i64"
+	TypeFloat32                     = "f32"
+	TypeFloat64                     = "f64"
+	TypeBool                        = "bool"
+	TypeString                      = "string"
+	TypeListUint8                   = "u8[]"
+	TypeListUint16                  = "u16[]"
+	TypeListUint32                  = "u32[]"
+	TypeListUint64                  = "u64[]"
+	TypeListInt32                   = "i32[]"
+	TypeListInt64                   = "i64[]"
+	TypeListFloat32                 = "f32[]"
+	TypeListFloat64                 = "f64[]"
+	TypeListBool                    = "bool[]"
+	TypeListString                  = "string[]"
+	TypeNullableInt32               = "r32"
+	TypeNullableInt64               = "r64"
+	TypeListNullableInt32           = "r32[]"
+	TypeListNullableInt64           = "r64[]"
 )
 
 func (ft FieldType) Valid() bool {
@@ -43,7 +45,8 @@ func (ft FieldType) Valid() bool {
 		TypeListInt32, TypeListInt64,
 		TypeListFloat32, TypeListFloat64,
 		TypeListBool, TypeListString,
-		TypeNullableInt32, TypeNullableInt64:
+		TypeNullableInt32, TypeNullableInt64,
+		TypeListNullableInt32, TypeListNullableInt64:
 		return true
 	default:
 		return false
@@ -72,7 +75,8 @@ func (ft FieldType) Size() int {
 		TypeListUint32, TypeListUint64,
 		TypeListInt32, TypeListInt64,
 		TypeListFloat32, TypeListFloat64,
-		TypeListString:
+		TypeListString,
+		TypeListNullableInt32, TypeListNullableInt64:
 		return 8
 	default:
 		panic("invalid FieldType")
@@ -114,7 +118,7 @@ func (ft FieldType) reflectType() reflect.Type {
 	case TypeListInt64:
 		return reflect.TypeOf([]int64{})
 	case TypeListFloat32:
-		return reflect.TypeOf([]float64{})
+		return reflect.TypeOf([]float32{})
 	case TypeListFloat64:
 		return reflect.TypeOf([]float64{})
 	case TypeListString:
@@ -123,6 +127,13 @@ func (ft FieldType) reflectType() reflect.Type {
 		return reflect.TypeOf((*int32)(nil))
 	case TypeNullableInt64:
 		return reflect.TypeOf((*int64)(nil))
+	case TypeListNullableInt32:
+		// FIXME: Implement these as lists of nullable values? These rarely
+		// (never?) actually contain null values, but it'd be nice to handle
+		// properly
+		return reflect.TypeOf([]int32{})
+	case TypeListNullableInt64:
+		return reflect.TypeOf([]int64{})
 	default:
 		panic("invalid FieldType")
 	}

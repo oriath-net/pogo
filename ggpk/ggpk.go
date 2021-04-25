@@ -168,3 +168,14 @@ func (g *File) Open(path string) (ReadSeekerAt, error) {
 	}
 	return fileNode.Reader(), nil
 }
+
+func (g *File) DumpBundleIndex(prefix string) {
+	if g.bundleIndex == nil {
+		panic("No bundles in this GGPK")
+	}
+	for _, bfi := range g.bundleIndex.files {
+		if strings.HasPrefix(bfi.path, prefix) {
+			fmt.Printf("%s\n", bfi.path)
+		}
+	}
+}

@@ -1,6 +1,7 @@
 package ggpk
 
 import (
+	"bytes"
 	"encoding/binary"
 	"fmt"
 	"hash/fnv"
@@ -19,10 +20,16 @@ type bundle_index_info struct {
 }
 
 type bundle_file_info struct {
-	Hash     uint64
-	BundleId uint32
-	Offset   uint32
-	Size     uint32
+	path     string
+	bundleId uint32
+	offset   uint32
+	size     uint32
+}
+
+type bundle_pathrep struct {
+	offset        uint32
+	size          uint32
+	recursiveSize uint32
 }
 
 func loadBundleIndex(g *File) (*BundleIndex, error) {
@@ -66,25 +73,107 @@ func loadBundleIndex(g *File) (*BundleIndex, error) {
 	file_count := binary.LittleEndian.Uint32(index_data[p:])
 	p += 4
 
-	filemap := make(map[uint64]bundle_file_info)
+	filemap := make(map[uint64]bundle_file_info, file_count)
 	for i := uint32(0); i < file_count; i++ {
+		hash := binary.LittleEndian.Uint64(index_data[p+0:])
 		bfi := bundle_file_info{
-			Hash:     binary.LittleEndian.Uint64(index_data[p+0:]),
-			BundleId: binary.LittleEndian.Uint32(index_data[p+8:]),
-			Offset:   binary.LittleEndian.Uint32(index_data[p+12:]),
-			Size:     binary.LittleEndian.Uint32(index_data[p+16:]),
+			bundleId: binary.LittleEndian.Uint32(index_data[p+8:]),
+			offset:   binary.LittleEndian.Uint32(index_data[p+12:]),
+			size:     binary.LittleEndian.Uint32(index_data[p+16:]),
 		}
 		p += 20
-		if _, exists := filemap[bfi.Hash]; exists {
-			panic("duplicate hash")
+		if _, exists := filemap[hash]; exists {
+			panic("duplicate filemap hash")
 		}
-		filemap[bfi.Hash] = bfi
+		filemap[hash] = bfi
+	}
+
+	pathrep_count := binary.LittleEndian.Uint32(index_data[p:])
+	p += 4
+
+	pathmap := make(map[uint64]bundle_pathrep, pathrep_count)
+	for i := uint32(0); i < pathrep_count; i++ {
+		hash := binary.LittleEndian.Uint64(index_data[p+0:])
+		pr := bundle_pathrep{
+			offset:        binary.LittleEndian.Uint32(index_data[p+8:]),
+			size:          binary.LittleEndian.Uint32(index_data[p+12:]),
+			recursiveSize: binary.LittleEndian.Uint32(index_data[p+16:]),
+		}
+		p += 20
+		if _, exists := pathmap[hash]; exists {
+			panic("duplicate pathmap hash")
+		}
+		pathmap[hash] = pr
+	}
+
+	pathrep_bundle, err := LoadBundle(bytes.NewReader(index_data[p:]))
+	if err != nil {
+		return nil, fmt.Errorf("unable to read pathrep bundle: %w", err)
+	}
+
+	path_data := make([]byte, pathrep_bundle.Size())
+	if _, err := pathrep_bundle.ReadAt(path_data, 0); err != nil {
+		return nil, fmt.Errorf("unable to read pathrep bundle: %w", err)
+	}
+
+	for _, pr := range pathmap {
+		data := path_data[pr.offset : pr.offset+pr.size]
+		paths := dumpPathspec(data)
+		for _, path := range paths {
+			h := fnv.New64a()
+			h.Write([]byte(strings.ToLower(path) + "++"))
+			sum := h.Sum64()
+			if fe, found := filemap[sum]; found {
+				fe.path = path
+				filemap[sum] = fe
+			} else {
+				panic("unable to map bundle path to file")
+			}
+		}
 	}
 
 	return &BundleIndex{
 		bundles: bundles,
 		files:   filemap,
 	}, nil
+}
+
+func dumpPathspec(data []byte) []string {
+	p := int(0)
+	phase := 1
+	names := make([]string, 0, 128)
+	output := make([]string, 0, 128)
+
+	for p < len(data) {
+		n := int(binary.LittleEndian.Uint32(data[p:]))
+		p += 4
+		if n == 0 {
+			phase = 1 - phase
+			continue
+		}
+
+		str := readString(data, &p)
+		if n-1 < len(names) {
+			str = names[n-1] + str
+		}
+		if phase == 0 {
+			names = append(names, str)
+		} else {
+			output = append(output, str)
+		}
+	}
+
+	return output
+}
+
+func readString(data []byte, offset *int) string {
+	p := *offset
+	for p < len(data) && data[p] != 0 {
+		p++
+	}
+	s := string(data[*offset:p])
+	*offset = p + 1
+	return s
 }
 
 func (g *File) OpenFileFromBundle(filename string) (ReadSeekerAt, error) {
@@ -95,7 +184,7 @@ func (g *File) OpenFileFromBundle(filename string) (ReadSeekerAt, error) {
 		return nil, fmt.Errorf("file not found")
 	}
 
-	bundlePath := "Bundles2/" + g.bundleIndex.bundles[fe.BundleId].Name + ".bundle.bin"
+	bundlePath := "Bundles2/" + g.bundleIndex.bundles[fe.bundleId].Name + ".bundle.bin"
 	bundleFile, err := g.Open(bundlePath)
 	if err != nil {
 		return nil, fmt.Errorf("unable to open bundle %s containing %s: %w", bundlePath, filename, err)
@@ -105,5 +194,5 @@ func (g *File) OpenFileFromBundle(filename string) (ReadSeekerAt, error) {
 		return nil, fmt.Errorf("unable to open bundle %s containing %s: %w", bundlePath, filename, err)
 	}
 
-	return io.NewSectionReader(bundle, int64(fe.Offset), int64(fe.Size)), nil
+	return io.NewSectionReader(bundle, int64(fe.offset), int64(fe.size)), nil
 }

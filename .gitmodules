@@ -1,0 +1,3 @@
+[submodule "dat/formats"]
+	path = dat/formats
+	url = https://github.com/oriath-net/formats

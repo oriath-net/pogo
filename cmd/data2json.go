@@ -20,13 +20,17 @@ var Data2json = cli.Command{
 
 	Flags: []cli.Flag{
 		&cli.StringFlag{
-			Name:     "fmt",
-			Usage:    "path to a Go configuration file containing formats",
-			Required: true,
+			Name:  "fmt",
+			Usage: "path to a Go configuration file containing formats",
 		},
 		&cli.BoolFlag{
 			Name:  "debug",
 			Usage: "Enable format debugging log messages",
+		},
+		&cli.StringFlag{
+			Name:        "version",
+			Usage:       "Path of Exile version to assume for formats",
+			DefaultText: "9.99",
 		},
 	},
 
@@ -34,15 +38,19 @@ var Data2json = cli.Command{
 }
 
 func do_data2json(c *cli.Context) error {
-	p := dat.InitParser()
+	vers := c.String("version")
+	if vers == "" {
+		vers = "9.99"
+	}
 
+	p := dat.InitParser(vers)
 	if c.Bool("debug") {
 		p.EnableDebug()
 	}
 
-	err := p.LoadFormats(c.String("fmt"))
-	if err != nil {
-		return fmt.Errorf("Failed to load formats: %s", err)
+	fmtDir := c.String("fmt")
+	if fmtDir != "" {
+		p.SetFormatDir(fmtDir)
 	}
 
 	if !c.Args().Present() {
@@ -55,7 +63,8 @@ func do_data2json(c *cli.Context) error {
 		return err
 	}
 
-	basename := strings.TrimSuffix(path.Base(dat_path), ".dat")
+	basename := strings.TrimSuffix(path.Base(dat_path), path.Ext(dat_path))
+
 	rows, err := p.Parse(f, basename)
 	if err != nil {
 		return err

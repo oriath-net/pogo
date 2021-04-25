@@ -2,15 +2,15 @@ package dat
 
 import (
 	"bytes"
+	"embed"
 	"encoding/binary"
 	"fmt"
 	"io"
+	"io/fs"
 	"io/ioutil"
 	"log"
 	"os"
-	"path"
 	"reflect"
-	"strings"
 	"unicode/utf16"
 )
 
@@ -21,58 +21,64 @@ const (
 )
 
 type DataParser struct {
-	formats map[string]DataFormat
-	debug   bool
+	formatSource fs.FS
+	formats      map[string]DataFormat
+	debug        bool
+	version      string
 }
 
 type dataState struct {
-	parser     *DataParser
-	lastOffset int
-	rowID      int
-	currField  string
+	parser      *DataParser
+	lastOffset  int
+	rowID       int
+	currField   string
+	seenStrings map[int]bool
 }
 
-func InitParser() *DataParser {
-	return &DataParser{
-		formats: make(map[string]DataFormat),
-	}
-}
+//go:embed formats/xml/*.xml
+var rawEmbeddedFormats embed.FS
 
-func (dp *DataParser) LoadFormats(path string) error {
-	types, err := typesFromFile(path)
+var embeddedFormats fs.FS
+
+func init() {
+	// we embedded formats/xml/*.xml, but we actually just want *.xml
+	subfs, err := fs.Sub(rawEmbeddedFormats, "formats/xml")
 	if err != nil {
-		return fmt.Errorf("unable to load types from %s: %w", path, err)
+		panic(err)
 	}
-	for _, t := range types {
-		dp.formats[t.Name] = t
+	embeddedFormats = subfs
+}
+
+func InitParser(version string) *DataParser {
+	return &DataParser{
+		formatSource: embeddedFormats,
+		formats:      make(map[string]DataFormat),
+		version:      version,
 	}
-	return nil
 }
 
 func (dp *DataParser) EnableDebug() {
 	dp.debug = true
 }
 
-func (p *DataParser) ParseFile(dataPath string, dataFormat *string) ([]interface{}, error) {
-	var f string
-	if dataFormat != nil {
-		f = *dataFormat
-	} else {
-		f = strings.TrimSuffix(path.Base(dataPath), ".dat")
-	}
-
-	r, err := os.Open(dataPath)
-	if err != nil {
-		return nil, err
-	}
-
-	return p.Parse(r, f)
+func (dp *DataParser) SetFormatDir(path string) {
+	dp.formatSource = os.DirFS(path)
 }
 
 func (p *DataParser) Parse(r io.Reader, formatName string) ([]interface{}, error) {
+	var err error
+
 	df, dfExists := p.formats[formatName]
 	if !dfExists {
-		return nil, fmt.Errorf("data format '%s' not available", formatName)
+		data, err := fs.ReadFile(p.formatSource, formatName+".xml")
+		if err != nil {
+			return nil, err // FIXME wrap
+		}
+
+		df, err = p.typeFromXML(data)
+		if err != nil {
+			return nil, err // FIXME wrap
+		}
 	}
 
 	dat, err := ioutil.ReadAll(r)
@@ -102,7 +108,7 @@ func (p *DataParser) Parse(r io.Reader, formatName string) ([]interface{}, error
 		return nil, err
 	}
 	if expectBBBB != NotTheBs {
-		return nil, fmt.Errorf("unable to find separator at %x - format specification may be incorrect", dynOffset)
+		return nil, fmt.Errorf("format specification inconsistent with data file (spec row size = %d)", rowSize)
 	}
 
 	rowType := df.Type()
@@ -112,6 +118,10 @@ func (p *DataParser) Parse(r io.Reader, formatName string) ([]interface{}, error
 	ds := &dataState{
 		parser:     p,
 		lastOffset: 8,
+	}
+
+	if p.debug {
+		ds.seenStrings = make(map[int]bool)
 	}
 
 	for i := range rows {
@@ -181,6 +191,7 @@ func (ds *dataState) readField(tgt reflect.Value, typ FieldType, rowdat []byte, 
 		TypeListUint32, TypeListUint64,
 		TypeListInt32, TypeListInt64,
 		TypeListFloat32, TypeListFloat64,
+		TypeListNullableInt32, TypeListNullableInt64,
 		TypeListBool:
 		return ds.readScalarArray(tgt, rr, dyndat)
 
@@ -198,6 +209,9 @@ func (ds *dataState) dynReader(rr *bytes.Reader, dyndat []byte) (*bytes.Reader, 
 	if err != nil {
 		return nil, 0, err
 	}
+	if off < 0 || int(off) > len(dyndat) {
+		return nil, 0, fmt.Errorf("invalid offset to dynamic data (%08x)", uint32(off))
+	}
 	return bytes.NewReader(dyndat[off:]), int(off), nil
 }
 
@@ -214,7 +228,7 @@ func (ds *dataState) readScalarArray(tgt reflect.Value, rr *bytes.Reader, dyndat
 	arr := reflect.MakeSlice(tgt.Type(), int(count), int(count))
 	err = binary.Read(dr, binary.LittleEndian, arr.Interface())
 	tgt.Set(arr)
-	if ds.parser.debug {
+	if ds.parser.debug && count > 0 {
 		ds.debugOffset(int(off), int(count)*int(tgt.Type().Elem().Size()), "before")
 	}
 	return err
@@ -232,7 +246,11 @@ func (ds *dataState) readString(tgt reflect.Value, rr *bytes.Reader, dyndat []by
 	tgt.SetString(str)
 
 	if ds.parser.debug {
-		ds.debugOffset(off, count, "before")
+		// Suppress warnings for deduplicated strings
+		if !ds.seenStrings[off] {
+			ds.debugOffset(off, count, "before")
+			ds.seenStrings[off] = true
+		}
 	}
 	return nil
 }
@@ -259,7 +277,10 @@ func (ds *dataState) readStringArray(tgt reflect.Value, rr *bytes.Reader, dyndat
 			return err
 		}
 		if ds.parser.debug {
-			ds.debugOffset(int(off), str_count, "before strings of")
+			if !ds.seenStrings[int(off)] {
+				ds.debugOffset(int(off), str_count, "before strings of")
+				ds.seenStrings[int(off)] = true
+			}
 		}
 		strs[i] = str
 	}

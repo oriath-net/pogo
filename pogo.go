@@ -29,6 +29,7 @@ func main() {
 			&cmd.JsonSchema,
 			&cmd.RiverParser,
 			&cmd.RiverDl,
+			&cmd.LsBundle,
 		},
 	}
 
