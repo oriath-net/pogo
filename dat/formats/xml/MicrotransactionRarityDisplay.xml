@@ -1,0 +1,5 @@
+<!-- Imported from PyPoE -->
+<format file="MicrotransactionRarityDisplay">
+    <field name="Rarity"                type="string" unique="true" />
+    <field name="ImageFile"             type="string" /> <!-- file_path=True -->
+</format>

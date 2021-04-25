@@ -1,0 +1,7 @@
+<!-- Imported from PyPoE -->
+<format file="PassiveSkillFilterOptions">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Key0"                  type="u64" />
+    <field name="Name"                  type="string" />
+    <field name="Unknown3"              type="string" />
+</format>

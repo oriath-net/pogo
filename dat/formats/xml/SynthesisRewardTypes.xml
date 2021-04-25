@@ -1,0 +1,7 @@
+<!-- Imported from PyPoE -->
+<format file="SynthesisRewardTypes">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Description"           type="string" />
+    <field name="ArtFile"               type="string" /> <!-- file_path=True -->
+    <field name="AchievementItemsKey"   type="r64" ref="AchievementItems" />
+</format>

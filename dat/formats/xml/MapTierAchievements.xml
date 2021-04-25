@@ -1,0 +1,6 @@
+<!-- Imported from PyPoE -->
+<format file="MapTierAchievements">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="AchievementItemsKey"   type="r64[]" ref="AchievementItems" />
+    <field name="MapTiers"              type="i32[]" />
+</format>

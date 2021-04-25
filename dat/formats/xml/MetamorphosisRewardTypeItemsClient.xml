@@ -1,0 +1,6 @@
+<!-- Imported from PyPoE -->
+<format file="MetamorphosisRewardTypeItemsClient">
+    <field name="MetamorphosisRewardTypesKey" type="r64" ref="MetamorphosisRewardTypes" />
+    <field name="Unknown2"              type="i32" />
+    <field name="Description"           type="string" />
+</format>

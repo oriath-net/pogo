@@ -1,0 +1,35 @@
+<!-- Imported from PyPoE -->
+<format file="CraftingBenchOptions">
+    <field name="HideoutNPCsKey"        type="r64" ref="HideoutNPCs" />
+    <field name="Order"                 type="i32" />
+    <field name="ModsKey"               type="r64" ref="Mods" />
+    <field name="Cost_BaseItemTypesKeys" type="r64[]" ref="BaseItemTypes" />
+    <field name="Cost_Values"           type="u32[]" />
+    <field name="RequiredLevel"         type="i32" />
+    <field name="Name"                  type="string" />
+    <field name="CraftingBenchCustomAction" type="i32" />
+    <field name="ItemClassesKeys"       type="r64[]" ref="ItemClasses" />
+    <field name="Links"                 type="i32" />
+    <field name="SocketColours"         type="string" />
+    <field name="Sockets"               type="i32" />
+    <field name="ItemQuantity"          type="i32" />
+    <field name="Data0"                 type="i32[]" />
+    <field name="Description"           type="string" />
+    <field name="IsDisabled"            type="bool" />
+    <field name="IsAreaOption"          type="bool" />
+    <field name="RecipeIds"             type="r32[]" ref="RecipeUnlockDisplay" ref-field="RecipeId" />
+    <field name="Tier"                  type="i32" />
+    <field name="ModFamily"             type="string" />
+    <field name="CraftingItemClassCategoriesKeys" type="r64[]" ref="CraftingItemClassCategories" />
+    <field name="MaximumMapTier"        type="i32" />
+    <field name="CraftingBenchUnlockCategoriesKey" type="r64" ref="CraftingBenchUnlockCategories" />
+    <field name="UnveilsRequired"       type="i32" />
+    <field name="UnveilsRequired2"      type="i32" />
+    <field name="AffixType"             type="string" />
+    <field name="Keys1"                 type="u64[]" />
+    <field name="Keys2"                 type="u64[]" />
+    <field name="AchievementItemsKeys"  type="r64[]" ref="AchievementItems" />
+    <field name="Unknown0"              type="i32" />
+    <field name="Unknown1"              type="i32" />
+    <field name="Flag0"                 type="bool" />
+</format>

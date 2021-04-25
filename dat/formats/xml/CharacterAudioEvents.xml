@@ -1,0 +1,17 @@
+<!-- Imported from PyPoE -->
+<format file="CharacterAudioEvents">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="QuestState"            type="i32" />
+    <field name="Unknown1"              type="i32" />
+    <field name="Unknown2"              type="i32" />
+    <field name="Marauder_CharacterTextAudioKeys" type="r64[]" ref="CharacterTextAudio" />
+    <field name="Ranger_CharacterTextAudioKeys" type="r64[]" ref="CharacterTextAudio" />
+    <field name="Witch_CharacterTextAudioKeys" type="r64[]" ref="CharacterTextAudio" />
+    <field name="Duelist_CharacterTextAudioKeys" type="r64[]" ref="CharacterTextAudio" />
+    <field name="Shadow_CharacterTextAudioKeys" type="r64[]" ref="CharacterTextAudio" />
+    <field name="Templar_CharacterTextAudioKeys" type="r64[]" ref="CharacterTextAudio" />
+    <field name="Scion_CharacterTextAudioKeys" type="r64[]" ref="CharacterTextAudio" />
+    <field name="Goddess_CharacterTextAudioKeys" type="r64[]" ref="CharacterTextAudio" /> <!-- For the Goddess Bound/Scorned/Unleashed unique -->
+    <field name="JackTheAxe_CharacterTextAudioKeys" type="r64[]" ref="CharacterTextAudio" /> <!-- For Jack the Axe unique -->
+    <field name="Flag0"                 type="bool" />
+</format>

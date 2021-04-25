@@ -1,0 +1,10 @@
+<!-- Imported from PyPoE -->
+<format file="UniqueMaps">
+    <field name="ItemVisualIdentityKey" type="r64" ref="ItemVisualIdentity" unique="true" />
+    <field name="WorldAreasKey"         type="r64" ref="WorldAreas" />
+    <field name="WordsKey"              type="r64" ref="Words" />
+    <field name="FlavourTextKey"        type="r64" ref="FlavourText" />
+    <field name="HasGuildCharacter"     type="bool" />
+    <field name="GuildCharacter"        type="string" />
+    <field name="Name"                  type="string" />
+</format>

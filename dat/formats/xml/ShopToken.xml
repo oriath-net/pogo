@@ -1,0 +1,6 @@
+<!-- Imported from PyPoE -->
+<format file="ShopToken">
+    <field name="Id"                    type="string" />
+    <field name="TypeId"                type="string" />
+    <field name="Description"           type="string" />
+</format>

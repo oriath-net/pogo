@@ -1,0 +1,14 @@
+<!-- Imported from PyPoE -->
+<format file="AwardDisplay">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Text"                  type="string" />
+    <field name="BackgroundImage"       type="string" /> <!-- file_path=True -->
+    <field name="Unknown3"              type="i32" />
+    <field name="Unknown4"              type="f32" />
+    <field name="Unknown5"              type="f32" />
+    <field name="Unknown6"              type="string" />
+    <field name="Unknown7"              type="string" />
+    <field name="ForegroundImage"       type="string" /> <!-- file_path=True -->
+    <field name="OGGFile"               type="string" /> <!-- file_ext=.ogg -->
+    <field name="Unknown8"              type="i32" />
+</format>

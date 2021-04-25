@@ -1,0 +1,7 @@
+<!-- Imported from PyPoE -->
+<format file="CharacterPanelDescriptionModes">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Unknown1"              type="string" />
+    <field name="FormatString_Positive" type="string" />
+    <field name="FormatString_Negative" type="string" />
+</format>

@@ -1,0 +1,10 @@
+<!-- Imported from PyPoE -->
+<format file="IncursionChests">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="ChestsKey"             type="r64" ref="Chests" />
+    <field name="Key1"                  type="u64" />
+    <field name="MinLevel"              type="i32" />
+    <field name="MaxLevel"              type="i32" />
+    <field name="Weight"                type="i32" />
+    <field name="Unknown8"              type="i32" />
+</format>

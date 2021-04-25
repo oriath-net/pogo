@@ -1,0 +1,5 @@
+<!-- Imported from PyPoE -->
+<format file="MapInhabitants">
+    <field name="StatsKey"              type="r64" ref="Stats" />
+    <field name="MonsterPacksKeys"      type="r64[]" ref="MonsterPacks" />
+</format>

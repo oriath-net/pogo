@@ -1,0 +1,17 @@
+<!-- Imported from PyPoE -->
+<format file="Hideouts">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="SmallWorldAreasKey"    type="r64" ref="WorldAreas" />
+    <field name="Unknown0"              type="i32" />
+    <field name="HideoutFile"           type="string" /> <!-- file_path=True file_ext=.hideout -->
+    <field name="Keys0"                 type="u64[]" />
+    <field name="LargeWorldAreasKey"    type="r64" ref="WorldAreas" />
+    <field name="HideoutImage"          type="string" /> <!-- file_path=True -->
+    <field name="IsEnabled"             type="u8" />
+    <field name="Weight"                type="i32" />
+    <field name="Key0"                  type="r64" ref="HideoutRarity" />
+    <field name="Flag1"                 type="bool" />
+    <field name="Name"                  type="string" />
+    <field name="Data0"                 type="i32[]" />
+    <field name="Flag2"                 type="bool" />
+</format>

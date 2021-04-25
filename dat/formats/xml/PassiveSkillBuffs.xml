@@ -1,0 +1,10 @@
+<!-- Imported from PyPoE -->
+<format file="PassiveSkillBuffs">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="BuffDefinitionsKey"    type="r64" ref="BuffDefinitions" />
+    <field name="Buff_StatValues"       type="i32[]" />
+    <field name="Key1"                  type="u64" />
+    <field name="Unknown4"              type="i32" />
+    <field name="Unknown5"              type="i32[]" />
+    <field name="Unknown2"              type="i32[]" />
+</format>

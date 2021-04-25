@@ -1,0 +1,23 @@
+<!-- Imported from PyPoE -->
+<format file="HeistNPCs">
+    <field name="NPCsKey"               type="r64" ref="NPCs" />
+    <field name="MonsterVarietiesKey"   type="r64" ref="MonsterVarieties" />
+    <field name="SkillLevel_HeistJobsKeys" type="r64[]" ref="HeistJobs" />
+    <field name="PortraitFile"          type="string" /> <!-- file_path=True -->
+    <field name="HeistNPCStatsKeys"     type="r64[]" ref="HeistNPCStats" />
+    <field name="StatValues"            type="f32[]" />
+    <field name="Unknown6"              type="f32" />
+    <field name="SkillLevel_Values"     type="i32[]" />
+    <field name="Name"                  type="string" />
+    <field name="Unknown9"              type="i32" />
+    <field name="SilhouetteFile"        type="string" /> <!-- file_path=True -->
+    <field name="Unknown11"             type="i32" />
+    <field name="Unknown12"             type="i32" />
+    <field name="HeistNPCsKey"          type="r32" ref="HeistNPCs" />
+    <field name="StatValues2"           type="f32[]" />
+    <field name="Ally_NPCsKey"          type="r64" ref="NPCs" />
+    <field name="ActiveNPCIcon"         type="string" /> <!-- file_path=True -->
+    <field name="HeistJobsKey"          type="r64" ref="HeistJobs" />
+    <field name="Equip_AchievementItemsKeys" type="r64[]" ref="AchievementItems" />
+    <field name="AOFile"                type="string" /> <!-- file_path=True file_ext=.ao -->
+</format>

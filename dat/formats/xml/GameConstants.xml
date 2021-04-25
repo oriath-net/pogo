@@ -1,0 +1,5 @@
+<!-- Imported from PyPoE -->
+<format file="GameConstants">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Value"                 type="i32" />
+</format>

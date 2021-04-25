@@ -1,0 +1,24 @@
+<!-- Imported from PyPoE -->
+<format file="HeistGeneration">
+    <field name="Level"                 type="i32" />
+    <field name="Unknown1"              type="i32" />
+    <field name="Unknown2"              type="i32" />
+    <field name="Unknown3"              type="i32" />
+    <field name="Unknown4"              type="i32" />
+    <field name="Unknown5"              type="i32" />
+    <field name="Unknown6"              type="i32" />
+    <field name="Unknown7"              type="i32" />
+    <field name="Unknown8"              type="i32" />
+    <field name="Unknown9"              type="i32" />
+    <field name="Unknown10"             type="i32" />
+    <field name="Unknown11"             type="i32" />
+    <field name="Unknown12"             type="i32" />
+    <field name="Unknown13"             type="i32" />
+    <field name="Unknown14"             type="i32" />
+    <field name="Unknown15"             type="i32" />
+    <field name="Unknown16"             type="i32" />
+    <field name="Unknown17"             type="i32" />
+    <field name="Unknown18"             type="i32" />
+    <field name="Unknown19"             type="i32" />
+    <field name="Unknown20"             type="i32" />
+</format>

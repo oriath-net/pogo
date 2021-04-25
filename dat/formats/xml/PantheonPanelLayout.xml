@@ -1,0 +1,27 @@
+<!-- Imported from PyPoE -->
+<format file="PantheonPanelLayout">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="X"                     type="i32" />
+    <field name="Y"                     type="i32" />
+    <field name="IsMajorGod"            type="bool" />
+    <field name="CoverImage"            type="string" /> <!-- file_path=True -->
+    <field name="GodName2"              type="string" />
+    <field name="SelectionImage"        type="string" /> <!-- file_path=True -->
+    <field name="Effect1_StatsKeys"     type="r64[]" ref="Stats" />
+    <field name="Effect1_Values"        type="i32[]" />
+    <field name="Effect2_StatsKeys"     type="r64[]" ref="Stats" />
+    <field name="GodName3"              type="string" />
+    <field name="Effect3_Values"        type="i32[]" />
+    <field name="Effect3_StatsKeys"     type="r64[]" ref="Stats" />
+    <field name="GodName4"              type="string" />
+    <field name="Effect4_StatsKeys"     type="r64[]" ref="Stats" />
+    <field name="Effect4_Values"        type="i32[]" />
+    <field name="GodName1"              type="string" />
+    <field name="Effect2_Values"        type="i32[]" />
+    <field name="QuestState1"           type="i32" />
+    <field name="QuestState2"           type="i32" />
+    <field name="QuestState3"           type="i32" />
+    <field name="QuestState4"           type="i32" />
+    <field name="IsDisabled"            type="bool" />
+    <field name="Keys0"                 type="u64[]" />
+</format>

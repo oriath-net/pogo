@@ -1,0 +1,13 @@
+<!-- Imported from PyPoE -->
+<format file="UniqueStashTypes">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Order"                 type="i32" />
+    <field name="Width"                 type="i32" />
+    <field name="Height"                type="i32" />
+    <field name="Unknown4"              type="i32" />
+    <field name="Unknown5"              type="i32" />
+    <field name="Name"                  type="string" />
+    <field name="Unknown7"              type="i32" />
+    <field name="Image"                 type="string" /> <!-- file_path=True -->
+    <field name="Unknown9"              type="i32" />
+</format>

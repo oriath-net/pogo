@@ -1,0 +1,6 @@
+<!-- Imported from PyPoE -->
+<format file="AchievementItemRewards">
+    <field name="AchievementItemsKey"   type="r64" ref="AchievementItems" />
+    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" />
+    <field name="Message"               type="string" />
+</format>

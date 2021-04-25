@@ -1,0 +1,8 @@
+<!-- Imported from PyPoE -->
+<format file="HeistNPCStats">
+    <field name="StatsKey"              type="r64" ref="Stats" />
+    <field name="Flag0"                 type="bool" />
+    <field name="Flag1"                 type="bool" />
+    <field name="Flag2"                 type="bool" />
+    <field name="Flag3"                 type="bool" />
+</format>

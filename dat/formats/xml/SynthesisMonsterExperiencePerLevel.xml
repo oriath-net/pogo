@@ -1,0 +1,5 @@
+<!-- Imported from PyPoE -->
+<format file="SynthesisMonsterExperiencePerLevel">
+    <field name="Level"                 type="i32" />
+    <field name="ExperienceBonus"       type="i32" />
+</format>

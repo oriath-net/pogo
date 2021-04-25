@@ -1,0 +1,5 @@
+<!-- Imported from PyPoE -->
+<format file="ArchitectLifeScalingPerLevel">
+    <field name="Level"                 type="i32" />
+    <field name="MoreLife"              type="i32" />
+</format>

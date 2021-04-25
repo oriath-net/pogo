@@ -1,0 +1,16 @@
+<!-- Imported from PyPoE -->
+<format file="MonsterResistances">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="FireNormal"            type="i32" />
+    <field name="ColdNormal"            type="i32" />
+    <field name="LightningNormal"       type="i32" />
+    <field name="ChaosNormal"           type="i32" />
+    <field name="FireCruel"             type="i32" />
+    <field name="ColdCruel"             type="i32" />
+    <field name="LightningCruel"        type="i32" />
+    <field name="ChaosCruel"            type="i32" />
+    <field name="FireMerciless"         type="i32" />
+    <field name="ColdMerciless"         type="i32" />
+    <field name="LightningMerciless"    type="i32" />
+    <field name="ChaosMerciless"        type="i32" />
+</format>

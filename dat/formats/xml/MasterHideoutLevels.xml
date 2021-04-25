@@ -1,0 +1,6 @@
+<!-- Imported from PyPoE -->
+<format file="MasterHideoutLevels">
+    <field name="NPCMasterKey"          type="r64" ref="NPCMaster" />
+    <field name="Level"                 type="i32" />
+    <field name="MissionsRequired"      type="i32" />
+</format>

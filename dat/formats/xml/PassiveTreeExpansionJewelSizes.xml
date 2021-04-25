@@ -1,0 +1,4 @@
+<!-- Imported from PyPoE -->
+<format file="PassiveTreeExpansionJewelSizes">
+    <field name="Name"                  type="string" />
+</format>

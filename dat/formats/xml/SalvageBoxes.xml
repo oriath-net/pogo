@@ -1,0 +1,6 @@
+<!-- Imported from PyPoE -->
+<format file="SalvageBoxes">
+    <field name="Key0"                  type="u64" />
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Unknown2"              type="string" />
+</format>

@@ -1,0 +1,8 @@
+<!-- Imported from PyPoE -->
+<format file="VoteType">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Text"                  type="string" />
+    <field name="AcceptText"            type="string" />
+    <field name="RejectText"            type="string" />
+    <field name="Unknown0"              type="i32" />
+</format>

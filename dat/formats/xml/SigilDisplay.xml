@@ -1,0 +1,10 @@
+<!-- Imported from PyPoE -->
+<format file="SigilDisplay">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Active_StatsKey"       type="r64" ref="Stats" />
+    <field name="Inactive_StatsKey"     type="r64" ref="Stats" />
+    <field name="DDSFile"               type="string" /> <!-- file_path=True file_ext=.dds -->
+    <field name="Inactive_ArtFile"      type="string" /> <!-- file_path=True -->
+    <field name="Active_ArtFile"        type="string" /> <!-- file_path=True -->
+    <field name="Frame_ArtFile"         type="string" /> <!-- file_path=True -->
+</format>

@@ -1,0 +1,11 @@
+<!-- Imported from PyPoE -->
+<format file="PerandusDaemons">
+    <field name="MonsterVarietiesKey"   type="r64" ref="MonsterVarieties" />
+    <field name="Unknown1"              type="i32" />
+    <field name="Unknown2"              type="i32" />
+    <field name="Unknown3"              type="i32" />
+    <field name="Unknown4"              type="i32" />
+    <field name="Unknown5"              type="u64[]" />
+    <field name="Flag0"                 type="bool" />
+    <field name="Unknown7"              type="u64[]" />
+</format>

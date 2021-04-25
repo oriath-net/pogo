@@ -1,0 +1,6 @@
+<!-- Imported from PyPoE -->
+<format file="CharacterTextAudio">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Text"                  type="string" />
+    <field name="SoundFile"             type="string" /> <!-- file_path=True file_ext=.ogg -->
+</format>

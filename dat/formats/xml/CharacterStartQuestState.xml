@@ -1,0 +1,10 @@
+<!-- Imported from PyPoE -->
+<format file="CharacterStartQuestState">
+    <field name="Id"                    type="string" />
+    <field name="QuestKeys"             type="r64[]" ref="Quest" />
+    <field name="QuestStates"           type="i32[]" />
+    <field name="Keys0"                 type="u64[]" />
+    <field name="MapPinsKeys"           type="r64[]" ref="MapPins" />
+    <field name="Data0"                 type="i32[]" />
+    <field name="Keys1"                 type="u64[]" />
+</format>

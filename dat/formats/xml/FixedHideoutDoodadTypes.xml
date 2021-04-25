@@ -1,0 +1,6 @@
+<!-- Imported from PyPoE -->
+<format file="FixedHideoutDoodadTypes">
+    <field name="Id"                    type="string" />
+    <field name="HideoutDoodadsKeys"    type="r64[]" ref="HideoutDoodads" />
+    <field name="BaseTypeHideoutDoodadsKey" type="r64" ref="HideoutDoodads" />
+</format>

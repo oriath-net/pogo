@@ -1,0 +1,17 @@
+<!-- Imported from PyPoE -->
+<format file="StrDexIntMissionExtraRequirement">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="SpawnWeight"           type="i32" />
+    <field name="MinLevel"              type="i32" />
+    <field name="MaxLevel"              type="i32" />
+    <field name="TimeLimit"             type="i32" /> <!-- in milliseconds -->
+    <field name="HasTimeBonusPerKill"   type="bool" />
+    <field name="HasTimeBonusPerObjectTagged" type="bool" />
+    <field name="HasLimitedPortals"     type="bool" />
+    <field name="NPCTalkKey"            type="r64" ref="NPCTalk" />
+    <field name="TimeLimitBonusFromObjective" type="i32" /> <!-- in milliseconds -->
+    <field name="ObjectCount"           type="i32" />
+    <field name="Data0"                 type="i32[]" />
+    <field name="Flag0"                 type="bool" />
+    <field name="Keys0"                 type="u64[]" />
+</format>

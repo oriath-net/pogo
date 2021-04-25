@@ -1,0 +1,8 @@
+<!-- Imported from PyPoE -->
+<format file="MonsterSpawnerGroupsPerLevel">
+    <field name="MonsterSpawnerGroupsKey" type="r64" ref="MonsterSpawnerGroups" />
+    <field name="MinLevel"              type="i32" />
+    <field name="Unknown2"              type="i32" />
+    <field name="Unknown3"              type="i32" />
+    <field name="Unknown4"              type="i32" />
+</format>

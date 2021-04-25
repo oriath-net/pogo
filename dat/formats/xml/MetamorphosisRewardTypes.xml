@@ -1,0 +1,7 @@
+<!-- Imported from PyPoE -->
+<format file="MetamorphosisRewardTypes">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Art"                   type="string" /> <!-- file_path=True -->
+    <field name="Name"                  type="string" />
+    <field name="AchievementItemsKeys"  type="r64[]" ref="AchievementItems" />
+</format>

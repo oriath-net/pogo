@@ -1,0 +1,7 @@
+<!-- Imported from PyPoE -->
+<format file="PerandusBosses">
+    <field name="MonsterVarietiesKey"   type="r64" ref="MonsterVarieties" />
+    <field name="MinLevel"              type="i32" />
+    <field name="MaxLevel"              type="i32" />
+    <field name="SpawnWeight"           type="i32" />
+</format>

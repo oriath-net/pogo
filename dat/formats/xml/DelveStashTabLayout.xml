@@ -1,0 +1,11 @@
+<!-- Imported from PyPoE -->
+<format file="DelveStashTabLayout">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" />
+    <field name="X"                     type="i32" />
+    <field name="Y"                     type="i32" />
+    <field name="IntId"                 type="i32" unique="true" />
+    <field name="Width"                 type="i32" />
+    <field name="Height"                type="i32" />
+    <field name="StackSize"             type="i32" />
+</format>

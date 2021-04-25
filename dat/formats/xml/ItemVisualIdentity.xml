@@ -1,0 +1,51 @@
+<!-- Imported from PyPoE -->
+<format file="ItemVisualIdentity">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="DDSFile"               type="string" /> <!-- file_path=True file_ext=.dds -->
+    <field name="AOFile"                type="string" /> <!-- file_path=True file_ext=.ao -->
+    <field name="SoundEffectsKey"       type="r64" ref="SoundEffects" /> <!-- Inventory sound effect -->
+    <field name="UnknownUniqueInt"      type="i32" unique="true" />
+    <field name="AOFile2"               type="string" /> <!-- file_path=True file_ext=.ao -->
+    <field name="MarauderSMFiles"       type="string[]" /> <!-- file_path=True file_ext=.sm -->
+    <field name="RangerSMFiles"         type="string[]" /> <!-- file_path=True file_ext=.sm -->
+    <field name="WitchSMFiles"          type="string[]" /> <!-- file_path=True file_ext=.sm -->
+    <field name="DuelistDexSMFiles"     type="string[]" /> <!-- file_path=True file_ext=.sm -->
+    <field name="TemplarSMFiles"        type="string[]" /> <!-- file_path=True file_ext=.sm -->
+    <field name="ShadowSMFiles"         type="string[]" /> <!-- file_path=True file_ext=.sm -->
+    <field name="ScionSMFiles"          type="string[]" /> <!-- file_path=True file_ext=.sm -->
+    <field name="MarauderShape"         type="string" />
+    <field name="RangerShape"           type="string" />
+    <field name="WitchShape"            type="string" />
+    <field name="DuelistShape"          type="string" />
+    <field name="TemplarShape"          type="string" />
+    <field name="ShadowShape"           type="string" />
+    <field name="ScionShape"            type="string" />
+    <field name="Unknown0"              type="i32" />
+    <field name="Unknown1"              type="i32" />
+    <field name="Pickup_AchievementItemsKeys" type="r64[]" ref="AchievementItems" />
+    <field name="SMFiles"               type="string[]" /> <!-- file_path=True file_ext=.sm -->
+    <field name="Identify_AchievementItemsKeys" type="r64[]" ref="AchievementItems" />
+    <field name="EPKFile"               type="string" /> <!-- file_path=True file_ext=.epk -->
+    <field name="Corrupt_AchievementItemsKeys" type="r64[]" ref="AchievementItems" />
+    <field name="IsAlternateArt"        type="bool" />
+    <field name="Flag2"                 type="bool" />
+    <field name="CreateCorruptedJewelAchievementItemsKey" type="r64" ref="AchievementItems" />
+    <field name="AnimationLocation"     type="string" />
+    <field name="Unknown2"              type="string" />
+    <field name="Unknown3"              type="string" />
+    <field name="Unknown4"              type="string" />
+    <field name="Unknown5"              type="string" />
+    <field name="Unknown6"              type="string" />
+    <field name="Unknown7"              type="string" />
+    <field name="Unknown8"              type="string" />
+    <field name="Unknown9"              type="string" />
+    <field name="Unknown10"             type="string" />
+    <field name="Unknown11"             type="string" />
+    <field name="Unknown12"             type="string" />
+    <field name="Unknown13"             type="string" />
+    <field name="IsAtlasOfWorldsMapIcon" type="bool" />
+    <field name="IsTier16Icon"          type="bool" />
+    <field name="Unknown15"             type="i32[]" />
+    <field name="Flag3"                 type="bool" />
+    <field name="Unknown16"             type="u64[]" />
+</format>

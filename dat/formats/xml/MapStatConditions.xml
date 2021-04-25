@@ -1,0 +1,8 @@
+<!-- Imported from PyPoE -->
+<format file="MapStatConditions">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="StatsKey"              type="r64" ref="Stats" />
+    <field name="Flag0"                 type="u8" />
+    <field name="StatMin"               type="i32" />
+    <field name="StatMax"               type="i32" />
+</format>

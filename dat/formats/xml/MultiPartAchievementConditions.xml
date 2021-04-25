@@ -1,0 +1,8 @@
+<!-- Imported from PyPoE -->
+<format file="MultiPartAchievementConditions">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="MultiPartAchievementsKey1" type="r64" ref="MultiPartAchievements" />
+    <field name="MultiPartAchievementsKey2" type="r64" ref="MultiPartAchievements" />
+    <field name="Unknown3"              type="i32" />
+    <field name="Unknown4"              type="i32" />
+</format>

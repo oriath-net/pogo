@@ -1,0 +1,6 @@
+<!-- Imported from PyPoE -->
+<format file="ComponentCharges">
+    <field name="BaseItemTypesKey"      type="string" ref="BaseItemTypes" ref-field="Id" unique="true" /> <!-- file_path=True -->
+    <field name="MaxCharges"            type="i32" />
+    <field name="PerCharge"             type="i32" />
+</format>

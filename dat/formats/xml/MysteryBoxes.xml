@@ -1,0 +1,7 @@
+<!-- Imported from PyPoE -->
+<format file="MysteryBoxes">
+    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" />
+    <field name="BK2File"               type="string" /> <!-- file_path=True file_ext=.bk2 -->
+    <field name="BoxId"                 type="string" />
+    <field name="BundleId"              type="string" />
+</format>

@@ -1,0 +1,6 @@
+<!-- Imported from PyPoE -->
+<format file="Tips">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Text"                  type="string" />
+    <field name="TextXBox"              type="string" />
+</format>

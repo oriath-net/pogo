@@ -1,0 +1,8 @@
+<!-- Imported from PyPoE -->
+<format file="DescentStarterChest">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="CharactersKey"         type="r64" ref="Characters" />
+    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" />
+    <field name="SocketColours"         type="string" />
+    <field name="WorldAreasKey"         type="r64" ref="WorldAreas" />
+</format>

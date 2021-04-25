@@ -1,0 +1,10 @@
+<!-- Imported from PyPoE -->
+<format file="ShopCategory">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="ClientText"            type="string" />
+    <field name="ClientJPGFile"         type="string" /> <!-- file_path=True file_ext=.jpg -->
+    <field name="WebsiteText"           type="string" />
+    <field name="WebsiteJPGFile"        type="string" />
+    <field name="Unknown0"              type="r32" />
+    <field name="AppliedTo_BaseItemTypesKey" type="r64" ref="BaseItemTypes" />
+</format>

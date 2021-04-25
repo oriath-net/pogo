@@ -1,0 +1,12 @@
+<!-- Imported from PyPoE -->
+<format file="BestiaryRecipes">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Description"           type="string" />
+    <field name="BestiaryRecipeComponentKeys" type="r64[]" ref="BestiaryRecipeComponent" />
+    <field name="Notes"                 type="string" />
+    <field name="HintText"              type="string" />
+    <field name="Flag0"                 type="bool" />
+    <field name="AchievementItemsKeys"  type="r64[]" ref="AchievementItems" />
+    <field name="Flag1"                 type="bool" />
+    <field name="Unknown1"              type="i32" />
+</format>

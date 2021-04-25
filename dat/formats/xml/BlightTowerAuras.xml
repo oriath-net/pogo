@@ -1,0 +1,7 @@
+<!-- Imported from PyPoE -->
+<format file="BlightTowerAuras">
+    <field name="Id"                    type="i32" unique="true" />
+    <field name="BuffDefinitionsKey"    type="r64" ref="BuffDefinitions" />
+    <field name="Unknown2"              type="i32" />
+    <field name="MiscAnimatedKey"       type="r64" ref="MiscAnimated" />
+</format>

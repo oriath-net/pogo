@@ -1,0 +1,9 @@
+<!-- Imported from PyPoE -->
+<format file="AchievementSetRewards">
+    <field name="AchievementSetsDisplayKey" type="r32" ref="AchievementSetsDisplay" ref-field="Id" /> <!-- key_offset=1 -->
+    <field name="Unknown1"              type="i32" />
+    <field name="BaseItemTypesKeys"     type="r64[]" ref="BaseItemTypes" />
+    <field name="Unknown2"              type="i32" />
+    <field name="Message"               type="string" />
+    <field name="DDSFile"               type="string" /> <!-- file_path=True file_ext=.dds -->
+</format>

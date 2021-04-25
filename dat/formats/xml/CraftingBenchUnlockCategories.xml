@@ -1,0 +1,9 @@
+<!-- Imported from PyPoE -->
+<format file="CraftingBenchUnlockCategories">
+    <field name="Id"                    type="string" />
+    <field name="Unknown1"              type="i32" />
+    <field name="Unknown2"              type="i32[]" />
+    <field name="UnlockType"            type="string" />
+    <field name="CraftingItemClassCategoriesKeys" type="r64[]" ref="CraftingItemClassCategories" />
+    <field name="ObtainingDescription"  type="string" />
+</format>

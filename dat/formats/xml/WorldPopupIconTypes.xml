@@ -1,0 +1,7 @@
+<!-- Imported from PyPoE -->
+<format file="WorldPopupIconTypes">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Unknown1"              type="string" /> <!-- file_path=True -->
+    <field name="Unknown2"              type="string" /> <!-- file_path=True -->
+    <field name="Unknown3"              type="string" /> <!-- file_path=True -->
+</format>

@@ -1,0 +1,7 @@
+<!-- Imported from PyPoE -->
+<format file="ShrineBuffs">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="BuffStatValues"        type="i32[]" /> <!-- For use for the related stat in the buff. -->
+    <field name="BuffDefinitionsKey"    type="r64" ref="BuffDefinitions" />
+    <field name="Key0"                  type="u64" />
+</format>

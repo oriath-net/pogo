@@ -1,0 +1,7 @@
+<!-- Imported from PyPoE -->
+<format file="ItemNoteCode">
+    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" />
+    <field name="Code"                  type="string" />
+    <field name="Unknown3"              type="i32" />
+    <field name="Flag0"                 type="bool" />
+</format>

@@ -1,0 +1,9 @@
+<!-- Imported from PyPoE -->
+<format file="MonsterProjectileAttack">
+    <field name="Id"                    type="i32" unique="true" />
+    <field name="Key0"                  type="u64" />
+    <field name="Flag0"                 type="bool" />
+    <field name="Flag1"                 type="bool" />
+    <field name="Flag2"                 type="bool" />
+    <field name="Unknown0"              type="i32" />
+</format>

@@ -1,0 +1,13 @@
+<!-- Imported from PyPoE -->
+<format file="NPCDialogueStyles">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="HeaderBaseFile"        type="string" /> <!-- file_path=True -->
+    <field name="ButtomFile"            type="string" /> <!-- file_path=True -->
+    <field name="BannerFiles"           type="string[]" /> <!-- file_path=True -->
+    <field name="HeaderFiles"           type="string[]" /> <!-- file_path=True -->
+    <field name="Unknown5"              type="i32" />
+    <field name="Unknown6"              type="i32" />
+    <field name="Unknown7"              type="i32" />
+    <field name="Unknown8"              type="i32" />
+    <field name="Unknown9"              type="i32" />
+</format>

@@ -1,0 +1,7 @@
+<!-- Imported from PyPoE -->
+<format file="ModSets">
+    <field name="Unknown0"              type="string" />
+    <field name="Unknown1"              type="i32" />
+    <field name="Key0"                  type="u64" />
+    <field name="Unknown2"              type="i32" />
+</format>

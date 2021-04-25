@@ -1,0 +1,6 @@
+<!-- Imported from PyPoE -->
+<format file="BlightCraftingTypes">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Unknown1"              type="i32" />
+    <field name="Flag0"                 type="bool" />
+</format>

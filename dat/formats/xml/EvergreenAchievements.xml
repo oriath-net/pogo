@@ -1,0 +1,6 @@
+<!-- Imported from PyPoE -->
+<format file="EvergreenAchievements">
+    <field name="Unknown0"              type="i32" />
+    <field name="Unknown1"              type="i32" />
+    <field name="Keys0"                 type="u64[]" />
+</format>

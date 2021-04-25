@@ -1,0 +1,5 @@
+<!-- Imported from PyPoE -->
+<format file="MonsterSegments">
+    <field name="Id"                    type="string" />
+    <field name="Shapes"                type="string" />
+</format>

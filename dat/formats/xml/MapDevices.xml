@@ -1,0 +1,10 @@
+<!-- Imported from PyPoE -->
+<format file="MapDevices">
+    <field name="Id"                    type="string" />
+    <field name="Key0"                  type="u64" />
+    <field name="Unknown2"              type="i32" />
+    <field name="Flag0"                 type="u8" />
+    <field name="InheritsFrom"          type="string" /> <!-- file_path=True -->
+    <field name="Command"               type="string" />
+    <field name="Command_Data"          type="i32[]" />
+</format>

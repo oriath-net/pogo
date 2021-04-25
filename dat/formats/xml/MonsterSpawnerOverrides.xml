@@ -1,0 +1,6 @@
+<!-- Imported from PyPoE -->
+<format file="MonsterSpawnerOverrides">
+    <field name="Key0"                  type="u64" />
+    <field name="Base_MonsterVarietiesKey" type="r64" ref="MonsterVarieties" />
+    <field name="Override_MonsterVarietiesKey" type="r64" ref="MonsterVarieties" />
+</format>

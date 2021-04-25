@@ -1,0 +1,50 @@
+<!-- Imported from PyPoE -->
+<format file="GrantedEffectsPerLevel">
+    <field name="GrantedEffectsKey"     type="r64" ref="GrantedEffects" />
+    <field name="Level"                 type="i32" />
+    <field name="StatsKeys"             type="r64[]" ref="Stats" />
+    <field name="Stat1Float"            type="f32" />
+    <field name="Stat2Float"            type="f32" />
+    <field name="Stat3Float"            type="f32" />
+    <field name="Stat4Float"            type="f32" />
+    <field name="Stat5Float"            type="f32" />
+    <field name="Stat6Float"            type="f32" />
+    <field name="Stat7Float"            type="f32" />
+    <field name="Stat8Float"            type="f32" />
+    <field name="Stat9Float"            type="f32" />
+    <field name="EffectivenessCostConstantsKeys" type="r64[]" ref="EffectivenessCostConstants" />
+    <field name="Stat1Value"            type="i32" />
+    <field name="Stat2Value"            type="i32" />
+    <field name="Stat3Value"            type="i32" />
+    <field name="Stat4Value"            type="i32" />
+    <field name="Stat5Value"            type="i32" />
+    <field name="Stat6Value"            type="i32" />
+    <field name="Stat7Value"            type="i32" />
+    <field name="Stat8Value"            type="i32" />
+    <field name="Stat9Value"            type="i32" />
+    <field name="LevelRequirement"      type="i32" />
+    <field name="ManaMultiplier"        type="i32" />
+    <field name="LevelRequirement2"     type="i32" />
+    <field name="LevelRequirement3"     type="i32" />
+    <field name="CriticalStrikeChance"  type="i32" />
+    <field name="ManaCost"              type="i32" />
+    <field name="DamageEffectiveness"   type="i32" /> <!-- Damage effectiveness based on 0 = 100% -->
+    <field name="StoredUses"            type="i32" />
+    <field name="Cooldown"              type="i32" />
+    <field name="CooldownBypassType"    type="i32" /> <!-- Charge type to expend to bypass cooldown (Endurance, Frenzy, Power, none) -->
+    <field name="StatsKeys2"            type="r64[]" ref="Stats" /> <!-- Used with a value of one -->
+    <field name="Unknown30a"            type="bool" />
+    <field name="VaalSouls"             type="i32" />
+    <field name="VaalStoredUses"        type="i32" />
+    <field name="CooldownGroup"         type="i32" />
+    <field name="ManaReservationOverride" type="i32" /> <!-- Mana Reservation Override: #% (if # > 0) -->
+    <field name="Unknown37"             type="i32" />
+    <field name="DamageMultiplier"      type="i32" /> <!-- Damage multiplier in 1/10000 for attack skills -->
+    <field name="Unknown45"             type="i32" />
+    <field name="Unknown46"             type="i32" />
+    <field name="StatInterpolationTypesKeys" type="i32[]" /> <!-- enum=STAT_INTERPOLATION_TYPES -->
+    <field name="VaalSoulGainPreventionTime" type="i32" /> <!-- Time in milliseconds -->
+    <field name="Unknown47"             type="i32" />
+    <field name="BaseDuration"          type="i32" />
+    <field name="AttackSpeedMultiplier" type="i32" />
+</format>

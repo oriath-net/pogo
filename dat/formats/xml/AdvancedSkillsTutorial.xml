@@ -1,0 +1,11 @@
+<!-- Imported from PyPoE -->
+<format file="AdvancedSkillsTutorial">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Keys1"                 type="u64[]" />
+    <field name="Key2"                  type="u64[]" />
+    <field name="Description"           type="string" />
+    <field name="International_BK2File" type="string" /> <!-- file_path=True file_ext=.bk2 -->
+    <field name="Key0"                  type="u64" />
+    <field name="China_BK2File"         type="string" /> <!-- file_path=True file_ext=.bk2 -->
+    <field name="CharactersKey"         type="r64[]" ref="Characters" />
+</format>

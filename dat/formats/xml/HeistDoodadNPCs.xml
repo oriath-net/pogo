@@ -1,0 +1,12 @@
+<!-- Imported from PyPoE -->
+<format file="HeistDoodadNPCs">
+    <field name="Key0"                  type="u64" />
+    <field name="Unknown1"              type="i32" />
+    <field name="Unknown2"              type="i32" />
+    <field name="Unknown3"              type="i32" />
+    <field name="Unknown4"              type="i32" />
+    <field name="Unknown5"              type="i32" />
+    <field name="AOFile"                type="string" /> <!-- file_path=True file_ext=.ao -->
+    <field name="Stance"                type="string" />
+    <field name="Key1"                  type="u64" />
+</format>

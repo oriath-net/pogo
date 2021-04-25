@@ -1,0 +1,5 @@
+<!-- Imported from PyPoE -->
+<format file="MagicMonsterLifeScalingPerLevel">
+    <field name="Level"                 type="i32" />
+    <field name="Life"                  type="i32" />
+</format>

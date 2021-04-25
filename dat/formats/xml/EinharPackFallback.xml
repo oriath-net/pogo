@@ -1,0 +1,5 @@
+<!-- Imported from PyPoE -->
+<format file="EinharPackFallback">
+    <field name="Key0"                  type="u64" />
+    <field name="Keys0"                 type="u64[]" />
+</format>

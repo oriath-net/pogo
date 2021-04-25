@@ -1,0 +1,17 @@
+<!-- Imported from PyPoE -->
+<format file="BloodTypes">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="PETFile1"              type="string" /> <!-- file_path=True file_ext=.pet -->
+    <field name="PETFile2"              type="string" /> <!-- file_path=True file_ext=.pet -->
+    <field name="PETFile3"              type="string" /> <!-- file_path=True file_ext=.pet -->
+    <field name="Key0"                  type="u64" />
+    <field name="PETFile4"              type="string" /> <!-- file_path=True file_ext=.pet -->
+    <field name="PETFile5"              type="string" /> <!-- file_path=True file_ext=.pet -->
+    <field name="PETFile6"              type="string" /> <!-- file_path=True file_ext=.pet -->
+    <field name="Key1"                  type="u64" />
+    <field name="Keys0"                 type="u64[]" />
+    <field name="Key2"                  type="u64" />
+    <field name="PETFile7"              type="string" /> <!-- file_path=True file_ext=.pet -->
+    <field name="PETFile8"              type="string" /> <!-- file_path=True file_ext=.pet -->
+    <field name="PETFile9"              type="string" /> <!-- file_path=True file_ext=.pet -->
+</format>

@@ -1,0 +1,6 @@
+<!-- Imported from PyPoE -->
+<format file="MicrotransactionPeriodicCharacterEffectVariations">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="AOFile"                type="string" /> <!-- file_path=True file_ext=.ao -->
+    <field name="Key0"                  type="u64" />
+</format>

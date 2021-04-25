@@ -1,0 +1,5 @@
+<!-- Imported from PyPoE -->
+<format file="MTXSetBonus">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="ArtFile"               type="string" /> <!-- file_path=True -->
+</format>

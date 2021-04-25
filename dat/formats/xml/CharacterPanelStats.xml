@@ -1,0 +1,12 @@
+<!-- Imported from PyPoE -->
+<format file="CharacterPanelStats">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Text"                  type="string" />
+    <field name="StatsKeys1"            type="r64[]" ref="Stats" />
+    <field name="CharacterPanelDescriptionModesKey" type="r64" ref="CharacterPanelDescriptionModes" />
+    <field name="StatsKeys2"            type="r64[]" ref="Stats" />
+    <field name="StatsKeys3"            type="r64[]" ref="Stats" />
+    <field name="CharacterPanelTabsKey" type="r64" ref="CharacterPanelTabs" />
+    <field name="Flag0"                 type="bool" />
+    <field name="Data4"                 type="u32[]" />
+</format>

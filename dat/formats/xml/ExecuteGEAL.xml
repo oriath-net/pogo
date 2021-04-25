@@ -1,0 +1,44 @@
+<!-- Imported from PyPoE -->
+<format file="ExecuteGEAL">
+    <field name="Unknown0"              type="i32" />
+    <field name="Keys0"                 type="u64[]" />
+    <field name="Unknown3"              type="i32" />
+    <field name="Unknown4"              type="i32" />
+    <field name="Unknown5"              type="i32" />
+    <field name="Unknown6"              type="i32" />
+    <field name="Unknown7"              type="i32" />
+    <field name="Unknown8"              type="i32" />
+    <field name="Unknown9"              type="i32" />
+    <field name="Flag0"                 type="bool" />
+    <field name="Unknown10"             type="i32" />
+    <field name="Flag1"                 type="bool" />
+    <field name="Unknown11"             type="i32" />
+    <field name="Flag2"                 type="bool" />
+    <field name="Unknown12"             type="i32" />
+    <field name="Unknown13"             type="i32" />
+    <field name="Unknown14"             type="i32" />
+    <field name="Unknown15"             type="i32" />
+    <field name="Unknown16"             type="i32" />
+    <field name="Unknown17"             type="i32" />
+    <field name="Flag3"                 type="bool" />
+    <field name="Unknown18"             type="i32" />
+    <field name="Flag4"                 type="bool" />
+    <field name="Unknown19"             type="i32" />
+    <field name="Flag5"                 type="bool" />
+    <field name="Unknown22"             type="i32" />
+    <field name="Unknown20"             type="i32" />
+    <field name="Flag6"                 type="bool" />
+    <field name="Unknown23"             type="i32" />
+    <field name="MetadataIDs"           type="string[]" /> <!-- file_path=True -->
+    <field name="ScriptCommand"         type="string" />
+    <field name="Unknown28"             type="i32" />
+    <field name="Unknown29"             type="i32" />
+    <field name="Unknown30"             type="i32" />
+    <field name="Unknown31"             type="i32" />
+    <field name="Unknown32"             type="i32" />
+    <field name="Flag7"                 type="bool" />
+    <field name="Flag8"                 type="bool" />
+    <field name="Unknown33"             type="i32" />
+    <field name="Unknown34"             type="i32" />
+    <field name="Unknown35"             type="i32" />
+</format>

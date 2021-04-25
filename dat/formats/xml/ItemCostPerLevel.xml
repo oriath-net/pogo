@@ -1,0 +1,13 @@
+<!-- Imported from PyPoE -->
+<format file="ItemCostPerLevel">
+    <field name="Contract_BaseItemTypesKey" type="r64" ref="BaseItemTypes" />
+    <field name="Level"                 type="i32" />
+    <field name="Cost1_BaseItemTypesKeys" type="r64[]" ref="BaseItemTypesKey" />
+    <field name="Cost1_Values"          type="i32[]" />
+    <field name="Cost2_BaseItemTypesKeys" type="r64[]" ref="BaseItemTypesKey" />
+    <field name="Cost2_Values"          type="i32[]" />
+    <field name="Cost3_BaseItemTypesKeys" type="r64[]" ref="BaseItemTypesKey" />
+    <field name="Cost3_Values"          type="i32[]" />
+    <field name="Cost4_BaseItemTypesKeys" type="r64[]" ref="BaseItemTypesKey" />
+    <field name="Cost4_Values"          type="i32[]" />
+</format>

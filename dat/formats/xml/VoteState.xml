@@ -1,0 +1,5 @@
+<!-- Imported from PyPoE -->
+<format file="VoteState">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Text"                  type="string" />
+</format>

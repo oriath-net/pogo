@@ -1,0 +1,34 @@
+<!-- Imported from PyPoE -->
+<format file="NPCTalk">
+    <field name="NPCKey"                type="r64" ref="NPCs" />
+    <field name="Unknown2"              type="i32" />
+    <field name="DialogueOption"        type="string" />
+    <field name="Data0"                 type="u32[]" />
+    <field name="Data1"                 type="u32[]" />
+    <field name="Data2"                 type="u32[]" />
+    <field name="Script"                type="string" />
+    <field name="Unknown11"             type="i32" />
+    <field name="Unknown12"             type="i32" />
+    <field name="QuestKey"              type="r64" ref="Quest" />
+    <field name="Unknown15"             type="i32" />
+    <field name="NPCTextAudioKeys"      type="r64[]" ref="NPCTextAudio" />
+    <field name="Script2"               type="string" />
+    <field name="Flag0"                 type="bool" />
+    <field name="Flag1"                 type="bool" />
+    <field name="Data5"                 type="i32[]" />
+    <field name="Data6"                 type="i32[]" />
+    <field name="Unknown19"             type="i32" />
+    <field name="Unknown20"             type="i32[]" />
+    <field name="Unknown21"             type="i32" />
+    <field name="Flag2"                 type="bool" />
+    <field name="Keys0"                 type="u64[]" />
+    <field name="Key0"                  type="u64" />
+    <field name="Flag3"                 type="bool" />
+    <field name="Flag4"                 type="bool" />
+    <field name="DialogueOption2"       type="string" />
+    <field name="Key1"                  type="u64" />
+    <field name="Key2"                  type="u64" />
+    <field name="Unknown23"             type="i32" />
+    <field name="Unknown24"             type="i32" />
+    <field name="Unknown25"             type="i32" />
+</format>

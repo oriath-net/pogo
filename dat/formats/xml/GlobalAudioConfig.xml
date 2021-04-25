@@ -1,0 +1,6 @@
+<!-- Imported from PyPoE -->
+<format file="GlobalAudioConfig">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Value"                 type="i32" />
+    <field name="Flag0"                 type="bool" />
+</format>

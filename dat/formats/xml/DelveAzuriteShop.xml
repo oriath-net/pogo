@@ -1,0 +1,8 @@
+<!-- Imported from PyPoE -->
+<format file="DelveAzuriteShop">
+    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" />
+    <field name="SpawnWeight"           type="i32" />
+    <field name="Cost"                  type="i32" />
+    <field name="MinDepth"              type="i32" />
+    <field name="IsEnabled"             type="bool" />
+</format>

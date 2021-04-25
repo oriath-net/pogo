@@ -1,0 +1,16 @@
+<!-- Imported from PyPoE -->
+<format file="ChestEffects">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Normal_EPKFile"        type="string" /> <!-- file_path=True file_ext=.epk -->
+    <field name="Normal_Closed_AOFile"  type="string" /> <!-- file_path=True file_ext=.ao -->
+    <field name="Normal_Open_AOFile"    type="string" /> <!-- file_path=True file_ext=.ao -->
+    <field name="Magic_EPKFile"         type="string" /> <!-- file_path=True file_ext=.epk -->
+    <field name="Unique_EPKFile"        type="string" /> <!-- file_path=True file_ext=.epk -->
+    <field name="Rare_EPKFile"          type="string" /> <!-- file_path=True file_ext=.epk -->
+    <field name="Magic_Closed_AOFile"   type="string" /> <!-- file_path=True file_ext=.ao -->
+    <field name="Unique_Closed_AOFile"  type="string" /> <!-- file_path=True file_ext=.ao -->
+    <field name="Rare_Closed_AOFile"    type="string" /> <!-- file_path=True file_ext=.ao -->
+    <field name="Magic_Open_AOFile"     type="string" /> <!-- file_path=True file_ext=.ao -->
+    <field name="Unique_Open_AOFile"    type="string" /> <!-- file_path=True file_ext=.ao -->
+    <field name="Rare_Open_AOFile"      type="string" /> <!-- file_path=True file_ext=.ao -->
+</format>

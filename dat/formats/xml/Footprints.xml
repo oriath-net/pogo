@@ -1,0 +1,6 @@
+<!-- Imported from PyPoE -->
+<format file="Footprints">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Active_AOFiles"        type="string[]" /> <!-- file_path=True file_ext=.ao -->
+    <field name="Idle_AOFiles"          type="string[]" /> <!-- file_path=True file_ext=.ao -->
+</format>

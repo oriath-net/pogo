@@ -1,0 +1,9 @@
+<!-- Imported from PyPoE -->
+<format file="Pet">
+    <field name="Id"                    type="string" unique="true" /> <!-- file_path=True -->
+    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" />
+    <field name="Unknown3"              type="i32" />
+    <field name="Unknown4"              type="i32" />
+    <field name="Unknown1"              type="i32" />
+    <field name="Unknown5"              type="i16" />
+</format>

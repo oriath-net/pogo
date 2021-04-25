@@ -1,0 +1,4 @@
+<!-- Imported from PyPoE -->
+<format file="BlightChestTypes">
+    <field name="ChestsKey"             type="r64" ref="Chests" />
+</format>

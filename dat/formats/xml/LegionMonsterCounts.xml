@@ -1,0 +1,11 @@
+<!-- Imported from PyPoE -->
+<format file="LegionMonsterCounts">
+    <field name="LegionFactionsKey"     type="r64" ref="LegionFactions" />
+    <field name="LegionRanksKey"        type="r64" ref="LegionRanks" />
+    <field name="Unknown0"              type="i32" />
+    <field name="Unknown1"              type="i32" />
+    <field name="Unknown2"              type="i32" />
+    <field name="Unknown3"              type="i32" />
+    <field name="Unknown4"              type="i32" />
+    <field name="Unknown5"              type="i32" />
+</format>

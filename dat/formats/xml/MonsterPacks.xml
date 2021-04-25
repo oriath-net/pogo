@@ -1,0 +1,20 @@
+<!-- Imported from PyPoE -->
+<format file="MonsterPacks">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="WorldAreasKeys"        type="r64[]" ref="WorldAreas" />
+    <field name="Unknown0"              type="i32" />
+    <field name="Unknown1"              type="i32" />
+    <field name="BossMonsterSpawnChance" type="i32" />
+    <field name="BossMonsterCount"      type="i32" />
+    <field name="BossMonster_MonsterVarietiesKeys" type="r64[]" ref="MonsterVarieties" />
+    <field name="Flag0"                 type="bool" />
+    <field name="Unknown2"              type="i32" />
+    <field name="Data1"                 type="string[]" />
+    <field name="TagsKeys"              type="r64[]" ref="Tags" />
+    <field name="MinLevel"              type="i32" />
+    <field name="MaxLevel"              type="i32" />
+    <field name="Keys0"                 type="u64[]" />
+    <field name="Unknown3"              type="i32" />
+    <field name="Key0"                  type="u64" />
+    <field name="Unknown4"              type="i32" />
+</format>

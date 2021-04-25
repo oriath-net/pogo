@@ -1,0 +1,6 @@
+<!-- Imported from PyPoE -->
+<format file="SpectreOverrides">
+    <field name="Key0"                  type="u64" />
+    <field name="Key1"                  type="u64" />
+    <field name="Keys0"                 type="u64[]" />
+</format>

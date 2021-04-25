@@ -1,0 +1,6 @@
+<!-- Imported from PyPoE -->
+<format file="AtlasExileInfluenceOutcomes">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Unknown1"              type="i32" />
+    <field name="AtlasExileInfluenceOutcomeTypesKey" type="i32" />
+</format>

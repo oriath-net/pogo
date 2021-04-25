@@ -1,0 +1,6 @@
+<!-- Imported from PyPoE -->
+<format file="HeistObjectives">
+    <field name="key0"                  type="u64" />
+    <field name="Unknown1"              type="f32" />
+    <field name="Name"                  type="string" />
+</format>

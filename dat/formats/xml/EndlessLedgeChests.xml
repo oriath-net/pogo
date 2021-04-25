@@ -1,0 +1,7 @@
+<!-- Imported from PyPoE -->
+<format file="EndlessLedgeChests">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="WorldAreasKey"         type="r64" ref="WorldAreas" />
+    <field name="BaseItemTypesKeys"     type="r64[]" ref="BaseItemTypes" />
+    <field name="SocketColour"          type="string" />
+</format>

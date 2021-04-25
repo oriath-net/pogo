@@ -1,0 +1,11 @@
+<!-- Imported from PyPoE -->
+<format file="QuestStaticRewards">
+    <field name="Unknown0"              type="i32" />
+    <field name="Unknown1"              type="i32" />
+    <field name="StatsKeys"             type="r64[]" ref="Stats" />
+    <field name="StatValues"            type="i32[]" />
+    <field name="QuestKey"              type="r64" ref="Quest" />
+    <field name="Unknown2"              type="i32" />
+    <field name="ClientStringsKey"      type="r64" ref="ClientStrings" />
+    <field name="Unknown3"              type="i32" />
+</format>

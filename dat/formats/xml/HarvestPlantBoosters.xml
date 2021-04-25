@@ -1,0 +1,10 @@
+<!-- Imported from PyPoE -->
+<format file="HarvestPlantBoosters">
+    <field name="HarvestObjectsKey"     type="r64" ref="HarvestObjects" unique="true" />
+    <field name="Radius"                type="i32" />
+    <field name="Key0"                  type="u64" />
+    <field name="Lifeforce"             type="i32" />
+    <field name="AdditionalCraftingOptionsChance" type="i32" />
+    <field name="RareExtraChances"      type="i32" />
+    <field name="HarvestPlantBoosterFamilies" type="i32" />
+</format>

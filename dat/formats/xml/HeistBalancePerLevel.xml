@@ -1,0 +1,24 @@
+<!-- Imported from PyPoE -->
+<format file="HeistBalancePerLevel">
+    <field name="Level"                 type="i32" />
+    <field name="Unknown1"              type="f32" />
+    <field name="Unknown2"              type="f32" />
+    <field name="Unknown3"              type="i32" />
+    <field name="Unknown4"              type="i32" />
+    <field name="Unknown5"              type="f32" />
+    <field name="Unknown6"              type="f32" />
+    <field name="Key0"                  type="u64" />
+    <field name="Key1"                  type="u64" />
+    <field name="Key2"                  type="u64" />
+    <field name="Key3"                  type="u64" />
+    <field name="Key4"                  type="u64" />
+    <field name="Unknown17"             type="f32" />
+    <field name="Unknown18"             type="f32" />
+    <field name="Unknown19"             type="f32" />
+    <field name="Unknown20"             type="f32" />
+    <field name="Key5"                  type="u64" />
+    <field name="Key6"                  type="u64" />
+    <field name="Unknown23"             type="f32" />
+    <field name="Unknown24"             type="f32" />
+    <field name="Unknown25"             type="i32" />
+</format>

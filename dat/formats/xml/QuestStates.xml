@@ -1,0 +1,21 @@
+<!-- Imported from PyPoE -->
+<format file="QuestStates">
+    <field name="QuestKey"              type="r64" ref="Quest" />
+    <field name="Unknown0"              type="i32" />
+    <field name="QuestStates"           type="u32[]" />
+    <field name="Data0"                 type="u32[]" />
+    <field name="Text"                  type="string" />
+    <field name="Flag0"                 type="bool" />
+    <field name="Message"               type="string" />
+    <field name="MapPinsKeys1"          type="r64[]" ref="MapPins" />
+    <field name="Unknown1"              type="i32" />
+    <field name="MapPinsTexts"          type="string[]" />
+    <field name="MapPinsKeys2"          type="r64[]" ref="MapPins" />
+    <field name="Keys2"                 type="u64[]" />
+    <field name="Flag1"                 type="bool" />
+    <field name="Data1"                 type="i32[]" />
+    <field name="QuestStateCalcuationKey" type="i32" />
+    <field name="Key0"                  type="u64" />
+    <field name="Unknown3"              type="i32" />
+    <field name="Unknown4"              type="i32" />
+</format>

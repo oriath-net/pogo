@@ -1,0 +1,4 @@
+<!-- Imported from PyPoE -->
+<format file="MonsterSpawnerGroups">
+    <field name="Id"                    type="string" /> <!-- file_path=True -->
+</format>

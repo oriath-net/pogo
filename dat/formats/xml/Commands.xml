@@ -1,0 +1,9 @@
+<!-- Imported from PyPoE -->
+<format file="Commands">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Command"               type="string" />
+    <field name="Flag0"                 type="bool" />
+    <field name="Command2"              type="string" />
+    <field name="Description"           type="string" />
+    <field name="Flag1"                 type="bool" />
+</format>

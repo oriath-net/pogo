@@ -1,0 +1,6 @@
+<format file="Tags">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Unknown0"              type="u32" />
+    <field name="DisplayString"         type="string" />
+    <field name="Name"                  type="string" />
+</format>

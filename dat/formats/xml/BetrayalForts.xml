@@ -1,0 +1,8 @@
+<!-- Imported from PyPoE -->
+<format file="BetrayalForts">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Unknown1"              type="i32" />
+    <field name="Unknown2"              type="i32" />
+    <field name="Unknown3"              type="i32" />
+    <field name="Key0"                  type="u64" />
+</format>

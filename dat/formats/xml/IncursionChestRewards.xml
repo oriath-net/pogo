@@ -1,0 +1,9 @@
+<!-- Imported from PyPoE -->
+<format file="IncursionChestRewards">
+    <field name="IncursionRoomsKey"     type="r64" ref="IncursionRooms" />
+    <field name="IncursionChestsKeys"   type="r64[]" ref="IncursionChests" />
+    <field name="Unknown0"              type="string" /> <!-- file_path=True -->
+    <field name="Unknown1"              type="u32" />
+    <field name="Unknown2"              type="i32" />
+    <field name="Unknown3"              type="i32" />
+</format>

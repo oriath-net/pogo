@@ -1,0 +1,5 @@
+<!-- Imported from PyPoE -->
+<format file="DelveResourcePerLevel">
+    <field name="AreaLevel"             type="i32" />
+    <field name="Sulphite"              type="i32" />
+</format>

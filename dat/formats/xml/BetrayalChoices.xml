@@ -1,0 +1,6 @@
+<!-- Imported from PyPoE -->
+<format file="BetrayalChoices">
+    <field name="Id"                    type="string" />
+    <field name="Text"                  type="string" />
+    <field name="Unknown0"              type="i32" />
+</format>

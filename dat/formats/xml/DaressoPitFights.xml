@@ -1,0 +1,13 @@
+<!-- Imported from PyPoE -->
+<format file="DaressoPitFights">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Key0"                  type="u64" /> <!-- display=Key - Type? -->
+    <field name="Unknown1"              type="i32" />
+    <field name="Unknown2"              type="i32[]" />
+    <field name="FlagUnknown0"          type="bool" />
+    <field name="FlagUnknown2"          type="bool" />
+    <field name="Unknown3"              type="i32" />
+    <field name="Unknown4"              type="i32" />
+    <field name="Unknown6"              type="i32" />
+    <field name="FlagUnknown3"          type="bool" />
+</format>

@@ -1,0 +1,5 @@
+<!-- Imported from PyPoE -->
+<format file="StatDescriptionFunctions">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="TranslationId"         type="string" unique="true" />
+</format>

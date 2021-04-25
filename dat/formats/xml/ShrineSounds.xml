@@ -1,0 +1,6 @@
+<!-- Imported from PyPoE -->
+<format file="ShrineSounds">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="StereoSoundFile"       type="string" /> <!-- file_path=True file_ext=.ogg -->
+    <field name="MonoSoundFile"         type="string" /> <!-- file_path=True file_ext=.ogg -->
+</format>

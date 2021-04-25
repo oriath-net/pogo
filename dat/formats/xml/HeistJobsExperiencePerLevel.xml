@@ -1,0 +1,8 @@
+<!-- Imported from PyPoE -->
+<format file="HeistJobsExperiencePerLevel">
+    <field name="HeistJobsKey"          type="r64" ref="HeistJobs" />
+    <field name="Tier"                  type="i32" />
+    <field name="Experience"            type="i32" />
+    <field name="MinLevel"              type="i32" />
+    <field name="Keys0"                 type="u64[]" />
+</format>

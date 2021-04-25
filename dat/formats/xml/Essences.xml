@@ -1,0 +1,66 @@
+<!-- Imported from PyPoE -->
+<format file="Essences">
+    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" unique="true" />
+    <field name="Unknown1"              type="u64" />
+    <field name="Unknown2"              type="u64" />
+    <field name="Unknown3"              type="u64" />
+    <field name="Unknown4"              type="u64" />
+    <field name="Unknown5"              type="u64" />
+    <field name="Unknown6"              type="u64" />
+    <field name="Unknown7"              type="u64" />
+    <field name="Unknown8"              type="u64" />
+    <field name="Unknown9"              type="u64" />
+    <field name="Unknown10"             type="u64" />
+    <field name="Unknown11"             type="u64" />
+    <field name="Display_Wand_ModsKey"  type="r64" ref="Mods" />
+    <field name="Display_Bow_ModsKey"   type="r64" ref="Mods" />
+    <field name="Display_Quiver_ModsKey" type="r64" ref="Mods" />
+    <field name="Display_Amulet_ModsKey" type="r64" ref="Mods" />
+    <field name="Display_Ring_ModsKey"  type="r64" ref="Mods" />
+    <field name="Display_Belt_ModsKey"  type="r64" ref="Mods" />
+    <field name="Display_Gloves_ModsKey" type="r64" ref="Mods" />
+    <field name="Display_Boots_ModsKey" type="r64" ref="Mods" />
+    <field name="Display_BodyArmour_ModsKey" type="r64" ref="Mods" />
+    <field name="Display_Helmet_ModsKey" type="r64" ref="Mods" />
+    <field name="Display_Shield_ModsKey" type="r64" ref="Mods" />
+    <field name="Unknown23"             type="i32" />
+    <field name="DropLevelMinimum"      type="i32" />
+    <field name="DropLevelMaximum"      type="i32" />
+    <field name="Monster_ModsKeys"      type="r64[]" ref="Mods" />
+    <field name="EssenceTypeKey"        type="r64" ref="EssenceType" />
+    <field name="Level"                 type="i32" />
+    <field name="Unknown31"             type="i32" />
+    <field name="Display_Weapon_ModsKey" type="r64" ref="Mods" />
+    <field name="Display_MeleeWeapon_ModsKey" type="r64" ref="Mods" />
+    <field name="Display_OneHandWeapon_ModsKey" type="r64" ref="Mods" />
+    <field name="Display_TwoHandWeapon_ModsKey" type="r64" ref="Mods" />
+    <field name="Display_TwoHandMeleeWeapon_ModsKey" type="r64" ref="Mods" />
+    <field name="Display_Armour_ModsKey" type="r64" ref="Mods" />
+    <field name="Display_RangedWeapon_ModsKey" type="r64" ref="Mods" />
+    <field name="Helmet_ModsKey"        type="r64" ref="Mods" />
+    <field name="BodyArmour_ModsKey"    type="r64" ref="Mods" />
+    <field name="Boots_ModsKey"         type="r64" ref="Mods" />
+    <field name="Gloves_ModsKey"        type="r64" ref="Mods" />
+    <field name="Bow_ModsKey"           type="r64" ref="Mods" />
+    <field name="Wand_ModsKey"          type="r64" ref="Mods" />
+    <field name="Staff_ModsKey"         type="r64" ref="Mods" />
+    <field name="TwoHandSword_ModsKey"  type="r64" ref="Mods" />
+    <field name="TwoHandAxe_ModsKey"    type="r64" ref="Mods" />
+    <field name="TwoHandMace_ModsKey"   type="r64" ref="Mods" />
+    <field name="Claw_ModsKey"          type="r64" ref="Mods" />
+    <field name="Dagger_ModsKey"        type="r64" ref="Mods" />
+    <field name="OneHandSword_ModsKey"  type="r64" ref="Mods" />
+    <field name="OneHandThrustingSword_ModsKey" type="r64" ref="Mods" />
+    <field name="OneHandAxe_ModsKey"    type="r64" ref="Mods" />
+    <field name="OneHandMace_ModsKey"   type="r64" ref="Mods" />
+    <field name="Sceptre_ModsKey"       type="r64" ref="Mods" />
+    <field name="Display_Monster_ModsKey" type="r64" ref="Mods" />
+    <field name="ItemLevelRestriction"  type="i32" />
+    <field name="Belt_ModsKey"          type="r64" ref="Mods" />
+    <field name="Amulet_ModsKey"        type="r64" ref="Mods" />
+    <field name="Ring_ModsKey"          type="r64" ref="Mods" />
+    <field name="Display_Jewellery_ModsKey" type="r64" ref="Mods" />
+    <field name="Shield_ModsKey"        type="r64" ref="Mods" />
+    <field name="Display_Items_ModsKey" type="r64" ref="Mods" />
+    <field name="IsScreamingEssence"    type="bool" />
+</format>

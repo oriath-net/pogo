@@ -1,0 +1,4 @@
+<!-- Imported from PyPoE -->
+<format file="AreaTransitionAnimationTypes">
+    <field name="Id"                    type="string" unique="true" />
+</format>

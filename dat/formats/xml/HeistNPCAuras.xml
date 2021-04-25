@@ -1,0 +1,5 @@
+<!-- Imported from PyPoE -->
+<format file="HeistNPCAuras">
+    <field name="StatsKey"              type="r64" ref="Stats" />
+    <field name="Unknown1"              type="u64" />
+</format>

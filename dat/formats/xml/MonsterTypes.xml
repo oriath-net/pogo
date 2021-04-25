@@ -1,0 +1,14 @@
+<!-- Imported from PyPoE -->
+<format file="MonsterTypes">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Unknown1"              type="i32" />
+    <field name="IsSummoned"            type="bool" />
+    <field name="Armour"                type="i32" /> <!-- display=Armour? -->
+    <field name="Evasion"               type="i32" /> <!-- display=Evasion? -->
+    <field name="EnergyShieldFromLife"  type="i32" />
+    <field name="DamageSpread"          type="i32" />
+    <field name="TagsKeys"              type="r64[]" ref="Tags" />
+    <field name="MonsterResistancesKey" type="r64" ref="MonsterResistances" />
+    <field name="IsLargeAbyssMonster"   type="bool" />
+    <field name="IsSmallAbyssMonster"   type="bool" />
+</format>

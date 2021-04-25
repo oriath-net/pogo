@@ -1,0 +1,21 @@
+<!-- Imported from PyPoE -->
+<format file="IncursionRooms">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Name"                  type="string" />
+    <field name="Tier"                  type="i32" />
+    <field name="MinLevel"              type="i32" />
+    <field name="RoomUpgrade_IncursionRoomsKey" type="r32" ref="IncursionRooms" />
+    <field name="ModsKey"               type="r64" ref="Mods" />
+    <field name="PresentARMFile"        type="string" /> <!-- file_path=True file_ext=.arm -->
+    <field name="IntId"                 type="i32" unique="true" />
+    <field name="IncursionArchitectKey" type="r64" ref="IncursionArchitect" />
+    <field name="PastARMFile"           type="string" /> <!-- file_path=True file_ext=.arm -->
+    <field name="TSIFile"               type="string" /> <!-- file_path=True file_ext=.tsi -->
+    <field name="UIIcon"                type="string" /> <!-- file_path=True -->
+    <field name="FlavourText"           type="string" />
+    <field name="Description"           type="string" />
+    <field name="AchievementItemsKeys"  type="r64[]" ref="AchievementItems" />
+    <field name="Unknown0"              type="i32" />
+    <field name="Unknown1"              type="i32" />
+    <field name="RoomUpgradeFrom_IncursionRoomsKey" type="r32" ref="IncursionRooms" />
+</format>

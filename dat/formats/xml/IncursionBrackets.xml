@@ -1,0 +1,9 @@
+<!-- Imported from PyPoE -->
+<format file="IncursionBrackets">
+    <field name="MinLevel"              type="i32" />
+    <field name="Incursion_WorldAreasKey" type="r64" ref="WorldAreas" />
+    <field name="Template_WorldAreasKey" type="r64" ref="WorldAreas" />
+    <field name="Data0"                 type="f32[]" />
+    <field name="Unknown0"              type="f32" />
+    <field name="Unknown1"              type="i32" />
+</format>

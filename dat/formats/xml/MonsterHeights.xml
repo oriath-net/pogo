@@ -1,0 +1,6 @@
+<!-- Imported from PyPoE -->
+<format file="MonsterHeights">
+    <field name="Key0"                  type="u64" />
+    <field name="Unknown1"              type="f32" />
+    <field name="Key1"                  type="u64" />
+</format>

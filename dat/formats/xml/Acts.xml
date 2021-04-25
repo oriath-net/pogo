@@ -1,0 +1,13 @@
+<format file="Acts" since="3.14">
+    <field name="Id"                    type="string" />
+    <field name="Part"                  type="i32" />
+    <field name="Name"                  type="string" />
+    <field name="Unknown0"              type="i32" />
+    <field name="Unknown1"              type="i32" />
+    <field name="Unknown2"              type="string" />
+    <field name="Unknown3"              type="string" />
+    <field name="Unknown4"              type="i32" />
+    <field name="Unknown5"              type="bool" />
+    <field name="Unknown6"              type="i32" />
+    <field name="Unknown7"              type="i32" />
+</format>

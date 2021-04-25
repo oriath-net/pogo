@@ -1,0 +1,9 @@
+<!-- Imported from PyPoE -->
+<format file="AreaInfluenceDoodads">
+    <field name="StatsKey"              type="r64" ref="Stats" />
+    <field name="StatValue"             type="i32" />
+    <field name="Unknown2"              type="f32" />
+    <field name="AOFiles"               type="string[]" /> <!-- file_path=True file_ext=.ao -->
+    <field name="Unknown4"              type="i32" />
+    <field name="Unknown7"              type="u8" />
+</format>

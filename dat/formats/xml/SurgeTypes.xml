@@ -1,0 +1,5 @@
+<!-- Imported from PyPoE -->
+<format file="SurgeTypes">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Keys0"                 type="u64[]" />
+</format>

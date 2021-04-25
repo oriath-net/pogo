@@ -1,0 +1,15 @@
+<!-- Imported from PyPoE -->
+<format file="HeistRooms">
+    <field name="HeistJobsKey"          type="r64" ref="HeistJobs" />
+    <field name="Id"                    type="i32" />
+    <field name="ARMFile"               type="string" /> <!-- file_path=True file_ext=.arm -->
+    <field name="Key0"                  type="u64" />
+    <field name="Key1"                  type="u64" />
+    <field name="Unknown5"              type="i32" />
+    <field name="Unknown6"              type="i32" />
+    <field name="Unknown7"              type="i32" />
+    <field name="Unknown8"              type="i32" />
+    <field name="Unknown9"              type="f32" />
+    <field name="Flag0"                 type="u8" />
+    <field name="Flag1"                 type="u8" />
+</format>

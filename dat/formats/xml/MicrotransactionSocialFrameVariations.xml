@@ -1,0 +1,6 @@
+<!-- Imported from PyPoE -->
+<format file="MicrotransactionSocialFrameVariations">
+    <field name="Id"                    type="i32" unique="true" />
+    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" />
+    <field name="BK2File"               type="string" /> <!-- file_path=True file_ext=.bk2 -->
+</format>

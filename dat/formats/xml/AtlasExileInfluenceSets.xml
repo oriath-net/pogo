@@ -1,0 +1,5 @@
+<!-- Imported from PyPoE -->
+<format file="AtlasExileInfluenceSets">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="AtlasExileInfluencePacksKey" type="u64[]" />
+</format>

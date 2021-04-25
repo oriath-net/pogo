@@ -1,0 +1,7 @@
+<!-- Imported from PyPoE -->
+<format file="BlightCraftingRecipes">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="BlightCraftingItemsKeys" type="r64[]" ref="BlightCraftingItems" />
+    <field name="BlightCraftingResultsKey" type="r64" ref="BlightCraftingResults" />
+    <field name="BlightCraftingTypesKey" type="r64" ref="BlightCraftingTypes" />
+</format>

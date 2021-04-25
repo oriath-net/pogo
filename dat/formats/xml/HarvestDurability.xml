@@ -1,0 +1,5 @@
+<!-- Imported from PyPoE -->
+<format file="HarvestDurability">
+    <field name="HarvestObjectsKey"     type="r64" ref="HarvestObjects" unique="true" />
+    <field name="Durability"            type="i32" />
+</format>

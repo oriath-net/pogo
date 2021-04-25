@@ -1,0 +1,5 @@
+<!-- Imported from PyPoE -->
+<format file="SpecialRooms">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="ARMFile"               type="string" /> <!-- file_path=True file_ext=arm -->
+</format>

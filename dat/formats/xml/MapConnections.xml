@@ -1,0 +1,12 @@
+<!-- Imported from PyPoE -->
+<format file="MapConnections">
+    <field name="MapPinsKey0"           type="r64" ref="MapPins" />
+    <field name="MapPinsKey1"           type="r64" ref="MapPins" />
+    <field name="Unknown2"              type="i32" />
+    <field name="RestrictedAreaText"    type="string" />
+    <field name="Unknown3"              type="i32" />
+    <field name="Unknown4"              type="i32" />
+    <field name="Unknown5"              type="i32" />
+    <field name="Unknown6"              type="i32" />
+    <field name="RestrictedAreaMessage" type="string" />
+</format>

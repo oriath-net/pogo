@@ -1,0 +1,14 @@
+<!-- Imported from PyPoE -->
+<format file="HeistChestRewardTypes">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Art"                   type="string" /> <!-- file_path=True -->
+    <field name="RewardTypeName"        type="string" />
+    <field name="Unknown0"              type="i32" />
+    <field name="RewardRoomName"        type="string" />
+    <field name="MinLevel"              type="i32" />
+    <field name="MaxLevel"              type="i32" />
+    <field name="Weight"                type="i32" />
+    <field name="RewardRoomName2"       type="string" />
+    <field name="Keys0"                 type="u64[]" />
+    <field name="Unknown1"              type="i32" />
+</format>

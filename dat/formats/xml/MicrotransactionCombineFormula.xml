@@ -1,0 +1,10 @@
+<!-- Imported from PyPoE -->
+<format file="MicrotransactionCombineFormula">
+    <field name="Id"                    type="string" />
+    <field name="Result_BaseItemTypesKey" type="r64" ref="BaseItemTypes" />
+    <field name="Ingredients_BaseItemTypesKeys" type="r64[]" ref="BaseItemTypes" />
+    <field name="BK2File"               type="string" /> <!-- file_path=True file_ext=.bk2 -->
+    <field name="Unknown1"              type="i32[]" />
+    <field name="Unknown8"              type="i32" />
+    <field name="Unknown9"              type="u8" />
+</format>

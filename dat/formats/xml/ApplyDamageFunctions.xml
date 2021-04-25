@@ -1,0 +1,6 @@
+<!-- Imported from PyPoE -->
+<format file="ApplyDamageFunctions">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="StatsKeys"             type="r64[]" ref="Stats" />
+    <field name="Flag0"                 type="bool" />
+</format>

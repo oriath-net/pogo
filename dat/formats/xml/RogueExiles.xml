@@ -1,0 +1,5 @@
+<!-- Imported from PyPoE -->
+<format file="RogueExiles">
+    <field name="MonsterVarietiesKey"   type="r64" ref="MonsterVarieties" />
+    <field name="Flag0"                 type="bool" />
+</format>

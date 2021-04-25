@@ -1,0 +1,15 @@
+<!-- Imported from PyPoE -->
+<format file="HeistJobs">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Name"                  type="string" />
+    <field name="RequiredSkillIcon"     type="string" /> <!-- file_path=True -->
+    <field name="SkillIcon"             type="string" /> <!-- file_path=True -->
+    <field name="Unknown4"              type="f32" />
+    <field name="Unknown5"              type="i32" />
+    <field name="MapIcon"               type="string" />
+    <field name="Level_StatsKey"        type="r64" ref="Stats" />
+    <field name="Alert_StatsKey"        type="r64" ref="Stats" />
+    <field name="Alarm_StatsKey"        type="r64" ref="Stats" />
+    <field name="Cost_StatsKey"         type="r64" ref="Stats" />
+    <field name="ExperienceGain_StatsKey" type="r64" ref="Stats" />
+</format>

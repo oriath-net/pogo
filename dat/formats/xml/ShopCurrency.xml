@@ -1,0 +1,5 @@
+<!-- Imported from PyPoE -->
+<format file="ShopCurrency">
+    <field name="CurrencyCode"          type="string" />
+    <field name="CurrencySign"          type="string" />
+</format>

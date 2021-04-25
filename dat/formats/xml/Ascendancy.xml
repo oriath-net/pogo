@@ -1,0 +1,11 @@
+<!-- Imported from PyPoE -->
+<format file="Ascendancy">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="ClassNo"               type="i32" />
+    <field name="CharactersKey"         type="r64" ref="Characters" />
+    <field name="CoordinateRect"        type="string" /> <!-- Coordinates in "x1, y1, x2, y2" format -->
+    <field name="RGBFlavourTextColour"  type="string" />
+    <field name="Name"                  type="string" />
+    <field name="FlavourText"           type="string" />
+    <field name="OGGFile"               type="string" /> <!-- file_path=True file_ext=.ogg -->
+</format>

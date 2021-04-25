@@ -1,0 +1,8 @@
+<!-- Imported from PyPoE -->
+<format file="AtlasAwakeningStats">
+    <field name="Unknown0"              type="i32" />
+    <field name="Unknown1"              type="i32" />
+    <field name="Unknown2"              type="i32" />
+    <field name="Unknown3"              type="i32" />
+    <field name="Unknown4"              type="i32" />
+</format>

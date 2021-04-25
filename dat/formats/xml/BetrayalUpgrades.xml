@@ -1,0 +1,15 @@
+<!-- Imported from PyPoE -->
+<format file="BetrayalUpgrades">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Name"                  type="string" />
+    <field name="Description"           type="string" />
+    <field name="ModsKey"               type="r64[]" ref="Mods" />
+    <field name="ArtFile"               type="string" /> <!-- file_path=True -->
+    <field name="BetrayalUpgradeSlotsKey" type="i32" /> <!-- enum=BETRAYAL_UPGRADE_SLOTS -->
+    <field name="Unknown7"              type="i32[]" />
+    <field name="ItemVisualIdentityKey0" type="r64" ref="ItemVisualIdentity" />
+    <field name="ItemVisualIdentityKey1" type="r64" ref="ItemVisualIdentity" />
+    <field name="Key2"                  type="u64" />
+    <field name="Unknown11"             type="i32" />
+    <field name="Key3"                  type="u64" />
+</format>

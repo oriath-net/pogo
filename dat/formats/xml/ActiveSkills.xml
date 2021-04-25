@@ -1,0 +1,30 @@
+<!-- Imported from PyPoE -->
+<format file="ActiveSkills">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="DisplayedName"         type="string" />
+    <field name="Description"           type="string" />
+    <field name="Index3"                type="string" />
+    <field name="Icon_DDSFile"          type="string" /> <!-- file_path=True file_ext=.dds -->
+    <field name="ActiveSkillTargetTypes" type="u32[]" />
+    <field name="ActiveSkillTypes"      type="u32[]" />
+    <field name="WeaponRestriction_ItemClassesKeys" type="r64[]" ref="ItemClasses" />
+    <field name="WebsiteDescription"    type="string" />
+    <field name="WebsiteImage"          type="string" />
+    <field name="Flag0"                 type="bool" />
+    <field name="Unknown0"              type="string" />
+    <field name="Flag1"                 type="bool" />
+    <field name="SkillTotemId"          type="i32" /> <!-- This links to SkillTotems.dat, but the number mayexceed the number of entries; in that case it is player skill. -->
+    <field name="IsManuallyCasted"      type="bool" />
+    <field name="Input_StatKeys"        type="r64[]" ref="Stats" /> <!-- Stats that will modify this skill specifically -->
+    <field name="Output_StatKeys"       type="r64[]" ref="Stats" /> <!-- Stat an input stat will be transformed into -->
+    <field name="MinionActiveSkillTypes" type="i32[]" /> <!-- ActiveSkillTypes of skills of minions summoned by this skill -->
+    <field name="Flag2"                 type="bool" />
+    <field name="Flag3"                 type="bool" />
+    <field name="Keys0"                 type="u64[]" />
+    <field name="Unknown1"              type="i32" />
+    <field name="Key0"                  type="u64" />
+    <field name="Flag4"                 type="bool" />
+    <field name="AIFile"                type="string" /> <!-- file_path=True file_ext=.ai -->
+    <field name="Unknown2"              type="i32" />
+    <field name="Unknown3"              type="i32" />
+</format>

@@ -1,0 +1,5 @@
+<!-- Imported from PyPoE -->
+<format file="NetTiers">
+    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" />
+    <field name="Tier"                  type="i32" />
+</format>

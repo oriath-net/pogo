@@ -1,0 +1,21 @@
+<!-- Imported from PyPoE -->
+<format file="ShopPaymentPackage">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Text"                  type="string" />
+    <field name="Coins"                 type="i32" />
+    <field name="AvailableFlag"         type="bool" />
+    <field name="Unknown0"              type="i32" />
+    <field name="Unknown1"              type="i32" />
+    <field name="Flag0"                 type="bool" />
+    <field name="ContainsBetaKey"       type="bool" />
+    <field name="Data0"                 type="i32[]" />
+    <field name="Key0"                  type="u64" />
+    <field name="BackgroundImage"       type="string" /> <!-- file_path=True -->
+    <field name="Unknown5"              type="string" />
+    <field name="Flag1"                 type="bool" />
+    <field name="Upgrade_ShopPaymentPackageKey" type="r32" ref="ShopPaymentPackage" />
+    <field name="PhysicalItemPoints"    type="i32" /> <!-- Number of points the user gets back if they opt-out of physical items -->
+    <field name="Unknown6"              type="i32" />
+    <field name="ShopPackagePlatformKeys" type="i32[]" /> <!-- enum=SHOP_PACKAGE_PLATFORM -->
+    <field name="Unknown8"              type="string" />
+</format>

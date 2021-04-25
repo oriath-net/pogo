@@ -1,0 +1,11 @@
+<!-- Imported from PyPoE -->
+<format file="Flasks">
+    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" unique="true" />
+    <field name="Name"                  type="string" />
+    <field name="Group"                 type="i32" />
+    <field name="LifePerUse"            type="i32" />
+    <field name="ManaPerUse"            type="i32" />
+    <field name="RecoveryTime"          type="i32" /> <!-- in 1/10 s -->
+    <field name="BuffDefinitionsKey"    type="r64" ref="BuffDefinitions" />
+    <field name="BuffStatValues"        type="i32[]" />
+</format>

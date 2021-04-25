@@ -1,0 +1,7 @@
+<!-- Imported from PyPoE -->
+<format file="BuffVisualSetEntries">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Unknown0"              type="i32" />
+    <field name="Key0"                  type="u64" />
+    <field name="Unknown2"              type="i32" />
+</format>

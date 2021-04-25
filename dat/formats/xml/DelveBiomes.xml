@@ -1,0 +1,15 @@
+<!-- Imported from PyPoE -->
+<format file="DelveBiomes">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Name"                  type="string" />
+    <field name="WorldAreasKeys"        type="r64[]" ref="WorldAreas" />
+    <field name="UIImage"               type="string" /> <!-- file_path=True -->
+    <field name="SpawnWeight_Depth"     type="i32[]" />
+    <field name="SpawnWeight_Values"    type="i32[]" />
+    <field name="Data2"                 type="i32[]" />
+    <field name="Data3"                 type="i32[]" />
+    <field name="2DArt"                 type="string" /> <!-- file_path=True -->
+    <field name="AchievementItemsKeys"  type="r64[]" ref="AchievementItems" />
+    <field name="Flag0"                 type="bool" />
+    <field name="Unknown0"              type="i32[]" />
+</format>

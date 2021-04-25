@@ -1,0 +1,13 @@
+<!-- Imported from PyPoE -->
+<format file="BlightTopologyNodes">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Data1"                 type="i32[]" />
+    <field name="Size"                  type="i32" />
+    <field name="Type"                  type="string" />
+    <field name="Data3"                 type="i32[]" />
+    <field name="Data4"                 type="i32[]" />
+    <field name="Data5"                 type="i32[]" />
+    <field name="Data6"                 type="i32[]" />
+    <field name="Data7"                 type="i32[]" />
+    <field name="Data8"                 type="i32[]" />
+</format>

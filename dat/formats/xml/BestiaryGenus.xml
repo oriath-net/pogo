@@ -1,0 +1,8 @@
+<!-- Imported from PyPoE -->
+<format file="BestiaryGenus">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Name"                  type="string" />
+    <field name="BestiaryGroupsKey"     type="r64" ref="BestiaryGroups" />
+    <field name="Name2"                 type="string" />
+    <field name="Icon"                  type="string" /> <!-- file_path=True -->
+</format>

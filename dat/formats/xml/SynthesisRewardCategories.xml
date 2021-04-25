@@ -1,0 +1,4 @@
+<!-- Imported from PyPoE -->
+<format file="SynthesisRewardCategories">
+    <field name="Id"                    type="string" />
+</format>

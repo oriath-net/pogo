@@ -1,0 +1,5 @@
+<!-- Imported from PyPoE -->
+<format file="DropEffects">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="AOFile"                type="string" /> <!-- file_path=True file_ext=.ao -->
+</format>

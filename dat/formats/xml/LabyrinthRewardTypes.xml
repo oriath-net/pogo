@@ -1,0 +1,5 @@
+<!-- Imported from PyPoE -->
+<format file="LabyrinthRewardTypes">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="ObjectPath"            type="string" /> <!-- file_path=True -->
+</format>

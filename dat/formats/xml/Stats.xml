@@ -1,0 +1,23 @@
+<!-- Imported from PyPoE -->
+<format file="Stats">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Flag0"                 type="bool" />
+    <field name="IsLocal"               type="bool" />
+    <field name="IsWeaponLocal"         type="bool" />
+    <field name="Unknown0"              type="i32" />
+    <field name="Flag3"                 type="bool" />
+    <field name="Text"                  type="string" />
+    <field name="Flag5"                 type="bool" />
+    <field name="Flag6"                 type="bool" />
+    <field name="MainHandAlias_StatsKey" type="r32" ref="Stats" />
+    <field name="OffHandAlias_StatsKey" type="r32" ref="Stats" />
+    <field name="Flag7"                 type="bool" />
+    <field name="Unknown1"              type="i32" />
+    <field name="BelongsActiveSkillsKey" type="string[]" ref="ActiveSkills" ref-field="Id" />
+    <field name="Key0"                  type="u64" />
+    <field name="Flag8"                 type="bool" />
+    <field name="Flag9"                 type="bool" />
+    <field name="Flag10"                type="bool" />
+    <field name="Unknown2"              type="i32" />
+    <field name="Unknown3"              type="i32" />
+</format>

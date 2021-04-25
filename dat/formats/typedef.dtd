@@ -1,0 +1,95 @@
+<!--
+    A format specification file must contain exactly one <format> element at
+    the top level indicating what data file is being specified. It must contain
+    a "file" attribute with the base name of the data file (e.g. "Characters").
+-->
+<!ELEMENT format (field*)>
+<!ATTLIST format file CDATA #REQUIRED>
+
+<!--
+    Data files may be annotated with "since" and "until" attributes to indicate
+    in what version they first appeared or were removed. These attributes
+    should be ignored by the parser.
+-->
+<!ATTLIST format since CDATA #IMPLIED>
+<!ATTLIST format until CDATA #IMPLIED>
+
+<!--
+    The format specification contains a sequence of <field> elements specifying
+    the fields in the data file, in the same order they appear in the data
+    file.
+ -->
+<!ELEMENT field (enum*)>
+
+<!--
+    The name of a field can be any string, but should follow the conventions
+    defined by PyPoE:
+
+    * Names are always CapitalizedCamelCase strings.
+
+    * If the first field in a format appears to be some sort of identifier, it
+      should be named "Id".
+
+    * If the contents of a field are unknown, it should be given the name
+      "Unknown#" with a sequential number, or "Flag#" for a boolean value, or
+      "Data#" for a list, or "Key#" for a row ID.
+
+ -->
+<!ATTLIST field name CDATA #REQUIRED>
+
+<!--
+    Valid field types are:
+
+    * i8, i16, i32, i64: signed 8/16/32/64 bit integers
+
+    * u8, u16, u32, u64: unsigned 8/16/32/64 bit integers
+
+    * r32, r64: 32/64 bit row identifiers (integers, but FEFEFE... is null)
+
+    * f32, f64: 32/64 bit floating point
+
+    * bool: 8 bit integer with 1/0 as true/false
+
+    * string: cross reference to a string in dynamic data
+
+    Any of these types may be suffixed with "[]" to denote an array, which is
+    stored as a cross reference to the base of the array in dynamic data and an
+    item count.
+-->
+<!ATTLIST field type CDATA #REQUIRED>
+
+<!--
+    Fields which were added or removed in a particular version can be annotated
+    with a version number in "since"/"until"; if the parser is operating as a
+    version outside this range, the field is treated as if it does not exist.
+-->
+<!ATTLIST field since CDATA #IMPLIED>
+<!ATTLIST field until CDATA #IMPLIED>
+
+<!--
+    Fields which reference a row in another data file can be annotated with
+    that file's base name in "ref", and the name of the column being referenced
+    in "ref-field". If "ref-field" is not present, the reference is to a row
+    number (starting at zero).
+-->
+<!ATTLIST field ref CDATA #IMPLIED>
+<!ATTLIST field ref-field CDATA #IMPLIED>
+
+<!--
+    A field may be annotated as "unique" if its value has been observed to be
+    unique for all rows.
+-->
+<!ATTLIST field unique (true) #IMPLIED>
+
+<!--
+    If a field has particular values known which are not believed to exist in a
+    file (or which may reference a file with no content), those values can be
+    described in one or more <enum> elements within the <field>.
+-->
+<!ELEMENT enum EMPTY>
+
+<!--
+    Each <enum> must have a name and value.
+-->
+<!ATTLIST enum value CDATA #REQUIRED>
+<!ATTLIST enum name CDATA #REQUIRED>

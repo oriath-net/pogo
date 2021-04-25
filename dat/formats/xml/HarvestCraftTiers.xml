@@ -1,0 +1,6 @@
+<!-- Imported from PyPoE -->
+<format file="HarvestCraftTiers">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="FrameImage"            type="string" /> <!-- file_path=True -->
+    <field name="FrameHighlight"        type="string" /> <!-- file_path=True -->
+</format>

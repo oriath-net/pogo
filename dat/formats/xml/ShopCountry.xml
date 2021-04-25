@@ -1,0 +1,6 @@
+<!-- Imported from PyPoE -->
+<format file="ShopCountry">
+    <field name="CountryTwoLetterCode"  type="string" />
+    <field name="Country"               type="string" />
+    <field name="ShopCurrencyKey"       type="r64" ref="ShopCurrency" />
+</format>

@@ -1,0 +1,11 @@
+<!-- Imported from PyPoE -->
+<format file="MapFragmentMods">
+    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" unique="true" />
+    <field name="ModsKeys"              type="r64[]" ref="Mods" />
+    <field name="AchievementItemsKey"   type="r64[]" ref="AchievementItems" />
+    <field name="MapFragmentFamilies"   type="i32" /> <!-- enum=MAP_FRAGMENT_FAMILIES -->
+    <field name="Flag0"                 type="bool" />
+    <field name="Flag1"                 type="bool" />
+    <field name="Flag2"                 type="bool" />
+    <field name="Flag3"                 type="bool" />
+</format>

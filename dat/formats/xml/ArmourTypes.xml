@@ -1,0 +1,5 @@
+<!-- Imported from PyPoE -->
+<format file="ArmourTypes">
+    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" />
+    <field name="IncreasedMovementSpeed" type="i32" />
+</format>

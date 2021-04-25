@@ -1,0 +1,19 @@
+<!-- Imported from PyPoE -->
+<format file="AtlasExiles">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="MonsterVarietiesKey"   type="r64" ref="MonsterVarieties" />
+    <field name="Art"                   type="string" /> <!-- file_path=True -->
+    <field name="Unknown0"              type="i32" />
+    <field name="Unknown1"              type="i32" />
+    <field name="Unknown2"              type="i32" />
+    <field name="Unknown3"              type="i32" />
+    <field name="Unknown4"              type="i32" />
+    <field name="Key0"                  type="u64" />
+    <field name="Unknown7"              type="i32" />
+    <field name="Unknown8"              type="i32" />
+    <field name="Unknown9"              type="i32" />
+    <field name="Unknown10"             type="i32" />
+    <field name="Unknown11"             type="i32" />
+    <field name="Unknown12"             type="i32" />
+    <field name="Unknown13"             type="i32" />
+</format>

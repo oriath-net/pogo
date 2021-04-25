@@ -1,0 +1,6 @@
+<!-- Imported from PyPoE -->
+<format file="BindableVirtualKeys">
+    <field name="KeyCode"               type="i32" />
+    <field name="Name"                  type="string" />
+    <field name="Id"                    type="string" />
+</format>

@@ -1,0 +1,24 @@
+<!-- Imported from PyPoE -->
+<format file="ItemClasses">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Name"                  type="string" />
+    <field name="Category"              type="string" />
+    <field name="Unknown0"              type="i32" />
+    <field name="Elder_TagsKey"         type="r64" ref="Tags" />
+    <field name="Shaper_TagsKey"        type="r64" ref="Tags" />
+    <field name="Flag0"                 type="bool" />
+    <field name="AchievementItemsKeys"  type="r64[]" ref="AchievementItems" />
+    <field name="Identify_AchievementItemsKeys" type="r64[]" ref="AchievementItems" />
+    <field name="Crusader_TagsKey"      type="r64" ref="Tags" />
+    <field name="Eyrie_TagsKey"         type="r64" ref="Tags" />
+    <field name="Basilisk_TagsKey"      type="r64" ref="Tags" />
+    <field name="Adjudicator_TagsKey"   type="r64" ref="Tags" />
+    <field name="Flag1"                 type="bool" />
+    <field name="Flag2"                 type="bool" />
+    <field name="Flag3"                 type="bool" />
+    <field name="Unknown1"              type="i32" />
+    <field name="Unknown2"              type="i32" />
+    <field name="Flag4"                 type="bool" />
+    <field name="Unknown3"              type="i32" />
+    <field name="Flag5"                 type="bool" />
+</format>

@@ -1,0 +1,10 @@
+<!-- Imported from PyPoE -->
+<format file="IncursionRoomBossFightEvents">
+    <field name="Unknown0"              type="i32" />
+    <field name="Data0"                 type="i32[]" />
+    <field name="Unknown3"              type="string" />
+    <field name="Unknown4"              type="string" />
+    <field name="Unknown5"              type="string" />
+    <field name="Unknown6"              type="string" />
+    <field name="Key0"                  type="u64" />
+</format>

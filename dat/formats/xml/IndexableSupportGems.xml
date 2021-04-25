@@ -1,0 +1,6 @@
+<!-- Imported from PyPoE -->
+<format file="IndexableSupportGems">
+    <field name="Unknown0"              type="i32" />
+    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" />
+    <field name="Name"                  type="string" />
+</format>

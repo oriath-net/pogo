@@ -1,0 +1,4 @@
+<!-- Imported from PyPoE -->
+<format file="TencentAutoLootPetCurrenciesExcludable">
+    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" />
+</format>

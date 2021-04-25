@@ -1,0 +1,5 @@
+<!-- Imported from PyPoE -->
+<format file="PassiveTreeExpansionSpecialSkills">
+    <field name="PassiveSkillsKey"      type="r64" ref="PassiveSkills" />
+    <field name="StatsKey"              type="r64" ref="Stats" />
+</format>

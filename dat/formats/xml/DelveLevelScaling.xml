@@ -1,0 +1,17 @@
+<!-- Imported from PyPoE -->
+<format file="DelveLevelScaling">
+    <field name="Depth"                 type="i32" />
+    <field name="MonsterLevel"          type="i32" />
+    <field name="Unknown1"              type="i32" />
+    <field name="SulphiteCost"          type="i32" />
+    <field name="MonsterLevel2"         type="i32" />
+    <field name="MoreMonsterLife"       type="i32" />
+    <field name="MoreMonsterDamage"     type="i32" />
+    <field name="DarknessResistance"    type="i32" />
+    <field name="LightRadius"           type="i32" />
+    <field name="Unknown4"              type="i32" />
+    <field name="Unknown5"              type="i32" />
+    <field name="Unknown6"              type="i32" />
+    <field name="Unknown7"              type="i32" />
+    <field name="Unknown8"              type="i32" />
+</format>

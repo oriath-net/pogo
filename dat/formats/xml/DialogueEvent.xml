@@ -1,0 +1,5 @@
+<!-- Imported from PyPoE -->
+<format file="DialogueEvent">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Timer"                 type="i32" />
+</format>

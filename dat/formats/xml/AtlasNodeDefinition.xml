@@ -1,0 +1,9 @@
+<!-- Imported from PyPoE -->
+<format file="AtlasNodeDefinition">
+    <field name="WorldAreasKey"         type="r64" ref="WorldAreas" />
+    <field name="ItemVisualIdentityKey" type="r64" ref="ItemVisualIdentity" />
+    <field name="Flag0"                 type="bool" />
+    <field name="Tier"                  type="i32" />
+    <field name="Unknown0"              type="i32" />
+    <field name="Unknown1"              type="i32" />
+</format>

@@ -1,0 +1,5 @@
+<!-- Imported from PyPoE -->
+<format file="LeagueFlag">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Image"                 type="string" />
+</format>

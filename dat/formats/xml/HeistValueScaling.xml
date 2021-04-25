@@ -1,0 +1,6 @@
+<!-- Imported from PyPoE -->
+<format file="HeistValueScaling">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Unknown1"              type="f32" />
+    <field name="Unknown2"              type="f32" />
+</format>

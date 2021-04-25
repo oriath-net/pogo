@@ -1,0 +1,5 @@
+<!-- Imported from PyPoE -->
+<format file="RandomUniqueMonsters">
+    <field name="Unknown0"              type="i64" /> <!-- display=MonsterPacksKey? -->
+    <field name="Data0"                 type="i64[]" />
+</format>

@@ -1,0 +1,5 @@
+<!-- Imported from PyPoE -->
+<format file="MonsterArmours">
+    <field name="Id"                    type="string" />
+    <field name="ArtString_SMFile"      type="string" /> <!-- file_ext=.sm -->
+</format>

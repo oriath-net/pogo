@@ -1,0 +1,19 @@
+<!-- Imported from PyPoE -->
+<format file="DescentRewardChests">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="BaseItemTypesKeys1"    type="r64[]" ref="BaseItemTypes" />
+    <field name="BaseItemTypesKeys2"    type="r64[]" ref="BaseItemTypes" />
+    <field name="BaseItemTypesKeys3"    type="r64[]" ref="BaseItemTypes" />
+    <field name="BaseItemTypesKeys4"    type="r64[]" ref="BaseItemTypes" />
+    <field name="BaseItemTypesKeys5"    type="r64[]" ref="BaseItemTypes" />
+    <field name="BaseItemTypesKeys6"    type="r64[]" ref="BaseItemTypes" />
+    <field name="BaseItemTypesKeys7"    type="r64[]" ref="BaseItemTypes" />
+    <field name="BaseItemTypesKeys8"    type="r64[]" ref="BaseItemTypes" />
+    <field name="BaseItemTypesKeys9"    type="r64[]" ref="BaseItemTypes" />
+    <field name="BaseItemTypesKeys10"   type="r64[]" ref="BaseItemTypes" />
+    <field name="BaseItemTypesKeys11"   type="r64[]" ref="BaseItemTypes" />
+    <field name="BaseItemTypesKeys12"   type="r64[]" ref="BaseItemTypes" />
+    <field name="WorldAreasKey"         type="r64" ref="WorldAreas" />
+    <field name="BaseItemTypesKeys13"   type="r64[]" ref="BaseItemTypes" />
+    <field name="BaseItemTypesKeys14"   type="r64[]" ref="BaseItemTypes" />
+</format>

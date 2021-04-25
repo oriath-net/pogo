@@ -1,0 +1,7 @@
+<!-- Imported from PyPoE -->
+<format file="PassiveTreeExpansionSkills">
+    <field name="PassiveSkillsKey"      type="r64" ref="PassiveSkills" />
+    <field name="Mastery_PassiveSkillsKey" type="r64" ref="PassiveSkills" />
+    <field name="TagsKey"               type="r64" ref="Tags" />
+    <field name="PassiveTreeExpansionJewelSizesKey" type="r64" ref="PassiveTreeExpansionJewelSizes" />
+</format>

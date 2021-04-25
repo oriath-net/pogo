@@ -1,0 +1,6 @@
+<!-- Imported from PyPoE -->
+<format file="EventSeasonRewards">
+    <field name="EventSeasonKey"        type="r64" ref="EventSeason" />
+    <field name="Point"                 type="i32" />
+    <field name="RewardCommand"         type="string" />
+</format>

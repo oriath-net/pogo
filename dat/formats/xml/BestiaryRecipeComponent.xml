@@ -1,0 +1,11 @@
+<!-- Imported from PyPoE -->
+<format file="BestiaryRecipeComponent">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="MinLevel"              type="i32" />
+    <field name="BestiaryFamiliesKey"   type="r64" ref="BestiaryFamilies" />
+    <field name="BestiaryGroupsKey"     type="r64" ref="BestiaryGroups" />
+    <field name="ModsKey"               type="r64" ref="Mods" />
+    <field name="BestiaryCapturableMonstersKey" type="r64" ref="BestiaryCapturableMonsters" />
+    <field name="RarityKey"             type="i32" /> <!-- enum=RARITY -->
+    <field name="BestiaryGenusKey"      type="r64" ref="BestiaryGenus" />
+</format>

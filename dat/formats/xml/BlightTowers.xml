@@ -1,0 +1,17 @@
+<!-- Imported from PyPoE -->
+<format file="BlightTowers">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Name"                  type="string" />
+    <field name="Description"           type="string" />
+    <field name="Icon"                  type="string" /> <!-- file_path=True -->
+    <field name="Unknown4"              type="i32[]" />
+    <field name="Unknown5"              type="i32" />
+    <field name="Tier"                  type="string" />
+    <field name="Radius"                type="i32" />
+    <field name="Unknown8"              type="i32" />
+    <field name="SpendResourceAchievementItemsKey" type="r64" ref="AchievementItems" />
+    <field name="StatsKey"              type="r64" ref="Stats" />
+    <field name="StatsKeys"             type="r64[]" ref="Stats" />
+    <field name="Keys0"                 type="u64[]" />
+    <field name="Flag0"                 type="bool" />
+</format>

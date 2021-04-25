@@ -1,0 +1,11 @@
+<!-- Imported from PyPoE -->
+<format file="NPCAudio">
+    <field name="Id"                    type="string" unique="true" />
+    <field name="Data0"                 type="i32[]" />
+    <field name="Data1"                 type="i32[]" />
+    <field name="VolumePercentage"      type="i32" />
+    <field name="Unknown0"              type="i32" />
+    <field name="Unknown1"              type="i32" />
+    <field name="Unknown2"              type="i32" />
+    <field name="Unknown3"              type="i32" />
+</format>

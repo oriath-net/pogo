@@ -1,0 +1,33 @@
+<!-- Imported from PyPoE -->
+<format file="Projectiles">
+    <field name="Id"                    type="string" unique="true" /> <!-- file_path=True -->
+    <field name="AOFiles"               type="string[]" /> <!-- file_path=True file_ext=.ao -->
+    <field name="LoopAnimationIds"      type="string[]" />
+    <field name="ImpactAnimationIds"    type="string[]" />
+    <field name="ProjectileSpeed"       type="i32" />
+    <field name="Flag0"                 type="bool" />
+    <field name="Unknown0"              type="i32" />
+    <field name="Flag1"                 type="bool" />
+    <field name="Flag2"                 type="bool" />
+    <field name="InheritsFrom"          type="string" /> <!-- file_path=True -->
+    <field name="Unknown1"              type="i32" />
+    <field name="Key0"                  type="u64" />
+    <field name="Unknown2"              type="i32" />
+    <field name="Flag3"                 type="bool" />
+    <field name="Flag4"                 type="bool" />
+    <field name="Stuck_AOFile"          type="string" /> <!-- file_path=True file_ext=.ao -->
+    <field name="Bounce_AOFile"         type="string" /> <!-- file_path=True file_ext=.ao -->
+    <field name="Unknown5"              type="i32" />
+    <field name="Unknown6"              type="i32" />
+    <field name="Unknown7"              type="i32" />
+    <field name="Unknown8"              type="i32" />
+    <field name="Key1"                  type="u64" />
+    <field name="Key2"                  type="u64" />
+    <field name="Unknown9"              type="i32" />
+    <field name="Unknown10"             type="i32" />
+    <field name="Unknown11"             type="i32" />
+    <field name="Unknown12"             type="i32" />
+    <field name="Unknown13"             type="i32" />
+    <field name="Unknown14"             type="i32" />
+    <field name="Unknown15"             type="i32" />
+</format>

@@ -1,0 +1,18 @@
+<!-- Imported from PyPoE -->
+<format file="NPCs">
+    <field name="Id"                    type="string" unique="true" /> <!-- file_path=True -->
+    <field name="Name"                  type="string" />
+    <field name="Metadata"              type="string" /> <!-- file_path=True -->
+    <field name="Unknown0"              type="i32" />
+    <field name="NPCMasterKey"          type="r64" ref="NPCMaster" />
+    <field name="ShortName"             type="string" />
+    <field name="Unknown1"              type="i32" />
+    <field name="NPCShopKey"            type="r64" ref="NPCShop" />
+    <field name="NPCAudioKeys1"         type="r64[]" ref="NPCAudio" />
+    <field name="NPCAudioKeys2"         type="r64[]" ref="NPCAudio" />
+    <field name="Unknown2"              type="i32" />
+    <field name="Unknown3"              type="i32" />
+    <field name="PortraitFile"          type="string" /> <!-- file_path=True -->
+    <field name="Unknown4"              type="i32" />
+    <field name="Unknown5"              type="i32" />
+</format>
