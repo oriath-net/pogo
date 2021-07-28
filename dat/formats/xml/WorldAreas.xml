@@ -25,7 +25,8 @@
     <field name="SpawnWeight_Values"    type="u32[]" />
     <field name="IsMapArea"             type="bool" />
     <field name="FullClear_AchievementItemsKeys" type="r64[]" ref="AchievementItems" />
-    <field name="Unknown32"             type="i32" />
+    <field name="Unknown32"             type="i32" until="3.15" />
+    <field name="Unknown32_2"           type="r64" since="3.15" /> <!-- related to PvP in some way -->
     <field name="Unknown33"             type="i32" />
     <field name="AchievementItemsKey"   type="r64" ref="AchievementItems" />
     <field name="ModsKeys"              type="r64[]" ref="Mods" />
@@ -108,4 +109,8 @@
     <field name="DeliriumChance"        type="i32" />
     <field name="HarvestChance"         type="i32" />
     <field name="HeistChance"           type="i32" />
+    <field name="RitualChance"          type="i32" since="3.13" />
+    <field name="Unknown110"            type="i32[]" since="3.13" /> <!-- always empty; type is unknown -->
+    <field name="UltimatumChance"       type="i32" since="3.14" />
+    <field name="ExpeditionChance"      type="i32" since="3.15" />
 </format>
