@@ -48,10 +48,10 @@ func (dp *DataParser) typeFromXML(xmlData []byte) (DataFormat, error) {
 			return DataFormat{}, fmt.Errorf("Invalid type in <field name=\"%s\">", xf.Name)
 		}
 
-		if xf.Since != "" && version.CompareSimple(xf.Since, dp.version) > 0 { // FIXME: test this
+		if xf.Since != "" && version.CompareSimple(xf.Since, dp.version) > 0 {
 			continue
 		}
-		if xf.Until != "" && version.CompareSimple(xf.Until, dp.version) < 0 { // FIXME: test this
+		if xf.Until != "" && version.CompareSimple(xf.Until, dp.version) <= 0 {
 			continue
 		}
 
