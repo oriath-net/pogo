@@ -11,6 +11,7 @@ import (
 	"log"
 	"os"
 	"reflect"
+	"strings"
 	"unicode/utf16"
 )
 
@@ -108,7 +109,9 @@ func (p *DataParser) Parse(r io.Reader, formatName string) ([]interface{}, error
 		return nil, err
 	}
 	if expectBBBB != NotTheBs {
-		return nil, fmt.Errorf("format specification inconsistent with data file (spec row size = %d)", rowSize)
+		boundary := strings.Index(string(dat), "\xbb\xbb\xbb\xbb\xbb\xbb\xbb\xbb")
+		actualRowSize := (boundary - 4) / int(rowCount)
+		return nil, fmt.Errorf("format specification inconsistent with data file (spec defines %d bytes/row, file has %d bytes/row)", rowSize, actualRowSize)
 	}
 
 	rowType := df.Type()
@@ -224,6 +227,9 @@ func (ds *dataState) readScalarArray(tgt reflect.Value, rr *bytes.Reader, dyndat
 	dr, off, err := ds.dynReader(rr, dyndat)
 	if err != nil {
 		return err
+	}
+	if count < 0 {
+		return fmt.Errorf("array length was negative")
 	}
 	arr := reflect.MakeSlice(tgt.Type(), int(count), int(count))
 	err = binary.Read(dr, binary.LittleEndian, arr.Interface())
