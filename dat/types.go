@@ -140,22 +140,33 @@ func (ft FieldType) reflectType() reflect.Type {
 }
 
 type DataField struct {
-	Name string
-	Type FieldType
+	Name   string
+	Type   FieldType
+	Offset int
 }
 
 type DataFormat struct {
 	Name          string
 	Fields        []DataField
 	generatedType *reflect.Type
+	size          int
+	builtOffsets  bool
+}
+
+func (df *DataFormat) buildOffsets() {
+	n := 0
+	for i := range df.Fields {
+		df.Fields[i].Offset = n
+		n += df.Fields[i].Type.Size()
+	}
+	df.size = n
 }
 
 func (df *DataFormat) Size() int {
-	sz := 0
-	for i := range df.Fields {
-		sz += df.Fields[i].Type.Size()
+	if !df.builtOffsets {
+		df.buildOffsets()
 	}
-	return sz
+	return df.size
 }
 
 func (df *DataFormat) buildType() {
@@ -167,9 +178,10 @@ func (df *DataFormat) buildType() {
 	}
 
 	for i := range df.Fields {
+		dff := &df.Fields[i]
 		reflectFields[i+1] = reflect.StructField{
-			Name: df.Fields[i].Name,
-			Type: df.Fields[i].Type.reflectType(),
+			Name: dff.Name,
+			Type: dff.Type.reflectType(),
 		}
 	}
 
