@@ -2,10 +2,10 @@
 <format file="NPCConversations">
     <field name="Id"                    type="string" />
     <field name="Unknown1"              type="u64" />
-    <field name="NPCsKey"               type="r64" ref="NPCs" />
-    <field name="NPCsKeys"              type="r64[]" ref="NPCs" />
+    <field name="FirstNPCKey"           type="r64" ref="NPCs" until="3.13" />
+    <field name="AdditionalNPCKeys"     type="r64[]" ref="NPCs" until="3.13" />
     <field name="NPCTextAudioKeys"      type="r64[]" ref="NPCTextAudio" />
-    <field name="Unknown5"              type="i32[]" />
-    <field name="Unknown6"              type="i32[]" />
+    <field name="SpeakerIndexes"        type="i32[]" until="3.13" />
+    <field name="TimingAdjust"          type="i32[]" />
     <field name="Unknown7"              type="i32" />
 </format>

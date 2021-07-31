@@ -11,7 +11,8 @@
     <field name="Shadow_CharacterTextAudioKeys" type="r64[]" ref="CharacterTextAudio" />
     <field name="Templar_CharacterTextAudioKeys" type="r64[]" ref="CharacterTextAudio" />
     <field name="Scion_CharacterTextAudioKeys" type="r64[]" ref="CharacterTextAudio" />
-    <field name="Goddess_CharacterTextAudioKeys" type="r64[]" ref="CharacterTextAudio" /> <!-- For the Goddess Bound/Scorned/Unleashed unique -->
+    <field name="Goddess_CharacterTextAudioKeys" type="r64[]" ref="CharacterTextAudio" /> <!-- For Oni-Goroshi unique -->
     <field name="JackTheAxe_CharacterTextAudioKeys" type="r64[]" ref="CharacterTextAudio" /> <!-- For Jack the Axe unique -->
-    <field name="Flag0"                 type="bool" />
+    <field name="IsGameplayEvent"       type="bool" since="3.0" /> <!-- affects "disable gameplay event voices" -->
+    <field name="Flag1"                 type="bool" since="3.14" /> <!-- always false -->
 </format>

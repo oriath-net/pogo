@@ -33,7 +33,6 @@
     * If the contents of a field are unknown, it should be given the name
       "Unknown#" with a sequential number, or "Flag#" for a boolean value, or
       "Data#" for a list, or "Key#" for a row ID.
-
  -->
 <!ATTLIST field name CDATA #REQUIRED>
 
@@ -76,10 +75,33 @@
 <!ATTLIST field ref-field CDATA #IMPLIED>
 
 <!--
-    A field may be annotated as "unique" if its value has been observed to be
+    A field may be annotated with unique="true" if its value has been observed to be
     unique for all rows.
 -->
 <!ATTLIST field unique (true) #IMPLIED>
+
+<!--
+    A field may be annotated with path="..." if its value is a string
+    containing a path.
+
+    Symbolic paths to art should have path="art". These paths can be resolved
+    to DDS paths and bounding boxes through the lookup tables:
+
+        Art/UIImages1.txt
+        Art/UIDivinationImages.txt
+        Art/UIShopImages.txt
+        Art/UIPS4.txt
+        Art/UIXbox.txt
+
+    Paths to DDS files should have path="dds".
+
+    Paths to OGG files should have path="ogg".
+
+    Paths to metadata directories should have path="metadata".
+
+    Paths to other files should have path="file".
+ -->
+<!ATTLIST field path (file|art|dds|ogg|metadata) #IMPLIED>
 
 <!--
     If a field has particular values known which are not believed to exist in a

@@ -8,11 +8,11 @@
     <field name="ShortName"             type="string" />
     <field name="Unknown1"              type="i32" />
     <field name="NPCShopKey"            type="r64" ref="NPCShop" />
-    <field name="NPCAudioKeys1"         type="r64[]" ref="NPCAudio" />
-    <field name="NPCAudioKeys2"         type="r64[]" ref="NPCAudio" />
-    <field name="Unknown2"              type="i32" />
-    <field name="Unknown3"              type="i32" />
-    <field name="PortraitFile"          type="string" /> <!-- file_path=True -->
-    <field name="Unknown4"              type="i32" />
-    <field name="Unknown5"              type="i32" />
+    <field name="GreetingNPCAudioKeys"  type="r64[]" ref="NPCAudio" />
+    <field name="GoodbyeNPCAudioKeys"   type="r64[]" ref="NPCAudio" />
+    <field name="Unknown2"              type="i32" /> <!-- unique and under 65536 -->
+    <field name="Unknown3"              type="r32" since="3.11" /> <!-- unused until 3.15 -->
+    <field name="PortraitFile"          type="i32" since="3.12" until="3.14" /> <!-- file_path=True -->
+    <field name="NPCPortraitsKey"       type="r64" ref="NPCPortraits" since="3.13" />
+    <field name="Unknown5"              type="r64" since="3.14" />
 </format>
