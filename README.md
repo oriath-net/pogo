@@ -26,6 +26,11 @@ Output the contents of a single file in the GGPK to standard output, converting
 UTF-16 to UTF-8 for output.
 
 
+    pogo extract Content.ggpk:Audio/
+
+Extract all audio files from the GGPK.
+
+
     pogo data2json Content.ggpk:Data/WorldAreas.dat
 
 Dump a data file to JSON. Data file formats are specified in dat/formats/xml;
@@ -36,3 +41,7 @@ the contents of that directory are embedded in the pogo executable.
 
 Analyze the contents of ActiveSkills.dat, providing information which may be
 useful in interpreting it.
+
+
+Most of these commands have a bunch of additional options; they can be viewed
+from within the application using e.g. `pogo cat --help`.
