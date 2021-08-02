@@ -20,16 +20,11 @@ func main() {
 		Flags: []cli.Flag{},
 
 		Commands: []*cli.Command{
-			&cmd.Ggpk,
-			&cmd.Data2json,
 			&cmd.Analyze,
 			&cmd.Cat,
+			&cmd.Data2json,
+			&cmd.Extract,
 			&cmd.Ls,
-			&cmd.Diff,
-			&cmd.JsonSchema,
-			&cmd.RiverParser,
-			&cmd.RiverDl,
-			&cmd.LsBundle,
 		},
 	}
 

@@ -12,19 +12,12 @@ You'll need to have [Go 1.16](https://golang.org/dl/) or later installed.
 Usage
 -----
 
-    pogo ggpk list Content.ggpk
-    pogo ggpk ls Content.ggpk:/Data
+    pogo ls Content.ggpk:Data
 
-List the contents of a GGPK file.
+    pogo ls 'Path of Exile':
 
-
-    pogo ggpk extract --no-recurse --into root/ Content.ggpk Data/
-
-Extract the `Data` directory from `Content.ggpk` into the `root` directory,
-skipping any subdirectories.
-
-(The `ggpk` tool supports several other useful options; run `ggpk --help` for
-details.)
+List the contents of a GGPK file or Steam install, including files within
+bundles.
 
 
      pogo cat --utf16 Content.ggpk:Metadata/StatDescriptions/stat_descriptions.txt
@@ -33,15 +26,13 @@ Output the contents of a single file in the GGPK to standard output, converting
 UTF-16 to UTF-8 for output.
 
 
-    pogo data2json -f formats/demo.go Content.ggpk:Data/ActiveSkills.dat
+    pogo data2json Content.ggpk:Data/WorldAreas.dat
 
-Dump a data file (directly from the GGPK!) to JSON. This currently only works
-for ActiveSkills (since it's the only format specified in `formats/demo.go`),
-but adding other formats to that or another file will make them supported as
-well.
+Dump a data file to JSON. Data file formats are specified in dat/formats/xml;
+the contents of that directory are embedded in the pogo executable.
 
 
-    pogo analyze Content.ggpk:Data/ActiveSkills.dat
+    pogo analyze Content.ggpk:Data/WorldAreas.dat
 
 Analyze the contents of ActiveSkills.dat, providing information which may be
 useful in interpreting it.

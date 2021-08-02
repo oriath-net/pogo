@@ -11,6 +11,7 @@ import (
 	cli "github.com/urfave/cli/v2"
 
 	"github.com/oriath-net/pogo/dat"
+	"github.com/oriath-net/pogo/poefs"
 )
 
 var Data2json = cli.Command{
@@ -58,7 +59,7 @@ func do_data2json(c *cli.Context) error {
 	}
 
 	dat_path := c.Args().First()
-	f, err := openGgpkPath(dat_path)
+	f, err := poefs.OpenFile(dat_path)
 	if err != nil {
 		return err
 	}

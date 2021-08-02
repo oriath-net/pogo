@@ -4,6 +4,8 @@ import (
 	"io"
 	"os"
 
+	"github.com/oriath-net/pogo/poefs"
+
 	cli "github.com/urfave/cli/v2"
 	xunicode "golang.org/x/text/encoding/unicode"
 )
@@ -11,7 +13,7 @@ import (
 var Cat = cli.Command{
 	Name:      "cat",
 	Usage:     "Extract a file from a GGPK to standard output",
-	UsageText: "pogo cat [options] <Content.ggpk>:<Data/File.dat>",
+	UsageText: "pogo cat [options] <Content.ggpk|Steam install>:<file>",
 
 	Flags: []cli.Flag{
 		&cli.BoolFlag{
@@ -28,7 +30,9 @@ func do_cat(c *cli.Context) error {
 		cli.ShowCommandHelpAndExit(c, "cat", 1)
 	}
 
-	f, err := openGgpkPath(c.Args().First())
+	var f io.Reader
+
+	f, err := poefs.OpenFile(c.Args().First())
 	if err != nil {
 		return err
 	}

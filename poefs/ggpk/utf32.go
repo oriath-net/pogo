@@ -4,11 +4,18 @@ import (
 	"encoding/binary"
 	"fmt"
 	"io"
-
 	"unicode/utf16"
 )
 
-func (g *File) readStringFrom(rr io.Reader) (string, error) {
+func (g *ggpkFS) sizeofChars(count int) int {
+	if g.useUTF32Names {
+		return 4 * count
+	} else {
+		return 2 * count
+	}
+}
+
+func (g *ggpkFS) readStringFrom(rr io.Reader) (string, error) {
 	if g.useUTF32Names {
 		runes := make([]rune, 0, 64)
 		for {
@@ -37,13 +44,5 @@ func (g *File) readStringFrom(rr io.Reader) (string, error) {
 			str = append(str, ch)
 		}
 		return string(utf16.Decode(str)), nil
-	}
-}
-
-func (g *File) sizeofName(n int32) int32 {
-	if g.useUTF32Names {
-		return 4 * n
-	} else {
-		return 2 * n
 	}
 }

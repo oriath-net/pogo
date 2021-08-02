@@ -10,6 +10,8 @@ import (
 	"strings"
 
 	cli "github.com/urfave/cli/v2"
+
+	"github.com/oriath-net/pogo/poefs"
 )
 
 var Analyze = cli.Command{
@@ -39,7 +41,7 @@ func do_analyze(c *cli.Context) error {
 	short := c.Bool("short")
 
 	for _, path := range c.Args().Slice() {
-		f, err := openGgpkPath(path)
+		f, err := poefs.OpenFile(path)
 		if err != nil {
 			fmt.Printf("%s: %s\n\n", path, err)
 			continue
