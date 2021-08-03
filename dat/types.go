@@ -7,30 +7,30 @@ import (
 type FieldType string
 
 const (
-	TypeUint8             FieldType = "u8"
-	TypeUint16                      = "u16"
-	TypeUint32                      = "u32"
-	TypeUint64                      = "u64"
-	TypeInt32                       = "i32"
-	TypeInt64                       = "i64"
-	TypeFloat32                     = "f32"
-	TypeFloat64                     = "f64"
-	TypeBool                        = "bool"
-	TypeString                      = "string"
-	TypeListUint8                   = "u8[]"
-	TypeListUint16                  = "u16[]"
-	TypeListUint32                  = "u32[]"
-	TypeListUint64                  = "u64[]"
-	TypeListInt32                   = "i32[]"
-	TypeListInt64                   = "i64[]"
-	TypeListFloat32                 = "f32[]"
-	TypeListFloat64                 = "f64[]"
-	TypeListBool                    = "bool[]"
-	TypeListString                  = "string[]"
-	TypeNullableInt32               = "r32"
-	TypeNullableInt64               = "r64"
-	TypeListNullableInt32           = "r32[]"
-	TypeListNullableInt64           = "r64[]"
+	TypeUint8       FieldType = "u8"
+	TypeUint16                = "u16"
+	TypeUint32                = "u32"
+	TypeUint64                = "u64"
+	TypeInt32                 = "i32"
+	TypeInt64                 = "i64"
+	TypeFloat32               = "f32"
+	TypeFloat64               = "f64"
+	TypeBool                  = "bool"
+	TypeString                = "string"
+	TypeShortID               = "shortid"
+	TypeLongID                = "longid"
+	TypeListUint8             = "u8[]"
+	TypeListUint16            = "u16[]"
+	TypeListUint32            = "u32[]"
+	TypeListUint64            = "u64[]"
+	TypeListInt32             = "i32[]"
+	TypeListInt64             = "i64[]"
+	TypeListFloat32           = "f32[]"
+	TypeListFloat64           = "f64[]"
+	TypeListBool              = "bool[]"
+	TypeListString            = "string[]"
+	TypeListShortID           = "shortid[]"
+	TypeListLongID            = "longid[]"
 )
 
 func (ft FieldType) Valid() bool {
@@ -40,28 +40,28 @@ func (ft FieldType) Valid() bool {
 		TypeInt32, TypeInt64,
 		TypeFloat32, TypeFloat64,
 		TypeBool, TypeString,
+		TypeShortID, TypeLongID,
 		TypeListUint8, TypeListUint16,
 		TypeListUint32, TypeListUint64,
 		TypeListInt32, TypeListInt64,
 		TypeListFloat32, TypeListFloat64,
 		TypeListBool, TypeListString,
-		TypeNullableInt32, TypeNullableInt64,
-		TypeListNullableInt32, TypeListNullableInt64:
+		TypeListShortID, TypeListLongID:
 		return true
 	default:
 		return false
 	}
 }
 
-func (ft FieldType) Size() int {
+func (ft FieldType) Size(w parserWidth) int {
 	switch ft {
 	case TypeUint8:
 		return 1
 	case TypeUint16:
 		return 2
-	case TypeInt32, TypeUint32, TypeNullableInt32:
+	case TypeInt32, TypeUint32:
 		return 4
-	case TypeInt64, TypeUint64, TypeNullableInt64:
+	case TypeInt64, TypeUint64:
 		return 8
 	case TypeFloat32:
 		return 4
@@ -69,15 +69,29 @@ func (ft FieldType) Size() int {
 		return 8
 	case TypeBool:
 		return 1
-	case TypeString:
-		return 4
+	case TypeString, TypeShortID:
+		if w.is64Bit() {
+			return 8
+		} else {
+			return 4
+		}
+	case TypeLongID:
+		if w.is64Bit() {
+			return 16 // !
+		} else {
+			return 8
+		}
 	case TypeListUint8, TypeListUint16,
 		TypeListUint32, TypeListUint64,
 		TypeListInt32, TypeListInt64,
 		TypeListFloat32, TypeListFloat64,
-		TypeListString,
-		TypeListNullableInt32, TypeListNullableInt64:
-		return 8
+		TypeListBool, TypeListString,
+		TypeListShortID, TypeListLongID:
+		if w.is64Bit() {
+			return 16
+		} else {
+			return 8
+		}
 	default:
 		panic("invalid FieldType")
 	}
@@ -105,6 +119,9 @@ func (ft FieldType) reflectType() reflect.Type {
 		return reflect.TypeOf(bool(false))
 	case TypeString:
 		return reflect.TypeOf(string(""))
+	case TypeShortID, TypeLongID:
+		// both are typed as uint64 for dat64 compatibility
+		return reflect.TypeOf((*uint64)(nil))
 	case TypeListUint8:
 		return reflect.TypeOf([]uint8{})
 	case TypeListUint16:
@@ -121,19 +138,15 @@ func (ft FieldType) reflectType() reflect.Type {
 		return reflect.TypeOf([]float32{})
 	case TypeListFloat64:
 		return reflect.TypeOf([]float64{})
+	case TypeListBool:
+		return reflect.TypeOf([]bool{})
 	case TypeListString:
 		return reflect.TypeOf([]string{})
-	case TypeNullableInt32:
-		return reflect.TypeOf((*int32)(nil))
-	case TypeNullableInt64:
-		return reflect.TypeOf((*int64)(nil))
-	case TypeListNullableInt32:
+	case TypeListShortID, TypeListLongID:
 		// FIXME: Implement these as lists of nullable values? These rarely
 		// (never?) actually contain null values, but it'd be nice to handle
 		// properly
-		return reflect.TypeOf([]int32{})
-	case TypeListNullableInt64:
-		return reflect.TypeOf([]int64{})
+		return reflect.TypeOf([]uint64{})
 	default:
 		panic("invalid FieldType")
 	}
@@ -148,6 +161,7 @@ type DataField struct {
 type DataFormat struct {
 	Name          string
 	Fields        []DataField
+	width         parserWidth
 	generatedType *reflect.Type
 	size          int
 	builtOffsets  bool
@@ -157,7 +171,7 @@ func (df *DataFormat) buildOffsets() {
 	n := 0
 	for i := range df.Fields {
 		df.Fields[i].Offset = n
-		n += df.Fields[i].Type.Size()
+		n += df.Fields[i].Type.Size(df.width)
 	}
 	df.size = n
 }
@@ -169,7 +183,7 @@ func (df *DataFormat) Size() int {
 	return df.size
 }
 
-func (df *DataFormat) buildType() {
+func (df DataFormat) Type() reflect.Type {
 	reflectFields := make([]reflect.StructField, 1+len(df.Fields))
 	reflectFields[0] = reflect.StructField{
 		Name: "PogoRowID",
@@ -185,13 +199,5 @@ func (df *DataFormat) buildType() {
 		}
 	}
 
-	t := reflect.StructOf(reflectFields)
-	df.generatedType = &t
-}
-
-func (df DataFormat) Type() reflect.Type {
-	if df.generatedType == nil {
-		df.buildType()
-	}
-	return *df.generatedType
+	return reflect.StructOf(reflectFields)
 }

@@ -59,6 +59,10 @@ func do_ls(c *cli.Context) error {
 			log.Fatalf("%s doesn't exist", path)
 		}
 
+		if err != nil {
+			return err
+		}
+
 		di, err := d.Info()
 		if err != nil {
 			return err

@@ -6,7 +6,6 @@ import (
 	"os"
 	"path"
 	"strconv"
-	"strings"
 
 	cli "github.com/urfave/cli/v2"
 
@@ -64,9 +63,7 @@ func do_data2json(c *cli.Context) error {
 		return err
 	}
 
-	basename := strings.TrimSuffix(path.Base(dat_path), path.Ext(dat_path))
-
-	rows, err := p.Parse(f, basename)
+	rows, err := p.Parse(f, path.Base(dat_path))
 	if err != nil {
 		return err
 	}

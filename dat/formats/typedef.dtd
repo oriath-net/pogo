@@ -43,7 +43,7 @@
 
     * u8, u16, u32, u64: unsigned 8/16/32/64 bit integers
 
-    * r32, r64: 32/64 bit row identifiers (integers, but FEFEFE... is null)
+    * shortid, id: row identifiers (integers, but FEFEFE... is null)
 
     * f32, f64: 32/64 bit floating point
 
