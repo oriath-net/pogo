@@ -1,14 +1,14 @@
 <!-- Imported from PyPoE -->
 <format file="UniqueStashLayout">
-    <field name="WordsKey"              type="r64" ref="Words" />
-    <field name="ItemVisualIdentityKey" type="r64" ref="ItemVisualIdentity" />
-    <field name="UniqueStashTypesKey"   type="r64" ref="UniqueStashTypes" />
+    <field name="WordsKey"              type="longid" ref="Words" />
+    <field name="ItemVisualIdentityKey" type="longid" ref="ItemVisualIdentity" />
+    <field name="UniqueStashTypesKey"   type="longid" ref="UniqueStashTypes" />
     <field name="Key3"                  type="u64" />
     <field name="Unknown1"              type="i32" />
     <field name="Unknown2"              type="i32" />
     <field name="Flag0"                 type="bool" />
     <field name="Flag1"                 type="bool" />
-    <field name="UniqueStashLayoutKey"  type="r32" ref="UniqueStashLayout" />
-    <field name="UniqueStashLayoutKey2" type="r32" ref="UniqueStashLayout" />
+    <field name="UniqueStashLayoutKey"  type="shortid" ref="UniqueStashLayout" />
+    <field name="UniqueStashLayoutKey2" type="shortid" ref="UniqueStashLayout" />
     <field name="Flag2"                 type="bool" />
 </format>

@@ -1,5 +1,5 @@
 <!-- Imported from PyPoE -->
 <format file="AfflictionFixedMods">
     <field name="Key0"                  type="u64" />
-    <field name="ModsKey"               type="r64" ref="Mods" />
+    <field name="ModsKey"               type="longid" ref="Mods" />
 </format>

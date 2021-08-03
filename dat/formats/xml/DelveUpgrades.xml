@@ -2,10 +2,10 @@
 <format file="DelveUpgrades">
     <field name="DelveUpgradeTypeKey"   type="i32" /> <!-- enum=DELVE_UPGRADE_TYPE -->
     <field name="UpgradeLevel"          type="i32" />
-    <field name="StatsKeys"             type="r64[]" ref="Stats" />
+    <field name="StatsKeys"             type="longid[]" ref="Stats" />
     <field name="StatValues"            type="i32[]" />
     <field name="Cost"                  type="i32" />
     <field name="Unknown2"              type="i32" />
-    <field name="AchievementItemsKey"   type="r64" ref="AchievementItems" />
+    <field name="AchievementItemsKey"   type="longid" ref="AchievementItems" />
     <field name="Unknown3"              type="i32" />
 </format>

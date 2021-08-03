@@ -1,7 +1,7 @@
 <!-- Imported from PyPoE -->
 <format file="ExplodingStormBuffs">
     <field name="Id"                    type="string" unique="true" />
-    <field name="BuffDefinitionsKey1"   type="r64" ref="BuffDefinitions" />
+    <field name="BuffDefinitionsKey1"   type="longid" ref="BuffDefinitions" />
     <field name="Key0"                  type="u64" />
     <field name="StatValues"            type="i32[]" />
     <field name="Unknown7"              type="i32" />
@@ -9,14 +9,14 @@
     <field name="Unknown10"             type="i32" />
     <field name="Unknown11"             type="i32" />
     <field name="Unknown12"             type="i32" />
-    <field name="Friendly_MonsterVarietiesKey" type="r64" ref="MonsterVarieties" />
-    <field name="MiscObjectsKey"        type="r64" ref="MiscObjects" />
-    <field name="MiscAnimatedKey"       type="r64" ref="MiscAnimated" />
-    <field name="BuffVisualsKey"        type="r64" ref="BuffVisuals" />
-    <field name="Enemy_MonsterVarietiesKey" type="r64" ref="MonsterVarieties" />
+    <field name="Friendly_MonsterVarietiesKey" type="longid" ref="MonsterVarieties" />
+    <field name="MiscObjectsKey"        type="longid" ref="MiscObjects" />
+    <field name="MiscAnimatedKey"       type="longid" ref="MiscAnimated" />
+    <field name="BuffVisualsKey"        type="longid" ref="BuffVisuals" />
+    <field name="Enemy_MonsterVarietiesKey" type="longid" ref="MonsterVarieties" />
     <field name="Unknown23"             type="i32" />
     <field name="Unknown24"             type="i32" />
     <field name="Unknown25"             type="i32" />
-    <field name="BuffDefinitionsKey2"   type="r64" ref="BuffDefinitions" />
+    <field name="BuffDefinitionsKey2"   type="longid" ref="BuffDefinitions" />
     <field name="IsOnlySpawningNearPlayer" type="bool" />
 </format>

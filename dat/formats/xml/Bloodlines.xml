@@ -1,17 +1,17 @@
 <!-- Imported from PyPoE -->
 <format file="Bloodlines">
     <field name="Id"                    type="string" unique="true" />
-    <field name="ModsKeys"              type="r64[]" ref="Mods" />
+    <field name="ModsKeys"              type="longid[]" ref="Mods" />
     <field name="MinZoneLevel"          type="i32" />
     <field name="MaxZoneLevel"          type="i32" />
-    <field name="SpawnWeight_TagsKeys"  type="r64[]" ref="Tags" />
+    <field name="SpawnWeight_TagsKeys"  type="longid[]" ref="Tags" />
     <field name="SpawnWeight_Values"    type="i32[]" /> <!-- 0 disables -->
     <field name="Unknown8"              type="i32" />
-    <field name="BuffDefinitionsKey"    type="r64" ref="BuffDefinitions" />
+    <field name="BuffDefinitionsKey"    type="longid" ref="BuffDefinitions" />
     <field name="Unknown11"             type="i32[]" />
-    <field name="ItemWeight_TagsKeys"   type="r64[]" ref="Tags" />
+    <field name="ItemWeight_TagsKeys"   type="longid[]" ref="Tags" />
     <field name="ItemWeight_Values"     type="i32[]" />
-    <field name="MonsterVarietiesKey"   type="r64" ref="MonsterVarieties" />
+    <field name="MonsterVarietiesKey"   type="longid" ref="MonsterVarieties" />
     <field name="Unknown20"             type="i32" />
     <field name="Flag0"                 type="bool" />
     <field name="Keys2"                 type="u64[]" />

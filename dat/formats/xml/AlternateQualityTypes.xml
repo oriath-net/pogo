@@ -1,7 +1,7 @@
 <!-- Imported from PyPoE -->
 <format file="AlternateQualityTypes">
-    <field name="StatsKey"              type="r64" ref="Stats" />
+    <field name="StatsKey"              type="longid" ref="Stats" />
     <field name="Description"           type="string" />
-    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" />
-    <field name="ModsKey"               type="r64" ref="Mods" />
+    <field name="BaseItemTypesKey"      type="longid" ref="BaseItemTypes" />
+    <field name="ModsKey"               type="longid" ref="Mods" />
 </format>

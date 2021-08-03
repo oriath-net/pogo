@@ -1,6 +1,6 @@
 <!-- Imported from PyPoE -->
 <format file="KillstreakThresholds">
     <field name="Kills"                 type="i32" />
-    <field name="MonsterVarietiesKey"   type="r64" ref="MonsterVarieties" /> <!-- Monster that plays the effect, i.e. the "nova" etc. -->
-    <field name="AchievementItemsKey"   type="r64" ref="AchievementItems" />
+    <field name="MonsterVarietiesKey"   type="longid" ref="MonsterVarieties" /> <!-- Monster that plays the effect, i.e. the "nova" etc. -->
+    <field name="AchievementItemsKey"   type="longid" ref="AchievementItems" />
 </format>

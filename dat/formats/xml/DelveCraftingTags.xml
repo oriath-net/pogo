@@ -1,5 +1,5 @@
 <!-- Imported from PyPoE -->
 <format file="DelveCraftingTags">
-    <field name="TagsKey"               type="r64" ref="Tags" />
+    <field name="TagsKey"               type="longid" ref="Tags" />
     <field name="ItemClass"             type="string" />
 </format>

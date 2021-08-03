@@ -13,17 +13,17 @@
     <field name="Unknown2"              type="i32" />
     <field name="Unknown_Keys"          type="u64[]" />
     <field name="Unknown_Values"        type="u32[]" />
-    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" />
+    <field name="BaseItemTypesKey"      type="longid" ref="BaseItemTypes" />
     <field name="Flag5"                 type="bool" />
-    <field name="ModsKeys"              type="r64[]" ref="Mods" />
-    <field name="TagsKeys"              type="r64[]" ref="Tags" />
-    <field name="ChestEffectsKey"       type="r64" ref="ChestEffects" />
+    <field name="ModsKeys"              type="longid[]" ref="Mods" />
+    <field name="TagsKeys"              type="longid[]" ref="Tags" />
+    <field name="ChestEffectsKey"       type="longid" ref="ChestEffects" />
     <field name="MinLevel"              type="i32" />
     <field name="Unknown3"              type="string" />
     <field name="MaxLevel"              type="i32" />
-    <field name="Corrupt_AchievementItemsKey" type="r64" ref="AchievementItems" /> <!-- Achievement item granted on corruption -->
-    <field name="CurrencyUse_AchievementItemsKey" type="r64" ref="AchievementItems" /> <!-- Achievement item checked on currency use -->
-    <field name="Encounter_AchievementItemsKeys" type="r64[]" ref="AchievementItems" /> <!-- Achievement items granted on encounter -->
+    <field name="Corrupt_AchievementItemsKey" type="longid" ref="AchievementItems" /> <!-- Achievement item granted on corruption -->
+    <field name="CurrencyUse_AchievementItemsKey" type="longid" ref="AchievementItems" /> <!-- Achievement item checked on currency use -->
+    <field name="Encounter_AchievementItemsKeys" type="longid[]" ref="AchievementItems" /> <!-- Achievement items granted on encounter -->
     <field name="Key4"                  type="u64" />
     <field name="InheritsFrom"          type="string" /> <!-- file_path=True -->
     <field name="Flag6"                 type="bool" />

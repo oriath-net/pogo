@@ -2,7 +2,7 @@
 <format file="NPCShop">
     <field name="Id"                    type="string" unique="true" />
     <field name="Unknown0"              type="i32" />
-    <field name="SoldItem_TagsKeys"     type="r64[]" ref="Tags" />
+    <field name="SoldItem_TagsKeys"     type="longid[]" ref="Tags" />
     <field name="SoldItem_Weights"      type="u32[]" />
     <field name="Unknown_Keys0"         type="u64[]" />
     <field name="Unknown_Values"        type="u32[]" />

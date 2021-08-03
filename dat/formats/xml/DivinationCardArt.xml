@@ -1,6 +1,6 @@
 <!-- Imported from PyPoE -->
 <format file="DivinationCardArt">
-    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" />
+    <field name="BaseItemTypesKey"      type="longid" ref="BaseItemTypes" />
     <field name="VirtualFile"           type="string" /> <!-- file_path=True -->
     <field name="Unknown2"              type="i32[]" />
 </format>

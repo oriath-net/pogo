@@ -1,5 +1,5 @@
 <!-- Imported from PyPoE -->
 <format file="AlternateQualityCurrencyDecayFactors">
-    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" />
+    <field name="BaseItemTypesKey"      type="longid" ref="BaseItemTypes" />
     <field name="Factor"                type="i32" />
 </format>

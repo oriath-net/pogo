@@ -1,5 +1,5 @@
 <!-- Imported from PyPoE -->
 <format file="IncursionUniqueUpgradeComponents">
     <field name="UniqueItemsKey"        type="u64" />
-    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" />
+    <field name="BaseItemTypesKey"      type="longid" ref="BaseItemTypes" />
 </format>

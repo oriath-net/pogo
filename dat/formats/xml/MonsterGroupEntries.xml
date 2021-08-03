@@ -1,6 +1,6 @@
 <!-- Imported from PyPoE -->
 <format file="MonsterGroupEntries">
     <field name="Id"                    type="string" unique="true" />
-    <field name="MonsterVarietiesKey"   type="r64" ref="MonsterVarieties" />
+    <field name="MonsterVarietiesKey"   type="longid" ref="MonsterVarieties" />
     <field name="MonsterGroupNamesId"   type="i32" /> <!-- display=MonsterGroupNamesId? -->
 </format>

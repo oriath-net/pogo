@@ -1,16 +1,16 @@
 <!-- Imported from PyPoE -->
 <format file="CurrencyItems">
-    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" unique="true" />
+    <field name="BaseItemTypesKey"      type="longid" ref="BaseItemTypes" unique="true" />
     <field name="Stacks"                type="i32" />
     <field name="CurrencyUseType"       type="i32" />
     <field name="Action"                type="string" />
     <field name="Directions"            type="string" />
-    <field name="FullStack_BaseItemTypesKey" type="r64" ref="BaseItemTypes" /> <!-- Full stack transforms into this item -->
+    <field name="FullStack_BaseItemTypesKey" type="longid" ref="BaseItemTypes" /> <!-- Full stack transforms into this item -->
     <field name="Description"           type="string" />
-    <field name="Usage_AchievementItemsKeys" type="r64[]" ref="AchievementItems" />
+    <field name="Usage_AchievementItemsKeys" type="longid[]" ref="AchievementItems" />
     <field name="Flag1"                 type="bool" />
     <field name="CosmeticTypeName"      type="string" />
-    <field name="Possession_AchievementItemsKey" type="r64" ref="AchievementItems" />
+    <field name="Possession_AchievementItemsKey" type="longid" ref="AchievementItems" />
     <field name="Keys0"                 type="u64[]" />
     <field name="Data0"                 type="i32[]" />
     <field name="CurrencyTab_StackSize" type="i32" />
@@ -18,6 +18,6 @@
     <field name="Unknown0"              type="i32" />
     <field name="Key0"                  type="u64" />
     <field name="Key"                   type="u64" />
-    <field name="AchievementItemsKeys"  type="r64[]" ref="AchievementItems" />
+    <field name="AchievementItemsKeys"  type="longid[]" ref="AchievementItems" />
     <field name="Keys1"                 type="u64[]" />
 </format>

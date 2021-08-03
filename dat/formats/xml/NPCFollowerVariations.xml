@@ -1,8 +1,8 @@
 <!-- Imported from PyPoE -->
 <format file="NPCFollowerVariations">
-    <field name="MonsterVarietiesKey"   type="r64" ref="MonsterVarieties" />
-    <field name="MiscAnimatedKey0"      type="r64" ref="MiscAnimated" />
-    <field name="MiscAnimatedKey1"      type="r64" ref="MiscAnimated" />
+    <field name="MonsterVarietiesKey"   type="longid" ref="MonsterVarieties" />
+    <field name="MiscAnimatedKey0"      type="longid" ref="MiscAnimated" />
+    <field name="MiscAnimatedKey1"      type="longid" ref="MiscAnimated" />
     <field name="Flag0"                 type="bool" />
     <field name="Flag1"                 type="bool" />
     <field name="Unknown3"              type="i32" />

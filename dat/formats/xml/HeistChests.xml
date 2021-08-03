@@ -1,7 +1,7 @@
 <!-- Imported from PyPoE -->
 <format file="HeistChests">
-    <field name="ChestsKey"             type="r64" ref="Chests" />
+    <field name="ChestsKey"             type="longid" ref="Chests" />
     <field name="Weight"                type="i32" />
     <field name="Keys0"                 type="u64[]" />
-    <field name="HeistChestTypesKey"    type="r32" ref="HeistChestTypes" />
+    <field name="HeistChestTypesKey"    type="shortid" ref="HeistChestTypes" />
 </format>

@@ -4,18 +4,18 @@
     <field name="TimeoutInSeconds"      type="i32" />
     <field name="Name"                  type="string" />
     <field name="ChargesShared"         type="bool" /> <!-- display=ChargesShared? -->
-    <field name="Player_ShrineBuffsKey" type="r64" ref="ShrineBuffs" />
+    <field name="Player_ShrineBuffsKey" type="longid" ref="ShrineBuffs" />
     <field name="Unknown4"              type="i32" />
     <field name="Unknown5"              type="i32" />
     <field name="Description"           type="string" />
-    <field name="Monster_ShrineBuffsKey" type="r64" ref="ShrineBuffs" />
-    <field name="SummonMonster_MonsterVarietiesKey" type="r64" ref="MonsterVarieties" /> <!-- The aoe ground effects for example -->
-    <field name="SummonPlayer_MonsterVarietiesKey" type="r64" ref="MonsterVarieties" /> <!-- The aoe ground effects for example -->
+    <field name="Monster_ShrineBuffsKey" type="longid" ref="ShrineBuffs" />
+    <field name="SummonMonster_MonsterVarietiesKey" type="longid" ref="MonsterVarieties" /> <!-- The aoe ground effects for example -->
+    <field name="SummonPlayer_MonsterVarietiesKey" type="longid" ref="MonsterVarieties" /> <!-- The aoe ground effects for example -->
     <field name="Unknown10"             type="i32" />
     <field name="Unknown11"             type="i32" />
-    <field name="ShrineSoundsKey"       type="r64" ref="ShrineSounds" />
+    <field name="ShrineSoundsKey"       type="longid" ref="ShrineSounds" />
     <field name="Unknown14"             type="bool" />
-    <field name="AchievementItemsKeys"  type="r64[]" ref="AchievementItems" />
+    <field name="AchievementItemsKeys"  type="longid[]" ref="AchievementItems" />
     <field name="IsPVPOnly"             type="bool" />
     <field name="Unknown17"             type="bool" />
     <field name="IsLesserShrine"        type="bool" />

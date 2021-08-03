@@ -1,7 +1,7 @@
 <!-- Imported from PyPoE -->
 <format file="PassiveTreeExpansionJewels">
-    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" />
-    <field name="PassiveTreeExpansionJewelSizesKey" type="r64" ref="PassiveTreeExpansionJewelSizes" />
+    <field name="BaseItemTypesKey"      type="longid" ref="BaseItemTypes" />
+    <field name="PassiveTreeExpansionJewelSizesKey" type="longid" ref="PassiveTreeExpansionJewelSizes" />
     <field name="MinNodes"              type="i32" />
     <field name="MaxNodes"              type="i32" />
     <field name="SmallIndices"          type="i32[]" />
@@ -9,5 +9,5 @@
     <field name="SocketIndices"         type="i32[]" />
     <field name="Art"                   type="string" /> <!-- file_path=True -->
     <field name="TotalIndices"          type="i32" />
-    <field name="SoundEffectsKey"       type="r64" ref="SoundEffects" />
+    <field name="SoundEffectsKey"       type="longid" ref="SoundEffects" />
 </format>

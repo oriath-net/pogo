@@ -2,7 +2,7 @@
 <format file="MiscObjects">
     <field name="Id"                    type="string" unique="true" />
     <field name="EffectVirtualPath"     type="string" /> <!-- file_path=True -->
-    <field name="PreloadGroupsKeys"     type="r64[]" ref="PreloadGroups" />
+    <field name="PreloadGroupsKeys"     type="longid[]" ref="PreloadGroups" />
     <field name="UnknownUnique"         type="i32" />
     <field name="Unknown1"              type="i32" />
 </format>

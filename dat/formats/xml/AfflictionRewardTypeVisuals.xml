@@ -1,6 +1,6 @@
 <!-- Imported from PyPoE -->
 <format file="AfflictionRewardTypeVisuals">
-    <field name="AfflictionRewardTypes" type="r32" ref="AfflictionRewardTypes" />
+    <field name="AfflictionRewardTypes" type="shortid" ref="AfflictionRewardTypes" />
     <field name="Id"                    type="string" unique="true" />
     <field name="Name"                  type="string" />
 </format>

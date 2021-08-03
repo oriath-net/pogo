@@ -3,13 +3,13 @@
     <field name="Id"                    type="string" unique="true" />
     <field name="Text"                  type="string" />
     <field name="Unknown0"              type="i32" />
-    <field name="HarvestObjectsKey"     type="r64" ref="HarvestObjects" />
-    <field name="HarvestCraftTiersKey"  type="r64" ref="HarvestCraftTiers" />
+    <field name="HarvestObjectsKey"     type="longid" ref="HarvestObjects" />
+    <field name="HarvestCraftTiersKey"  type="longid" ref="HarvestCraftTiers" />
     <field name="Command"               type="string" />
     <field name="Parameters"            type="string" />
-    <field name="AchievementItemsKeys"  type="r64[]" ref="AchievementItems" />
+    <field name="AchievementItemsKeys"  type="longid[]" ref="AchievementItems" />
     <field name="Flag0"                 type="bool" />
     <field name="Unknown1"              type="i32" />
-    <field name="HarvestCraftOptionIconsKeys" type="r64[]" ref="HarvestCraftOptionIcons" />
+    <field name="HarvestCraftOptionIconsKeys" type="longid[]" ref="HarvestCraftOptionIcons" />
     <field name="PlainText"             type="string" /> <!-- Text without any tags for formatting -->
 </format>

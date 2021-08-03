@@ -3,5 +3,5 @@
     <field name="Id"                    type="string" />
     <field name="EssenceType"           type="i32" />
     <field name="IsCorruptedEssence"    type="bool" />
-    <field name="WordsKey"              type="r64" ref="Words" />
+    <field name="WordsKey"              type="longid" ref="Words" />
 </format>

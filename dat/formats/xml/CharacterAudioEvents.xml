@@ -4,15 +4,15 @@
     <field name="QuestState"            type="i32" />
     <field name="Unknown1"              type="i32" />
     <field name="Unknown2"              type="i32" />
-    <field name="Marauder_CharacterTextAudioKeys" type="r64[]" ref="CharacterTextAudio" />
-    <field name="Ranger_CharacterTextAudioKeys" type="r64[]" ref="CharacterTextAudio" />
-    <field name="Witch_CharacterTextAudioKeys" type="r64[]" ref="CharacterTextAudio" />
-    <field name="Duelist_CharacterTextAudioKeys" type="r64[]" ref="CharacterTextAudio" />
-    <field name="Shadow_CharacterTextAudioKeys" type="r64[]" ref="CharacterTextAudio" />
-    <field name="Templar_CharacterTextAudioKeys" type="r64[]" ref="CharacterTextAudio" />
-    <field name="Scion_CharacterTextAudioKeys" type="r64[]" ref="CharacterTextAudio" />
-    <field name="Goddess_CharacterTextAudioKeys" type="r64[]" ref="CharacterTextAudio" /> <!-- For Oni-Goroshi unique -->
-    <field name="JackTheAxe_CharacterTextAudioKeys" type="r64[]" ref="CharacterTextAudio" /> <!-- For Jack the Axe unique -->
+    <field name="Marauder_CharacterTextAudioKeys" type="longid[]" ref="CharacterTextAudio" />
+    <field name="Ranger_CharacterTextAudioKeys" type="longid[]" ref="CharacterTextAudio" />
+    <field name="Witch_CharacterTextAudioKeys" type="longid[]" ref="CharacterTextAudio" />
+    <field name="Duelist_CharacterTextAudioKeys" type="longid[]" ref="CharacterTextAudio" />
+    <field name="Shadow_CharacterTextAudioKeys" type="longid[]" ref="CharacterTextAudio" />
+    <field name="Templar_CharacterTextAudioKeys" type="longid[]" ref="CharacterTextAudio" />
+    <field name="Scion_CharacterTextAudioKeys" type="longid[]" ref="CharacterTextAudio" />
+    <field name="Goddess_CharacterTextAudioKeys" type="longid[]" ref="CharacterTextAudio" /> <!-- For Oni-Goroshi unique -->
+    <field name="JackTheAxe_CharacterTextAudioKeys" type="longid[]" ref="CharacterTextAudio" /> <!-- For Jack the Axe unique -->
     <field name="IsGameplayEvent"       type="bool" since="3.0" /> <!-- affects "disable gameplay event voices" -->
     <field name="Flag1"                 type="bool" since="3.14" /> <!-- always false -->
 </format>

@@ -1,7 +1,7 @@
 <!-- Imported from PyPoE -->
 <format file="BlightStashTabLayout">
     <field name="Id"                    type="string" unique="true" />
-    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" />
+    <field name="BaseItemTypesKey"      type="longid" ref="BaseItemTypes" />
     <field name="Unknown2"              type="i32" />
     <field name="Unknown3"              type="i32" />
     <field name="Unknown4"              type="i32" />

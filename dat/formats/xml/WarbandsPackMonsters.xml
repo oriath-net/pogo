@@ -3,10 +3,10 @@
     <field name="Id"                    type="string" unique="true" />
     <field name="Unknown1"              type="i64" />
     <field name="Unknown3"              type="i32" />
-    <field name="Tier4_MonsterVarietiesKeys" type="r64[]" ref="MonsterVarieties" />
-    <field name="Tier3_MonsterVarietiesKeys" type="r64[]" ref="MonsterVarieties" />
-    <field name="Tier2_MonsterVarietiesKeys" type="r64[]" ref="MonsterVarieties" />
-    <field name="Tier1_MonsterVarietiesKeys" type="r64[]" ref="MonsterVarieties" />
+    <field name="Tier4_MonsterVarietiesKeys" type="longid[]" ref="MonsterVarieties" />
+    <field name="Tier3_MonsterVarietiesKeys" type="longid[]" ref="MonsterVarieties" />
+    <field name="Tier2_MonsterVarietiesKeys" type="longid[]" ref="MonsterVarieties" />
+    <field name="Tier1_MonsterVarietiesKeys" type="longid[]" ref="MonsterVarieties" />
     <field name="Tier1Name"             type="string" />
     <field name="Tier2Name"             type="string" />
     <field name="Tier3Name"             type="string" />

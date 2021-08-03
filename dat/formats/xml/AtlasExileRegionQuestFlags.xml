@@ -1,7 +1,7 @@
 <!-- Imported from PyPoE -->
 <format file="AtlasExileRegionQuestFlags">
-    <field name="AtlasExilesKey"        type="r64" ref="AtlasExiles" />
-    <field name="AtlasRegionsKey"       type="r64" ref="AtlasRegions" />
+    <field name="AtlasExilesKey"        type="longid" ref="AtlasExiles" />
+    <field name="AtlasRegionsKey"       type="longid" ref="AtlasRegions" />
     <field name="Unknown1"              type="i32" />
     <field name="Key1"                  type="u64" />
     <field name="QuestState"            type="i32" />

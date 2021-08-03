@@ -1,6 +1,6 @@
 <!-- Imported from PyPoE -->
 <format file="BestiaryNets">
-    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" />
+    <field name="BaseItemTypesKey"      type="longid" ref="BaseItemTypes" />
     <field name="Unknown0"              type="i32" />
     <field name="CaptureMinLevel"       type="i32" />
     <field name="CaptureMaxLevel"       type="i32" />

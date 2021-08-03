@@ -1,6 +1,6 @@
 <!-- Imported from PyPoE -->
 <format file="MicrotransactionFireworksVariations">
-    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" />
+    <field name="BaseItemTypesKey"      type="longid" ref="BaseItemTypes" />
     <field name="AOFile"                type="string" /> <!-- file_path=True file_ext=.ao -->
     <field name="Flag0"                 type="bool" />
 </format>

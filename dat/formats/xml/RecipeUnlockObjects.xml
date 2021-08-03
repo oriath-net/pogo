@@ -1,6 +1,6 @@
 <!-- Imported from PyPoE -->
 <format file="RecipeUnlockObjects">
-    <field name="WorldAreasKey"         type="r64" ref="WorldAreas" />
+    <field name="WorldAreasKey"         type="longid" ref="WorldAreas" />
     <field name="InheritsFrom"          type="string" /> <!-- file_path=True -->
     <field name="RecipeId"              type="i32" />
 </format>

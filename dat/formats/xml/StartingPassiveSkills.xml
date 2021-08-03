@@ -1,5 +1,5 @@
 <!-- Imported from PyPoE -->
 <format file="StartingPassiveSkills">
     <field name="Id"                    type="string" unique="true" />
-    <field name="PassiveSkills"         type="r64[]" ref="PassiveSkills" />
+    <field name="PassiveSkills"         type="longid[]" ref="PassiveSkills" />
 </format>

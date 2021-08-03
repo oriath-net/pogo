@@ -1,6 +1,6 @@
 <!-- Imported from PyPoE -->
 <format file="SkillTotemVariations">
-    <field name="SkillTotemsKey"        type="r32" ref="SkillTotems" /> <!-- key_offset=1 -->
+    <field name="SkillTotemsKey"        type="shortid" ref="SkillTotems" /> <!-- key_offset=1 -->
     <field name="TotemSkinId"           type="i32" />
-    <field name="MonsterVarietiesKey"   type="r64" ref="MonsterVarieties" />
+    <field name="MonsterVarietiesKey"   type="longid" ref="MonsterVarieties" />
 </format>

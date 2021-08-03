@@ -2,7 +2,7 @@
 <format file="RecipeUnlockDisplay">
     <field name="RecipeId"              type="i32" unique="true" />
     <field name="Description"           type="string" />
-    <field name="CraftingItemClassCategoriesKeys" type="r64[]" ref="CraftingItemClassCategories" />
+    <field name="CraftingItemClassCategoriesKeys" type="longid[]" ref="CraftingItemClassCategories" />
     <field name="UnlockDescription"     type="string" />
     <field name="Rank"                  type="i32" />
     <field name="Unknown0"              type="i32" />

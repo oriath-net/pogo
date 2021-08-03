@@ -39,7 +39,7 @@
     <field name="Flag12"                type="u8" />
     <field name="Flag13"                type="u8" />
     <field name="Flag14"                type="u8" />
-    <field name="Unknown40"             type="r32" />
+    <field name="Unknown40"             type="shortid" />
     <field name="Flag15"                type="u8" />
     <field name="Flag16"                type="u8" />
     <field name="Key3"                  type="u64" />

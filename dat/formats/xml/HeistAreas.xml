@@ -1,20 +1,20 @@
 <!-- Imported from PyPoE -->
 <format file="HeistAreas">
     <field name="Id"                    type="string" unique="true" />
-    <field name="WorldAreasKeys"        type="r64[]" ref="WorldAreas" />
+    <field name="WorldAreasKeys"        type="longid[]" ref="WorldAreas" />
     <field name="Unknown2"              type="i32" />
-    <field name="EnvironmentsKey1"      type="r64" ref="Environments" />
-    <field name="EnvironmentsKey2"      type="r64" ref="Environments" />
-    <field name="HeistJobsKeys"         type="r64[]" ref="HeistJobs" />
-    <field name="Contract_BaseItemTypesKey" type="r64" ref="BaseItemTypes" />
-    <field name="Blueprint_BaseItemTypesKey" type="r64" ref="BaseItemTypes" />
+    <field name="EnvironmentsKey1"      type="longid" ref="Environments" />
+    <field name="EnvironmentsKey2"      type="longid" ref="Environments" />
+    <field name="HeistJobsKeys"         type="longid[]" ref="HeistJobs" />
+    <field name="Contract_BaseItemTypesKey" type="longid" ref="BaseItemTypes" />
+    <field name="Blueprint_BaseItemTypesKey" type="longid" ref="BaseItemTypes" />
     <field name="DGRFile"               type="string" /> <!-- file_path=True file_ext=.dgr -->
     <field name="Unknown9"              type="i32" />
     <field name="Unknown10"             type="i32" />
     <field name="Flag0"                 type="bool" />
     <field name="Flag1"                 type="bool" />
     <field name="Blueprint_DDSFile"     type="string" /> <!-- file_path=True file_ext=.dds -->
-    <field name="AchievementItemsKeys"  type="r64[]" ref="AchievementItems" />
-    <field name="AchievementItemsKeys2" type="r64[]" ref="AchievementItems" />
-    <field name="ClientStringsKey"      type="r64" ref="ClientStrings" />
+    <field name="AchievementItemsKeys"  type="longid[]" ref="AchievementItems" />
+    <field name="AchievementItemsKeys2" type="longid[]" ref="AchievementItems" />
+    <field name="ClientStringsKey"      type="longid" ref="ClientStrings" />
 </format>

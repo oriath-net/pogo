@@ -1,6 +1,6 @@
 <!-- Imported from PyPoE -->
 <format file="BetrayalTargetJobAchievements">
-    <field name="BetrayalTargetsKey"    type="r64" ref="BetrayalTargets" />
-    <field name="BetrayalJobsKey"       type="r64" ref="BetrayalJobs" />
-    <field name="AchievementItemsKey"   type="r64" ref="AchievementItems" />
+    <field name="BetrayalTargetsKey"    type="longid" ref="BetrayalTargets" />
+    <field name="BetrayalJobsKey"       type="longid" ref="BetrayalJobs" />
+    <field name="AchievementItemsKey"   type="longid" ref="AchievementItems" />
 </format>

@@ -7,6 +7,6 @@
     <field name="Unknown2"              type="i32" />
     <field name="Unknown3"              type="i32" />
     <field name="Unknown4"              type="i32" />
-    <field name="EnvironmentTransitionsKey" type="r64" ref="EnvironmentTransitions" />
+    <field name="EnvironmentTransitionsKey" type="longid" ref="EnvironmentTransitions" />
     <field name="Key0"                  type="u64" />
 </format>

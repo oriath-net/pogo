@@ -9,8 +9,8 @@
     <field name="Text"                  type="string" />
     <field name="Flag5"                 type="bool" />
     <field name="Flag6"                 type="bool" />
-    <field name="MainHandAlias_StatsKey" type="r32" ref="Stats" />
-    <field name="OffHandAlias_StatsKey" type="r32" ref="Stats" />
+    <field name="MainHandAlias_StatsKey" type="shortid" ref="Stats" />
+    <field name="OffHandAlias_StatsKey" type="shortid" ref="Stats" />
     <field name="Flag7"                 type="bool" />
     <field name="Unknown1"              type="i32" />
     <field name="BelongsActiveSkillsKey" type="string[]" ref="ActiveSkills" ref-field="Id" />

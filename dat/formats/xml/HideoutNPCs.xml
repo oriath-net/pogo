@@ -1,9 +1,9 @@
 <!-- Imported from PyPoE -->
 <format file="HideoutNPCs">
-    <field name="Hideout_NPCsKey"       type="r64" ref="NPCs" />
-    <field name="Regular_NPCsKeys"      type="r64[]" ref="NPCs" />
-    <field name="HideoutDoodadsKey"     type="r64" ref="HideoutDoodads" />
-    <field name="NPCMasterKey"          type="r32" ref="NPCMaster" />
+    <field name="Hideout_NPCsKey"       type="longid" ref="NPCs" />
+    <field name="Regular_NPCsKeys"      type="longid[]" ref="NPCs" />
+    <field name="HideoutDoodadsKey"     type="longid" ref="HideoutDoodads" />
+    <field name="NPCMasterKey"          type="shortid" ref="NPCMaster" />
     <field name="Unknown0"              type="i32" />
     <field name="Unknown1"              type="i32" />
     <field name="Unknown2"              type="i32" />

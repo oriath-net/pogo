@@ -3,12 +3,12 @@
     <field name="MapLevel"              type="i32" />
     <field name="Stat1Value"            type="i32" />
     <field name="Stat2Value"            type="i32" />
-    <field name="StatsKey1"             type="r64" ref="Stats" />
-    <field name="StatsKey2"             type="r64" ref="Stats" />
-    <field name="StatsKey3"             type="r64" ref="Stats" />
+    <field name="StatsKey1"             type="longid" ref="Stats" />
+    <field name="StatsKey2"             type="longid" ref="Stats" />
+    <field name="StatsKey3"             type="longid" ref="Stats" />
     <field name="Stat3Value"            type="i32" />
-    <field name="StatsKey4"             type="r64" ref="Stats" />
+    <field name="StatsKey4"             type="longid" ref="Stats" />
     <field name="Stat4Value"            type="i32" />
-    <field name="StatsKey5"             type="r64" ref="Stats" />
+    <field name="StatsKey5"             type="longid" ref="Stats" />
     <field name="Stat5Value"            type="i32" />
 </format>

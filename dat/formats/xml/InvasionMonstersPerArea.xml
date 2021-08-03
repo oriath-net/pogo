@@ -1,10 +1,10 @@
 <!-- Imported from PyPoE -->
 <format file="InvasionMonstersPerArea">
-    <field name="WorldAreasKey"         type="r64" ref="WorldAreas" />
+    <field name="WorldAreasKey"         type="longid" ref="WorldAreas" />
     <field name="Unknown2"              type="i32" />
     <field name="Data0"                 type="i32[]" />
-    <field name="MonsterVarietiesKeys1" type="r64[]" ref="MonsterVarieties" />
-    <field name="MonsterVarietiesKeys2" type="r64[]" ref="MonsterVarieties" />
+    <field name="MonsterVarietiesKeys1" type="longid[]" ref="MonsterVarieties" />
+    <field name="MonsterVarietiesKeys2" type="longid[]" ref="MonsterVarieties" />
     <field name="Unknown9"              type="i32" />
     <field name="Unknown10"             type="i32" />
     <field name="Unknown11"             type="i32" />

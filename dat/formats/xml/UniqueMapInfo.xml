@@ -1,8 +1,8 @@
 <!-- Imported from PyPoE -->
 <format file="UniqueMapInfo">
-    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" />
+    <field name="BaseItemTypesKey"      type="longid" ref="BaseItemTypes" />
     <field name="Key1"                  type="u64" />
-    <field name="FlavourTextKey"        type="r64" ref="FlavourText" />
-    <field name="ItemVisualIdentityKey" type="r64" ref="ItemVisualIdentity" />
+    <field name="FlavourTextKey"        type="longid" ref="FlavourText" />
+    <field name="ItemVisualIdentityKey" type="longid" ref="ItemVisualIdentity" />
     <field name="Flag0"                 type="u8" />
 </format>

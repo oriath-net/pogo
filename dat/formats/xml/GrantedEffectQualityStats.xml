@@ -1,8 +1,8 @@
 <!-- Imported from PyPoE -->
 <format file="GrantedEffectQualityStats">
-    <field name="GrantedEffectsKey"     type="r64" ref="GrantedEffects" />
+    <field name="GrantedEffectsKey"     type="longid" ref="GrantedEffects" />
     <field name="SetId"                 type="i32" />
-    <field name="StatsKeys"             type="r64[]" ref="Stats" />
+    <field name="StatsKeys"             type="longid[]" ref="Stats" />
     <field name="StatsValuesPermille"   type="i32[]" />
     <field name="Weight"                type="i32" />
     <field name="Unknown0"              type="i32[]" />

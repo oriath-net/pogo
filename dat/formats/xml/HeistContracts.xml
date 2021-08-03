@@ -1,6 +1,6 @@
 <!-- Imported from PyPoE -->
 <format file="HeistContracts">
-    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" unique="true" />
-    <field name="HeistAreasKey"         type="r64" ref="HeistAreas" />
+    <field name="BaseItemTypesKey"      type="longid" ref="BaseItemTypes" unique="true" />
+    <field name="HeistAreasKey"         type="longid" ref="HeistAreas" />
     <field name="Unknown2"              type="i32" />
 </format>

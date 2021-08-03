@@ -1,6 +1,6 @@
 <!-- Imported from PyPoE -->
 <format file="SafehouseCraftingSpreeCurrencies">
     <field name="Id"                    type="string" unique="true" />
-    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" />
+    <field name="BaseItemTypesKey"      type="longid" ref="BaseItemTypes" />
     <field name="HasSpecificBaseItem"   type="bool" />
 </format>

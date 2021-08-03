@@ -1,8 +1,8 @@
 <!-- Imported from PyPoE -->
 <format file="Talismans">
-    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" unique="true" />
+    <field name="BaseItemTypesKey"      type="longid" ref="BaseItemTypes" unique="true" />
     <field name="SpawnWeight"           type="i32" />
-    <field name="ModsKey"               type="r64" ref="Mods" />
+    <field name="ModsKey"               type="longid" ref="Mods" />
     <field name="Tier"                  type="i32" />
     <field name="Flag0"                 type="bool" />
     <field name="Flag1"                 type="bool" />

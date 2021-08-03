@@ -9,7 +9,7 @@
     <field name="BaseItemTypesKey"      type="u64" />
     <field name="BodypartName"          type="string" />
     <field name="Unknown8"              type="i32" />
-    <field name="AchievementItemsKeys"  type="r64[]" ref="AchievementItems" />
+    <field name="AchievementItemsKeys"  type="longid[]" ref="AchievementItems" />
     <field name="BodypartNamePlural"    type="string" />
     <field name="Unknown11"             type="i32" />
 </format>

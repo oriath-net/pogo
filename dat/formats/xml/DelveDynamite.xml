@@ -1,9 +1,9 @@
 <!-- Imported from PyPoE -->
 <format file="DelveDynamite">
     <field name="Unknown0"              type="i32" />
-    <field name="Flare_MiscObjectsKey"  type="r64" ref="MiscObjects" />
+    <field name="Flare_MiscObjectsKey"  type="longid" ref="MiscObjects" />
     <field name="Key1"                  type="u64" />
-    <field name="Dynamite_MiscObjectsKey" type="r64" ref="MiscObjects" />
+    <field name="Dynamite_MiscObjectsKey" type="longid" ref="MiscObjects" />
     <field name="Unknown7"              type="i32" />
     <field name="Unknown8"              type="i32" />
     <field name="Unknown9"              type="i32" />
@@ -11,6 +11,6 @@
     <field name="Unknown11"             type="i32" />
     <field name="Unknown12"             type="i32" />
     <field name="Unknown13"             type="i32" />
-    <field name="MiscAnimatedKey"       type="r64" ref="MiscAnimated" />
+    <field name="MiscAnimatedKey"       type="longid" ref="MiscAnimated" />
     <field name="Unknown16"             type="i32" />
 </format>

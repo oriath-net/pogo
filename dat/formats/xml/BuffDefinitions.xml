@@ -5,15 +5,15 @@
     <field name="Invisible"             type="bool" />
     <field name="Removable"             type="bool" />
     <field name="Name"                  type="string" />
-    <field name="StatsKeys"             type="r64[]" ref="Stats" />
+    <field name="StatsKeys"             type="longid[]" ref="Stats" />
     <field name="Flag0"                 type="bool" />
     <field name="Unknown0"              type="i32" />
     <field name="Flag1"                 type="bool" />
-    <field name="Maximum_StatsKey"      type="r64" ref="Stats" /> <!-- Stat that holds the maximum number for this buff -->
-    <field name="Current_StatsKey"      type="r64" ref="Stats" /> <!-- Stat that holds the current number for this buff -->
+    <field name="Maximum_StatsKey"      type="longid" ref="Stats" /> <!-- Stat that holds the maximum number for this buff -->
+    <field name="Current_StatsKey"      type="longid" ref="Stats" /> <!-- Stat that holds the current number for this buff -->
     <field name="Flag2"                 type="bool" />
     <field name="Unknown1"              type="i32" />
-    <field name="BuffVisualsKey"        type="r64" ref="BuffVisuals" />
+    <field name="BuffVisualsKey"        type="longid" ref="BuffVisuals" />
     <field name="Flag3"                 type="bool" />
     <field name="Flag4"                 type="bool" />
     <field name="Unknown2"              type="i32" />

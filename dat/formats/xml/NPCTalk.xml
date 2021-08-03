@@ -1,6 +1,6 @@
 <!-- Imported from PyPoE -->
 <format file="NPCTalk">
-    <field name="NPCKey"                type="r64" ref="NPCs" />
+    <field name="NPCKey"                type="longid" ref="NPCs" />
     <field name="Unknown2"              type="i32" />
     <field name="DialogueOption"        type="string" />
     <field name="Data0"                 type="u32[]" />
@@ -9,9 +9,9 @@
     <field name="Script"                type="string" />
     <field name="Unknown11"             type="i32" />
     <field name="Unknown12"             type="i32" />
-    <field name="QuestKey"              type="r64" ref="Quest" />
+    <field name="QuestKey"              type="longid" ref="Quest" />
     <field name="Unknown15"             type="i32" />
-    <field name="NPCTextAudioKeys"      type="r64[]" ref="NPCTextAudio" />
+    <field name="NPCTextAudioKeys"      type="longid[]" ref="NPCTextAudio" />
     <field name="Script2"               type="string" />
     <field name="Flag0"                 type="bool" />
     <field name="Flag1"                 type="bool" />

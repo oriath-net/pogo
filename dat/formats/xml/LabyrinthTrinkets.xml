@@ -1,7 +1,7 @@
 <!-- Imported from PyPoE -->
 <format file="LabyrinthTrinkets">
-    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" unique="true" />
-    <field name="LabyrinthSecretsKey"   type="r64[]" ref="LabyrinthSecrets" />
-    <field name="Buff_BuffDefinitionsKey" type="r64" ref="BuffDefinitions" />
+    <field name="BaseItemTypesKey"      type="longid" ref="BaseItemTypes" unique="true" />
+    <field name="LabyrinthSecretsKey"   type="longid[]" ref="LabyrinthSecrets" />
+    <field name="Buff_BuffDefinitionsKey" type="longid" ref="BuffDefinitions" />
     <field name="Buff_StatValues"       type="i32[]" />
 </format>

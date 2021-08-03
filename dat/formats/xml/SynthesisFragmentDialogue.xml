@@ -1,10 +1,10 @@
 <!-- Imported from PyPoE -->
 <format file="SynthesisFragmentDialogue">
     <field name="Key0"                  type="u64" />
-    <field name="NPCTextAudioKey1"      type="r64" ref="NPCTextAudio" />
-    <field name="NPCTextAudioKey2"      type="r64" ref="NPCTextAudio" />
-    <field name="NPCTextAudioKey3"      type="r64" ref="NPCTextAudio" />
-    <field name="NPCTextAudioKey4"      type="r64" ref="NPCTextAudio" />
-    <field name="NPCTextAudioKey5"      type="r64" ref="NPCTextAudio" />
-    <field name="NPCTextAudioKey6"      type="r64" ref="NPCTextAudio" />
+    <field name="NPCTextAudioKey1"      type="longid" ref="NPCTextAudio" />
+    <field name="NPCTextAudioKey2"      type="longid" ref="NPCTextAudio" />
+    <field name="NPCTextAudioKey3"      type="longid" ref="NPCTextAudio" />
+    <field name="NPCTextAudioKey4"      type="longid" ref="NPCTextAudio" />
+    <field name="NPCTextAudioKey5"      type="longid" ref="NPCTextAudio" />
+    <field name="NPCTextAudioKey6"      type="longid" ref="NPCTextAudio" />
 </format>

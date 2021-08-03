@@ -1,37 +1,37 @@
 <!-- Imported from PyPoE -->
 <format file="BaseItemTypes">
     <field name="Id"                    type="string" unique="true" /> <!-- file_path=True -->
-    <field name="ItemClassesKey"        type="r64" ref="ItemClasses" />
+    <field name="ItemClassesKey"        type="longid" ref="ItemClasses" />
     <field name="Width"                 type="i32" />
     <field name="Height"                type="i32" />
     <field name="Name"                  type="string" />
     <field name="InheritsFrom"          type="string" /> <!-- file_path=True -->
     <field name="DropLevel"             type="i32" />
-    <field name="FlavourTextKey"        type="r64" ref="FlavourText" />
-    <field name="Implicit_ModsKeys"     type="r64[]" ref="Mods" />
+    <field name="FlavourTextKey"        type="longid" ref="FlavourText" />
+    <field name="Implicit_ModsKeys"     type="longid[]" ref="Mods" />
     <field name="Unknown0"              type="i32" />
-    <field name="SoundEffectsKey"       type="r64" ref="SoundEffects" />
-    <field name="NormalPurchase_BaseItemTypesKeys" type="r32[]" ref="BaseItemTypes" />
+    <field name="SoundEffectsKey"       type="longid" ref="SoundEffects" />
+    <field name="NormalPurchase_BaseItemTypesKeys" type="shortid[]" ref="BaseItemTypes" />
     <field name="NormalPurchase_Costs"  type="i32[]" />
-    <field name="MagicPurchase_BaseItemTypesKeys" type="r32[]" ref="BaseItemTypes" />
+    <field name="MagicPurchase_BaseItemTypesKeys" type="shortid[]" ref="BaseItemTypes" />
     <field name="MagicPurchase_Costs"   type="i32[]" />
-    <field name="TagsKeys"              type="r64[]" ref="Tags" />
+    <field name="TagsKeys"              type="longid[]" ref="Tags" />
     <field name="ModDomainsKey"         type="i32" /> <!-- enum=MOD_DOMAIN -->
     <field name="Flag0"                 type="bool" />
-    <field name="ItemVisualIdentityKey" type="r64" ref="ItemVisualIdentity" />
+    <field name="ItemVisualIdentityKey" type="longid" ref="ItemVisualIdentity" />
     <field name="UnknownUnique"         type="u32" unique="true" />
-    <field name="VendorRecipe_AchievementItemsKeys" type="r64[]" ref="AchievementItems" /> <!-- Achievement check when selling this item to vendors -->
-    <field name="RarePurchase_BaseItemTypesKeys" type="r32[]" ref="BaseItemTypes" />
+    <field name="VendorRecipe_AchievementItemsKeys" type="longid[]" ref="AchievementItems" /> <!-- Achievement check when selling this item to vendors -->
+    <field name="RarePurchase_BaseItemTypesKeys" type="shortid[]" ref="BaseItemTypes" />
     <field name="RarePurchase_Costs"    type="i32[]" />
-    <field name="UniquePurchase_BaseItemTypesKeys" type="r32[]" ref="BaseItemTypes" />
+    <field name="UniquePurchase_BaseItemTypesKeys" type="shortid[]" ref="BaseItemTypes" />
     <field name="UniquePurchase_Costs"  type="i32[]" />
     <field name="Inflection"            type="string" /> <!-- the inflection identifier used for i18n in related fields -->
-    <field name="Equip_AchievementItemsKey" type="r64" ref="AchievementItems" /> <!-- Achievement check when equipping this item -->
+    <field name="Equip_AchievementItemsKey" type="longid" ref="AchievementItems" /> <!-- Achievement check when equipping this item -->
     <field name="IsCorrupted"           type="bool" />
-    <field name="Identify_AchievementItemsKeys" type="r64[]" ref="AchievementItems" />
-    <field name="ItemThemesKey"         type="r64" ref="ItemThemes" />
-    <field name="IdentifyMagic_AchievementItemsKeys" type="r64[]" ref="AchievementItems" />
-    <field name="FragmentBaseItemTypesKey" type="r32" ref="BaseItemTypes" />
+    <field name="Identify_AchievementItemsKeys" type="longid[]" ref="AchievementItems" />
+    <field name="ItemThemesKey"         type="longid" ref="ItemThemes" />
+    <field name="IdentifyMagic_AchievementItemsKeys" type="longid[]" ref="AchievementItems" />
+    <field name="FragmentBaseItemTypesKey" type="shortid" ref="BaseItemTypes" />
     <field name="IsBlessing"            type="bool" />
     <field name="Key0"                  type="u64" />
     <field name="Key1"                  type="u64" />

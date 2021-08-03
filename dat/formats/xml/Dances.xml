@@ -1,5 +1,5 @@
 <!-- Imported from PyPoE -->
 <format file="Dances">
-    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" />
-    <field name="CharactersKey"         type="r64" ref="Characters" />
+    <field name="BaseItemTypesKey"      type="longid" ref="BaseItemTypes" />
+    <field name="CharactersKey"         type="longid" ref="Characters" />
 </format>

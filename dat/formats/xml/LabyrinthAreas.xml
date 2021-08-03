@@ -1,9 +1,9 @@
 <!-- Imported from PyPoE -->
 <format file="LabyrinthAreas">
     <field name="Id"                    type="string" />
-    <field name="Normal_WorldAreasKeys" type="r64[]" ref="WorldAreas" />
-    <field name="Cruel_WorldAreasKeys"  type="r64[]" ref="WorldAreas" />
-    <field name="Merciless_WorldAreasKeys" type="r64[]" ref="WorldAreas" />
-    <field name="Endgame_WorldAreasKeys" type="r64[]" ref="WorldAreas" />
+    <field name="Normal_WorldAreasKeys" type="longid[]" ref="WorldAreas" />
+    <field name="Cruel_WorldAreasKeys"  type="longid[]" ref="WorldAreas" />
+    <field name="Merciless_WorldAreasKeys" type="longid[]" ref="WorldAreas" />
+    <field name="Endgame_WorldAreasKeys" type="longid[]" ref="WorldAreas" />
     <field name="Unknown1"              type="i32" />
 </format>

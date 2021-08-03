@@ -1,4 +1,4 @@
 <!-- Imported from PyPoE -->
 <format file="AfflictionRewardMapMods">
-    <field name="ModsKey"               type="r64" ref="Mods" />
+    <field name="ModsKey"               type="longid" ref="Mods" />
 </format>

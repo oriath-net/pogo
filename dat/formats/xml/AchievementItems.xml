@@ -5,7 +5,7 @@
     <field name="Unknown2"              type="i32" />
     <field name="Name"                  type="string" />
     <field name="CompletionsRequired"   type="i32" />
-    <field name="AchievementsKey"       type="r64" ref="Achievements" />
+    <field name="AchievementsKey"       type="longid" ref="Achievements" />
     <field name="Flag0"                 type="bool" />
     <field name="Flag1"                 type="bool" />
     <field name="Flag2"                 type="bool" />

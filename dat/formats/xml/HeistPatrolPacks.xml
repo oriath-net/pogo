@@ -1,6 +1,6 @@
 <!-- Imported from PyPoE -->
 <format file="HeistPatrolPacks">
-    <field name="MonsterPacksKey"       type="r64" ref="MonsterPacks" />
+    <field name="MonsterPacksKey"       type="longid" ref="MonsterPacks" />
     <field name="Unknown1"              type="i32" />
     <field name="Unknown2"              type="i32" />
     <field name="Unknown3"              type="i32" />

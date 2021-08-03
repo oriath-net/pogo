@@ -5,6 +5,6 @@
     <field name="Key0"                  type="u64" />
     <field name="Unknown3"              type="i32" />
     <field name="Unknown4"              type="i32" />
-    <field name="StatsKeys"             type="r64[]" ref="Stats" />
+    <field name="StatsKeys"             type="longid[]" ref="Stats" />
     <field name="StatValues"            type="i32[]" />
 </format>

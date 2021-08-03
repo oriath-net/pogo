@@ -1,6 +1,6 @@
 <!-- Imported from PyPoE -->
 <format file="SynthesisBonuses">
-    <field name="ModsKey"               type="r64" ref="Mods" />
+    <field name="ModsKey"               type="longid" ref="Mods" />
     <field name="Unknown1"              type="i32" />
     <field name="Unknown2"              type="i32" />
     <field name="Unknown3"              type="i32" />

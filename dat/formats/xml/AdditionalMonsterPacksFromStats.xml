@@ -1,11 +1,11 @@
 <!-- Imported from PyPoE -->
 <format file="AdditionalMonsterPacksFromStats">
-    <field name="StatsKey"              type="r64" ref="Stats" />
+    <field name="StatsKey"              type="longid" ref="Stats" />
     <field name="Unknown1"              type="i32" />
-    <field name="MonsterPacksKeys"      type="r64[]" ref="MonsterPacks" />
+    <field name="MonsterPacksKeys"      type="longid[]" ref="MonsterPacks" />
     <field name="AdditionalMonsterPacksStatMode" type="i32" />
-    <field name="PackCountStatsKey"     type="r64" ref="Stats" />
-    <field name="StatsKeys"             type="r64[]" ref="Stats" />
+    <field name="PackCountStatsKey"     type="longid" ref="Stats" />
+    <field name="StatsKeys"             type="longid[]" ref="Stats" />
     <field name="StatsValues"           type="i32[]" />
     <field name="Unknown7"              type="i32" />
 </format>

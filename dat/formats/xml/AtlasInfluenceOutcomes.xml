@@ -6,5 +6,5 @@
     <field name="Unknown3"              type="i32" />
     <field name="Unknown4"              type="i32" />
     <field name="Key0"                  type="u64" />
-    <field name="ModsKeys"              type="r64[]" ref="Mods" />
+    <field name="ModsKeys"              type="longid[]" ref="Mods" />
 </format>

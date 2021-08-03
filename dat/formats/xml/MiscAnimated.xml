@@ -2,7 +2,7 @@
 <format file="MiscAnimated">
     <field name="Id"                    type="string" unique="true" />
     <field name="AOFile"                type="string" /> <!-- file_path=True file_ext=.ao -->
-    <field name="PreloadGroupsKeys"     type="r64[]" ref="PreloadGroups" />
+    <field name="PreloadGroupsKeys"     type="longid[]" ref="PreloadGroups" />
     <field name="Unknown0"              type="i32" />
     <field name="Unknown1"              type="i32" />
 </format>

@@ -1,9 +1,9 @@
 <!-- Imported from PyPoE -->
 <format file="AlternatePassiveAdditions">
     <field name="Id"                    type="string" unique="true" />
-    <field name="AlternateTreeVersionsKey" type="r64" ref="AlternateTreeVersions" />
+    <field name="AlternateTreeVersionsKey" type="longid" ref="AlternateTreeVersions" />
     <field name="SpawnWeight"           type="i32" />
-    <field name="StatsKeys"             type="r64[]" ref="Stats" />
+    <field name="StatsKeys"             type="longid[]" ref="Stats" />
     <field name="Stat1Min"              type="i32" />
     <field name="Stat1Max"              type="i32" />
     <field name="Unknown6"              type="i32" />

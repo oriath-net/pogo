@@ -1,6 +1,6 @@
 <!-- Imported from PyPoE -->
 <format file="DamageParticleEffects">
-    <field name="DamageParticleEffectTypes" type="r32" ref="DamageParticleEffectTypes" />
+    <field name="DamageParticleEffectTypes" type="shortid" ref="DamageParticleEffectTypes" />
     <field name="Variation"             type="i32" />
     <field name="PETFile"               type="string" /> <!-- file_path=True file_ext=.pet -->
     <field name="Key0"                  type="u64" />

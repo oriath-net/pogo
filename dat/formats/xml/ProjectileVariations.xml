@@ -1,5 +1,5 @@
 <!-- Imported from PyPoE -->
 <format file="ProjectileVariations">
     <field name="Id"                    type="string" unique="true" />
-    <field name="ProjectileKey"         type="r64" ref="Projectiles" />
+    <field name="ProjectileKey"         type="longid" ref="Projectiles" />
 </format>

@@ -1,5 +1,5 @@
 <!-- Imported from PyPoE -->
 <format file="ShieldTypes">
-    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" unique="true" />
+    <field name="BaseItemTypesKey"      type="longid" ref="BaseItemTypes" unique="true" />
     <field name="Block"                 type="i32" />
 </format>

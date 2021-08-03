@@ -6,6 +6,6 @@
     <field name="Name"                  type="string" />
     <field name="Icon"                  type="string" /> <!-- file_path=True -->
     <field name="IconSmall"             type="string" /> <!-- file_path=True -->
-    <field name="BestiaryFamiliesKey"   type="r64" ref="BestiaryFamilies" />
-    <field name="AchievementItemsKeys"  type="r64[]" ref="AchievementItems" />
+    <field name="BestiaryFamiliesKey"   type="longid" ref="BestiaryFamilies" />
+    <field name="AchievementItemsKeys"  type="longid[]" ref="AchievementItems" />
 </format>

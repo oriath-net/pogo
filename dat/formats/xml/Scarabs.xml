@@ -2,5 +2,5 @@
 <format file="Scarabs">
     <field name="ScarabType"            type="i32" /> <!-- enum=SCARAB_TYPES -->
     <field name="Tier"                  type="i32" />
-    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" />
+    <field name="BaseItemTypesKey"      type="longid" ref="BaseItemTypes" />
 </format>

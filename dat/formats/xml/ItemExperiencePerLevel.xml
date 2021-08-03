@@ -1,6 +1,6 @@
 <!-- Imported from PyPoE -->
 <format file="ItemExperiencePerLevel">
-    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" />
+    <field name="BaseItemTypesKey"      type="longid" ref="BaseItemTypes" />
     <field name="ItemCurrentLevel"      type="i32" />
     <field name="Experience"            type="i32" />
 </format>

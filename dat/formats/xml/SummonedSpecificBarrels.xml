@@ -1,7 +1,7 @@
 <!-- Imported from PyPoE -->
 <format file="SummonedSpecificBarrels">
     <field name="Id"                    type="string" unique="true" />
-    <field name="ChestsKey"             type="r64" ref="Chests" />
+    <field name="ChestsKey"             type="longid" ref="Chests" />
     <field name="Key1"                  type="u64" />
     <field name="Unknown0"              type="i32" />
     <field name="Key2"                  type="u64" />

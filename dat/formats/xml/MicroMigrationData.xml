@@ -1,6 +1,6 @@
 <!-- Imported from PyPoE -->
 <format file="MicroMigrationData">
-    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" />
+    <field name="BaseItemTypesKey"      type="longid" ref="BaseItemTypes" />
     <field name="Unknown2"              type="i32" />
     <field name="Key0"                  type="u64" />
     <field name="Key1"                  type="u64" />

@@ -1,6 +1,6 @@
 <format file="NPCTextAudio.dat">
     <field name="Id"                    type="string"   unique="true" />
-    <field name="CharactersKey"         type="r64"      ref="Characters" />
+    <field name="CharactersKey"         type="longid"   ref="Characters" />
     <field name="Text"                  type="string" />
     <field name="Mono_AudioFile"        type="string"   path="ogg" />
     <field name="Stereo_AudioFile"      type="string"   since="2.1" path="ogg" />
@@ -11,5 +11,5 @@
     <field name="Unknown1"              type="i32"      since="3.12" />
     <field name="Unknown2"              type="i32"      since="3.12" />
     <field name="NPCKeys"               type="i64[]"    since="3.13" />
-    <field name="Unknown3"              type="r64"      since="3.14" /> <!-- always null -->
+    <field name="Unknown3"              type="longid"   since="3.14" /> <!-- always null -->
 </format>

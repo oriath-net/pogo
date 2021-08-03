@@ -1,8 +1,8 @@
 <!-- Imported from PyPoE -->
 <format file="GrantedEffectsPerLevel">
-    <field name="GrantedEffectsKey"     type="r64" ref="GrantedEffects" />
+    <field name="GrantedEffectsKey"     type="longid" ref="GrantedEffects" />
     <field name="Level"                 type="i32" />
-    <field name="StatsKeys"             type="r64[]" ref="Stats" />
+    <field name="StatsKeys"             type="longid[]" ref="Stats" />
     <field name="Stat1Float"            type="f32" />
     <field name="Stat2Float"            type="f32" />
     <field name="Stat3Float"            type="f32" />
@@ -12,7 +12,7 @@
     <field name="Stat7Float"            type="f32" />
     <field name="Stat8Float"            type="f32" />
     <field name="Stat9Float"            type="f32" />
-    <field name="EffectivenessCostConstantsKeys" type="r64[]" ref="EffectivenessCostConstants" />
+    <field name="EffectivenessCostConstantsKeys" type="longid[]" ref="EffectivenessCostConstants" />
     <field name="Stat1Value"            type="i32" />
     <field name="Stat2Value"            type="i32" />
     <field name="Stat3Value"            type="i32" />
@@ -32,7 +32,7 @@
     <field name="StoredUses"            type="i32" />
     <field name="Cooldown"              type="i32" />
     <field name="CooldownBypassType"    type="i32" /> <!-- Charge type to expend to bypass cooldown (Endurance, Frenzy, Power, none) -->
-    <field name="StatsKeys2"            type="r64[]" ref="Stats" /> <!-- Used with a value of one -->
+    <field name="StatsKeys2"            type="longid[]" ref="Stats" /> <!-- Used with a value of one -->
     <field name="Unknown30a"            type="bool" />
     <field name="VaalSouls"             type="i32" />
     <field name="VaalStoredUses"        type="i32" />

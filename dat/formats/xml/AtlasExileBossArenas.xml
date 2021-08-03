@@ -1,6 +1,6 @@
 <!-- Imported from PyPoE -->
 <format file="AtlasExileBossArenas">
-    <field name="AtlasExilesKey"        type="r64" ref="AtlasExiles" />
+    <field name="AtlasExilesKey"        type="longid" ref="AtlasExiles" />
     <field name="Unknown1"              type="i32" />
-    <field name="WorldAreasKey"         type="r64" ref="WorldAreas" />
+    <field name="WorldAreasKey"         type="longid" ref="WorldAreas" />
 </format>

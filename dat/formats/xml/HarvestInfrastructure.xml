@@ -1,6 +1,6 @@
 <!-- Imported from PyPoE -->
 <format file="HarvestInfrastructure">
-    <field name="HarvestObjectsKey"     type="r64" ref="HarvestObjects" unique="true" />
+    <field name="HarvestObjectsKey"     type="longid" ref="HarvestObjects" unique="true" />
     <field name="Unknown1"              type="i32" />
     <field name="Unknown2"              type="i32" />
     <field name="Unknown3"              type="i32" />
@@ -10,5 +10,5 @@
     <field name="Key3"                  type="u64" />
     <field name="Keys0"                 type="u64[]" />
     <field name="Unknown7"              type="i32" />
-    <field name="HarvestInfrastructureKey" type="r32" ref="HarvestInfrastructure" />
+    <field name="HarvestInfrastructureKey" type="shortid" ref="HarvestInfrastructure" />
 </format>

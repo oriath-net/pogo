@@ -2,7 +2,7 @@
 <format file="AddBuffToTargetVarieties">
     <field name="Key0"                  type="u64" />
     <field name="Unknown1"              type="i32[]" />
-    <field name="StatsKeys"             type="r64[]" ref="Stats" />
+    <field name="StatsKeys"             type="longid[]" ref="Stats" />
     <field name="Unknown3"              type="i32" />
     <field name="Unknown4"              type="i32[]" />
     <field name="Unknown5"              type="i32" />

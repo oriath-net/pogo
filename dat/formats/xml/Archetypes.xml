@@ -1,7 +1,7 @@
 <!-- Imported from PyPoE -->
 <format file="Archetypes">
     <field name="Id"                    type="string" />
-    <field name="CharactersKey"         type="r64" ref="Characters" />
+    <field name="CharactersKey"         type="longid" ref="Characters" />
     <field name="PassiveSkillTreeURL"   type="string" />
     <field name="AscendancyClassName"   type="string" />
     <field name="Description"           type="string" />

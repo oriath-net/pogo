@@ -7,14 +7,14 @@
     <field name="CoverImage"            type="string" /> <!-- file_path=True -->
     <field name="GodName2"              type="string" />
     <field name="SelectionImage"        type="string" /> <!-- file_path=True -->
-    <field name="Effect1_StatsKeys"     type="r64[]" ref="Stats" />
+    <field name="Effect1_StatsKeys"     type="longid[]" ref="Stats" />
     <field name="Effect1_Values"        type="i32[]" />
-    <field name="Effect2_StatsKeys"     type="r64[]" ref="Stats" />
+    <field name="Effect2_StatsKeys"     type="longid[]" ref="Stats" />
     <field name="GodName3"              type="string" />
     <field name="Effect3_Values"        type="i32[]" />
-    <field name="Effect3_StatsKeys"     type="r64[]" ref="Stats" />
+    <field name="Effect3_StatsKeys"     type="longid[]" ref="Stats" />
     <field name="GodName4"              type="string" />
-    <field name="Effect4_StatsKeys"     type="r64[]" ref="Stats" />
+    <field name="Effect4_StatsKeys"     type="longid[]" ref="Stats" />
     <field name="Effect4_Values"        type="i32[]" />
     <field name="GodName1"              type="string" />
     <field name="Effect2_Values"        type="i32[]" />

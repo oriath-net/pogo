@@ -1,6 +1,6 @@
 <!-- Imported from PyPoE -->
 <format file="AtlasExileInfluence">
-    <field name="AtlasExilesKey"        type="r64" ref="AtlasExiles" />
+    <field name="AtlasExilesKey"        type="longid" ref="AtlasExiles" />
     <field name="Unknown1"              type="i32" />
-    <field name="AtlasExileInfluenceSetsKeys" type="r64[]" ref="AtlasExileInfluenceSets" />
+    <field name="AtlasExileInfluenceSetsKeys" type="longid[]" ref="AtlasExileInfluenceSets" />
 </format>

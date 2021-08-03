@@ -1,7 +1,7 @@
 <!-- Imported from PyPoE -->
 <format file="FragmentStashTabLayout">
     <field name="Id"                    type="string" unique="true" /> <!-- file_path=True -->
-    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" />
+    <field name="BaseItemTypesKey"      type="longid" ref="BaseItemTypes" />
     <field name="PosX"                  type="i32" />
     <field name="PosY"                  type="i32" />
     <field name="Order"                 type="i32" />

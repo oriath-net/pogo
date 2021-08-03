@@ -4,10 +4,10 @@
     <field name="MinLevel"              type="i32" />
     <field name="MaxLevel"              type="i32" />
     <field name="Weight"                type="i32" />
-    <field name="TopologiesKey"         type="r64" ref="Topologies" />
-    <field name="MonsterPacksKeys"      type="r64[]" ref="MonsterPacks" />
+    <field name="TopologiesKey"         type="longid" ref="Topologies" />
+    <field name="MonsterPacksKeys"      type="longid[]" ref="MonsterPacks" />
     <field name="ArtFile"               type="string" /> <!-- file_path=True -->
     <field name="Name"                  type="string" />
-    <field name="SynthesisAreaSizeKey"  type="r64" ref="SynthesisAreaSize" />
-    <field name="AchievementItemsKey"   type="r64" ref="AchievementItems" />
+    <field name="SynthesisAreaSizeKey"  type="longid" ref="SynthesisAreaSize" />
+    <field name="AchievementItemsKey"   type="longid" ref="AchievementItems" />
 </format>

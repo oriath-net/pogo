@@ -1,9 +1,9 @@
 <!-- Imported from PyPoE -->
 <format file="SafehouseCraftingSpree">
-    <field name="BetrayalJobsKey"       type="r64" ref="BetrayalJobs" />
-    <field name="BetrayalRanksKey"      type="r64" ref="BetrayalRanks" />
+    <field name="BetrayalJobsKey"       type="longid" ref="BetrayalJobs" />
+    <field name="BetrayalRanksKey"      type="longid" ref="BetrayalRanks" />
     <field name="Currency_Values"       type="i32[]" />
     <field name="Chance"                type="i32" />
-    <field name="Currency_SafehouseCraftingSpreeCurrenciesKeys" type="r64[]" ref="SafehouseCraftingSpreeCurrencies" />
+    <field name="Currency_SafehouseCraftingSpreeCurrenciesKeys" type="longid[]" ref="SafehouseCraftingSpreeCurrencies" />
     <field name="Data0"                 type="i32[]" />
 </format>

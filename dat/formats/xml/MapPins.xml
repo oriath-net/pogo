@@ -3,8 +3,8 @@
     <field name="Id"                    type="string" unique="true" />
     <field name="PositionX"             type="i32" /> <!-- X starts at left side of image, can be negative -->
     <field name="PositionY"             type="i32" /> <!-- Y starts at top side of image, can be negative -->
-    <field name="Waypoint_WorldAreasKey" type="r64" ref="WorldAreas" />
-    <field name="WorldAreasKeys"        type="r64[]" ref="WorldAreas" />
+    <field name="Waypoint_WorldAreasKey" type="longid" ref="WorldAreas" />
+    <field name="WorldAreasKeys"        type="longid[]" ref="WorldAreas" />
     <field name="Name"                  type="string" />
     <field name="FlavourText"           type="string" />
     <field name="Data1"                 type="u32[]" />

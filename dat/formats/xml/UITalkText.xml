@@ -1,9 +1,9 @@
 <!-- Imported from PyPoE -->
 <format file="UITalkText">
     <field name="Id"                    type="string" unique="true" />
-    <field name="UITalkCategoriesKey"   type="r32" ref="UITalkCategories" /> <!-- key_offset=1 -->
+    <field name="UITalkCategoriesKey"   type="shortid" ref="UITalkCategories" /> <!-- key_offset=1 -->
     <field name="Audio"                 type="string" path="ogg" />
     <field name="Text"                  type="string" />
     <field name="Flag0"                 type="bool" /> <!-- always true -->
-    <field name="Key0"                  type="r64" /> <!-- always null -->
+    <field name="Key0"                  type="longid" /> <!-- always null -->
 </format>

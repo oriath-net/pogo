@@ -7,7 +7,7 @@
     <field name="Unknown0"              type="i32" />
     <field name="Unknown1"              type="i32" />
     <field name="Key1"                  type="u64" />
-    <field name="Completion_AchievementItemsKey" type="r64" ref="AchievementItems" />
-    <field name="OpenChests_AchievementItemsKey" type="r64" ref="AchievementItems" />
-    <field name="MissionCompletion_AcheivementItemsKey" type="r64" ref="AchievementItems" />
+    <field name="Completion_AchievementItemsKey" type="longid" ref="AchievementItems" />
+    <field name="OpenChests_AchievementItemsKey" type="longid" ref="AchievementItems" />
+    <field name="MissionCompletion_AcheivementItemsKey" type="longid" ref="AchievementItems" />
 </format>

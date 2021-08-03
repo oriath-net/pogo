@@ -5,6 +5,6 @@
     <field name="ClientJPGFile"         type="string" /> <!-- file_path=True file_ext=.jpg -->
     <field name="WebsiteText"           type="string" />
     <field name="WebsiteJPGFile"        type="string" />
-    <field name="Unknown0"              type="r32" />
-    <field name="AppliedTo_BaseItemTypesKey" type="r64" ref="BaseItemTypes" />
+    <field name="Unknown0"              type="shortid" />
+    <field name="AppliedTo_BaseItemTypesKey" type="longid" ref="BaseItemTypes" />
 </format>

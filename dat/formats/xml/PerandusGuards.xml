@@ -4,7 +4,7 @@
     <field name="Unknown1"              type="i32" />
     <field name="MinLevel"              type="i32" />
     <field name="MaxLevel"              type="i32" />
-    <field name="MonsterPacksKeys"      type="r64[]" ref="MonsterPacks" />
+    <field name="MonsterPacksKeys"      type="longid[]" ref="MonsterPacks" />
     <field name="Unknown2"              type="i32" />
     <field name="Unknown3"              type="u32[]" />
     <field name="Unknown5"              type="i32" />

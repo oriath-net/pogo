@@ -1,17 +1,17 @@
 <!-- Imported from PyPoE -->
 <format file="AtlasNode">
-    <field name="WorldAreasKey"         type="r64" ref="WorldAreas" />
-    <field name="ItemVisualIdentityKey" type="r64" ref="ItemVisualIdentity" />
+    <field name="WorldAreasKey"         type="longid" ref="WorldAreas" />
+    <field name="ItemVisualIdentityKey" type="longid" ref="ItemVisualIdentity" />
     <field name="Flag0"                 type="u8" />
-    <field name="MapsKey"               type="r64" ref="Maps" />
+    <field name="MapsKey"               type="longid" ref="Maps" />
     <field name="Unknown3"              type="i32" until="3.14" />
-    <field name="FlavourTextKey"        type="r64" ref="FlavourText" />
-    <field name="AtlasRegionsKey"       type="r64" ref="AtlasRegions" />
-    <field name="AtlasNodeKeys0"        type="r32[]" ref="AtlasNode" />
-    <field name="AtlasNodeKeys1"        type="r32[]" ref="AtlasNode" />
-    <field name="AtlasNodeKeys2"        type="r32[]" ref="AtlasNode" />
-    <field name="AtlasNodeKeys3"        type="r32[]" ref="AtlasNode" />
-    <field name="AtlasNodeKeys4"        type="r32[]" ref="AtlasNode" />
+    <field name="FlavourTextKey"        type="longid" ref="FlavourText" />
+    <field name="AtlasRegionsKey"       type="longid" ref="AtlasRegions" />
+    <field name="AtlasNodeKeys0"        type="shortid[]" ref="AtlasNode" />
+    <field name="AtlasNodeKeys1"        type="shortid[]" ref="AtlasNode" />
+    <field name="AtlasNodeKeys2"        type="shortid[]" ref="AtlasNode" />
+    <field name="AtlasNodeKeys3"        type="shortid[]" ref="AtlasNode" />
+    <field name="AtlasNodeKeys4"        type="shortid[]" ref="AtlasNode" />
     <field name="Tier0"                 type="i32" />
     <field name="Tier1"                 type="i32" />
     <field name="Tier2"                 type="i32" />

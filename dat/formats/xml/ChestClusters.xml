@@ -1,7 +1,7 @@
 <!-- Imported from PyPoE -->
 <format file="ChestClusters">
     <field name="Id"                    type="string" unique="true" /> <!-- file_path=True -->
-    <field name="ChestsKeys"            type="r64[]" ref="Chests" />
+    <field name="ChestsKeys"            type="longid[]" ref="Chests" />
     <field name="Data1"                 type="u32[]" />
     <field name="Unknown3"              type="i32" />
     <field name="Unknown4"              type="i32" />

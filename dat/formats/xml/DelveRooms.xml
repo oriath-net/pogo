@@ -1,6 +1,6 @@
 <!-- Imported from PyPoE -->
 <format file="DelveRooms">
-    <field name="DelveBiomesKey"        type="r64" ref="DelveBiomes" />
-    <field name="DelveFeaturesKey"      type="r64" ref="DelveFeatures" />
+    <field name="DelveBiomesKey"        type="longid" ref="DelveBiomes" />
+    <field name="DelveFeaturesKey"      type="longid" ref="DelveFeatures" />
     <field name="ARMFile"               type="string" /> <!-- file_path=True file_ext=.arm -->
 </format>

@@ -1,6 +1,6 @@
 <!-- Imported from PyPoE -->
 <format file="MetamorphosisMetaMonsters">
-    <field name="MonsterVarietiesKey"   type="r64" ref="MonsterVarieties" />
+    <field name="MonsterVarietiesKey"   type="longid" ref="MonsterVarieties" />
     <field name="Unknown_Keys"          type="u64[]" />
     <field name="Unknown_Values"        type="i32[]" />
     <field name="Name"                  type="string" />

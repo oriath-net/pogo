@@ -1,7 +1,7 @@
 <!-- Imported from PyPoE -->
 <format file="LabyrinthIzaroChests">
     <field name="Id"                    type="string" unique="true" /> <!-- file_path=True -->
-    <field name="ChestsKey"             type="r64" ref="Chests" />
+    <field name="ChestsKey"             type="longid" ref="Chests" />
     <field name="SpawnWeight"           type="i32" />
     <field name="MinLabyrinthTier"      type="i32" />
     <field name="MaxLabyrinthTier"      type="i32" />

@@ -7,8 +7,8 @@
     <field name="Evasion"               type="i32" /> <!-- display=Evasion? -->
     <field name="EnergyShieldFromLife"  type="i32" />
     <field name="DamageSpread"          type="i32" />
-    <field name="TagsKeys"              type="r64[]" ref="Tags" />
-    <field name="MonsterResistancesKey" type="r64" ref="MonsterResistances" />
+    <field name="TagsKeys"              type="longid[]" ref="Tags" />
+    <field name="MonsterResistancesKey" type="longid" ref="MonsterResistances" />
     <field name="IsLargeAbyssMonster"   type="bool" />
     <field name="IsSmallAbyssMonster"   type="bool" />
 </format>

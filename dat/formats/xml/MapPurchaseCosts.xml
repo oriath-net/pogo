@@ -1,12 +1,12 @@
 <!-- Imported from PyPoE -->
 <format file="MapPurchaseCosts">
     <field name="Tier"                  type="i32" unique="true" />
-    <field name="NormalPurchase_BaseItemTypesKeys" type="r64[]" ref="BaseItemTypes" />
+    <field name="NormalPurchase_BaseItemTypesKeys" type="longid[]" ref="BaseItemTypes" />
     <field name="NormalPurchase_Costs"  type="i32[]" />
-    <field name="MagicPurchase_BaseItemTypesKeys" type="r64[]" ref="BaseItemTypes" />
+    <field name="MagicPurchase_BaseItemTypesKeys" type="longid[]" ref="BaseItemTypes" />
     <field name="MagicPurchase_Costs"   type="i32[]" />
-    <field name="RarePurchase_BaseItemTypesKeys" type="r64[]" ref="BaseItemTypes" />
+    <field name="RarePurchase_BaseItemTypesKeys" type="longid[]" ref="BaseItemTypes" />
     <field name="RarePurchase_Costs"    type="i32[]" />
-    <field name="UniquePurchase_BaseItemTypesKeys" type="r64[]" ref="BaseItemTypes" />
+    <field name="UniquePurchase_BaseItemTypesKeys" type="longid[]" ref="BaseItemTypes" />
     <field name="UniquePurchase_Costs"  type="i32[]" />
 </format>

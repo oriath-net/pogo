@@ -1,6 +1,6 @@
 <!-- Imported from PyPoE -->
 <format file="AtlasExileInfluenceData">
-    <field name="AtlasExileInfluenceOutcomeTypesKey" type="r64" ref="AtlasExileInfluenceOutcomeTypes" />
+    <field name="AtlasExileInfluenceOutcomeTypesKey" type="longid" ref="AtlasExileInfluenceOutcomeTypes" />
     <field name="Unknown1"              type="u64[]" />
     <field name="Unknown2"              type="u64" />
     <field name="Unknown3"              type="u64[]" />

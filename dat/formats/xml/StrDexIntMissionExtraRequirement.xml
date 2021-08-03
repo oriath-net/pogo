@@ -8,7 +8,7 @@
     <field name="HasTimeBonusPerKill"   type="bool" />
     <field name="HasTimeBonusPerObjectTagged" type="bool" />
     <field name="HasLimitedPortals"     type="bool" />
-    <field name="NPCTalkKey"            type="r64" ref="NPCTalk" />
+    <field name="NPCTalkKey"            type="longid" ref="NPCTalk" />
     <field name="TimeLimitBonusFromObjective" type="i32" /> <!-- in milliseconds -->
     <field name="ObjectCount"           type="i32" />
     <field name="Data0"                 type="i32[]" />

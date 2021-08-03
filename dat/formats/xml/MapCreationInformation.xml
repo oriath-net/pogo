@@ -1,5 +1,5 @@
 <!-- Imported from PyPoE -->
 <format file="MapCreationInformation">
-    <field name="MapsKey"               type="r64" ref="Maps" />
+    <field name="MapsKey"               type="longid" ref="Maps" />
     <field name="Tier"                  type="i32" />
 </format>

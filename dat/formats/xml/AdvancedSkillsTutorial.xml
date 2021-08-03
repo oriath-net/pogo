@@ -7,5 +7,5 @@
     <field name="International_BK2File" type="string" /> <!-- file_path=True file_ext=.bk2 -->
     <field name="Key0"                  type="u64" />
     <field name="China_BK2File"         type="string" /> <!-- file_path=True file_ext=.bk2 -->
-    <field name="CharactersKey"         type="r64[]" ref="Characters" />
+    <field name="CharactersKey"         type="longid[]" ref="Characters" />
 </format>

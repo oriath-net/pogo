@@ -9,9 +9,9 @@
     <field name="Tier"                  type="string" />
     <field name="Radius"                type="i32" />
     <field name="Unknown8"              type="i32" />
-    <field name="SpendResourceAchievementItemsKey" type="r64" ref="AchievementItems" />
-    <field name="StatsKey"              type="r64" ref="Stats" />
-    <field name="StatsKeys"             type="r64[]" ref="Stats" />
+    <field name="SpendResourceAchievementItemsKey" type="longid" ref="AchievementItems" />
+    <field name="StatsKey"              type="longid" ref="Stats" />
+    <field name="StatsKeys"             type="longid[]" ref="Stats" />
     <field name="Keys0"                 type="u64[]" />
     <field name="Flag0"                 type="bool" />
 </format>

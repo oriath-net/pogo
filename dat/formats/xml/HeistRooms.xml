@@ -1,6 +1,6 @@
 <!-- Imported from PyPoE -->
 <format file="HeistRooms">
-    <field name="HeistJobsKey"          type="r64" ref="HeistJobs" />
+    <field name="HeistJobsKey"          type="longid" ref="HeistJobs" />
     <field name="Id"                    type="i32" />
     <field name="ARMFile"               type="string" /> <!-- file_path=True file_ext=.arm -->
     <field name="Key0"                  type="u64" />

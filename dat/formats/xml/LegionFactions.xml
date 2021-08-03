@@ -9,10 +9,10 @@
     <field name="Key2"                  type="u64" />
     <field name="Key3"                  type="u64" />
     <field name="Key4"                  type="u64" />
-    <field name="AchievementItemsKeys1" type="r64[]" ref="AchievementItems" />
+    <field name="AchievementItemsKeys1" type="longid[]" ref="AchievementItems" />
     <field name="Key5"                  type="u64" />
     <field name="Key6"                  type="u64" />
     <field name="Unknown12"             type="f32" />
     <field name="Unknown13"             type="f32" />
-    <field name="AchievementItemsKeys2" type="r64[]" ref="AchievementItems" />
+    <field name="AchievementItemsKeys2" type="longid[]" ref="AchievementItems" />
 </format>

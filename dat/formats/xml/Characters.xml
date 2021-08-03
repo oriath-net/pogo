@@ -17,15 +17,15 @@
     <field name="BaseIntelligence"      type="i32" />
     <field name="Keys0"                 type="u64[]" />
     <field name="Description"           type="string" />
-    <field name="StartSkillGem_SkillGemsKey" type="r64" ref="SkillGems" />
+    <field name="StartSkillGem_SkillGemsKey" type="longid" ref="SkillGems" />
     <field name="Unknown13"             type="i32" />
     <field name="Unknown14"             type="i32" />
     <field name="Unknown15"             type="i32" />
     <field name="Unknown16"             type="i32" />
     <field name="CharacterSize"         type="i32" />
     <field name="IntroSoundFile"        type="string" /> <!-- file_path=True file_ext=.ogg -->
-    <field name="StartWeapon_BaseItemTypesKey" type="r64" ref="BaseItemTypes" />
-    <field name="Unknown27"             type="r32" />
+    <field name="StartWeapon_BaseItemTypesKey" type="longid" ref="BaseItemTypes" />
+    <field name="Unknown27"             type="shortid" />
     <field name="TraitDescription"      type="string" />
     <field name="Key0"                  type="u64" />
     <field name="Key1"                  type="u64" />

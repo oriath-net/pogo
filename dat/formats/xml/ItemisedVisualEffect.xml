@@ -1,9 +1,9 @@
 <!-- Imported from PyPoE -->
 <format file="ItemisedVisualEffect">
-    <field name="BaseItemTypesKey"      type="r64" ref="BaseItemTypes" />
-    <field name="ItemVisualEffectKey"   type="r64" ref="ItemVisualEffect" />
-    <field name="ItemVisualIdentityKey1" type="r64" ref="ItemVisualIdentity" />
-    <field name="ItemVisualIdentityKey2" type="r64" ref="ItemVisualIdentity" />
+    <field name="BaseItemTypesKey"      type="longid" ref="BaseItemTypes" />
+    <field name="ItemVisualEffectKey"   type="longid" ref="ItemVisualEffect" />
+    <field name="ItemVisualIdentityKey1" type="longid" ref="ItemVisualIdentity" />
+    <field name="ItemVisualIdentityKey2" type="longid" ref="ItemVisualIdentity" />
     <field name="Keys0"                 type="u64[]" />
     <field name="Data1"                 type="u32[]" />
     <field name="Keys2"                 type="u64[]" />

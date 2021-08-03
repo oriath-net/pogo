@@ -3,9 +3,9 @@
     <field name="Id"                    type="string" unique="true" />
     <field name="Name"                  type="string" />
     <field name="SpawnWeight"           type="i32[]" />
-    <field name="WorldAreasKey"         type="r64" ref="WorldAreas" />
+    <field name="WorldAreasKey"         type="longid" ref="WorldAreas" />
     <field name="Image"                 type="string" /> <!-- file_path=True -->
-    <field name="AchievementItemsKeys"  type="r64[]" ref="AchievementItems" />
+    <field name="AchievementItemsKeys"  type="longid[]" ref="AchievementItems" />
     <field name="MinTier"               type="i32" />
     <field name="Type"                  type="string" />
     <field name="MinDepth"              type="i32[]" />

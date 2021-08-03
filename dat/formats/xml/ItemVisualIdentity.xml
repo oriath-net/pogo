@@ -3,7 +3,7 @@
     <field name="Id"                    type="string" unique="true" />
     <field name="DDSFile"               type="string" /> <!-- file_path=True file_ext=.dds -->
     <field name="AOFile"                type="string" /> <!-- file_path=True file_ext=.ao -->
-    <field name="SoundEffectsKey"       type="r64" ref="SoundEffects" /> <!-- Inventory sound effect -->
+    <field name="SoundEffectsKey"       type="longid" ref="SoundEffects" /> <!-- Inventory sound effect -->
     <field name="UnknownUniqueInt"      type="i32" unique="true" />
     <field name="AOFile2"               type="string" /> <!-- file_path=True file_ext=.ao -->
     <field name="MarauderSMFiles"       type="string[]" /> <!-- file_path=True file_ext=.sm -->
@@ -22,14 +22,14 @@
     <field name="ScionShape"            type="string" />
     <field name="Unknown0"              type="i32" />
     <field name="Unknown1"              type="i32" />
-    <field name="Pickup_AchievementItemsKeys" type="r64[]" ref="AchievementItems" />
+    <field name="Pickup_AchievementItemsKeys" type="longid[]" ref="AchievementItems" />
     <field name="SMFiles"               type="string[]" /> <!-- file_path=True file_ext=.sm -->
-    <field name="Identify_AchievementItemsKeys" type="r64[]" ref="AchievementItems" />
+    <field name="Identify_AchievementItemsKeys" type="longid[]" ref="AchievementItems" />
     <field name="EPKFile"               type="string" /> <!-- file_path=True file_ext=.epk -->
-    <field name="Corrupt_AchievementItemsKeys" type="r64[]" ref="AchievementItems" />
+    <field name="Corrupt_AchievementItemsKeys" type="longid[]" ref="AchievementItems" />
     <field name="IsAlternateArt"        type="bool" />
     <field name="Flag2"                 type="bool" />
-    <field name="CreateCorruptedJewelAchievementItemsKey" type="r64" ref="AchievementItems" />
+    <field name="CreateCorruptedJewelAchievementItemsKey" type="longid" ref="AchievementItems" />
     <field name="AnimationLocation"     type="string" />
     <field name="Unknown2"              type="string" />
     <field name="Unknown3"              type="string" />
