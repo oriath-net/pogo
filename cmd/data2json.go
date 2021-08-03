@@ -63,7 +63,8 @@ func do_data2json(c *cli.Context) error {
 		return err
 	}
 
-	rows, err := p.Parse(f, path.Base(dat_path))
+	_, filename := poefs.SplitPath(dat_path)
+	rows, err := p.Parse(f, path.Base(filename))
 	if err != nil {
 		return err
 	}

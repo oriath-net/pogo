@@ -54,7 +54,7 @@ func do_ls(c *cli.Context) error {
 	long := c.Bool("long")
 	recurse := c.Bool("recurse")
 
-	fs.WalkDir(srcFs, localPath, func(path string, d fs.DirEntry, err error) error {
+	err := fs.WalkDir(srcFs, localPath, func(path string, d fs.DirEntry, err error) error {
 		if d == nil {
 			log.Fatalf("%s doesn't exist", path)
 		}
@@ -97,6 +97,9 @@ func do_ls(c *cli.Context) error {
 		}
 		return nil
 	})
+	if err != nil {
+		log.Fatal(err)
+	}
 
 	return nil
 }

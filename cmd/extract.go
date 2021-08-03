@@ -69,7 +69,7 @@ func do_extract(c *cli.Context) error {
 	include := c.StringSlice("include")
 	exclude := c.StringSlice("exclude")
 
-	fs.WalkDir(srcFs, localPath, func(p string, d fs.DirEntry, err error) error {
+	err = fs.WalkDir(srcFs, localPath, func(p string, d fs.DirEntry, err error) error {
 		if d == nil {
 			log.Fatalf("%s doesn't exist", p)
 		}
@@ -131,6 +131,9 @@ func do_extract(c *cli.Context) error {
 
 		return nil
 	})
+	if err != nil {
+		log.Fatal(err)
+	}
 
 	/*
 		f.IterateBundledFiles(prefix, func(p string) error {
