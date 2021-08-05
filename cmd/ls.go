@@ -1,10 +1,13 @@
 package cmd
 
 import (
+	"encoding/hex"
+	"encoding/json"
 	"fmt"
 	"io/fs"
 	"log"
 	"os"
+	"path/filepath"
 
 	"github.com/oriath-net/pogo/poefs"
 
@@ -24,6 +27,17 @@ var Ls = cli.Command{
 		},
 
 		&cli.BoolFlag{
+			Name:    "longer",
+			Aliases: []string{"ll"},
+			Usage:   "Include way too much information in the listing",
+		},
+
+		&cli.BoolFlag{
+			Name:  "json",
+			Usage: "JSON output for nerds",
+		},
+
+		&cli.BoolFlag{
 			Name:    "recurse",
 			Aliases: []string{"R"},
 			Usage:   "Recurse into subdirectories",
@@ -31,6 +45,14 @@ var Ls = cli.Command{
 	},
 
 	Action: do_ls,
+}
+
+type jsonOutput struct {
+	Name   string `json:"name"`
+	IsDir  bool   `json:"isdir"`
+	Size   int64  `json:"size"`
+	Source string `json:"source"`
+	Sha256 string `json:"sha256,omitempty"`
 }
 
 func do_ls(c *cli.Context) error {
@@ -42,7 +64,12 @@ func do_ls(c *cli.Context) error {
 
 	var srcFs fs.FS
 	if srcPath == "" {
-		srcFs = os.DirFS(".")
+		if filepath.IsAbs(localPath) {
+			srcFs = os.DirFS("/")
+			localPath = localPath[1:]
+		} else {
+			srcFs = os.DirFS(".")
+		}
 	} else {
 		var err error
 		srcFs, err = poefs.Open(srcPath)
@@ -51,16 +78,18 @@ func do_ls(c *cli.Context) error {
 		}
 	}
 
-	long := c.Bool("long")
+	doJson := c.Bool("json")
+	longer := c.Bool("longer")
+	long := longer || c.Bool("long")
 	recurse := c.Bool("recurse")
 
 	err := fs.WalkDir(srcFs, localPath, func(path string, d fs.DirEntry, err error) error {
-		if d == nil {
-			log.Fatalf("%s doesn't exist", path)
-		}
-
 		if err != nil {
 			return err
+		}
+
+		if d == nil {
+			log.Fatalf("%s doesn't exist", path)
 		}
 
 		di, err := d.Info()
@@ -68,13 +97,24 @@ func do_ls(c *cli.Context) error {
 			return err
 		}
 
-		if !long {
-			if di.IsDir() {
-				fmt.Println(path + "/")
-			} else {
-				fmt.Println(path)
+		if doJson {
+			jout := jsonOutput{
+				Name:  path,
+				IsDir: di.IsDir(),
+				Size:  di.Size(),
 			}
-		} else {
+			if se, ok := di.(poefs.StatExtensions); ok {
+				jout.Source = se.Provenance()
+				if sig := se.Signature(); sig != nil {
+					jout.Sha256 = hex.EncodeToString(sig)
+				}
+			}
+			jdata, err := json.Marshal(jout)
+			if err != nil {
+				panic(err)
+			}
+			fmt.Println(string(jdata))
+		} else if long {
 			if di.IsDir() {
 				fmt.Printf(
 					"%s %12s %s\n",
@@ -89,6 +129,21 @@ func do_ls(c *cli.Context) error {
 					di.Size(),
 					path,
 				)
+			}
+			if longer {
+				if se, ok := di.(poefs.StatExtensions); ok {
+					fmt.Printf("%14s %s\n", "src =", se.Provenance())
+					if sig := se.Signature(); sig != nil {
+						fmt.Printf("%14s %s\n", "sha256 =", hex.EncodeToString(sig))
+					}
+					fmt.Println("")
+				}
+			}
+		} else {
+			if di.IsDir() {
+				fmt.Println(path + "/")
+			} else {
+				fmt.Println(path)
 			}
 		}
 

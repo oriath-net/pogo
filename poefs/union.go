@@ -4,7 +4,10 @@ import (
 	"errors"
 	"io"
 	"io/fs"
+	"log"
 	"os"
+	"path"
+	"sort"
 	"time"
 )
 
@@ -62,7 +65,7 @@ func (udir *unionFSMergedDirectory) Read([]byte) (int, error) {
 }
 
 func (udir *unionFSMergedDirectory) Stat() (fs.FileInfo, error) {
-	return &unionFSMergedDirectoryStat{udir}, nil
+	return &unionFSMergedDirectoryStat{path.Base(udir.path)}, nil
 }
 
 func (udir *unionFSMergedDirectory) Close() error {
@@ -90,6 +93,27 @@ func (udir *unionFSMergedDirectory) ReadDir(n int) ([]fs.DirEntry, error) {
 		dirents = append(dirents, ents...)
 	}
 
+	sort.SliceStable(dirents, func(i, j int) bool {
+		return dirents[i].Name() < dirents[j].Name()
+	})
+
+	uniqDirents := make([]fs.DirEntry, 0, len(dirents))
+	for i := 0; i < len(dirents); i++ {
+		if i+1 < len(dirents) && dirents[i].Name() == dirents[i+1].Name() {
+			de1, de2 := dirents[i], dirents[i+1]
+			i += 1
+			if de1.IsDir() && de2.IsDir() {
+				uniqDirents = append(uniqDirents, &unionFSMergedDirectoryStat{de1.Name()})
+			} else {
+				log.Fatalf("Directory %s contains multiple non-unifiable files named %s", udir.path, de1.Name())
+			}
+			continue
+		}
+		uniqDirents = append(uniqDirents, dirents[i])
+	}
+
+	dirents = uniqDirents
+
 	if n <= 0 {
 		udir.offset = 0
 		return dirents, nil
@@ -106,11 +130,11 @@ func (udir *unionFSMergedDirectory) ReadDir(n int) ([]fs.DirEntry, error) {
 }
 
 type unionFSMergedDirectoryStat struct {
-	*unionFSMergedDirectory
+	name string
 }
 
 func (uds *unionFSMergedDirectoryStat) Name() string {
-	return uds.path
+	return uds.name
 }
 
 func (uds *unionFSMergedDirectoryStat) Size() int64 {
@@ -131,4 +155,20 @@ func (uds *unionFSMergedDirectoryStat) IsDir() bool {
 
 func (uds *unionFSMergedDirectoryStat) Sys() interface{} {
 	return nil
+}
+
+func (uds *unionFSMergedDirectoryStat) Provenance() string {
+	return "union"
+}
+
+func (uds *unionFSMergedDirectoryStat) Signature() []byte {
+	return nil
+}
+
+func (uds *unionFSMergedDirectoryStat) Type() fs.FileMode {
+	return uds.Mode()
+}
+
+func (uds *unionFSMergedDirectoryStat) Info() (fs.FileInfo, error) {
+	return uds, nil
 }

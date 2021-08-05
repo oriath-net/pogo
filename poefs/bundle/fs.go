@@ -151,21 +151,21 @@ func (bff *bundleFsFile) Close() error {
 }
 
 func (bff *bundleFsFile) Stat() (fs.FileInfo, error) {
-	return &bundleFsFileInfo{bff.info}, nil
+	return &bundleFsFileInfo{bff}, nil
 }
 
 // bundleFsFileInfo
 
 type bundleFsFileInfo struct {
-	*bundleFileInfo
+	*bundleFsFile
 }
 
 func (bffi bundleFsFileInfo) Name() string {
-	return path.Base(bffi.path)
+	return path.Base(bffi.info.path)
 }
 
 func (bffi bundleFsFileInfo) Size() int64 {
-	return int64(bffi.size)
+	return int64(bffi.info.size)
 }
 
 func (bffi bundleFsFileInfo) Mode() fs.FileMode {
@@ -181,6 +181,14 @@ func (bffi bundleFsFileInfo) IsDir() bool {
 }
 
 func (bffi bundleFsFileInfo) Sys() interface{} {
+	return nil
+}
+
+func (bffi bundleFsFileInfo) Provenance() string {
+	return fmt.Sprintf("bundle %s + %x", bffi.fs.index.bundles[bffi.info.bundleId], bffi.info.offset)
+}
+
+func (bffi bundleFsFileInfo) Signature() []byte {
 	return nil
 }
 
@@ -220,9 +228,8 @@ func (bfd *bundleFsDir) ReadDir(n int) ([]fs.DirEntry, error) {
 		if slashIdx != -1 {
 			dir := fi.path[:prefixLen+slashIdx]
 			dirents = append(dirents, &bundleFsDirEnt{
-				fs:     bfd.fs,
-				offset: -1,
-				path:   dir,
+				fs:   bfd.fs,
+				path: dir,
 			})
 			next := bfd.offset + sort.Search(len(files)-bfd.offset, func(i int) bool {
 				return files[bfd.offset+i].path >= dir+"/\xff"
@@ -231,9 +238,13 @@ func (bfd *bundleFsDir) ReadDir(n int) ([]fs.DirEntry, error) {
 
 		} else {
 			dirents = append(dirents, &bundleFsDirEnt{
-				fs:     bfd.fs,
-				offset: bfd.offset,
-				path:   fi.path,
+				fs:   bfd.fs,
+				path: fi.path,
+				file: &bundleFsFile{
+					fs:     bfd.fs,
+					info:   fi,
+					reader: nil, // not needed here
+				},
 			})
 			bfd.offset += 1
 		}
@@ -284,12 +295,20 @@ func (bfdi bundleFsDirInfo) Sys() interface{} {
 	return nil
 }
 
+func (bfdi bundleFsDirInfo) Provenance() string {
+	return "bundle dir"
+}
+
+func (bfdi bundleFsDirInfo) Signature() []byte {
+	return nil
+}
+
 // bundleFsDirEnt
 
 type bundleFsDirEnt struct {
-	fs     *bundleFS
-	offset int // -1 for virtual dir
-	path   string
+	fs   *bundleFS
+	path string
+	file *bundleFsFile
 }
 
 func (bfde *bundleFsDirEnt) Name() string {
@@ -297,7 +316,7 @@ func (bfde *bundleFsDirEnt) Name() string {
 }
 
 func (bfde *bundleFsDirEnt) IsDir() bool {
-	return bfde.offset < 0
+	return bfde.file == nil
 }
 
 func (bfde *bundleFsDirEnt) Type() fs.FileMode {
@@ -318,8 +337,6 @@ func (bfde *bundleFsDirEnt) Info() (fs.FileInfo, error) {
 			},
 		}, nil
 	} else {
-		return &bundleFsFileInfo{
-			&bfde.fs.index.files[bfde.offset],
-		}, nil
+		return &bundleFsFileInfo{bfde.file}, nil
 	}
 }

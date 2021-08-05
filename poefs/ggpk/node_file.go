@@ -12,6 +12,7 @@ import (
 type fileNode struct {
 	src        *ggpkFS
 	name       string
+	signature  []byte
 	dataOffset int64
 	dataLength int64
 }
@@ -22,15 +23,22 @@ func (n *fileNode) Name() string {
 
 func (g *ggpkFS) newFileNode(data []byte, offset int64, length uint32) (*fileNode, error) {
 	if len(data) < 36 {
-		return nil, errNodeWrongLength
+		return nil, errNodeTooShort
 	}
 
 	nameLength := int(binary.LittleEndian.Uint32(data[0:]))
-	// and a 32 byte signature
+	signature := data[4:36]
 
 	headerLength := 36 + g.sizeofChars(nameLength)
-	if int(length) < headerLength {
-		return nil, errNodeWrongLength
+	if headerLength > int(length) {
+		return nil, errNodeTooShort
+	}
+	if len(data) < headerLength {
+		data = make([]byte, headerLength)
+		_, err := g.file.ReadAt(data, offset)
+		if err != nil {
+			return nil, err
+		}
 	}
 
 	br := bytes.NewReader(data[36:])
@@ -42,6 +50,7 @@ func (g *ggpkFS) newFileNode(data []byte, offset int64, length uint32) (*fileNod
 	n := &fileNode{
 		src:        g,
 		name:       name,
+		signature:  signature,
 		dataOffset: offset + int64(headerLength),
 		dataLength: int64(length) - int64(headerLength),
 	}
@@ -51,8 +60,7 @@ func (g *ggpkFS) newFileNode(data []byte, offset int64, length uint32) (*fileNod
 
 func (n *fileNode) Reader() (fs.File, error) {
 	return &fsFileNode{
-		n.name,
-		n.dataLength,
+		n,
 		io.NewSectionReader(
 			n.src.file,
 			n.dataOffset,
@@ -64,8 +72,7 @@ func (n *fileNode) Reader() (fs.File, error) {
 // fsFileNode
 
 type fsFileNode struct {
-	name   string
-	length int64
+	src *fileNode
 	*io.SectionReader
 }
 
@@ -84,11 +91,11 @@ type fsFileNodeStat struct {
 }
 
 func (ffs *fsFileNodeStat) Name() string {
-	return ffs.name
+	return ffs.src.name
 }
 
 func (ffs *fsFileNodeStat) Size() int64 {
-	return ffs.length
+	return ffs.src.dataLength
 }
 
 func (ffs *fsFileNodeStat) Mode() fs.FileMode {
@@ -105,4 +112,12 @@ func (ffi *fsFileNodeStat) IsDir() bool {
 
 func (ffi *fsFileNodeStat) Sys() interface{} {
 	return nil
+}
+
+func (ffi *fsFileNodeStat) Provenance() string {
+	return "GGPK"
+}
+
+func (ffi *fsFileNodeStat) Signature() []byte {
+	return ffi.src.signature
 }

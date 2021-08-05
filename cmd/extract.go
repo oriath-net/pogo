@@ -70,12 +70,12 @@ func do_extract(c *cli.Context) error {
 	exclude := c.StringSlice("exclude")
 
 	err = fs.WalkDir(srcFs, localPath, func(p string, d fs.DirEntry, err error) error {
-		if d == nil {
-			log.Fatalf("%s doesn't exist", p)
-		}
-
 		if err != nil {
 			return err
+		}
+
+		if d == nil {
+			log.Fatalf("%s doesn't exist", p)
 		}
 
 		di, err := d.Info()

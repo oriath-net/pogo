@@ -18,7 +18,7 @@ func (n ggpkNode) Name() string {
 
 func (g *ggpkFS) newGgpkNode(data []byte, offset int64, length uint32) (*ggpkNode, error) {
 	if len(data) != 20 {
-		return nil, errNodeWrongLength
+		return nil, errNodeTooShort
 	}
 
 	return &ggpkNode{

@@ -12,13 +12,13 @@ type anyNode interface {
 }
 
 var (
-	errNodeWrongLength = errors.New("node has invalid length")
+	errNodeTooShort = errors.New("node too small")
 )
 
 func (g *ggpkFS) getNodeAt(offset int64) (anyNode, error) {
 	// long enough to fully read all node headers, hopefully long enough for
 	// the filename in a FILE or PDIR node as well
-	data := make([]byte, 256) // FIXME: FILE/PDIR need to support longer reads
+	data := make([]byte, 256)
 
 	n, err := g.file.ReadAt(data, offset)
 	if err != nil && (n < 8 || err != io.EOF) {

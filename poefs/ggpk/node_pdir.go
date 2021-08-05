@@ -10,9 +10,10 @@ import (
 )
 
 type pdirNode struct {
-	src      *ggpkFS
-	name     string
-	children []pdirChild
+	src       *ggpkFS
+	name      string
+	signature []byte
+	children  []pdirChild
 }
 
 type pdirChild struct {
@@ -26,18 +27,18 @@ func (n *pdirNode) Name() string {
 
 func (g *ggpkFS) newPdirNode(data []byte, offset int64, length uint32) (*pdirNode, error) {
 	if len(data) < 40 {
-		return nil, errNodeWrongLength
+		return nil, errNodeTooShort
 	}
 
 	nameLength := int(binary.LittleEndian.Uint32(data[0:]))
 	childCount := int(binary.LittleEndian.Uint32(data[4:]))
-	// there's also a 32-byte signature we don't care about for now
+	signature := data[8:40]
 
 	if int(length) != 40+g.sizeofChars(nameLength)+12*childCount {
-		return nil, errNodeWrongLength
+		return nil, errNodeTooShort
 	}
 
-	if int(length) != len(data) {
+	if len(data) < int(length) {
 		data = make([]byte, length)
 		_, err := g.file.ReadAt(data, offset)
 		if err != nil {
@@ -52,9 +53,10 @@ func (g *ggpkFS) newPdirNode(data []byte, offset int64, length uint32) (*pdirNod
 	}
 
 	n := &pdirNode{
-		src:      g,
-		name:     name,
-		children: make([]pdirChild, childCount),
+		src:       g,
+		name:      name,
+		signature: signature,
+		children:  make([]pdirChild, childCount),
 	}
 
 	for i := range n.children {
@@ -71,8 +73,6 @@ func (g *ggpkFS) newPdirNode(data []byte, offset int64, length uint32) (*pdirNod
 			hash:   tmp.Hash,
 		}
 	}
-
-	// FIXME: check if br reached end?
 
 	return n, nil
 }
@@ -220,4 +220,12 @@ func (ffi *fsPdirNodeStat) IsDir() bool {
 
 func (ffi *fsPdirNodeStat) Sys() interface{} {
 	return nil
+}
+
+func (ffi *fsPdirNodeStat) Provenance() string {
+	return "GGPK"
+}
+
+func (ffi *fsPdirNodeStat) Signature() []byte {
+	return ffi.signature
 }
