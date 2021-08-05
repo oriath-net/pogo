@@ -25,7 +25,11 @@ var Data2json = cli.Command{
 		},
 		&cli.BoolFlag{
 			Name:  "debug",
-			Usage: "Enable format debugging log messages",
+			Usage: "Display warnings while parsing data",
+		},
+		&cli.BoolFlag{
+			Name:  "verbose-debug",
+			Usage: "Display insanely verbose debugging messages",
 		},
 		&cli.StringFlag{
 			Name:        "version",
@@ -44,8 +48,10 @@ func do_data2json(c *cli.Context) error {
 	}
 
 	p := dat.InitParser(vers)
-	if c.Bool("debug") {
-		p.EnableDebug()
+	if c.Bool("verbose-debug") {
+		p.SetDebug(2)
+	} else if c.Bool("debug") {
+		p.SetDebug(1)
 	}
 
 	fmtDir := c.String("fmt")

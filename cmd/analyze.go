@@ -113,13 +113,7 @@ func do_analyze(c *cli.Context) error {
 		fmt.Printf("%6s: %s\n", "MAX", hexdump(colMax))
 
 		fmt.Printf("\n\nVariable data:\n")
-		if len(varData) > 8 {
-			analyzeStrings(varData)
-		} else {
-			dumper := hex.Dumper(os.Stdout)
-			dumper.Write(varData)
-			dumper.Close()
-		}
+		analyzeStrings(varData)
 
 		fmt.Println("")
 	}
@@ -131,14 +125,12 @@ func hexdump(data []byte) string {
 	if len(data) == 0 {
 		return "(empty)"
 	}
-	s := make([]byte, 3*len(data))
+	s := ""
 	h := hex.EncodeToString(data)
 	for i := range data {
-		s[i*3] = h[i*2]
-		s[i*3+1] = h[i*2+1]
-		s[i*3+2] = ' '
+		s += h[i*2:i*2+2] + " "
 	}
-	return string(s[:len(s)-1])
+	return s[:len(s)-1]
 }
 
 func analyzeStrings(data []byte) {
@@ -160,7 +152,9 @@ func analyzeStrings(data []byte) {
 	}
 
 	if lastStringEnd < 0 {
-		fmt.Println("No strings found")
+		dumper := hex.Dumper(os.Stdout)
+		dumper.Write(data)
+		dumper.Close()
 	} else if p > lastStringEnd {
 		fmt.Printf("%06x: %s\n", lastStringEnd, hexdump(data[lastStringEnd:]))
 	}
