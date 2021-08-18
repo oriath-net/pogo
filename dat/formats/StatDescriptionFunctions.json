@@ -1,0 +1,15 @@
+{
+  "file": "StatDescriptionFunctions",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "TranslationId",
+      "type": "string",
+      "unique": true
+    }
+  ]
+}

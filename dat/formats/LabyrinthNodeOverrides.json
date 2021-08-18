@@ -1,0 +1,21 @@
+{
+  "file": "LabyrinthNodeOverrides",
+  "fields": [
+    {
+      "name": "Id1",
+      "type": "string"
+    },
+    {
+      "name": "Id2",
+      "type": "string"
+    },
+    {
+      "name": "Data1",
+      "type": "i32[]"
+    },
+    {
+      "name": "Data2",
+      "type": "i32[]"
+    }
+  ]
+}

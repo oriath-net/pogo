@@ -1,0 +1,44 @@
+{
+  "file": "Talismans",
+  "fields": [
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes",
+      "unique": true
+    },
+    {
+      "name": "SpawnWeight",
+      "type": "i32"
+    },
+    {
+      "name": "ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Tier",
+      "type": "i32"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "Flag1",
+      "type": "bool"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Key1",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown11",
+      "type": "i32"
+    }
+  ]
+}

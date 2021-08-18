@@ -1,0 +1,72 @@
+{
+  "file": "NPCFollowerVariations",
+  "fields": [
+    {
+      "name": "MonsterVarietiesKey",
+      "type": "longid",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "MiscAnimatedKey0",
+      "type": "longid",
+      "ref": "MiscAnimated"
+    },
+    {
+      "name": "MiscAnimatedKey1",
+      "type": "longid",
+      "ref": "MiscAnimated"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "Flag1",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown6",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown7",
+      "type": "i32"
+    },
+    {
+      "name": "Flag2",
+      "type": "bool"
+    },
+    {
+      "name": "Flag3",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown8",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown9",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown10",
+      "type": "i32"
+    },
+    {
+      "name": "Flag4",
+      "type": "bool"
+    }
+  ]
+}

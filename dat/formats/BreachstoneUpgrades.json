@@ -1,0 +1,25 @@
+{
+  "file": "BreachstoneUpgrades",
+  "fields": [
+    {
+      "name": "BaseItemTypesKey0",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "BaseItemTypesKey1",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "BaseItemTypesKey2",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "BaseItemTypesKey3",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    }
+  ]
+}

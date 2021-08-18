@@ -1,0 +1,65 @@
+{
+  "file": "UniqueChests",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "WordsKey",
+      "type": "longid",
+      "ref": "Words"
+    },
+    {
+      "name": "FlavourTextKey",
+      "type": "longid",
+      "ref": "FlavourText"
+    },
+    {
+      "name": "MinLevel",
+      "type": "i32"
+    },
+    {
+      "name": "ModsKeys",
+      "type": "longid[]",
+      "ref": "Mods"
+    },
+    {
+      "name": "SpawnWeight",
+      "type": "i32"
+    },
+    {
+      "name": "Data1",
+      "type": "i32[]"
+    },
+    {
+      "name": "AOFile",
+      "type": "string",
+      "path": "ao"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "Data2",
+      "type": "u32[]"
+    },
+    {
+      "name": "AppearanceChestsKey",
+      "type": "longid",
+      "ref": "Chests",
+      "description": "Uses this chest for it\"s visuals"
+    },
+    {
+      "name": "ChestsKey",
+      "type": "longid",
+      "ref": "Chests"
+    },
+    {
+      "name": "Keys0",
+      "type": "u64[]"
+    }
+  ]
+}

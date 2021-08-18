@@ -1,6 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="BlightCraftingItems">
-    <field name="BaseItemTypesKey"      type="longid" ref="BaseItemTypes" unique="true" />
-    <field name="Tier"                  type="i32" />
-    <field name="AchievementItemsKeys"  type="longid[]" ref="AchievementItems" />
-</format>

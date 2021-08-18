@@ -1,5 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="IncursionArchitect">
-    <field name="MonsterVarietiesKey"   type="longid" ref="MonsterVarieties" />
-    <field name="MinLevel"              type="i32" />
-</format>

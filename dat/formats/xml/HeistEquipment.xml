@@ -1,6 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="HeistEquipment">
-    <field name="BaseItemTypesKey"      type="longid" ref="BaseItemTypes" unique="true" />
-    <field name="RequiredJob_HeistJobsKey" type="longid" ref="HeistJobs" />
-    <field name="RequiredLevel"         type="i32" />
-</format>

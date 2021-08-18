@@ -1,8 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="MetamorphosisScaling">
-    <field name="Level"                 type="i32" />
-    <field name="StatValueMultiplier"   type="f32" />
-    <field name="Scaling_StatsKeys"     type="longid[]" ref="Stats" />
-    <field name="Scaling_Values"        type="i32[]" />
-    <field name="Unknown4"              type="i32" />
-</format>

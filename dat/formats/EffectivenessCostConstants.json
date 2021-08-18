@@ -1,0 +1,15 @@
+{
+  "file": "EffectivenessCostConstants",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Multiplier",
+      "type": "f32",
+      "description": "Rounded"
+    }
+  ]
+}

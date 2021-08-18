@@ -1,0 +1,43 @@
+{
+  "file": "MapConnections",
+  "fields": [
+    {
+      "name": "MapPinsKey0",
+      "type": "longid",
+      "ref": "MapPins"
+    },
+    {
+      "name": "MapPinsKey1",
+      "type": "longid",
+      "ref": "MapPins"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "RestrictedAreaText",
+      "type": "string"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown6",
+      "type": "i32"
+    },
+    {
+      "name": "RestrictedAreaMessage",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "file": "BlightTowers",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    },
+    {
+      "name": "Icon",
+      "type": "string"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Tier",
+      "type": "string"
+    },
+    {
+      "name": "Radius",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown8",
+      "type": "i32"
+    },
+    {
+      "name": "SpendResourceAchievementItemsKey",
+      "type": "longid",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "StatsKey",
+      "type": "longid",
+      "ref": "Stats"
+    },
+    {
+      "name": "StatsKeys",
+      "type": "longid[]",
+      "ref": "Stats"
+    },
+    {
+      "name": "Keys0",
+      "type": "u64[]"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    }
+  ]
+}

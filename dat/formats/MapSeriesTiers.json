@@ -1,0 +1,46 @@
+{
+  "file": "MapSeriesTiers",
+  "fields": [
+    {
+      "name": "MapsKey",
+      "type": "longid",
+      "ref": "Maps"
+    },
+    {
+      "name": "MapWorldsTier",
+      "type": "i32"
+    },
+    {
+      "name": "BetrayalTier",
+      "type": "i32"
+    },
+    {
+      "name": "SynthesisTier",
+      "type": "i32"
+    },
+    {
+      "name": "LegionTier",
+      "type": "i32"
+    },
+    {
+      "name": "BlightTier",
+      "type": "i32"
+    },
+    {
+      "name": "MetamorphosisTier",
+      "type": "i32"
+    },
+    {
+      "name": "DeliriumTier",
+      "type": "i32"
+    },
+    {
+      "name": "HarvestTier",
+      "type": "i32"
+    },
+    {
+      "name": "HeistTier",
+      "type": "i32"
+    }
+  ]
+}

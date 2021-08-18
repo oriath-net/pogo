@@ -1,0 +1,77 @@
+{
+  "file": "MonsterPacks",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "WorldAreasKeys",
+      "type": "longid[]",
+      "ref": "WorldAreas"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "BossMonsterSpawnChance",
+      "type": "i32"
+    },
+    {
+      "name": "BossMonsterCount",
+      "type": "i32"
+    },
+    {
+      "name": "BossMonster_MonsterVarietiesKeys",
+      "type": "longid[]",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Data1",
+      "type": "string[]"
+    },
+    {
+      "name": "TagsKeys",
+      "type": "longid[]",
+      "ref": "Tags"
+    },
+    {
+      "name": "MinLevel",
+      "type": "i32"
+    },
+    {
+      "name": "MaxLevel",
+      "type": "i32"
+    },
+    {
+      "name": "Keys0",
+      "type": "u64[]"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    }
+  ]
+}

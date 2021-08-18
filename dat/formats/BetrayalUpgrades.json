@@ -1,0 +1,57 @@
+{
+  "file": "BetrayalUpgrades",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    },
+    {
+      "name": "ModsKey",
+      "type": "longid[]",
+      "ref": "Mods"
+    },
+    {
+      "name": "ArtFile",
+      "type": "string"
+    },
+    {
+      "name": "BetrayalUpgradeSlotsKey",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown7",
+      "type": "i32[]"
+    },
+    {
+      "name": "ItemVisualIdentityKey0",
+      "type": "longid",
+      "ref": "ItemVisualIdentity"
+    },
+    {
+      "name": "ItemVisualIdentityKey1",
+      "type": "longid",
+      "ref": "ItemVisualIdentity"
+    },
+    {
+      "name": "Key2",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown11",
+      "type": "i32"
+    },
+    {
+      "name": "Key3",
+      "type": "u64"
+    }
+  ]
+}

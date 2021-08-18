@@ -1,0 +1,36 @@
+{
+  "file": "EclipseMods",
+  "fields": [
+    {
+      "name": "Key",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "SpawnWeight_TagsKeys",
+      "type": "longid[]",
+      "ref": "Tags"
+    },
+    {
+      "name": "SpawnWeight_Values",
+      "type": "i32[]"
+    },
+    {
+      "name": "ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "MinLevel",
+      "type": "i32"
+    },
+    {
+      "name": "MaxLevel",
+      "type": "i32"
+    },
+    {
+      "name": "IsPrefix",
+      "type": "bool"
+    }
+  ]
+}

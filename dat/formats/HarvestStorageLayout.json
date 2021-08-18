@@ -1,0 +1,58 @@
+{
+  "file": "HarvestStorageLayout",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown6",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown7",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown8",
+      "type": "i32"
+    },
+    {
+      "name": "Button",
+      "type": "string"
+    },
+    {
+      "name": "ButtonHighlight",
+      "type": "string"
+    },
+    {
+      "name": "HasButton",
+      "type": "bool"
+    }
+  ]
+}

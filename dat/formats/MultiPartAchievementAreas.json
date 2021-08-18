@@ -1,0 +1,17 @@
+{
+  "file": "MultiPartAchievementAreas",
+  "fields": [
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Keys0",
+      "type": "u64[]"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    }
+  ]
+}

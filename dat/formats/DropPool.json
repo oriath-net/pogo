@@ -1,0 +1,18 @@
+{
+  "file": "DropPool",
+  "fields": [
+    {
+      "name": "Group",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Weight",
+      "type": "i32"
+    },
+    {
+      "name": "Data0",
+      "type": "i32[]"
+    }
+  ]
+}

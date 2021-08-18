@@ -1,0 +1,17 @@
+{
+  "file": "BindableVirtualKeys",
+  "fields": [
+    {
+      "name": "KeyCode",
+      "type": "i32"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Id",
+      "type": "string"
+    }
+  ]
+}

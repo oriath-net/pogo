@@ -1,0 +1,70 @@
+{
+  "file": "WarbandsPackMonsters",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Unknown1",
+      "type": "i64"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Tier4_MonsterVarietiesKeys",
+      "type": "longid[]",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "Tier3_MonsterVarietiesKeys",
+      "type": "longid[]",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "Tier2_MonsterVarietiesKeys",
+      "type": "longid[]",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "Tier1_MonsterVarietiesKeys",
+      "type": "longid[]",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "Tier1Name",
+      "type": "string"
+    },
+    {
+      "name": "Tier2Name",
+      "type": "string"
+    },
+    {
+      "name": "Tier3Name",
+      "type": "string"
+    },
+    {
+      "name": "Tier4Name",
+      "type": "string"
+    },
+    {
+      "name": "Tier1Art",
+      "type": "string"
+    },
+    {
+      "name": "Tier2Art",
+      "type": "string"
+    },
+    {
+      "name": "Tier3Art",
+      "type": "string"
+    },
+    {
+      "name": "Tier4Art",
+      "type": "string"
+    }
+  ]
+}

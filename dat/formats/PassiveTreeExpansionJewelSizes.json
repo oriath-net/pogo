@@ -1,0 +1,9 @@
+{
+  "file": "PassiveTreeExpansionJewelSizes",
+  "fields": [
+    {
+      "name": "Name",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "file": "DelveUpgrades",
+  "fields": [
+    {
+      "name": "DelveUpgradeTypeKey",
+      "type": "i32"
+    },
+    {
+      "name": "UpgradeLevel",
+      "type": "i32"
+    },
+    {
+      "name": "StatsKeys",
+      "type": "longid[]",
+      "ref": "Stats"
+    },
+    {
+      "name": "StatValues",
+      "type": "i32[]"
+    },
+    {
+      "name": "Cost",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "AchievementItemsKey",
+      "type": "longid",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    }
+  ]
+}

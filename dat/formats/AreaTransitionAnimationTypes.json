@@ -1,0 +1,10 @@
+{
+  "file": "AreaTransitionAnimationTypes",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    }
+  ]
+}

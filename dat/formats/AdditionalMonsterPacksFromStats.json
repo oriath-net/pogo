@@ -1,0 +1,41 @@
+{
+  "file": "AdditionalMonsterPacksFromStats",
+  "fields": [
+    {
+      "name": "StatsKey",
+      "type": "longid",
+      "ref": "Stats"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "MonsterPacksKeys",
+      "type": "longid[]",
+      "ref": "MonsterPacks"
+    },
+    {
+      "name": "AdditionalMonsterPacksStatMode",
+      "type": "i32"
+    },
+    {
+      "name": "PackCountStatsKey",
+      "type": "longid",
+      "ref": "Stats"
+    },
+    {
+      "name": "StatsKeys",
+      "type": "longid[]",
+      "ref": "Stats"
+    },
+    {
+      "name": "StatsValues",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown7",
+      "type": "i32"
+    }
+  ]
+}

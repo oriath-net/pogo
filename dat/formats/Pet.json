@@ -1,0 +1,31 @@
+{
+  "file": "Pet",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i16"
+    }
+  ]
+}

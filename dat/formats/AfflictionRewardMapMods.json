@@ -1,0 +1,10 @@
+{
+  "file": "AfflictionRewardMapMods",
+  "fields": [
+    {
+      "name": "ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    }
+  ]
+}

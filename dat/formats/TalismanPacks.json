@@ -1,0 +1,48 @@
+{
+  "file": "TalismanPacks",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "MonsterPacksKeys",
+      "type": "longid[]",
+      "ref": "MonsterPacks"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "MonsterVarietiesKey",
+      "type": "longid",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "Unknown8",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown9",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown10",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown11",
+      "type": "i32"
+    },
+    {
+      "name": "MonsterPacksKey",
+      "type": "longid",
+      "ref": "MonsterPacks"
+    }
+  ]
+}

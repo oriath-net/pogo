@@ -1,0 +1,18 @@
+{
+  "file": "AfflictionStartDialogue",
+  "fields": [
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "NPCTextAudioKey",
+      "type": "longid",
+      "ref": "NPCTextAudio"
+    },
+    {
+      "name": "Unknown0",
+      "type": "u64[]"
+    }
+  ]
+}

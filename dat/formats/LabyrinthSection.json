@@ -1,0 +1,29 @@
+{
+  "file": "LabyrinthSection",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    }
+  ]
+}

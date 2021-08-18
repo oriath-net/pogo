@@ -1,4 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="MicrotransactionCharacterPortraitVariations">
-    <field name="Key0"                  type="u64" />
-</format>

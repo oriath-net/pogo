@@ -1,0 +1,61 @@
+{
+  "file": "DelveLevelScaling",
+  "fields": [
+    {
+      "name": "Depth",
+      "type": "i32"
+    },
+    {
+      "name": "MonsterLevel",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "SulphiteCost",
+      "type": "i32"
+    },
+    {
+      "name": "MonsterLevel2",
+      "type": "i32"
+    },
+    {
+      "name": "MoreMonsterLife",
+      "type": "i32"
+    },
+    {
+      "name": "MoreMonsterDamage",
+      "type": "i32"
+    },
+    {
+      "name": "DarknessResistance",
+      "type": "i32"
+    },
+    {
+      "name": "LightRadius",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown6",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown7",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown8",
+      "type": "i32"
+    }
+  ]
+}

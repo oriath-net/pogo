@@ -1,6 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="ShopPaymentPackagePrice">
-    <field name="ShopPaymentPackageKey" type="longid" ref="ShopPaymentPackage" />
-    <field name="ShopCountryKey"        type="longid" ref="ShopCountry" />
-    <field name="Price"                 type="i32" />
-</format>

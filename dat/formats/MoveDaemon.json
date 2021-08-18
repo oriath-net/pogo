@@ -1,0 +1,125 @@
+{
+  "file": "MoveDaemon",
+  "fields": [
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown8",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown9",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown10",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown11",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown12",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown13",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown14",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown15",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown16",
+      "type": "i32"
+    },
+    {
+      "name": "Flag0",
+      "type": "u8"
+    },
+    {
+      "name": "Flag1",
+      "type": "u8"
+    },
+    {
+      "name": "Flag2",
+      "type": "u8"
+    },
+    {
+      "name": "Unknown18",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown19",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown20",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown21",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown22",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown23",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown24",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown25",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown26",
+      "type": "u8"
+    },
+    {
+      "name": "Unknown27",
+      "type": "u8"
+    },
+    {
+      "name": "Unknown28",
+      "type": "u8"
+    }
+  ]
+}

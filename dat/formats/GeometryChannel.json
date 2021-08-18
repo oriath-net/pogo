@@ -1,0 +1,63 @@
+{
+  "file": "GeometryChannel",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Key1",
+      "type": "u64"
+    },
+    {
+      "name": "Key2",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown4",
+      "type": "string"
+    },
+    {
+      "name": "Unknown5",
+      "type": "string"
+    },
+    {
+      "name": "Unknown6",
+      "type": "string"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "Flag1",
+      "type": "bool"
+    },
+    {
+      "name": "Key3",
+      "type": "u64"
+    },
+    {
+      "name": "Key4",
+      "type": "u64"
+    },
+    {
+      "name": "EPKFile",
+      "type": "string",
+      "path": "epk"
+    },
+    {
+      "name": "Unknown10",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown11",
+      "type": "i32"
+    }
+  ]
+}

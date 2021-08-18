@@ -1,6 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="BeyondDemons">
-    <field name="MonsterVarietiesKey"   type="longid" ref="MonsterVarieties" />
-    <field name="Flag0"                 type="bool" />
-    <field name="Flag1"                 type="bool" />
-</format>

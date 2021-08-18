@@ -1,5 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="HarvestCraftOptionIcons">
-    <field name="Id"                    type="string" unique="true" />
-    <field name="DDSFile"               type="string" /> <!-- file_path=True file_ext=.dds -->
-</format>

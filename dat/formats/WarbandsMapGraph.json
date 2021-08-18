@@ -1,0 +1,14 @@
+{
+  "file": "WarbandsMapGraph",
+  "fields": [
+    {
+      "name": "WorldAreasKey",
+      "type": "longid",
+      "ref": "WorldAreas"
+    },
+    {
+      "name": "Connections",
+      "type": "i32[]"
+    }
+  ]
+}

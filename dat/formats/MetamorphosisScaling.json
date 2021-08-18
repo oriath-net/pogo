@@ -1,0 +1,26 @@
+{
+  "file": "MetamorphosisScaling",
+  "fields": [
+    {
+      "name": "Level",
+      "type": "i32"
+    },
+    {
+      "name": "StatValueMultiplier",
+      "type": "f32"
+    },
+    {
+      "name": "Scaling_StatsKeys",
+      "type": "longid[]",
+      "ref": "Stats"
+    },
+    {
+      "name": "Scaling_Values",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    }
+  ]
+}

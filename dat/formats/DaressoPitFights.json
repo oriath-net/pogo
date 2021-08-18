@@ -1,0 +1,46 @@
+{
+  "file": "DaressoPitFights",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32[]"
+    },
+    {
+      "name": "FlagUnknown0",
+      "type": "bool"
+    },
+    {
+      "name": "FlagUnknown2",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown6",
+      "type": "i32"
+    },
+    {
+      "name": "FlagUnknown3",
+      "type": "bool"
+    }
+  ]
+}

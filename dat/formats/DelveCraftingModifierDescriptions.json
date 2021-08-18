@@ -1,0 +1,14 @@
+{
+  "file": "DelveCraftingModifierDescriptions",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    }
+  ]
+}

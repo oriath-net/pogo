@@ -1,0 +1,62 @@
+{
+  "file": "Labyrinths",
+  "fields": [
+    {
+      "name": "Tier",
+      "type": "i32",
+      "unique": true
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "QuestState",
+      "type": "i32"
+    },
+    {
+      "name": "Keys0",
+      "type": "u64[]"
+    },
+    {
+      "name": "AreaLevel",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "Key1",
+      "type": "u64"
+    },
+    {
+      "name": "Data0",
+      "type": "i32[]"
+    },
+    {
+      "name": "Data1",
+      "type": "i32[]"
+    },
+    {
+      "name": "MinLevel",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Key2",
+      "type": "u64"
+    }
+  ]
+}

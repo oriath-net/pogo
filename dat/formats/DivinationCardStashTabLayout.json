@@ -1,0 +1,15 @@
+{
+  "file": "DivinationCardStashTabLayout",
+  "fields": [
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes",
+      "unique": true
+    },
+    {
+      "name": "IsEnabled",
+      "type": "bool"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "file": "ShopToken",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "TypeId",
+      "type": "string"
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    }
+  ]
+}

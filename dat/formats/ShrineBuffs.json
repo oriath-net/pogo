@@ -1,0 +1,24 @@
+{
+  "file": "ShrineBuffs",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "BuffStatValues",
+      "type": "i32[]",
+      "description": "For use for the related stat in the buff."
+    },
+    {
+      "name": "BuffDefinitionsKey",
+      "type": "longid",
+      "ref": "BuffDefinitions"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    }
+  ]
+}

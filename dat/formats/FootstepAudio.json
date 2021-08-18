@@ -1,0 +1,14 @@
+{
+  "file": "FootstepAudio",
+  "fields": [
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    }
+  ]
+}

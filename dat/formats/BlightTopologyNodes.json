@@ -1,0 +1,46 @@
+{
+  "file": "BlightTopologyNodes",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Data1",
+      "type": "i32[]"
+    },
+    {
+      "name": "Size",
+      "type": "i32"
+    },
+    {
+      "name": "Type",
+      "type": "string"
+    },
+    {
+      "name": "Data3",
+      "type": "i32[]"
+    },
+    {
+      "name": "Data4",
+      "type": "i32[]"
+    },
+    {
+      "name": "Data5",
+      "type": "i32[]"
+    },
+    {
+      "name": "Data6",
+      "type": "i32[]"
+    },
+    {
+      "name": "Data7",
+      "type": "i32[]"
+    },
+    {
+      "name": "Data8",
+      "type": "i32[]"
+    }
+  ]
+}

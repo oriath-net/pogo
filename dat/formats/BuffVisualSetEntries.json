@@ -1,0 +1,22 @@
+{
+  "file": "BuffVisualSetEntries",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    }
+  ]
+}

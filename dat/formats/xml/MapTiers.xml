@@ -1,6 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="MapTiers">
-    <field name="Tier"                  type="i32" />
-    <field name="Level"                 type="i32" />
-    <field name="Unknown0"              type="i32" />
-</format>

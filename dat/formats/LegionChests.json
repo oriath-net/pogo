@@ -1,0 +1,28 @@
+{
+  "file": "LegionChests",
+  "fields": [
+    {
+      "name": "ChestsKey",
+      "type": "longid",
+      "ref": "Chests"
+    },
+    {
+      "name": "LegionFactionsKey",
+      "type": "longid",
+      "ref": "LegionFactions"
+    },
+    {
+      "name": "LegionRanksKey",
+      "type": "longid",
+      "ref": "LegionRanks"
+    },
+    {
+      "name": "Key1",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    }
+  ]
+}

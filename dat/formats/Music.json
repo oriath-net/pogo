@@ -1,0 +1,40 @@
+{
+  "file": "Music",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "SoundFile",
+      "type": "string",
+      "path": "ogg"
+    },
+    {
+      "name": "BankFile",
+      "type": "string",
+      "path": "bank"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "IsAvailableInHideout",
+      "type": "u8"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Keys0",
+      "type": "u64[]"
+    }
+  ]
+}

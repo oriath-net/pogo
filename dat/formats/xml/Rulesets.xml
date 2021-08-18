@@ -1,4 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="Rulesets">
-    <field name="Id"                    type="string" unique="true" />
-</format>

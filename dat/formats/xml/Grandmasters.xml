@@ -1,9 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="Grandmasters">
-    <field name="Id"                    type="string" /> <!-- display=Id? -->
-    <field name="GMFile"                type="string" /> <!-- file_path=True file_ext=.gm -->
-    <field name="AISFile"               type="string" /> <!-- file_path=True file_ext=.ais -->
-    <field name="ModsKeys"              type="longid[]" ref="Mods" />
-    <field name="CharacterLevel"        type="i32" />
-    <field name="Flag0"                 type="bool" />
-</format>

@@ -1,0 +1,117 @@
+{
+  "file": "MetamorphosisMetaSkills",
+  "fields": [
+    {
+      "name": "Unknown0",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown1",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown2",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown3",
+      "type": "u64[]"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown5",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown6",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown7",
+      "type": "u64[]"
+    },
+    {
+      "name": "Unknown8",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown9",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown10",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown11",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown12",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown13",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown14",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown15",
+      "type": "string"
+    },
+    {
+      "name": "Unknown16",
+      "type": "u64[]"
+    },
+    {
+      "name": "Unknown17",
+      "type": "string"
+    },
+    {
+      "name": "Unknown18",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown19",
+      "type": "u64[]"
+    },
+    {
+      "name": "Unknown20",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown21",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown22",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown23",
+      "type": "u64[]"
+    },
+    {
+      "name": "Unknown24",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown25",
+      "type": "u64[]"
+    },
+    {
+      "name": "Unknown26",
+      "type": "u64[]"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    }
+  ]
+}

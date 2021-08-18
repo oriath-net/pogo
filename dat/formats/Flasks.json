@@ -1,0 +1,41 @@
+{
+  "file": "Flasks",
+  "fields": [
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes",
+      "unique": true
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Group",
+      "type": "i32"
+    },
+    {
+      "name": "LifePerUse",
+      "type": "i32"
+    },
+    {
+      "name": "ManaPerUse",
+      "type": "i32"
+    },
+    {
+      "name": "RecoveryTime",
+      "type": "i32",
+      "description": "in 1/10 s"
+    },
+    {
+      "name": "BuffDefinitionsKey",
+      "type": "longid",
+      "ref": "BuffDefinitions"
+    },
+    {
+      "name": "BuffStatValues",
+      "type": "i32[]"
+    }
+  ]
+}

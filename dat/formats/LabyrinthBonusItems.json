@@ -1,0 +1,17 @@
+{
+  "file": "LabyrinthBonusItems",
+  "fields": [
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "string"
+    }
+  ]
+}

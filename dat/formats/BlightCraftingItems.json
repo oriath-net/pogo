@@ -1,0 +1,20 @@
+{
+  "file": "BlightCraftingItems",
+  "fields": [
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes",
+      "unique": true
+    },
+    {
+      "name": "Tier",
+      "type": "i32"
+    },
+    {
+      "name": "AchievementItemsKeys",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    }
+  ]
+}

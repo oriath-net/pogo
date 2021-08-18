@@ -1,0 +1,15 @@
+{
+  "file": "GameStats",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Id2",
+      "type": "string",
+      "unique": true
+    }
+  ]
+}

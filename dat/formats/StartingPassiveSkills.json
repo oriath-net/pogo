@@ -1,0 +1,15 @@
+{
+  "file": "StartingPassiveSkills",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "PassiveSkills",
+      "type": "longid[]",
+      "ref": "PassiveSkills"
+    }
+  ]
+}

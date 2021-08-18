@@ -1,0 +1,199 @@
+{
+  "file": "AtlasNode",
+  "fields": [
+    {
+      "name": "WorldAreasKey",
+      "type": "longid",
+      "ref": "WorldAreas"
+    },
+    {
+      "name": "ItemVisualIdentityKey",
+      "type": "longid",
+      "ref": "ItemVisualIdentity"
+    },
+    {
+      "name": "Flag0",
+      "type": "u8"
+    },
+    {
+      "name": "MapsKey",
+      "type": "longid",
+      "ref": "Maps"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32",
+      "until": "3.14"
+    },
+    {
+      "name": "FlavourTextKey",
+      "type": "longid",
+      "ref": "FlavourText"
+    },
+    {
+      "name": "AtlasRegionsKey",
+      "type": "longid",
+      "ref": "AtlasRegions"
+    },
+    {
+      "name": "AtlasNodeKeys0",
+      "type": "shortid[]",
+      "ref": "AtlasNode"
+    },
+    {
+      "name": "AtlasNodeKeys1",
+      "type": "shortid[]",
+      "ref": "AtlasNode"
+    },
+    {
+      "name": "AtlasNodeKeys2",
+      "type": "shortid[]",
+      "ref": "AtlasNode"
+    },
+    {
+      "name": "AtlasNodeKeys3",
+      "type": "shortid[]",
+      "ref": "AtlasNode"
+    },
+    {
+      "name": "AtlasNodeKeys4",
+      "type": "shortid[]",
+      "ref": "AtlasNode"
+    },
+    {
+      "name": "Tier0",
+      "type": "i32"
+    },
+    {
+      "name": "Tier1",
+      "type": "i32"
+    },
+    {
+      "name": "Tier2",
+      "type": "i32"
+    },
+    {
+      "name": "Tier3",
+      "type": "i32"
+    },
+    {
+      "name": "Tier4",
+      "type": "i32"
+    },
+    {
+      "name": "X0",
+      "type": "f32"
+    },
+    {
+      "name": "X1",
+      "type": "f32"
+    },
+    {
+      "name": "X2",
+      "type": "f32"
+    },
+    {
+      "name": "X3",
+      "type": "f32"
+    },
+    {
+      "name": "X4",
+      "type": "f32"
+    },
+    {
+      "name": "Y0",
+      "type": "f32"
+    },
+    {
+      "name": "Y1",
+      "type": "f32"
+    },
+    {
+      "name": "Y2",
+      "type": "f32"
+    },
+    {
+      "name": "Y3",
+      "type": "f32"
+    },
+    {
+      "name": "Y4",
+      "type": "f32"
+    },
+    {
+      "name": "Unknown26",
+      "type": "f32"
+    },
+    {
+      "name": "Unknown27",
+      "type": "f32"
+    },
+    {
+      "name": "Unknown28",
+      "type": "f32"
+    },
+    {
+      "name": "Unknown29",
+      "type": "f32"
+    },
+    {
+      "name": "Unknown30",
+      "type": "f32"
+    },
+    {
+      "name": "Unknown31",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown32",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown33",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown34",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown35",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown36",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown37",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown38",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown39",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown40",
+      "type": "i32"
+    },
+    {
+      "name": "X",
+      "type": "f32",
+      "until": "3.14"
+    },
+    {
+      "name": "Y",
+      "type": "f32",
+      "until": "3.14"
+    },
+    {
+      "name": "DDSFile",
+      "type": "string",
+      "path": "dds"
+    }
+  ]
+}

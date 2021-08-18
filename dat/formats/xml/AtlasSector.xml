@@ -1,6 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="AtlasSector">
-    <field name="Id"                    type="string" unique="true" />
-    <field name="SpawnWeight_TagsKeys"  type="longid[]" ref="Tags" />
-    <field name="SpawnWeight_Values"    type="i32[]" />
-</format>

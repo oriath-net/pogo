@@ -1,0 +1,13 @@
+{
+  "file": "HeistNPCBlueprintTypes",
+  "fields": [
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    }
+  ]
+}

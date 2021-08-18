@@ -1,0 +1,14 @@
+{
+  "file": "DelveCraftingTags",
+  "fields": [
+    {
+      "name": "TagsKey",
+      "type": "longid",
+      "ref": "Tags"
+    },
+    {
+      "name": "ItemClass",
+      "type": "string"
+    }
+  ]
+}

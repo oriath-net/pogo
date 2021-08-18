@@ -1,0 +1,39 @@
+{
+  "file": "SynthesisFragmentDialogue",
+  "fields": [
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "NPCTextAudioKey1",
+      "type": "longid",
+      "ref": "NPCTextAudio"
+    },
+    {
+      "name": "NPCTextAudioKey2",
+      "type": "longid",
+      "ref": "NPCTextAudio"
+    },
+    {
+      "name": "NPCTextAudioKey3",
+      "type": "longid",
+      "ref": "NPCTextAudio"
+    },
+    {
+      "name": "NPCTextAudioKey4",
+      "type": "longid",
+      "ref": "NPCTextAudio"
+    },
+    {
+      "name": "NPCTextAudioKey5",
+      "type": "longid",
+      "ref": "NPCTextAudio"
+    },
+    {
+      "name": "NPCTextAudioKey6",
+      "type": "longid",
+      "ref": "NPCTextAudio"
+    }
+  ]
+}

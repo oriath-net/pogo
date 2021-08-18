@@ -1,0 +1,20 @@
+{
+  "file": "HeistEquipment",
+  "fields": [
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes",
+      "unique": true
+    },
+    {
+      "name": "RequiredJob_HeistJobsKey",
+      "type": "longid",
+      "ref": "HeistJobs"
+    },
+    {
+      "name": "RequiredLevel",
+      "type": "i32"
+    }
+  ]
+}

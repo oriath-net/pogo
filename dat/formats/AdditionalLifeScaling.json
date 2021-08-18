@@ -1,0 +1,18 @@
+{
+  "file": "AdditionalLifeScaling",
+  "fields": [
+    {
+      "name": "IntId",
+      "type": "i32"
+    },
+    {
+      "name": "ID",
+      "type": "string"
+    },
+    {
+      "name": "DatFile",
+      "type": "string",
+      "path": "dat"
+    }
+  ]
+}

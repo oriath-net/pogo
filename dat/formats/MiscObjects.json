@@ -1,0 +1,27 @@
+{
+  "file": "MiscObjects",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "EffectVirtualPath",
+      "type": "string"
+    },
+    {
+      "name": "PreloadGroupsKeys",
+      "type": "longid[]",
+      "ref": "PreloadGroups"
+    },
+    {
+      "name": "UnknownUnique",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    }
+  ]
+}

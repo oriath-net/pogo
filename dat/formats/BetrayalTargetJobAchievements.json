@@ -1,0 +1,20 @@
+{
+  "file": "BetrayalTargetJobAchievements",
+  "fields": [
+    {
+      "name": "BetrayalTargetsKey",
+      "type": "longid",
+      "ref": "BetrayalTargets"
+    },
+    {
+      "name": "BetrayalJobsKey",
+      "type": "longid",
+      "ref": "BetrayalJobs"
+    },
+    {
+      "name": "AchievementItemsKey",
+      "type": "longid",
+      "ref": "AchievementItems"
+    }
+  ]
+}

@@ -1,5 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="NPCTalkConsoleQuickActions">
-    <field name="Id"                    type="string" />
-    <field name="Controller"            type="string" />
-</format>

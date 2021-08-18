@@ -1,0 +1,60 @@
+{
+  "file": "DelveDynamite",
+  "fields": [
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "Flare_MiscObjectsKey",
+      "type": "longid",
+      "ref": "MiscObjects"
+    },
+    {
+      "name": "Key1",
+      "type": "u64"
+    },
+    {
+      "name": "Dynamite_MiscObjectsKey",
+      "type": "longid",
+      "ref": "MiscObjects"
+    },
+    {
+      "name": "Unknown7",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown8",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown9",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown10",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown11",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown12",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown13",
+      "type": "i32"
+    },
+    {
+      "name": "MiscAnimatedKey",
+      "type": "longid",
+      "ref": "MiscAnimated"
+    },
+    {
+      "name": "Unknown16",
+      "type": "i32"
+    }
+  ]
+}

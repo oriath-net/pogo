@@ -1,8 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="PantheonSouls">
-    <field name="WorldAreasKey"         type="longid" ref="WorldAreas" />
-    <field name="BaseItemTypesKey"      type="longid" ref="BaseItemTypes" />
-    <field name="Unknown0"              type="i32" />
-    <field name="MonsterVarietiesKey"   type="longid" ref="MonsterVarieties" />
-    <field name="PantheonPanelLayoutKey" type="longid" ref="PantheonPanelLayout" />
-</format>

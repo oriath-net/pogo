@@ -1,0 +1,19 @@
+{
+  "file": "AtlasExileInfluence",
+  "fields": [
+    {
+      "name": "AtlasExilesKey",
+      "type": "longid",
+      "ref": "AtlasExiles"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "AtlasExileInfluenceSetsKeys",
+      "type": "longid[]",
+      "ref": "AtlasExileInfluenceSets"
+    }
+  ]
+}

@@ -1,8 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="BlightTowersPerLevel">
-    <field name="BlightTowersKey"       type="longid" ref="BlightTowers" />
-    <field name="Unknown1"              type="i32" />
-    <field name="MonsterVarietiesKey"   type="longid" ref="MonsterVarieties" />
-    <field name="Cost"                  type="i32" />
-    <field name="Unknown4"              type="i32" />
-</format>

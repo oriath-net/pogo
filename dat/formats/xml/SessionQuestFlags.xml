@@ -1,4 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="SessionQuestFlags">
-    <field name="QuestFlag"             type="i32" />
-</format>

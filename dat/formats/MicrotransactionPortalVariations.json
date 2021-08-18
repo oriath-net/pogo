@@ -1,0 +1,28 @@
+{
+  "file": "MicrotransactionPortalVariations",
+  "fields": [
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "AOFile",
+      "type": "string",
+      "path": "ao"
+    },
+    {
+      "name": "MapAOFile",
+      "type": "string",
+      "path": "ao"
+    },
+    {
+      "name": "Unknown4",
+      "type": "f32"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    }
+  ]
+}

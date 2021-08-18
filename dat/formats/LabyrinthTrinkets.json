@@ -1,0 +1,25 @@
+{
+  "file": "LabyrinthTrinkets",
+  "fields": [
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes",
+      "unique": true
+    },
+    {
+      "name": "LabyrinthSecretsKey",
+      "type": "longid[]",
+      "ref": "LabyrinthSecrets"
+    },
+    {
+      "name": "Buff_BuffDefinitionsKey",
+      "type": "longid",
+      "ref": "BuffDefinitions"
+    },
+    {
+      "name": "Buff_StatValues",
+      "type": "i32[]"
+    }
+  ]
+}

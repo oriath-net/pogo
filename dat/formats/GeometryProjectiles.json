@@ -1,0 +1,81 @@
+{
+  "file": "GeometryProjectiles",
+  "fields": [
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Flag1",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Flag2",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown6",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown7",
+      "type": "i32"
+    },
+    {
+      "name": "Flag3",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown8",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown9",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown10",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown11",
+      "type": "u8"
+    },
+    {
+      "name": "Unknown12",
+      "type": "u8"
+    },
+    {
+      "name": "Unknown13",
+      "type": "u8"
+    },
+    {
+      "name": "Key1",
+      "type": "u64"
+    }
+  ]
+}

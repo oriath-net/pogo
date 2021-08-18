@@ -1,0 +1,132 @@
+{
+  "file": "NPCTalk",
+  "fields": [
+    {
+      "name": "NPCKey",
+      "type": "longid",
+      "ref": "NPCs"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "DialogueOption",
+      "type": "string"
+    },
+    {
+      "name": "Data0",
+      "type": "u32[]"
+    },
+    {
+      "name": "Data1",
+      "type": "u32[]"
+    },
+    {
+      "name": "Data2",
+      "type": "u32[]"
+    },
+    {
+      "name": "Script",
+      "type": "string"
+    },
+    {
+      "name": "Unknown11",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown12",
+      "type": "i32"
+    },
+    {
+      "name": "QuestKey",
+      "type": "longid",
+      "ref": "Quest"
+    },
+    {
+      "name": "Unknown15",
+      "type": "i32"
+    },
+    {
+      "name": "NPCTextAudioKeys",
+      "type": "longid[]",
+      "ref": "NPCTextAudio"
+    },
+    {
+      "name": "Script2",
+      "type": "string"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "Flag1",
+      "type": "bool"
+    },
+    {
+      "name": "Data5",
+      "type": "i32[]"
+    },
+    {
+      "name": "Data6",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown19",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown20",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown21",
+      "type": "i32"
+    },
+    {
+      "name": "Flag2",
+      "type": "bool"
+    },
+    {
+      "name": "Keys0",
+      "type": "u64[]"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Flag3",
+      "type": "bool"
+    },
+    {
+      "name": "Flag4",
+      "type": "bool"
+    },
+    {
+      "name": "DialogueOption2",
+      "type": "string"
+    },
+    {
+      "name": "Key1",
+      "type": "u64"
+    },
+    {
+      "name": "Key2",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown23",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown24",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown25",
+      "type": "i32"
+    }
+  ]
+}

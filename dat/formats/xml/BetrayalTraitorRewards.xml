@@ -1,7 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="BetrayalTraitorRewards">
-    <field name="BetrayalJobsKey"       type="longid" ref="BetrayalJobs" />
-    <field name="BetrayalTargetsKey"    type="longid" ref="BetrayalTargets" />
-    <field name="BetrayalRanksKey"      type="longid" ref="BetrayalRanks" />
-    <field name="Description"           type="string" />
-</format>

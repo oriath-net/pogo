@@ -1,5 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="AtlasMods">
-    <field name="ModsKey"               type="longid" ref="Mods" />
-    <field name="AtlasModTiers"         type="i32" />
-</format>

@@ -1,0 +1,69 @@
+{
+  "file": "DefaultMonsterStats",
+  "fields": [
+    {
+      "name": "DisplayLevel",
+      "type": "string"
+    },
+    {
+      "name": "Damage",
+      "type": "f32"
+    },
+    {
+      "name": "Evasion",
+      "type": "i32"
+    },
+    {
+      "name": "Accuracy",
+      "type": "i32"
+    },
+    {
+      "name": "Life",
+      "type": "i32"
+    },
+    {
+      "name": "Experience",
+      "type": "i32"
+    },
+    {
+      "name": "AllyLife",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "Difficulty",
+      "type": "i32"
+    },
+    {
+      "name": "Damage2",
+      "type": "f32"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "f32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "f32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Armour",
+      "type": "i32"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "file": "MiscBeams",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "PreloadGroupsKeys",
+      "type": "longid[]",
+      "ref": "PreloadGroups"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    }
+  ]
+}

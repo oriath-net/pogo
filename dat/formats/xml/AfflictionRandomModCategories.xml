@@ -1,5 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="AfflictionRandomModCategories">
-    <field name="Id"                    type="string" unique="true" />
-    <field name="Unknown1"              type="u8" />
-</format>

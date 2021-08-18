@@ -1,0 +1,43 @@
+{
+  "file": "BestiaryRecipeComponent",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "MinLevel",
+      "type": "i32"
+    },
+    {
+      "name": "BestiaryFamiliesKey",
+      "type": "longid",
+      "ref": "BestiaryFamilies"
+    },
+    {
+      "name": "BestiaryGroupsKey",
+      "type": "longid",
+      "ref": "BestiaryGroups"
+    },
+    {
+      "name": "ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "BestiaryCapturableMonstersKey",
+      "type": "longid",
+      "ref": "BestiaryCapturableMonsters"
+    },
+    {
+      "name": "RarityKey",
+      "type": "i32"
+    },
+    {
+      "name": "BestiaryGenusKey",
+      "type": "longid",
+      "ref": "BestiaryGenus"
+    }
+  ]
+}

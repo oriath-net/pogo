@@ -1,0 +1,39 @@
+{
+  "file": "MapSeries",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "BaseIcon_DDSFile",
+      "type": "string",
+      "path": "dds"
+    },
+    {
+      "name": "Infected_DDSFile",
+      "type": "string",
+      "path": "dds"
+    },
+    {
+      "name": "Shaper_DDSFile",
+      "type": "string",
+      "path": "dds"
+    },
+    {
+      "name": "Elder_DDSFile",
+      "type": "string",
+      "path": "dds"
+    },
+    {
+      "name": "Drawn_DDSFile",
+      "type": "string",
+      "path": "dds"
+    }
+  ]
+}

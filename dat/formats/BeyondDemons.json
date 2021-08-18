@@ -1,0 +1,18 @@
+{
+  "file": "BeyondDemons",
+  "fields": [
+    {
+      "name": "MonsterVarietiesKey",
+      "type": "longid",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "Flag1",
+      "type": "bool"
+    }
+  ]
+}

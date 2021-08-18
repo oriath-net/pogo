@@ -1,0 +1,57 @@
+{
+  "file": "HideoutDoodads",
+  "fields": [
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes",
+      "unique": true
+    },
+    {
+      "name": "Variation_AOFiles",
+      "type": "string[]",
+      "path": "ao"
+    },
+    {
+      "name": "FavourCost",
+      "type": "i32"
+    },
+    {
+      "name": "MasterLevel",
+      "type": "i32"
+    },
+    {
+      "name": "HideoutNPCsKey",
+      "type": "longid",
+      "ref": "HideoutNPCs"
+    },
+    {
+      "name": "IsNonMasterDoodad",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "InheritsFrom",
+      "type": "string"
+    },
+    {
+      "name": "IsCraftingBench",
+      "type": "bool"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    }
+  ]
+}

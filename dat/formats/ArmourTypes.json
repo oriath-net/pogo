@@ -1,0 +1,14 @@
+{
+  "file": "ArmourTypes",
+  "fields": [
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "IncreasedMovementSpeed",
+      "type": "i32"
+    }
+  ]
+}

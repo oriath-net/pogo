@@ -1,0 +1,19 @@
+{
+  "file": "CharacterTextAudio",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Text",
+      "type": "string"
+    },
+    {
+      "name": "SoundFile",
+      "type": "string",
+      "path": "ogg"
+    }
+  ]
+}

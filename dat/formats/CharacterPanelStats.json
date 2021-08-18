@@ -1,0 +1,47 @@
+{
+  "file": "CharacterPanelStats",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Text",
+      "type": "string"
+    },
+    {
+      "name": "StatsKeys1",
+      "type": "longid[]",
+      "ref": "Stats"
+    },
+    {
+      "name": "CharacterPanelDescriptionModesKey",
+      "type": "longid",
+      "ref": "CharacterPanelDescriptionModes"
+    },
+    {
+      "name": "StatsKeys2",
+      "type": "longid[]",
+      "ref": "Stats"
+    },
+    {
+      "name": "StatsKeys3",
+      "type": "longid[]",
+      "ref": "Stats"
+    },
+    {
+      "name": "CharacterPanelTabsKey",
+      "type": "longid",
+      "ref": "CharacterPanelTabs"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "Data4",
+      "type": "u32[]"
+    }
+  ]
+}

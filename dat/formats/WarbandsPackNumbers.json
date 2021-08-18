@@ -1,0 +1,50 @@
+{
+  "file": "WarbandsPackNumbers",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "SpawnChance",
+      "type": "i32"
+    },
+    {
+      "name": "MinLevel",
+      "type": "i32"
+    },
+    {
+      "name": "MaxLevel",
+      "type": "i32"
+    },
+    {
+      "name": "Tier4Number",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Tier3Number",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown7",
+      "type": "i32"
+    },
+    {
+      "name": "Tier2Number",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown9",
+      "type": "i32"
+    },
+    {
+      "name": "Tier1Number",
+      "type": "i32"
+    }
+  ]
+}

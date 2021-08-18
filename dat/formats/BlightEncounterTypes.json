@@ -1,0 +1,22 @@
+{
+  "file": "BlightEncounterTypes",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Icon",
+      "type": "string"
+    },
+    {
+      "name": "IsGeneric",
+      "type": "u8"
+    },
+    {
+      "name": "Weight",
+      "type": "i32"
+    }
+  ]
+}

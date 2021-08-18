@@ -1,0 +1,27 @@
+{
+  "file": "BlightTowersPerLevel",
+  "fields": [
+    {
+      "name": "BlightTowersKey",
+      "type": "longid",
+      "ref": "BlightTowers"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "MonsterVarietiesKey",
+      "type": "longid",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "Cost",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    }
+  ]
+}

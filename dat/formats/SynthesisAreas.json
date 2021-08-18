@@ -1,0 +1,50 @@
+{
+  "file": "SynthesisAreas",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "MinLevel",
+      "type": "i32"
+    },
+    {
+      "name": "MaxLevel",
+      "type": "i32"
+    },
+    {
+      "name": "Weight",
+      "type": "i32"
+    },
+    {
+      "name": "TopologiesKey",
+      "type": "longid",
+      "ref": "Topologies"
+    },
+    {
+      "name": "MonsterPacksKeys",
+      "type": "longid[]",
+      "ref": "MonsterPacks"
+    },
+    {
+      "name": "ArtFile",
+      "type": "string"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "SynthesisAreaSizeKey",
+      "type": "longid",
+      "ref": "SynthesisAreaSize"
+    },
+    {
+      "name": "AchievementItemsKey",
+      "type": "longid",
+      "ref": "AchievementItems"
+    }
+  ]
+}

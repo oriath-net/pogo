@@ -1,0 +1,38 @@
+{
+  "file": "NPCAudio",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "AudioFiles",
+      "type": "string[]"
+    },
+    {
+      "name": "AudioWeights",
+      "type": "i32[]"
+    },
+    {
+      "name": "VolumePercentage",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "file": "ModEffectStats",
+  "fields": [
+    {
+      "name": "StatsKey",
+      "type": "longid",
+      "ref": "Stats"
+    },
+    {
+      "name": "TagsKeys",
+      "type": "longid[]",
+      "ref": "Tags"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Flag1",
+      "type": "bool"
+    }
+  ]
+}

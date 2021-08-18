@@ -1,0 +1,114 @@
+{
+  "file": "AlternatePassiveSkills",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "AlternateTreeVersionsKey",
+      "type": "longid",
+      "ref": "AlternateTreeVersions"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "PassiveType",
+      "type": "i32[]"
+    },
+    {
+      "name": "StatsKeys",
+      "type": "longid[]",
+      "ref": "Stats"
+    },
+    {
+      "name": "Stat1Min",
+      "type": "i32"
+    },
+    {
+      "name": "Stat1Max",
+      "type": "i32"
+    },
+    {
+      "name": "Stat2Min",
+      "type": "i32"
+    },
+    {
+      "name": "Stat2Max",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown9",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown10",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown11",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown12",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown13",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown14",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown15",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown16",
+      "type": "i32"
+    },
+    {
+      "name": "SpawnWeight",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown18",
+      "type": "i32"
+    },
+    {
+      "name": "RandomMin",
+      "type": "i32"
+    },
+    {
+      "name": "RandomMax",
+      "type": "i32"
+    },
+    {
+      "name": "FlavourText",
+      "type": "string"
+    },
+    {
+      "name": "DDSIcon",
+      "type": "string",
+      "path": "dds"
+    },
+    {
+      "name": "AchievementItemsKeys",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "Unknown19",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown20",
+      "type": "i32"
+    }
+  ]
+}

@@ -1,6 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="DropPool">
-    <field name="Group"                 type="string" unique="true" />
-    <field name="Weight"                type="i32" />
-    <field name="Data0"                 type="i32[]" />
-</format>

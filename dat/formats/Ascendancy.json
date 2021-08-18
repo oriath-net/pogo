@@ -1,0 +1,41 @@
+{
+  "file": "Ascendancy",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "ClassNo",
+      "type": "i32"
+    },
+    {
+      "name": "CharactersKey",
+      "type": "longid",
+      "ref": "Characters"
+    },
+    {
+      "name": "CoordinateRect",
+      "type": "string",
+      "description": "Coordinates in \"x1, y1, x2, y2\" format"
+    },
+    {
+      "name": "RGBFlavourTextColour",
+      "type": "string"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "FlavourText",
+      "type": "string"
+    },
+    {
+      "name": "OGGFile",
+      "type": "string",
+      "path": "ogg"
+    }
+  ]
+}

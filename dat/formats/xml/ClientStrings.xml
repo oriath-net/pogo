@@ -1,8 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="ClientStrings">
-    <field name="Id"                    type="string" unique="true" />
-    <field name="Text"                  type="string" />
-    <field name="XBoxText"              type="string" />
-    <field name="Unknown0"              type="i32" />
-    <field name="PlaystationText"       type="string" />
-</format>

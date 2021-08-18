@@ -1,0 +1,45 @@
+{
+  "file": "MonsterMapDifficulty",
+  "fields": [
+    {
+      "name": "MapLevel",
+      "type": "i32"
+    },
+    {
+      "name": "Stat1Value",
+      "type": "i32"
+    },
+    {
+      "name": "Stat2Value",
+      "type": "i32"
+    },
+    {
+      "name": "StatsKey1",
+      "type": "longid",
+      "ref": "Stats"
+    },
+    {
+      "name": "StatsKey2",
+      "type": "longid",
+      "ref": "Stats"
+    },
+    {
+      "name": "StatsKey3",
+      "type": "longid",
+      "ref": "Stats"
+    },
+    {
+      "name": "Stat3Value",
+      "type": "i32"
+    },
+    {
+      "name": "StatsKey4",
+      "type": "longid",
+      "ref": "Stats"
+    },
+    {
+      "name": "Stat4Value",
+      "type": "i32"
+    }
+  ]
+}

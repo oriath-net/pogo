@@ -1,0 +1,52 @@
+{
+  "file": "MonsterTypes",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "IsSummoned",
+      "type": "bool"
+    },
+    {
+      "name": "Armour",
+      "type": "i32"
+    },
+    {
+      "name": "Evasion",
+      "type": "i32"
+    },
+    {
+      "name": "EnergyShieldFromLife",
+      "type": "i32"
+    },
+    {
+      "name": "DamageSpread",
+      "type": "i32"
+    },
+    {
+      "name": "TagsKeys",
+      "type": "longid[]",
+      "ref": "Tags"
+    },
+    {
+      "name": "MonsterResistancesKey",
+      "type": "longid",
+      "ref": "MonsterResistances"
+    },
+    {
+      "name": "IsLargeAbyssMonster",
+      "type": "bool"
+    },
+    {
+      "name": "IsSmallAbyssMonster",
+      "type": "bool"
+    }
+  ]
+}

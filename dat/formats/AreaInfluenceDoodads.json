@@ -1,0 +1,31 @@
+{
+  "file": "AreaInfluenceDoodads",
+  "fields": [
+    {
+      "name": "StatsKey",
+      "type": "longid",
+      "ref": "Stats"
+    },
+    {
+      "name": "StatValue",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "f32"
+    },
+    {
+      "name": "AOFiles",
+      "type": "string[]",
+      "path": "ao"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown7",
+      "type": "u8"
+    }
+  ]
+}

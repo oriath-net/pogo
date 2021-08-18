@@ -1,0 +1,35 @@
+{
+  "file": "GrantedEffectQualityStats",
+  "fields": [
+    {
+      "name": "GrantedEffectsKey",
+      "type": "longid",
+      "ref": "GrantedEffects"
+    },
+    {
+      "name": "SetId",
+      "type": "i32"
+    },
+    {
+      "name": "StatsKeys",
+      "type": "longid[]",
+      "ref": "Stats"
+    },
+    {
+      "name": "StatsValuesPermille",
+      "type": "i32[]"
+    },
+    {
+      "name": "Weight",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32[]"
+    }
+  ]
+}

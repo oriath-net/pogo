@@ -1,0 +1,32 @@
+{
+  "file": "SafehouseCraftingSpree",
+  "fields": [
+    {
+      "name": "BetrayalJobsKey",
+      "type": "longid",
+      "ref": "BetrayalJobs"
+    },
+    {
+      "name": "BetrayalRanksKey",
+      "type": "longid",
+      "ref": "BetrayalRanks"
+    },
+    {
+      "name": "Currency_Values",
+      "type": "i32[]"
+    },
+    {
+      "name": "Chance",
+      "type": "i32"
+    },
+    {
+      "name": "Currency_SafehouseCraftingSpreeCurrenciesKeys",
+      "type": "longid[]",
+      "ref": "SafehouseCraftingSpreeCurrencies"
+    },
+    {
+      "name": "Data0",
+      "type": "i32[]"
+    }
+  ]
+}

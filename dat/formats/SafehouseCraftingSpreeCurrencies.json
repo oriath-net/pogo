@@ -1,0 +1,19 @@
+{
+  "file": "SafehouseCraftingSpreeCurrencies",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "HasSpecificBaseItem",
+      "type": "bool"
+    }
+  ]
+}

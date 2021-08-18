@@ -1,0 +1,32 @@
+{
+  "file": "SkillGemInfo",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    },
+    {
+      "name": "VideoURL1",
+      "type": "string"
+    },
+    {
+      "name": "SkillGemsKey",
+      "type": "longid",
+      "ref": "SkillGems"
+    },
+    {
+      "name": "VideoURL2",
+      "type": "string"
+    },
+    {
+      "name": "CharactersKeys",
+      "type": "longid[]",
+      "ref": "Characters"
+    }
+  ]
+}

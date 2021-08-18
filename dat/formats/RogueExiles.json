@@ -1,0 +1,14 @@
+{
+  "file": "RogueExiles",
+  "fields": [
+    {
+      "name": "MonsterVarietiesKey",
+      "type": "longid",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    }
+  ]
+}

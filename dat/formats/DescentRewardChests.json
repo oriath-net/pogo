@@ -1,0 +1,85 @@
+{
+  "file": "DescentRewardChests",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "BaseItemTypesKeys1",
+      "type": "longid[]",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "BaseItemTypesKeys2",
+      "type": "longid[]",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "BaseItemTypesKeys3",
+      "type": "longid[]",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "BaseItemTypesKeys4",
+      "type": "longid[]",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "BaseItemTypesKeys5",
+      "type": "longid[]",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "BaseItemTypesKeys6",
+      "type": "longid[]",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "BaseItemTypesKeys7",
+      "type": "longid[]",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "BaseItemTypesKeys8",
+      "type": "longid[]",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "BaseItemTypesKeys9",
+      "type": "longid[]",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "BaseItemTypesKeys10",
+      "type": "longid[]",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "BaseItemTypesKeys11",
+      "type": "longid[]",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "BaseItemTypesKeys12",
+      "type": "longid[]",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "WorldAreasKey",
+      "type": "longid",
+      "ref": "WorldAreas"
+    },
+    {
+      "name": "BaseItemTypesKeys13",
+      "type": "longid[]",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "BaseItemTypesKeys14",
+      "type": "longid[]",
+      "ref": "BaseItemTypes"
+    }
+  ]
+}

@@ -1,7 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="InvasionMonsterRestrictions">
-    <field name="Id"                    type="string" unique="true" />
-    <field name="WorldAreasKey"         type="longid" ref="WorldAreas" />
-    <field name="MonsterVarietiesKeys"  type="longid[]" ref="MonsterVarieties" />
-    <field name="Data0"                 type="i32[]" />
-</format>

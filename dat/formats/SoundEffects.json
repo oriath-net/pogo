@@ -1,0 +1,24 @@
+{
+  "file": "SoundEffects",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "SoundFile",
+      "type": "string",
+      "path": "ogg"
+    },
+    {
+      "name": "SoundFile_2D",
+      "type": "string",
+      "path": "ogg"
+    },
+    {
+      "name": "Unknown3",
+      "type": "bool"
+    }
+  ]
+}

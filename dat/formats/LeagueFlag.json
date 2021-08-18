@@ -1,0 +1,14 @@
+{
+  "file": "LeagueFlag",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Image",
+      "type": "string"
+    }
+  ]
+}

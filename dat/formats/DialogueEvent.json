@@ -1,0 +1,14 @@
+{
+  "file": "DialogueEvent",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Timer",
+      "type": "i32"
+    }
+  ]
+}

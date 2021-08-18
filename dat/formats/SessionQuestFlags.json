@@ -1,0 +1,9 @@
+{
+  "file": "SessionQuestFlags",
+  "fields": [
+    {
+      "name": "QuestFlag",
+      "type": "i32"
+    }
+  ]
+}

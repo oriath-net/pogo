@@ -1,0 +1,41 @@
+{
+  "file": "AdvancedSkillsTutorial",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Keys1",
+      "type": "u64[]"
+    },
+    {
+      "name": "Key2",
+      "type": "u64[]"
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    },
+    {
+      "name": "International_BK2File",
+      "type": "string",
+      "path": "bk2"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "China_BK2File",
+      "type": "string",
+      "path": "bk2"
+    },
+    {
+      "name": "CharactersKey",
+      "type": "longid[]",
+      "ref": "Characters"
+    }
+  ]
+}

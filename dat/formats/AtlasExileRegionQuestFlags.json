@@ -1,0 +1,27 @@
+{
+  "file": "AtlasExileRegionQuestFlags",
+  "fields": [
+    {
+      "name": "AtlasExilesKey",
+      "type": "longid",
+      "ref": "AtlasExiles"
+    },
+    {
+      "name": "AtlasRegionsKey",
+      "type": "longid",
+      "ref": "AtlasRegions"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Key1",
+      "type": "u64"
+    },
+    {
+      "name": "QuestState",
+      "type": "i32"
+    }
+  ]
+}

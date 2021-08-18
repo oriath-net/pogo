@@ -1,0 +1,17 @@
+{
+  "file": "EvergreenAchievements",
+  "fields": [
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Keys0",
+      "type": "u64[]"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "file": "HarvestCraftOptionIcons",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "DDSFile",
+      "type": "string",
+      "path": "dds"
+    }
+  ]
+}

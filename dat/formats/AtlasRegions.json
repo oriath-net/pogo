@@ -1,0 +1,58 @@
+{
+  "file": "AtlasRegions",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i64"
+    },
+    {
+      "name": "X",
+      "type": "f32"
+    },
+    {
+      "name": "Y",
+      "type": "f32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i64"
+    },
+    {
+      "name": "CitadelName",
+      "type": "string"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "CitadelRevealVideo",
+      "type": "string"
+    },
+    {
+      "name": "Unknown6",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown7",
+      "type": "i64"
+    },
+    {
+      "name": "Unknown8",
+      "type": "i64"
+    }
+  ]
+}

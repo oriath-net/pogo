@@ -1,0 +1,96 @@
+{
+  "file": "MonsterDeathAchievements",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "MonsterVarietiesKeys",
+      "type": "longid[]",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "AchievementItemsKeys",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "Flag0",
+      "type": "u8"
+    },
+    {
+      "name": "PlayerConditionsKeys",
+      "type": "longid[]",
+      "ref": "PlayerConditions"
+    },
+    {
+      "name": "MonsterDeathConditionsKeys",
+      "type": "longid[]",
+      "ref": "MonsterDeathConditions"
+    },
+    {
+      "name": "Unknown5",
+      "type": "u64[]"
+    },
+    {
+      "name": "Unknown6",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown7",
+      "type": "i32"
+    },
+    {
+      "name": "Flag1",
+      "type": "u8"
+    },
+    {
+      "name": "Flag2",
+      "type": "u8"
+    },
+    {
+      "name": "Unknown8",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown9",
+      "type": "u64[]"
+    },
+    {
+      "name": "Unknown10",
+      "type": "u64[]"
+    },
+    {
+      "name": "Unknown11",
+      "type": "u64[]"
+    },
+    {
+      "name": "Unknown12",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown13",
+      "type": "i32"
+    },
+    {
+      "name": "NearbyMonsterConditionsKeys",
+      "type": "longid[]",
+      "ref": "NearbyMonsterConditions"
+    },
+    {
+      "name": "Flag3",
+      "type": "u8"
+    },
+    {
+      "name": "MultiPartAchievementConditionsKeys",
+      "type": "longid[]",
+      "ref": "MultiPartAchievementConditions"
+    },
+    {
+      "name": "Unknown16",
+      "type": "i32"
+    }
+  ]
+}

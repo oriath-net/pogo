@@ -1,0 +1,18 @@
+{
+  "file": "EnvironmentTransitions",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "OTFiles",
+      "type": "string[]",
+      "path": "ot"
+    },
+    {
+      "name": "Data0",
+      "type": "string[]"
+    }
+  ]
+}

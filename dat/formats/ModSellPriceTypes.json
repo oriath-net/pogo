@@ -1,0 +1,9 @@
+{
+  "file": "ModSellPriceTypes",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    }
+  ]
+}

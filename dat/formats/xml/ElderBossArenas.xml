@@ -1,6 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="ElderBossArenas">
-    <field name="WorldAreasKey"         type="longid" ref="WorldAreas" unique="true" />
-    <field name="Unknown1"              type="i32" />
-    <field name="AchievementItemsKeys"  type="longid[]" ref="AchievementItems" />
-</format>

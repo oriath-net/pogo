@@ -1,5 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="TencentAutoLootPetCurrencies">
-    <field name="BaseItemTypesKey"      type="longid" ref="BaseItemTypes" />
-    <field name="Unknown2"              type="u8" />
-</format>

@@ -1,0 +1,19 @@
+{
+  "file": "BetrayalChoiceActions",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "BetrayalChoicesKey",
+      "type": "longid",
+      "ref": "BetrayalChoices"
+    },
+    {
+      "name": "ClientStringsKey",
+      "type": "longid",
+      "ref": "ClientStrings"
+    }
+  ]
+}

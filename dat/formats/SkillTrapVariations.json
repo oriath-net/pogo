@@ -1,0 +1,17 @@
+{
+  "file": "SkillTrapVariations",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "i32"
+    },
+    {
+      "name": "Metadata",
+      "type": "string"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    }
+  ]
+}

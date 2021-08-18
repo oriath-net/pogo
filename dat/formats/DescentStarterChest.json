@@ -1,0 +1,29 @@
+{
+  "file": "DescentStarterChest",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "CharactersKey",
+      "type": "longid",
+      "ref": "Characters"
+    },
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "SocketColours",
+      "type": "string"
+    },
+    {
+      "name": "WorldAreasKey",
+      "type": "longid",
+      "ref": "WorldAreas"
+    }
+  ]
+}

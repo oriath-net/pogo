@@ -1,6 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="MicrotransactionRecycleSalvageValues">
-    <field name="Key0"                  type="u64" />
-    <field name="Unknown2"              type="i32" />
-    <field name="Unknown3"              type="i32" />
-</format>

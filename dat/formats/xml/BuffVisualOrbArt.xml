@@ -1,9 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="BuffVisualOrbArt">
-    <field name="Id"                    type="string" unique="true" />
-    <field name="Key0"                  type="u64" />
-    <field name="Unknown2"              type="string[]" />
-    <field name="Unknown3"              type="string[]" />
-    <field name="Unknown4"              type="string" />
-    <field name="Unknown5"              type="string" />
-</format>

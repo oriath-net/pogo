@@ -1,8 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="BuffVisualOrbs">
-    <field name="Id"                    type="string" unique="true" />
-    <field name="BuffVisualOrbTypesKey" type="longid" ref="BuffVisualOrbTypes" />
-    <field name="BuffVisualOrbArtKeys"  type="longid[]" ref="BuffVisualOrbArt" />
-    <field name="Player_BuffVisualOrbArtKeys" type="longid[]" ref="BuffVisualOrbArt" />
-    <field name="BuffVisualOrbArtKeys2" type="longid[]" ref="BuffVisualOrbArt" />
-</format>

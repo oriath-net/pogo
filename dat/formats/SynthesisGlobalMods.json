@@ -1,0 +1,22 @@
+{
+  "file": "SynthesisGlobalMods",
+  "fields": [
+    {
+      "name": "ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Weight",
+      "type": "i32"
+    },
+    {
+      "name": "MinLevel",
+      "type": "i32"
+    },
+    {
+      "name": "MaxLevel",
+      "type": "i32"
+    }
+  ]
+}

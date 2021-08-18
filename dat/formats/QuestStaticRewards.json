@@ -1,0 +1,40 @@
+{
+  "file": "QuestStaticRewards",
+  "fields": [
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "StatsKeys",
+      "type": "longid[]",
+      "ref": "Stats"
+    },
+    {
+      "name": "StatValues",
+      "type": "i32[]"
+    },
+    {
+      "name": "QuestKey",
+      "type": "longid",
+      "ref": "Quest"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "ClientStringsKey",
+      "type": "longid",
+      "ref": "ClientStrings"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    }
+  ]
+}

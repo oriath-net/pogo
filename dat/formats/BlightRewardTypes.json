@@ -1,0 +1,14 @@
+{
+  "file": "BlightRewardTypes",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Icon",
+      "type": "string"
+    }
+  ]
+}

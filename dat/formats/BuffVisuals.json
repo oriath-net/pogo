@@ -1,0 +1,76 @@
+{
+  "file": "BuffVisuals",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "BuffDDSFile",
+      "type": "string",
+      "path": "dds"
+    },
+    {
+      "name": "EPKFiles1",
+      "type": "string[]",
+      "path": "epk"
+    },
+    {
+      "name": "EPKFiles2",
+      "type": "string[]",
+      "path": "epk"
+    },
+    {
+      "name": "MiscAnimatedKeys1",
+      "type": "longid[]",
+      "ref": "MiscAnimated"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "BuffName",
+      "type": "string"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Key1",
+      "type": "u64"
+    },
+    {
+      "name": "BuffDescription",
+      "type": "string"
+    },
+    {
+      "name": "EPKFile",
+      "type": "string",
+      "path": "epk"
+    },
+    {
+      "name": "HasExtraArt",
+      "type": "bool"
+    },
+    {
+      "name": "ExtraArt",
+      "type": "string"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32[]"
+    },
+    {
+      "name": "EPKFiles",
+      "type": "string[]",
+      "path": "epk"
+    },
+    {
+      "name": "Keys0",
+      "type": "u64[]"
+    }
+  ]
+}

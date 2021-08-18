@@ -1,0 +1,90 @@
+{
+  "file": "Stats",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "IsLocal",
+      "type": "bool"
+    },
+    {
+      "name": "IsWeaponLocal",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "Flag3",
+      "type": "bool"
+    },
+    {
+      "name": "Text",
+      "type": "string"
+    },
+    {
+      "name": "Flag5",
+      "type": "bool"
+    },
+    {
+      "name": "Flag6",
+      "type": "bool"
+    },
+    {
+      "name": "MainHandAlias_StatsKey",
+      "type": "shortid",
+      "ref": "Stats"
+    },
+    {
+      "name": "OffHandAlias_StatsKey",
+      "type": "shortid",
+      "ref": "Stats"
+    },
+    {
+      "name": "Flag7",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "BelongsActiveSkillsKey",
+      "type": "string[]",
+      "ref": "ActiveSkills",
+      "ref-field": "Id"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Flag8",
+      "type": "bool"
+    },
+    {
+      "name": "Flag9",
+      "type": "bool"
+    },
+    {
+      "name": "Flag10",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    }
+  ]
+}

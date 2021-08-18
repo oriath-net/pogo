@@ -1,0 +1,35 @@
+{
+  "file": "IncursionChests",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "ChestsKey",
+      "type": "longid",
+      "ref": "Chests"
+    },
+    {
+      "name": "Key1",
+      "type": "u64"
+    },
+    {
+      "name": "MinLevel",
+      "type": "i32"
+    },
+    {
+      "name": "MaxLevel",
+      "type": "i32"
+    },
+    {
+      "name": "Weight",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown8",
+      "type": "i32"
+    }
+  ]
+}

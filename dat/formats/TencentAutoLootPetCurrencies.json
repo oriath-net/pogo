@@ -1,0 +1,14 @@
+{
+  "file": "TencentAutoLootPetCurrencies",
+  "fields": [
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "Unknown2",
+      "type": "u8"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "file": "PCBangRewardMicros",
+  "fields": [
+    {
+      "name": "BaseItemTypesKey",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    }
+  ]
+}

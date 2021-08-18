@@ -1,0 +1,13 @@
+{
+  "file": "EinharPackFallback",
+  "fields": [
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Keys0",
+      "type": "u64[]"
+    }
+  ]
+}

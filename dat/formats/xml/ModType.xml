@@ -1,6 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="ModType">
-    <field name="Name"                  type="string" unique="true" />
-    <field name="ModSellPriceTypesKeys" type="longid[]" ref="ModSellPriceTypes" />
-    <field name="TagsKeys"              type="longid[]" ref="Tags" />
-</format>

@@ -1,0 +1,18 @@
+{
+  "file": "SalvageBoxes",
+  "fields": [
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Unknown2",
+      "type": "string"
+    }
+  ]
+}

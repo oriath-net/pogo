@@ -1,8 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="LegionChests">
-    <field name="ChestsKey"             type="longid" ref="Chests" />
-    <field name="LegionFactionsKey"     type="longid" ref="LegionFactions" />
-    <field name="LegionRanksKey"        type="longid" ref="LegionRanks" />
-    <field name="Key1"                  type="u64" />
-    <field name="Unknown4"              type="i32" />
-</format>

@@ -1,0 +1,50 @@
+{
+  "file": "Acts",
+  "since": "3.14",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "Part",
+      "type": "i32"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "string"
+    },
+    {
+      "name": "Unknown3",
+      "type": "string"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown6",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown7",
+      "type": "i32"
+    }
+  ]
+}

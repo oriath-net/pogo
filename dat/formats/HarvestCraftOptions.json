@@ -1,0 +1,59 @@
+{
+  "file": "HarvestCraftOptions",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Text",
+      "type": "string"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "HarvestObjectsKey",
+      "type": "longid",
+      "ref": "HarvestObjects"
+    },
+    {
+      "name": "HarvestCraftTiersKey",
+      "type": "longid",
+      "ref": "HarvestCraftTiers"
+    },
+    {
+      "name": "Command",
+      "type": "string"
+    },
+    {
+      "name": "Parameters",
+      "type": "string"
+    },
+    {
+      "name": "AchievementItemsKeys",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "HarvestCraftOptionIconsKeys",
+      "type": "longid[]",
+      "ref": "HarvestCraftOptionIcons"
+    },
+    {
+      "name": "PlainText",
+      "type": "string",
+      "description": "Text without any tags for formatting"
+    }
+  ]
+}

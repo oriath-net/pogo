@@ -1,0 +1,303 @@
+{
+  "file": "Essences",
+  "fields": [
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes",
+      "unique": true
+    },
+    {
+      "name": "Unknown1",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown2",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown3",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown4",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown5",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown6",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown7",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown8",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown9",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown10",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown11",
+      "type": "u64"
+    },
+    {
+      "name": "Display_Wand_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Display_Bow_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Display_Quiver_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Display_Amulet_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Display_Ring_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Display_Belt_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Display_Gloves_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Display_Boots_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Display_BodyArmour_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Display_Helmet_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Display_Shield_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Unknown23",
+      "type": "i32"
+    },
+    {
+      "name": "DropLevelMinimum",
+      "type": "i32"
+    },
+    {
+      "name": "DropLevelMaximum",
+      "type": "i32"
+    },
+    {
+      "name": "Monster_ModsKeys",
+      "type": "longid[]",
+      "ref": "Mods"
+    },
+    {
+      "name": "EssenceTypeKey",
+      "type": "longid",
+      "ref": "EssenceType"
+    },
+    {
+      "name": "Level",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown31",
+      "type": "i32"
+    },
+    {
+      "name": "Display_Weapon_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Display_MeleeWeapon_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Display_OneHandWeapon_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Display_TwoHandWeapon_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Display_TwoHandMeleeWeapon_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Display_Armour_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Display_RangedWeapon_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Helmet_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "BodyArmour_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Boots_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Gloves_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Bow_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Wand_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Staff_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "TwoHandSword_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "TwoHandAxe_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "TwoHandMace_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Claw_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Dagger_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "OneHandSword_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "OneHandThrustingSword_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "OneHandAxe_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "OneHandMace_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Sceptre_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Display_Monster_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "ItemLevelRestriction",
+      "type": "i32"
+    },
+    {
+      "name": "Belt_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Amulet_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Ring_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Display_Jewellery_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Shield_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Display_Items_ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "IsScreamingEssence",
+      "type": "bool"
+    }
+  ]
+}

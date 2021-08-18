@@ -1,0 +1,39 @@
+{
+  "file": "LegionChestCounts",
+  "fields": [
+    {
+      "name": "LegionFactionsKey",
+      "type": "longid",
+      "ref": "LegionFactions"
+    },
+    {
+      "name": "LegionRanksKey",
+      "type": "longid",
+      "ref": "LegionRanks"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "MinLevel",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown7",
+      "type": "i32"
+    }
+  ]
+}

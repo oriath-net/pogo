@@ -1,0 +1,28 @@
+{
+  "file": "MonsterPackEntries",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "MonsterPacksKey",
+      "type": "longid",
+      "ref": "MonsterPacks"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "MonsterVarietiesKey",
+      "type": "longid",
+      "ref": "MonsterVarieties"
+    }
+  ]
+}

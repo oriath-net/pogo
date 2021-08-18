@@ -1,0 +1,17 @@
+{
+  "file": "BetrayalChoices",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "Text",
+      "type": "string"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    }
+  ]
+}

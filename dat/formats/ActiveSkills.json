@@ -1,0 +1,123 @@
+{
+  "file": "ActiveSkills",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "DisplayedName",
+      "type": "string"
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    },
+    {
+      "name": "Index3",
+      "type": "string"
+    },
+    {
+      "name": "Icon_DDSFile",
+      "type": "string",
+      "path": "dds"
+    },
+    {
+      "name": "ActiveSkillTargetTypes",
+      "type": "u32[]"
+    },
+    {
+      "name": "ActiveSkillTypes",
+      "type": "u32[]"
+    },
+    {
+      "name": "WeaponRestriction_ItemClassesKeys",
+      "type": "longid[]",
+      "ref": "ItemClasses"
+    },
+    {
+      "name": "WebsiteDescription",
+      "type": "string"
+    },
+    {
+      "name": "WebsiteImage",
+      "type": "string"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown0",
+      "type": "string"
+    },
+    {
+      "name": "Flag1",
+      "type": "bool"
+    },
+    {
+      "name": "SkillTotemId",
+      "type": "i32",
+      "description": "This links to SkillTotems.dat, but the number mayexceed the number of entries; in that case it is player skill."
+    },
+    {
+      "name": "IsManuallyCasted",
+      "type": "bool"
+    },
+    {
+      "name": "Input_StatKeys",
+      "type": "longid[]",
+      "ref": "Stats",
+      "description": "Stats that will modify this skill specifically"
+    },
+    {
+      "name": "Output_StatKeys",
+      "type": "longid[]",
+      "ref": "Stats",
+      "description": "Stat an input stat will be transformed into"
+    },
+    {
+      "name": "MinionActiveSkillTypes",
+      "type": "i32[]",
+      "description": "ActiveSkillTypes of skills of minions summoned by this skill"
+    },
+    {
+      "name": "Flag2",
+      "type": "bool"
+    },
+    {
+      "name": "Flag3",
+      "type": "bool"
+    },
+    {
+      "name": "Keys0",
+      "type": "u64[]"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Flag4",
+      "type": "bool"
+    },
+    {
+      "name": "AIFile",
+      "type": "string",
+      "path": ".ai"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    }
+  ]
+}

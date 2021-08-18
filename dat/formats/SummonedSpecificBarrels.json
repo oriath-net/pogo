@@ -1,0 +1,27 @@
+{
+  "file": "SummonedSpecificBarrels",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "ChestsKey",
+      "type": "longid",
+      "ref": "Chests"
+    },
+    {
+      "name": "Key1",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "Key2",
+      "type": "u64"
+    }
+  ]
+}

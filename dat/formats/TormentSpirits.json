@@ -1,0 +1,56 @@
+{
+  "file": "TormentSpirits",
+  "fields": [
+    {
+      "name": "MonsterVarietiesKey",
+      "type": "longid",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "Spirit_ModsKeys",
+      "type": "longid[]",
+      "ref": "Mods"
+    },
+    {
+      "name": "Touched_ModsKeys",
+      "type": "longid[]",
+      "ref": "Mods"
+    },
+    {
+      "name": "Possessed_ModsKeys",
+      "type": "longid[]",
+      "ref": "Mods"
+    },
+    {
+      "name": "MinZoneLevel",
+      "type": "i32"
+    },
+    {
+      "name": "MaxZoneLevel",
+      "type": "i32"
+    },
+    {
+      "name": "SpawnWeight",
+      "type": "i32"
+    },
+    {
+      "name": "SummonedMonster_MonsterVarietiesKey",
+      "type": "longid",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "Unknown13",
+      "type": "i32"
+    },
+    {
+      "name": "ModsKeys0",
+      "type": "longid[]",
+      "ref": "Mods"
+    },
+    {
+      "name": "ModsKeys1",
+      "type": "longid[]",
+      "ref": "Mods"
+    }
+  ]
+}

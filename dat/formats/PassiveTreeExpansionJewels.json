@@ -1,0 +1,48 @@
+{
+  "file": "PassiveTreeExpansionJewels",
+  "fields": [
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "PassiveTreeExpansionJewelSizesKey",
+      "type": "longid",
+      "ref": "PassiveTreeExpansionJewelSizes"
+    },
+    {
+      "name": "MinNodes",
+      "type": "i32"
+    },
+    {
+      "name": "MaxNodes",
+      "type": "i32"
+    },
+    {
+      "name": "SmallIndices",
+      "type": "i32[]"
+    },
+    {
+      "name": "NotableIndices",
+      "type": "i32[]"
+    },
+    {
+      "name": "SocketIndices",
+      "type": "i32[]"
+    },
+    {
+      "name": "Art",
+      "type": "string"
+    },
+    {
+      "name": "TotalIndices",
+      "type": "i32"
+    },
+    {
+      "name": "SoundEffectsKey",
+      "type": "longid",
+      "ref": "SoundEffects"
+    }
+  ]
+}

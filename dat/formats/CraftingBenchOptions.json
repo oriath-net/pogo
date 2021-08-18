@@ -1,0 +1,142 @@
+{
+  "file": "CraftingBenchOptions",
+  "fields": [
+    {
+      "name": "HideoutNPCsKey",
+      "type": "longid",
+      "ref": "HideoutNPCs"
+    },
+    {
+      "name": "Order",
+      "type": "i32"
+    },
+    {
+      "name": "ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Cost_BaseItemTypesKeys",
+      "type": "longid[]",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "Cost_Values",
+      "type": "u32[]"
+    },
+    {
+      "name": "RequiredLevel",
+      "type": "i32"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "CraftingBenchCustomAction",
+      "type": "i32"
+    },
+    {
+      "name": "ItemClassesKeys",
+      "type": "longid[]",
+      "ref": "ItemClasses"
+    },
+    {
+      "name": "Links",
+      "type": "i32"
+    },
+    {
+      "name": "SocketColours",
+      "type": "string"
+    },
+    {
+      "name": "Sockets",
+      "type": "i32"
+    },
+    {
+      "name": "ItemQuantity",
+      "type": "i32"
+    },
+    {
+      "name": "Data0",
+      "type": "i32[]"
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    },
+    {
+      "name": "IsDisabled",
+      "type": "bool"
+    },
+    {
+      "name": "IsAreaOption",
+      "type": "bool"
+    },
+    {
+      "name": "RecipeIds",
+      "type": "shortid[]",
+      "ref": "RecipeUnlockDisplay",
+      "ref-field": "RecipeId"
+    },
+    {
+      "name": "Tier",
+      "type": "i32"
+    },
+    {
+      "name": "ModFamily",
+      "type": "string"
+    },
+    {
+      "name": "CraftingItemClassCategoriesKeys",
+      "type": "longid[]",
+      "ref": "CraftingItemClassCategories"
+    },
+    {
+      "name": "MaximumMapTier",
+      "type": "i32"
+    },
+    {
+      "name": "CraftingBenchUnlockCategoriesKey",
+      "type": "longid",
+      "ref": "CraftingBenchUnlockCategories"
+    },
+    {
+      "name": "UnveilsRequired",
+      "type": "i32"
+    },
+    {
+      "name": "UnveilsRequired2",
+      "type": "i32"
+    },
+    {
+      "name": "AffixType",
+      "type": "string"
+    },
+    {
+      "name": "Keys1",
+      "type": "u64[]"
+    },
+    {
+      "name": "Keys2",
+      "type": "u64[]"
+    },
+    {
+      "name": "AchievementItemsKeys",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    }
+  ]
+}

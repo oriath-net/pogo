@@ -1,5 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="AchievementSetsDisplay">
-    <field name="Id"                    type="i32" unique="true" />
-    <field name="Title"                 type="string" />
-</format>

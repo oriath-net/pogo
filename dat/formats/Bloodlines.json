@@ -1,0 +1,76 @@
+{
+  "file": "Bloodlines",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "ModsKeys",
+      "type": "longid[]",
+      "ref": "Mods"
+    },
+    {
+      "name": "MinZoneLevel",
+      "type": "i32"
+    },
+    {
+      "name": "MaxZoneLevel",
+      "type": "i32"
+    },
+    {
+      "name": "SpawnWeight_TagsKeys",
+      "type": "longid[]",
+      "ref": "Tags"
+    },
+    {
+      "name": "SpawnWeight_Values",
+      "type": "i32[]",
+      "description": "0 disables"
+    },
+    {
+      "name": "Unknown8",
+      "type": "i32"
+    },
+    {
+      "name": "BuffDefinitionsKey",
+      "type": "longid",
+      "ref": "BuffDefinitions"
+    },
+    {
+      "name": "Unknown11",
+      "type": "i32[]"
+    },
+    {
+      "name": "ItemWeight_TagsKeys",
+      "type": "longid[]",
+      "ref": "Tags"
+    },
+    {
+      "name": "ItemWeight_Values",
+      "type": "i32[]"
+    },
+    {
+      "name": "MonsterVarietiesKey",
+      "type": "longid",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "Unknown20",
+      "type": "i32"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "Keys2",
+      "type": "u64[]"
+    },
+    {
+      "name": "Flag1",
+      "type": "bool"
+    }
+  ]
+}

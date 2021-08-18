@@ -1,0 +1,31 @@
+{
+  "file": "ImpactSoundData",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Sound",
+      "type": "string",
+      "description": "Located in Audio/SoundEffects. Format has SG removed and $(#) replaced with the number"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    }
+  ]
+}

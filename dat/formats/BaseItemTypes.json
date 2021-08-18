@@ -1,0 +1,166 @@
+{
+  "file": "BaseItemTypes",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "ItemClassesKey",
+      "type": "longid",
+      "ref": "ItemClasses"
+    },
+    {
+      "name": "Width",
+      "type": "i32"
+    },
+    {
+      "name": "Height",
+      "type": "i32"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "InheritsFrom",
+      "type": "string"
+    },
+    {
+      "name": "DropLevel",
+      "type": "i32"
+    },
+    {
+      "name": "FlavourTextKey",
+      "type": "longid",
+      "ref": "FlavourText"
+    },
+    {
+      "name": "Implicit_ModsKeys",
+      "type": "longid[]",
+      "ref": "Mods"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "SoundEffectsKey",
+      "type": "longid",
+      "ref": "SoundEffects"
+    },
+    {
+      "name": "NormalPurchase_BaseItemTypesKeys",
+      "type": "shortid[]",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "NormalPurchase_Costs",
+      "type": "i32[]"
+    },
+    {
+      "name": "MagicPurchase_BaseItemTypesKeys",
+      "type": "shortid[]",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "MagicPurchase_Costs",
+      "type": "i32[]"
+    },
+    {
+      "name": "TagsKeys",
+      "type": "longid[]",
+      "ref": "Tags"
+    },
+    {
+      "name": "ModDomainsKey",
+      "type": "i32"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "ItemVisualIdentityKey",
+      "type": "longid",
+      "ref": "ItemVisualIdentity"
+    },
+    {
+      "name": "UnknownUnique",
+      "type": "u32",
+      "unique": true
+    },
+    {
+      "name": "VendorRecipe_AchievementItemsKeys",
+      "type": "longid[]",
+      "ref": "AchievementItems",
+      "description": "Achievement check when selling this item to vendors"
+    },
+    {
+      "name": "RarePurchase_BaseItemTypesKeys",
+      "type": "shortid[]",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "RarePurchase_Costs",
+      "type": "i32[]"
+    },
+    {
+      "name": "UniquePurchase_BaseItemTypesKeys",
+      "type": "shortid[]",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "UniquePurchase_Costs",
+      "type": "i32[]"
+    },
+    {
+      "name": "Inflection",
+      "type": "string",
+      "description": "the inflection identifier used for i18n in related fields"
+    },
+    {
+      "name": "Equip_AchievementItemsKey",
+      "type": "longid",
+      "ref": "AchievementItems",
+      "description": "Achievement check when equipping this item"
+    },
+    {
+      "name": "IsCorrupted",
+      "type": "bool"
+    },
+    {
+      "name": "Identify_AchievementItemsKeys",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "ItemThemesKey",
+      "type": "longid",
+      "ref": "ItemThemes"
+    },
+    {
+      "name": "IdentifyMagic_AchievementItemsKeys",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "FragmentBaseItemTypesKey",
+      "type": "shortid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "IsBlessing",
+      "type": "bool"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Key1",
+      "type": "u64"
+    }
+  ]
+}

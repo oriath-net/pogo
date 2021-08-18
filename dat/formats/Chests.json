@@ -1,0 +1,129 @@
+{
+  "file": "Chests",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "AOFiles",
+      "type": "string[]",
+      "path": "ao"
+    },
+    {
+      "name": "Flag1",
+      "type": "bool"
+    },
+    {
+      "name": "Flag2",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Flag3",
+      "type": "bool"
+    },
+    {
+      "name": "Flag4",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown_Keys",
+      "type": "u64[]"
+    },
+    {
+      "name": "Unknown_Values",
+      "type": "u32[]"
+    },
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "Flag5",
+      "type": "bool"
+    },
+    {
+      "name": "ModsKeys",
+      "type": "longid[]",
+      "ref": "Mods"
+    },
+    {
+      "name": "TagsKeys",
+      "type": "longid[]",
+      "ref": "Tags"
+    },
+    {
+      "name": "ChestEffectsKey",
+      "type": "longid",
+      "ref": "ChestEffects"
+    },
+    {
+      "name": "MinLevel",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "string"
+    },
+    {
+      "name": "MaxLevel",
+      "type": "i32"
+    },
+    {
+      "name": "Corrupt_AchievementItemsKey",
+      "type": "longid",
+      "ref": "AchievementItems",
+      "description": "Achievement item granted on corruption"
+    },
+    {
+      "name": "CurrencyUse_AchievementItemsKey",
+      "type": "longid",
+      "ref": "AchievementItems",
+      "description": "Achievement item checked on currency use"
+    },
+    {
+      "name": "Encounter_AchievementItemsKeys",
+      "type": "longid[]",
+      "ref": "AchievementItems",
+      "description": "Achievement items granted on encounter"
+    },
+    {
+      "name": "Key4",
+      "type": "u64"
+    },
+    {
+      "name": "InheritsFrom",
+      "type": "string"
+    },
+    {
+      "name": "Flag6",
+      "type": "bool"
+    },
+    {
+      "name": "Key5",
+      "type": "u64"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "file": "DelveResourcePerLevel",
+  "fields": [
+    {
+      "name": "AreaLevel",
+      "type": "i32"
+    },
+    {
+      "name": "Sulphite",
+      "type": "i32"
+    }
+  ]
+}

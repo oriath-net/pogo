@@ -1,0 +1,30 @@
+{
+  "file": "MonsterProjectileAttack",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "i32",
+      "unique": true
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "Flag1",
+      "type": "bool"
+    },
+    {
+      "name": "Flag2",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    }
+  ]
+}

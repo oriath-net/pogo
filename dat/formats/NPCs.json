@@ -1,0 +1,77 @@
+{
+  "file": "NPCs",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Metadata",
+      "type": "string"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "NPCMasterKey",
+      "type": "longid",
+      "ref": "NPCMaster"
+    },
+    {
+      "name": "ShortName",
+      "type": "string"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "NPCShopKey",
+      "type": "longid",
+      "ref": "NPCShop"
+    },
+    {
+      "name": "GreetingNPCAudioKeys",
+      "type": "longid[]",
+      "ref": "NPCAudio"
+    },
+    {
+      "name": "GoodbyeNPCAudioKeys",
+      "type": "longid[]",
+      "ref": "NPCAudio"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32",
+      "description": "unique and under 65536"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32",
+      "since": "3.11",
+      "description": "unused until 3.15"
+    },
+    {
+      "name": "PortraitFile",
+      "type": "string",
+      "since": "3.12",
+      "until": "3.14"
+    },
+    {
+      "name": "NPCPortraitsKey",
+      "type": "longid",
+      "since": "3.13"
+    },
+    {
+      "name": "Unknown5",
+      "type": "longid",
+      "since": "3.14"
+    }
+  ]
+}

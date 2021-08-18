@@ -1,0 +1,13 @@
+{
+  "file": "MissionFavourPerLevel",
+  "fields": [
+    {
+      "name": "Level",
+      "type": "i32"
+    },
+    {
+      "name": "Favour",
+      "type": "i32"
+    }
+  ]
+}

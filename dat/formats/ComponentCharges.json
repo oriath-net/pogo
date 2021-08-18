@@ -1,0 +1,20 @@
+{
+  "file": "ComponentCharges",
+  "fields": [
+    {
+      "name": "BaseItemTypesKey",
+      "type": "string",
+      "ref": "BaseItemTypes",
+      "ref-field": "Id",
+      "unique": true
+    },
+    {
+      "name": "MaxCharges",
+      "type": "i32"
+    },
+    {
+      "name": "PerCharge",
+      "type": "i32"
+    }
+  ]
+}

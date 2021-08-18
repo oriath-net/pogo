@@ -1,7 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="BlightEncounterTypes">
-    <field name="Id"                    type="string" unique="true" />
-    <field name="Icon"                  type="string" /> <!-- file_path=True -->
-    <field name="IsGeneric"             type="u8" />
-    <field name="Weight"                type="i32" />
-</format>

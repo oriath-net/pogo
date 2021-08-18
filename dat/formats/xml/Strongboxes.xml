@@ -1,8 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="Strongboxes">
-    <field name="ChestsKey"             type="longid" ref="Chests" unique="true" />
-    <field name="SpawnWeight"           type="i32" />
-    <field name="Unknown1"              type="i32" />
-    <field name="IsCartographerBox"     type="bool" />
-    <field name="Flag0"                 type="bool" />
-</format>

@@ -1,0 +1,25 @@
+{
+  "file": "PassiveTreeExpansionSkills",
+  "fields": [
+    {
+      "name": "PassiveSkillsKey",
+      "type": "longid",
+      "ref": "PassiveSkills"
+    },
+    {
+      "name": "Mastery_PassiveSkillsKey",
+      "type": "longid",
+      "ref": "PassiveSkills"
+    },
+    {
+      "name": "TagsKey",
+      "type": "longid",
+      "ref": "Tags"
+    },
+    {
+      "name": "PassiveTreeExpansionJewelSizesKey",
+      "type": "longid",
+      "ref": "PassiveTreeExpansionJewelSizes"
+    }
+  ]
+}

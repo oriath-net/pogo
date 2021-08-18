@@ -1,6 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="EventSeason">
-    <field name="Id"                    type="string" unique="true" />
-    <field name="Unknown1"              type="i32" />
-    <field name="RewardCommand"         type="string" />
-</format>

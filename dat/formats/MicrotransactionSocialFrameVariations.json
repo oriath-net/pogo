@@ -1,0 +1,20 @@
+{
+  "file": "MicrotransactionSocialFrameVariations",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "i32",
+      "unique": true
+    },
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "BK2File",
+      "type": "string",
+      "path": "bk2"
+    }
+  ]
+}

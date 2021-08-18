@@ -1,0 +1,14 @@
+{
+  "file": "AchievementSetsDisplay",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "i32",
+      "unique": true
+    },
+    {
+      "name": "Title",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "file": "HideoutNPCs",
+  "fields": [
+    {
+      "name": "Hideout_NPCsKey",
+      "type": "longid",
+      "ref": "NPCs"
+    },
+    {
+      "name": "Regular_NPCsKeys",
+      "type": "longid[]",
+      "ref": "NPCs"
+    },
+    {
+      "name": "HideoutDoodadsKey",
+      "type": "longid",
+      "ref": "HideoutDoodads"
+    },
+    {
+      "name": "NPCMasterKey",
+      "type": "shortid",
+      "ref": "NPCMaster"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    }
+  ]
+}

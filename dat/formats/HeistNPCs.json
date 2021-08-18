@@ -1,0 +1,94 @@
+{
+  "file": "HeistNPCs",
+  "fields": [
+    {
+      "name": "NPCsKey",
+      "type": "longid",
+      "ref": "NPCs"
+    },
+    {
+      "name": "MonsterVarietiesKey",
+      "type": "longid",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "SkillLevel_HeistJobsKeys",
+      "type": "longid[]",
+      "ref": "HeistJobs"
+    },
+    {
+      "name": "PortraitFile",
+      "type": "string"
+    },
+    {
+      "name": "HeistNPCStatsKeys",
+      "type": "longid[]",
+      "ref": "HeistNPCStats"
+    },
+    {
+      "name": "StatValues",
+      "type": "f32[]"
+    },
+    {
+      "name": "Unknown6",
+      "type": "f32"
+    },
+    {
+      "name": "SkillLevel_Values",
+      "type": "i32[]"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Unknown9",
+      "type": "i32"
+    },
+    {
+      "name": "SilhouetteFile",
+      "type": "string"
+    },
+    {
+      "name": "Unknown11",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown12",
+      "type": "i32"
+    },
+    {
+      "name": "HeistNPCsKey",
+      "type": "shortid",
+      "ref": "HeistNPCs"
+    },
+    {
+      "name": "StatValues2",
+      "type": "f32[]"
+    },
+    {
+      "name": "Ally_NPCsKey",
+      "type": "longid",
+      "ref": "NPCs"
+    },
+    {
+      "name": "ActiveNPCIcon",
+      "type": "string"
+    },
+    {
+      "name": "HeistJobsKey",
+      "type": "longid",
+      "ref": "HeistJobs"
+    },
+    {
+      "name": "Equip_AchievementItemsKeys",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "AOFile",
+      "type": "string",
+      "path": "ao"
+    }
+  ]
+}

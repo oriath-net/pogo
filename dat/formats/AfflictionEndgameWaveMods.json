@@ -1,0 +1,22 @@
+{
+  "file": "AfflictionEndgameWaveMods",
+  "fields": [
+    {
+      "name": "ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    }
+  ]
+}

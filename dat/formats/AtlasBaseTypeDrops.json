@@ -1,0 +1,32 @@
+{
+  "file": "AtlasBaseTypeDrops",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "AtlasRegionsKey",
+      "type": "longid",
+      "ref": "AtlasRegions"
+    },
+    {
+      "name": "MinTier",
+      "type": "i32"
+    },
+    {
+      "name": "MaxTier",
+      "type": "i32"
+    },
+    {
+      "name": "SpawnWeight_TagsKeys",
+      "type": "longid[]",
+      "ref": "Tags"
+    },
+    {
+      "name": "SpawnWeight_Values",
+      "type": "i32[]"
+    }
+  ]
+}

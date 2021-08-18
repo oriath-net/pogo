@@ -1,0 +1,14 @@
+{
+  "file": "NetTiers",
+  "fields": [
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "Tier",
+      "type": "i32"
+    }
+  ]
+}

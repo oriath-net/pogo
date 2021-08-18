@@ -1,0 +1,51 @@
+{
+  "file": "NPCShop",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "SoldItem_TagsKeys",
+      "type": "longid[]",
+      "ref": "Tags"
+    },
+    {
+      "name": "SoldItem_Weights",
+      "type": "u32[]"
+    },
+    {
+      "name": "Unknown_Keys0",
+      "type": "u64[]"
+    },
+    {
+      "name": "Unknown_Values",
+      "type": "u32[]"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Keys1",
+      "type": "u64[]"
+    },
+    {
+      "name": "Data0",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    }
+  ]
+}

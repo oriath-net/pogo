@@ -1,0 +1,44 @@
+{
+  "file": "InvasionMonstersPerArea",
+  "fields": [
+    {
+      "name": "WorldAreasKey",
+      "type": "longid",
+      "ref": "WorldAreas"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Data0",
+      "type": "i32[]"
+    },
+    {
+      "name": "MonsterVarietiesKeys1",
+      "type": "longid[]",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "MonsterVarietiesKeys2",
+      "type": "longid[]",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "Unknown9",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown10",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown11",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown12",
+      "type": "i32"
+    }
+  ]
+}

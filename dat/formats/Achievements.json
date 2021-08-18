@@ -1,0 +1,73 @@
+{
+  "file": "Achievements",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    },
+    {
+      "name": "AchievementSetsDisplayKey",
+      "type": "shortid",
+      "ref": "AchievementSetsDisplay",
+      "ref-field": "Id"
+    },
+    {
+      "name": "Objective",
+      "type": "string"
+    },
+    {
+      "name": "UnknownUnique",
+      "type": "i32",
+      "unique": true
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "Flag1",
+      "type": "bool"
+    },
+    {
+      "name": "Flag2",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Flag3",
+      "type": "bool"
+    },
+    {
+      "name": "Flag4",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown1",
+      "type": "string"
+    },
+    {
+      "name": "Flag5",
+      "type": "bool"
+    },
+    {
+      "name": "Flag6",
+      "type": "bool"
+    },
+    {
+      "name": "Flag7",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown2",
+      "type": "string"
+    }
+  ]
+}

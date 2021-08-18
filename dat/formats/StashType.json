@@ -1,0 +1,31 @@
+{
+  "file": "StashType",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "IntId",
+      "type": "i32",
+      "unique": true
+    },
+    {
+      "name": "Id2",
+      "type": "string"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    }
+  ]
+}

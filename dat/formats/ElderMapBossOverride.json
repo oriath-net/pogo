@@ -1,0 +1,20 @@
+{
+  "file": "ElderMapBossOverride",
+  "fields": [
+    {
+      "name": "WorldAreasKey",
+      "type": "longid",
+      "ref": "WorldAreas",
+      "unique": true
+    },
+    {
+      "name": "MonsterVarietiesKeys",
+      "type": "longid[]",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "TerrainMetadata",
+      "type": "string"
+    }
+  ]
+}

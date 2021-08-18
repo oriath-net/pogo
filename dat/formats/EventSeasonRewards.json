@@ -1,0 +1,18 @@
+{
+  "file": "EventSeasonRewards",
+  "fields": [
+    {
+      "name": "EventSeasonKey",
+      "type": "longid",
+      "ref": "EventSeason"
+    },
+    {
+      "name": "Point",
+      "type": "i32"
+    },
+    {
+      "name": "RewardCommand",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "file": "TencentAutoLootPetCurrenciesExcludable",
+  "fields": [
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    }
+  ]
+}

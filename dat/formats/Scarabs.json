@@ -1,0 +1,18 @@
+{
+  "file": "Scarabs",
+  "fields": [
+    {
+      "name": "ScarabType",
+      "type": "i32"
+    },
+    {
+      "name": "Tier",
+      "type": "i32"
+    },
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    }
+  ]
+}

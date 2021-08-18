@@ -45,14 +45,14 @@ type dataState struct {
 	seenOffsets map[int]bool
 }
 
-//go:embed formats/xml/*.xml
+//go:embed formats/*.json
 var rawEmbeddedFormats embed.FS
 
 var embeddedFormats fs.FS
 
 func init() {
-	// we embedded formats/xml/*.xml, but we actually just want *.xml
-	subfs, err := fs.Sub(rawEmbeddedFormats, "formats/xml")
+	// we embedded formats/json/*.json, but we actually just want *.json
+	subfs, err := fs.Sub(rawEmbeddedFormats, "formats")
 	if err != nil {
 		panic(err)
 	}
@@ -83,12 +83,12 @@ func (p *DataParser) Parse(r io.Reader, fileName string) ([]interface{}, error) 
 	df, dfExists := p.formats[fileName]
 	if !dfExists {
 		fileBaseName := strings.TrimSuffix(fileName, path.Ext(fileName))
-		data, err := fs.ReadFile(p.formatSource, fileBaseName+".xml")
+		data, err := fs.ReadFile(p.formatSource, fileBaseName+".json")
 		if err != nil {
 			return nil, fmt.Errorf("unable to load format definition for %s: %w", fileName, err)
 		}
 
-		df, err = p.typeFromXML(data)
+		df, err = p.typeFromJSON(data)
 		if err != nil {
 			return nil, fmt.Errorf("unable to parse format definition for %s: %w", fileName, err)
 		}

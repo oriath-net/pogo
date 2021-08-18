@@ -1,0 +1,17 @@
+{
+  "file": "ExperienceLevels",
+  "fields": [
+    {
+      "name": "Index0",
+      "type": "string"
+    },
+    {
+      "name": "Level",
+      "type": "i32"
+    },
+    {
+      "name": "Experience",
+      "type": "u32"
+    }
+  ]
+}

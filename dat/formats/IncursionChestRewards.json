@@ -1,0 +1,31 @@
+{
+  "file": "IncursionChestRewards",
+  "fields": [
+    {
+      "name": "IncursionRoomsKey",
+      "type": "longid",
+      "ref": "IncursionRooms"
+    },
+    {
+      "name": "IncursionChestsKeys",
+      "type": "longid[]",
+      "ref": "IncursionChests"
+    },
+    {
+      "name": "Unknown0",
+      "type": "string"
+    },
+    {
+      "name": "Unknown1",
+      "type": "u32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    }
+  ]
+}

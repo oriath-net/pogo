@@ -1,0 +1,25 @@
+{
+  "file": "BlightCraftingRecipes",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "BlightCraftingItemsKeys",
+      "type": "longid[]",
+      "ref": "BlightCraftingItems"
+    },
+    {
+      "name": "BlightCraftingResultsKey",
+      "type": "longid",
+      "ref": "BlightCraftingResults"
+    },
+    {
+      "name": "BlightCraftingTypesKey",
+      "type": "longid",
+      "ref": "BlightCraftingTypes"
+    }
+  ]
+}

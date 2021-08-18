@@ -1,0 +1,9 @@
+{
+  "file": "SynthesisRewardCategories",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    }
+  ]
+}

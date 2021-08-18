@@ -1,0 +1,18 @@
+{
+  "file": "FlavourText",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "Text",
+      "type": "string"
+    }
+  ]
+}

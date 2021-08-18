@@ -1,0 +1,13 @@
+{
+  "file": "MicrotransactionRecycleOutcomes",
+  "fields": [
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    }
+  ]
+}

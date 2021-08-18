@@ -1,7 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="CraftingItemClassCategories">
-    <field name="Id"                    type="string" />
-    <field name="ItemClassesKeys"       type="longid[]" ref="ItemClasses" />
-    <field name="UnknownText"           type="string" />
-    <field name="Text"                  type="string" />
-</format>

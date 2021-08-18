@@ -1,0 +1,41 @@
+{
+  "file": "MapFragmentMods",
+  "fields": [
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes",
+      "unique": true
+    },
+    {
+      "name": "ModsKeys",
+      "type": "longid[]",
+      "ref": "Mods"
+    },
+    {
+      "name": "AchievementItemsKey",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "MapFragmentFamilies",
+      "type": "i32"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "Flag1",
+      "type": "bool"
+    },
+    {
+      "name": "Flag2",
+      "type": "bool"
+    },
+    {
+      "name": "Flag3",
+      "type": "bool"
+    }
+  ]
+}

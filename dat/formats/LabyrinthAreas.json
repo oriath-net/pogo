@@ -1,0 +1,33 @@
+{
+  "file": "LabyrinthAreas",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "Normal_WorldAreasKeys",
+      "type": "longid[]",
+      "ref": "WorldAreas"
+    },
+    {
+      "name": "Cruel_WorldAreasKeys",
+      "type": "longid[]",
+      "ref": "WorldAreas"
+    },
+    {
+      "name": "Merciless_WorldAreasKeys",
+      "type": "longid[]",
+      "ref": "WorldAreas"
+    },
+    {
+      "name": "Endgame_WorldAreasKeys",
+      "type": "longid[]",
+      "ref": "WorldAreas"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    }
+  ]
+}

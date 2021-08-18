@@ -1,6 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="MultiPartAchievementAreas">
-    <field name="Key0"                  type="u64" />
-    <field name="Keys0"                 type="u64[]" />
-    <field name="Unknown4"              type="i32" />
-</format>

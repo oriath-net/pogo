@@ -1,0 +1,28 @@
+{
+  "file": "MultiPartAchievementConditions",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "MultiPartAchievementsKey1",
+      "type": "longid",
+      "ref": "MultiPartAchievements"
+    },
+    {
+      "name": "MultiPartAchievementsKey2",
+      "type": "longid",
+      "ref": "MultiPartAchievements"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    }
+  ]
+}

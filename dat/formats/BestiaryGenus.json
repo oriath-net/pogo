@@ -1,0 +1,27 @@
+{
+  "file": "BestiaryGenus",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "BestiaryGroupsKey",
+      "type": "longid",
+      "ref": "BestiaryGroups"
+    },
+    {
+      "name": "Name2",
+      "type": "string"
+    },
+    {
+      "name": "Icon",
+      "type": "string"
+    }
+  ]
+}

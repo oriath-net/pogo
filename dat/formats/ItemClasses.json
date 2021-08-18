@@ -1,0 +1,98 @@
+{
+  "file": "ItemClasses",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Category",
+      "type": "string"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "Elder_TagsKey",
+      "type": "longid",
+      "ref": "Tags"
+    },
+    {
+      "name": "Shaper_TagsKey",
+      "type": "longid",
+      "ref": "Tags"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "AchievementItemsKeys",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "Identify_AchievementItemsKeys",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "Crusader_TagsKey",
+      "type": "longid",
+      "ref": "Tags"
+    },
+    {
+      "name": "Eyrie_TagsKey",
+      "type": "longid",
+      "ref": "Tags"
+    },
+    {
+      "name": "Basilisk_TagsKey",
+      "type": "longid",
+      "ref": "Tags"
+    },
+    {
+      "name": "Adjudicator_TagsKey",
+      "type": "longid",
+      "ref": "Tags"
+    },
+    {
+      "name": "Flag1",
+      "type": "bool"
+    },
+    {
+      "name": "Flag2",
+      "type": "bool"
+    },
+    {
+      "name": "Flag3",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Flag4",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Flag5",
+      "type": "bool"
+    }
+  ]
+}

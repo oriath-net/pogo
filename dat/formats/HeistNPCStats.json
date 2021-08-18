@@ -1,0 +1,26 @@
+{
+  "file": "HeistNPCStats",
+  "fields": [
+    {
+      "name": "StatsKey",
+      "type": "longid",
+      "ref": "Stats"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "Flag1",
+      "type": "bool"
+    },
+    {
+      "name": "Flag2",
+      "type": "bool"
+    },
+    {
+      "name": "Flag3",
+      "type": "bool"
+    }
+  ]
+}

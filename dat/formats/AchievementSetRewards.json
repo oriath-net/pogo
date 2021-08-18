@@ -1,0 +1,33 @@
+{
+  "file": "AchievementSetRewards",
+  "fields": [
+    {
+      "name": "AchievementSetsDisplayKey",
+      "type": "shortid",
+      "ref": "AchievementSetsDisplay",
+      "ref-field": "Id"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "BaseItemTypesKeys",
+      "type": "longid[]",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Message",
+      "type": "string"
+    },
+    {
+      "name": "DDSFile",
+      "type": "string",
+      "path": "dds"
+    }
+  ]
+}

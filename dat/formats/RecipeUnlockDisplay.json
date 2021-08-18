@@ -1,0 +1,31 @@
+{
+  "file": "RecipeUnlockDisplay",
+  "fields": [
+    {
+      "name": "RecipeId",
+      "type": "i32",
+      "unique": true
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    },
+    {
+      "name": "CraftingItemClassCategoriesKeys",
+      "type": "longid[]",
+      "ref": "CraftingItemClassCategories"
+    },
+    {
+      "name": "UnlockDescription",
+      "type": "string"
+    },
+    {
+      "name": "Rank",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    }
+  ]
+}

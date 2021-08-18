@@ -1,7 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="HeistRevealingNPCs">
-    <field name="NPCsKey"               type="longid" ref="NPCs" />
-    <field name="PortraitFile"          type="string" /> <!-- file_path=True -->
-    <field name="Keys0"                 type="u64[]" />
-    <field name="Unknown0"              type="i32" />
-</format>

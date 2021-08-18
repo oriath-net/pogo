@@ -1,0 +1,65 @@
+{
+  "file": "ItemVisualHeldBodyModel",
+  "fields": [
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown1",
+      "type": "string"
+    },
+    {
+      "name": "Unknown2",
+      "type": "string"
+    },
+    {
+      "name": "Unknown3",
+      "type": "string"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown6",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown7",
+      "type": "string"
+    },
+    {
+      "name": "Unknown8",
+      "type": "string"
+    },
+    {
+      "name": "Unknown9",
+      "type": "string"
+    },
+    {
+      "name": "Unknown10",
+      "type": "string"
+    },
+    {
+      "name": "Unknown11",
+      "type": "string"
+    },
+    {
+      "name": "Unknown12",
+      "type": "string"
+    },
+    {
+      "name": "Unknown13",
+      "type": "string"
+    },
+    {
+      "name": "Unknown14",
+      "type": "string"
+    }
+  ]
+}

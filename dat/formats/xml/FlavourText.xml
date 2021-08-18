@@ -1,6 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="FlavourText">
-    <field name="Id"                    type="string" unique="true" />
-    <field name="Unknown0"              type="i32" />
-    <field name="Text"                  type="string" />
-</format>

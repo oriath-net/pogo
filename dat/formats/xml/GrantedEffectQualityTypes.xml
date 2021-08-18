@@ -1,6 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="GrantedEffectQualityTypes">
-    <field name="Id"                    type="i32" unique="true" />
-    <field name="Text"                  type="string" />
-    <field name="ClientStringsKey"      type="longid" ref="ClientStrings" />
-</format>

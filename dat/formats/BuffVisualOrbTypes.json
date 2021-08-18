@@ -1,0 +1,50 @@
+{
+  "file": "BuffVisualOrbTypes",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Unknown1",
+      "type": "f32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "f32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "f32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "f32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Key1",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown8",
+      "type": "i32"
+    },
+    {
+      "name": "Flag1",
+      "type": "bool"
+    }
+  ]
+}

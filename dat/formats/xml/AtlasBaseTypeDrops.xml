@@ -1,9 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="AtlasBaseTypeDrops">
-    <field name="Id"                    type="string" unique="true" />
-    <field name="AtlasRegionsKey"       type="longid" ref="AtlasRegions" />
-    <field name="MinTier"               type="i32" />
-    <field name="MaxTier"               type="i32" />
-    <field name="SpawnWeight_TagsKeys"  type="longid[]" ref="Tags" />
-    <field name="SpawnWeight_Values"    type="i32[]" />
-</format>

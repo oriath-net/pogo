@@ -1,0 +1,42 @@
+{
+  "file": "HeistDoodadNPCs",
+  "fields": [
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "AOFile",
+      "type": "string",
+      "path": "ao"
+    },
+    {
+      "name": "Stance",
+      "type": "string"
+    },
+    {
+      "name": "Key1",
+      "type": "u64"
+    }
+  ]
+}

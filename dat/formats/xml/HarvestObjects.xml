@@ -1,6 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="HarvestObjects">
-    <field name="BaseItemTypesKey"      type="longid" ref="BaseItemTypes" unique="true" />
-    <field name="AOFile"                type="string" /> <!-- file_path=True file_ext=.ao -->
-    <field name="ObjectType"            type="i32" /> <!-- enum=HARVEST_OBJECT_TYPES -->
-</format>

@@ -1,0 +1,13 @@
+{
+  "file": "MagicMonsterLifeScalingPerLevel",
+  "fields": [
+    {
+      "name": "Level",
+      "type": "i32"
+    },
+    {
+      "name": "Life",
+      "type": "i32"
+    }
+  ]
+}

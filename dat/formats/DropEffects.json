@@ -1,0 +1,15 @@
+{
+  "file": "DropEffects",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "AOFile",
+      "type": "string",
+      "path": "ao"
+    }
+  ]
+}

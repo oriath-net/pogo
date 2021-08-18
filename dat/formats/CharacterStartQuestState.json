@@ -1,0 +1,35 @@
+{
+  "file": "CharacterStartQuestState",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "QuestKeys",
+      "type": "longid[]",
+      "ref": "Quest"
+    },
+    {
+      "name": "QuestStates",
+      "type": "i32[]"
+    },
+    {
+      "name": "Keys0",
+      "type": "u64[]"
+    },
+    {
+      "name": "MapPinsKeys",
+      "type": "longid[]",
+      "ref": "MapPins"
+    },
+    {
+      "name": "Data0",
+      "type": "i32[]"
+    },
+    {
+      "name": "Keys1",
+      "type": "u64[]"
+    }
+  ]
+}

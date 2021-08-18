@@ -1,0 +1,35 @@
+{
+  "file": "LabyrinthTrials",
+  "fields": [
+    {
+      "name": "WorldAreas",
+      "type": "longid",
+      "ref": "WorldAreas"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "NPCTextAudioKey",
+      "type": "longid",
+      "ref": "NPCTextAudio"
+    },
+    {
+      "name": "Unknown7",
+      "type": "string"
+    },
+    {
+      "name": "Unknown8",
+      "type": "string"
+    }
+  ]
+}

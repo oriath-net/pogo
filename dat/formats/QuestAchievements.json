@@ -1,0 +1,26 @@
+{
+  "file": "QuestAchievements",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "QuestStates",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32[]"
+    },
+    {
+      "name": "AchievementItemsKeys",
+      "type": "u64[]"
+    },
+    {
+      "name": "Keys0",
+      "type": "u64[]"
+    }
+  ]
+}

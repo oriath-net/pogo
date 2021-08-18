@@ -1,0 +1,106 @@
+{
+  "file": "PantheonPanelLayout",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "X",
+      "type": "i32"
+    },
+    {
+      "name": "Y",
+      "type": "i32"
+    },
+    {
+      "name": "IsMajorGod",
+      "type": "bool"
+    },
+    {
+      "name": "CoverImage",
+      "type": "string"
+    },
+    {
+      "name": "GodName2",
+      "type": "string"
+    },
+    {
+      "name": "SelectionImage",
+      "type": "string"
+    },
+    {
+      "name": "Effect1_StatsKeys",
+      "type": "longid[]",
+      "ref": "Stats"
+    },
+    {
+      "name": "Effect1_Values",
+      "type": "i32[]"
+    },
+    {
+      "name": "Effect2_StatsKeys",
+      "type": "longid[]",
+      "ref": "Stats"
+    },
+    {
+      "name": "GodName3",
+      "type": "string"
+    },
+    {
+      "name": "Effect3_Values",
+      "type": "i32[]"
+    },
+    {
+      "name": "Effect3_StatsKeys",
+      "type": "longid[]",
+      "ref": "Stats"
+    },
+    {
+      "name": "GodName4",
+      "type": "string"
+    },
+    {
+      "name": "Effect4_StatsKeys",
+      "type": "longid[]",
+      "ref": "Stats"
+    },
+    {
+      "name": "Effect4_Values",
+      "type": "i32[]"
+    },
+    {
+      "name": "GodName1",
+      "type": "string"
+    },
+    {
+      "name": "Effect2_Values",
+      "type": "i32[]"
+    },
+    {
+      "name": "QuestState1",
+      "type": "i32"
+    },
+    {
+      "name": "QuestState2",
+      "type": "i32"
+    },
+    {
+      "name": "QuestState3",
+      "type": "i32"
+    },
+    {
+      "name": "QuestState4",
+      "type": "i32"
+    },
+    {
+      "name": "IsDisabled",
+      "type": "bool"
+    },
+    {
+      "name": "Keys0",
+      "type": "u64[]"
+    }
+  ]
+}

@@ -1,5 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="SpecialTiles">
-    <field name="Id"                    type="string" unique="true" />
-    <field name="TDTFile"               type="string" /> <!-- file_path=True file_ext=tdt -->
-</format>

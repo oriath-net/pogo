@@ -1,5 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="WarbandsMapGraph">
-    <field name="WorldAreasKey"         type="longid" ref="WorldAreas" />
-    <field name="Connections"           type="i32[]" />
-</format>

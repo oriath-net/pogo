@@ -1,0 +1,85 @@
+{
+  "file": "HeistAreas",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "WorldAreasKeys",
+      "type": "longid[]",
+      "ref": "WorldAreas"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "EnvironmentsKey1",
+      "type": "longid",
+      "ref": "Environments"
+    },
+    {
+      "name": "EnvironmentsKey2",
+      "type": "longid",
+      "ref": "Environments"
+    },
+    {
+      "name": "HeistJobsKeys",
+      "type": "longid[]",
+      "ref": "HeistJobs"
+    },
+    {
+      "name": "Contract_BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "Blueprint_BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "DGRFile",
+      "type": "string",
+      "path": "dgr"
+    },
+    {
+      "name": "Unknown9",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown10",
+      "type": "i32"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "Flag1",
+      "type": "bool"
+    },
+    {
+      "name": "Blueprint_DDSFile",
+      "type": "string",
+      "path": "dds"
+    },
+    {
+      "name": "AchievementItemsKeys",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "AchievementItemsKeys2",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "ClientStringsKey",
+      "type": "longid",
+      "ref": "ClientStrings"
+    }
+  ]
+}

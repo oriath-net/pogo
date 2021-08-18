@@ -1,0 +1,13 @@
+{
+  "file": "NPCTalkConsoleQuickActions",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "Controller",
+      "type": "string"
+    }
+  ]
+}

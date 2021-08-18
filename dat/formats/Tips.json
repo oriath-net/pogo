@@ -1,0 +1,18 @@
+{
+  "file": "Tips",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Text",
+      "type": "string"
+    },
+    {
+      "name": "TextXBox",
+      "type": "string"
+    }
+  ]
+}

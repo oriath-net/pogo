@@ -1,0 +1,9 @@
+{
+  "file": "MonsterSpawnerGroups",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    }
+  ]
+}

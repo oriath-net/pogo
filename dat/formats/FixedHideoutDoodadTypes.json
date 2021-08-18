@@ -1,0 +1,19 @@
+{
+  "file": "FixedHideoutDoodadTypes",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "HideoutDoodadsKeys",
+      "type": "longid[]",
+      "ref": "HideoutDoodads"
+    },
+    {
+      "name": "BaseTypeHideoutDoodadsKey",
+      "type": "longid",
+      "ref": "HideoutDoodads"
+    }
+  ]
+}

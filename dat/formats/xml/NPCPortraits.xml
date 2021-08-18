@@ -1,6 +1,0 @@
-<format file="NPCPortraits">
-    <field name="Id"                    type="string" unique="true" />
-    <field name="PortraitArt"           type="string" />
-    <field name="Unknown0"              type="i32" />
-    <field name="Unknown1"              type="i32" />
-</format>

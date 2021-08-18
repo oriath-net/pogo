@@ -1,0 +1,18 @@
+{
+  "file": "RecipeUnlockObjects",
+  "fields": [
+    {
+      "name": "WorldAreasKey",
+      "type": "longid",
+      "ref": "WorldAreas"
+    },
+    {
+      "name": "InheritsFrom",
+      "type": "string"
+    },
+    {
+      "name": "RecipeId",
+      "type": "i32"
+    }
+  ]
+}

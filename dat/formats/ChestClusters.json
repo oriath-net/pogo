@@ -1,0 +1,31 @@
+{
+  "file": "ChestClusters",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "ChestsKeys",
+      "type": "longid[]",
+      "ref": "Chests"
+    },
+    {
+      "name": "Data1",
+      "type": "u32[]"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    }
+  ]
+}

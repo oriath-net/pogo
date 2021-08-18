@@ -1,6 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="ExperienceLevels">
-    <field name="Index0"                type="string" />
-    <field name="Level"                 type="i32" />
-    <field name="Experience"            type="u32" />
-</format>

@@ -1,0 +1,38 @@
+{
+  "file": "PerandusGuards",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "MinLevel",
+      "type": "i32"
+    },
+    {
+      "name": "MaxLevel",
+      "type": "i32"
+    },
+    {
+      "name": "MonsterPacksKeys",
+      "type": "longid[]",
+      "ref": "MonsterPacks"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "u32[]"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    }
+  ]
+}

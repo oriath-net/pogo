@@ -1,0 +1,33 @@
+{
+  "file": "IncursionRoomBossFightEvents",
+  "fields": [
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "Data0",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown3",
+      "type": "string"
+    },
+    {
+      "name": "Unknown4",
+      "type": "string"
+    },
+    {
+      "name": "Unknown5",
+      "type": "string"
+    },
+    {
+      "name": "Unknown6",
+      "type": "string"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    }
+  ]
+}

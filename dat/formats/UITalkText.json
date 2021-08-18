@@ -1,0 +1,33 @@
+{
+  "file": "UITalkText",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "UITalkCategoriesKey",
+      "type": "shortid",
+      "ref": "UITalkCategories"
+    },
+    {
+      "name": "OGGFile",
+      "type": "string",
+      "path": "ogg"
+    },
+    {
+      "name": "Text",
+      "type": "string"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "Key0",
+      "type": "longid",
+      "description": "always null"
+    }
+  ]
+}

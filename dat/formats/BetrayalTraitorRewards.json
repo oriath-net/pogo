@@ -1,0 +1,24 @@
+{
+  "file": "BetrayalTraitorRewards",
+  "fields": [
+    {
+      "name": "BetrayalJobsKey",
+      "type": "longid",
+      "ref": "BetrayalJobs"
+    },
+    {
+      "name": "BetrayalTargetsKey",
+      "type": "longid",
+      "ref": "BetrayalTargets"
+    },
+    {
+      "name": "BetrayalRanksKey",
+      "type": "longid",
+      "ref": "BetrayalRanks"
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    }
+  ]
+}

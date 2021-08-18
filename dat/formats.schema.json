@@ -1,0 +1,100 @@
+{
+  "title": "Pogo Data Parser Format",
+  "type": "object",
+  "properties": {
+    "file": {
+      "type": "string"
+    },
+    "fields": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "pattern": "[A-Z][A-Za-z0-9_]*"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "bool",
+              "u8",
+              "u16",
+              "u32",
+              "u64",
+              "i16",
+              "i32",
+              "i64",
+              "f32",
+              "f64",
+              "string",
+              "shortid",
+              "longid",
+              "bool[]",
+              "u8[]",
+              "u16[]",
+              "u32[]",
+              "u64[]",
+              "i32[]",
+              "i64[]",
+              "f32[]",
+              "f64[]",
+              "string[]",
+              "shortid[]",
+              "longid[]"
+            ]
+          },
+          "description": {
+            "type": "string"
+          },
+          "since": {
+            "type": "string",
+            "pattern": "[0-9]+(\\.[0-9]+)+"
+          },
+          "until": {
+            "type": "string",
+            "pattern": "[0-9]+(\\.[0-9]+)+"
+          },
+          "unique": {
+            "type": "boolean",
+            "enum": [
+              true
+            ]
+          },
+          "ref": {
+            "type": "string",
+            "pattern": "[A-Z][A-Za-z0-9_]*"
+          },
+          "ref-field": {
+            "type": "string",
+            "pattern": "[A-Z][A-Za-z0-9_]*"
+          },
+          "path": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "type"
+        ]
+      }
+    },
+    "description": {
+      "type": "string"
+    },
+    "since": {
+      "type": "string",
+      "pattern": "[0-9]+(\\.[0-9]+)+"
+    },
+    "until": {
+      "type": "string",
+      "pattern": "[0-9]+(\\.[0-9]+)+"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "file",
+    "fields"
+  ]
+}

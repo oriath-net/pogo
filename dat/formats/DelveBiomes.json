@@ -1,0 +1,56 @@
+{
+  "file": "DelveBiomes",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "WorldAreasKeys",
+      "type": "longid[]",
+      "ref": "WorldAreas"
+    },
+    {
+      "name": "UIImage",
+      "type": "string"
+    },
+    {
+      "name": "SpawnWeight_Depth",
+      "type": "i32[]"
+    },
+    {
+      "name": "SpawnWeight_Values",
+      "type": "i32[]"
+    },
+    {
+      "name": "Data2",
+      "type": "i32[]"
+    },
+    {
+      "name": "Data3",
+      "type": "i32[]"
+    },
+    {
+      "name": "2DArt",
+      "type": "string"
+    },
+    {
+      "name": "AchievementItemsKeys",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32[]"
+    }
+  ]
+}

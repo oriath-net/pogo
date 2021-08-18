@@ -1,0 +1,18 @@
+{
+  "file": "DivinationCardArt",
+  "fields": [
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "VirtualFile",
+      "type": "string"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32[]"
+    }
+  ]
+}

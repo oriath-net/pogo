@@ -1,8 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="CloneShot">
-    <field name="Id"                    type="string" unique="true" />
-    <field name="MonsterVarietiesKey"   type="longid" ref="MonsterVarieties" />
-    <field name="Key1"                  type="u64" />
-    <field name="Key2"                  type="u64" />
-    <field name="Key3"                  type="u64" />
-</format>

@@ -1,0 +1,69 @@
+{
+  "file": "AreaTransitionInfo",
+  "fields": [
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Key1",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Key2",
+      "type": "u64"
+    },
+    {
+      "name": "Key3",
+      "type": "u64"
+    },
+    {
+      "name": "Key4",
+      "type": "u64"
+    },
+    {
+      "name": "Key5",
+      "type": "u64"
+    },
+    {
+      "name": "Key6",
+      "type": "u64"
+    },
+    {
+      "name": "Key7",
+      "type": "u64"
+    },
+    {
+      "name": "Key8",
+      "type": "u64"
+    },
+    {
+      "name": "Keys0",
+      "type": "u64[]"
+    },
+    {
+      "name": "Unknown24",
+      "type": "i32"
+    },
+    {
+      "name": "Keys1",
+      "type": "u64[]"
+    }
+  ]
+}

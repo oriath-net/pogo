@@ -1,0 +1,13 @@
+{
+  "file": "UniqueJewelLimits",
+  "fields": [
+    {
+      "name": "UniqueItemsKey",
+      "type": "u64"
+    },
+    {
+      "name": "Limit",
+      "type": "i32"
+    }
+  ]
+}

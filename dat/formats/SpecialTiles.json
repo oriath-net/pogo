@@ -1,0 +1,15 @@
+{
+  "file": "SpecialTiles",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "TDTFile",
+      "type": "string",
+      "path": "tdt"
+    }
+  ]
+}

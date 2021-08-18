@@ -1,0 +1,40 @@
+{
+  "file": "BestiaryGroups",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    },
+    {
+      "name": "Illustraiton",
+      "type": "string"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Icon",
+      "type": "string"
+    },
+    {
+      "name": "IconSmall",
+      "type": "string"
+    },
+    {
+      "name": "BestiaryFamiliesKey",
+      "type": "longid",
+      "ref": "BestiaryFamilies"
+    },
+    {
+      "name": "AchievementItemsKeys",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    }
+  ]
+}

@@ -1,5 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="BetrayalRelationshipState">
-    <field name="Id"                    type="string" />
-    <field name="Text"                  type="string" />
-</format>

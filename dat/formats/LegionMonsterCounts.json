@@ -1,0 +1,39 @@
+{
+  "file": "LegionMonsterCounts",
+  "fields": [
+    {
+      "name": "LegionFactionsKey",
+      "type": "longid",
+      "ref": "LegionFactions"
+    },
+    {
+      "name": "LegionRanksKey",
+      "type": "longid",
+      "ref": "LegionRanks"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    }
+  ]
+}

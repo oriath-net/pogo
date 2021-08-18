@@ -1,7 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="BreachstoneUpgrades">
-    <field name="BaseItemTypesKey0"     type="longid" ref="BaseItemTypes" />
-    <field name="BaseItemTypesKey1"     type="longid" ref="BaseItemTypes" />
-    <field name="BaseItemTypesKey2"     type="longid" ref="BaseItemTypes" />
-    <field name="BaseItemTypesKey3"     type="longid" ref="BaseItemTypes" />
-</format>

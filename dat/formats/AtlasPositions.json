@@ -1,0 +1,21 @@
+{
+  "file": "AtlasPositions",
+  "fields": [
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "X",
+      "type": "f32"
+    },
+    {
+      "name": "Y",
+      "type": "f32"
+    }
+  ]
+}

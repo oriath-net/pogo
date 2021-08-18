@@ -1,0 +1,24 @@
+{
+  "file": "AlternateQualityTypes",
+  "fields": [
+    {
+      "name": "StatsKey",
+      "type": "longid",
+      "ref": "Stats"
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    },
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    }
+  ]
+}

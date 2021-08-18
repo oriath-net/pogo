@@ -1,0 +1,39 @@
+{
+  "file": "Inventories",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "InventoryIdKey",
+      "type": "shortid",
+      "ref": "InventoryId"
+    },
+    {
+      "name": "InventoryTypeKey",
+      "type": "shortid",
+      "ref": "InventoryType"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "Flag1",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Flag2",
+      "type": "bool"
+    }
+  ]
+}

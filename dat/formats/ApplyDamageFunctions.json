@@ -1,0 +1,19 @@
+{
+  "file": "ApplyDamageFunctions",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "StatsKeys",
+      "type": "longid[]",
+      "ref": "Stats"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "file": "BlightTowerAuras",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "i32",
+      "unique": true
+    },
+    {
+      "name": "BuffDefinitionsKey",
+      "type": "longid",
+      "ref": "BuffDefinitions"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "MiscAnimatedKey",
+      "type": "longid",
+      "ref": "MiscAnimated"
+    }
+  ]
+}

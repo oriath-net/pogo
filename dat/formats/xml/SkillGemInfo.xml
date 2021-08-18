@@ -1,9 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="SkillGemInfo">
-    <field name="Id"                    type="string" unique="true" />
-    <field name="Description"           type="string" />
-    <field name="VideoURL1"             type="string" />
-    <field name="SkillGemsKey"          type="longid" ref="SkillGems" />
-    <field name="VideoURL2"             type="string" />
-    <field name="CharactersKeys"        type="longid[]" ref="Characters" />
-</format>

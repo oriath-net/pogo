@@ -1,0 +1,59 @@
+{
+  "file": "HeistJobs",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "RequiredSkillIcon",
+      "type": "string"
+    },
+    {
+      "name": "SkillIcon",
+      "type": "string"
+    },
+    {
+      "name": "Unknown4",
+      "type": "f32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "MapIcon",
+      "type": "string"
+    },
+    {
+      "name": "Level_StatsKey",
+      "type": "longid",
+      "ref": "Stats"
+    },
+    {
+      "name": "Alert_StatsKey",
+      "type": "longid",
+      "ref": "Stats"
+    },
+    {
+      "name": "Alarm_StatsKey",
+      "type": "longid",
+      "ref": "Stats"
+    },
+    {
+      "name": "Cost_StatsKey",
+      "type": "longid",
+      "ref": "Stats"
+    },
+    {
+      "name": "ExperienceGain_StatsKey",
+      "type": "longid",
+      "ref": "Stats"
+    }
+  ]
+}

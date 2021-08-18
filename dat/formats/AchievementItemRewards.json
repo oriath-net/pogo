@@ -1,0 +1,19 @@
+{
+  "file": "AchievementItemRewards",
+  "fields": [
+    {
+      "name": "AchievementItemsKey",
+      "type": "longid",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "Message",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "file": "EndlessLedgeChests",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "WorldAreasKey",
+      "type": "longid",
+      "ref": "WorldAreas"
+    },
+    {
+      "name": "BaseItemTypesKeys",
+      "type": "longid[]",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "SocketColour",
+      "type": "string"
+    }
+  ]
+}

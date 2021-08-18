@@ -1,0 +1,19 @@
+{
+  "file": "MonsterGroupEntries",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "MonsterVarietiesKey",
+      "type": "longid",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "MonsterGroupNamesId",
+      "type": "i32"
+    }
+  ]
+}

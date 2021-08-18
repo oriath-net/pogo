@@ -1,9 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="LegionRewardTypeVisuals">
-    <field name="IntId"                 type="i32" unique="true" />
-    <field name="Key0"                  type="u64" />
-    <field name="Unknown1"              type="string" />
-    <field name="MiscAnimatedKey"       type="longid" ref="MiscAnimated" />
-    <field name="Unknown2"              type="f32" />
-    <field name="Id"                    type="string" />
-</format>

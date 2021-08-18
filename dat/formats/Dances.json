@@ -1,0 +1,15 @@
+{
+  "file": "Dances",
+  "fields": [
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "CharactersKey",
+      "type": "longid",
+      "ref": "Characters"
+    }
+  ]
+}

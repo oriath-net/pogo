@@ -1,5 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="UniqueJewelLimits">
-    <field name="UniqueItemsKey"        type="u64" />
-    <field name="Limit"                 type="i32" />
-</format>

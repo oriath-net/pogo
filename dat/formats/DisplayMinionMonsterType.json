@@ -1,0 +1,15 @@
+{
+  "file": "DisplayMinionMonsterType",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "i32",
+      "unique": true
+    },
+    {
+      "name": "MonsterVarietiesKey",
+      "type": "longid",
+      "ref": "MonsterVarieties"
+    }
+  ]
+}

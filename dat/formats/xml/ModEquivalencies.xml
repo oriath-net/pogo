@@ -1,8 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="ModEquivalencies">
-    <field name="Id"                    type="string" unique="true" />
-    <field name="ModsKey0"              type="longid" ref="Mods" />
-    <field name="ModsKey1"              type="longid" ref="Mods" />
-    <field name="ModsKey2"              type="longid" ref="Mods" />
-    <field name="Flag0"                 type="bool" />
-</format>

@@ -1,0 +1,14 @@
+{
+  "file": "LabyrinthRewardTypes",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "ObjectPath",
+      "type": "string"
+    }
+  ]
+}

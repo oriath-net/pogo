@@ -1,0 +1,20 @@
+{
+  "file": "HarvestObjects",
+  "fields": [
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes",
+      "unique": true
+    },
+    {
+      "name": "AOFile",
+      "type": "string",
+      "path": "ao"
+    },
+    {
+      "name": "ObjectType",
+      "type": "i32"
+    }
+  ]
+}

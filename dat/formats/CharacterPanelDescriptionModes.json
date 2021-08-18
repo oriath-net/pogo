@@ -1,0 +1,22 @@
+{
+  "file": "CharacterPanelDescriptionModes",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Unknown1",
+      "type": "string"
+    },
+    {
+      "name": "FormatString_Positive",
+      "type": "string"
+    },
+    {
+      "name": "FormatString_Negative",
+      "type": "string"
+    }
+  ]
+}

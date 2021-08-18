@@ -1,7 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="RaceTimes">
-    <field name="RacesKey"              type="longid" ref="Races" />
-    <field name="Index"                 type="i32" />
-    <field name="StartUNIXTime"         type="i32" />
-    <field name="EndUNIXTime"           type="i32" />
-</format>

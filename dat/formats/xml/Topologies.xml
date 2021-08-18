@@ -1,8 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="Topologies">
-    <field name="Id"                    type="string" unique="true" />
-    <field name="DGRFile"               type="string" /> <!-- file_path=True file_ext=.dgr -->
-    <field name="Unknown2"              type="i32" />
-    <field name="Unknown3"              type="i32" />
-    <field name="Unknown4"              type="i32" />
-</format>

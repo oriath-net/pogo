@@ -1,0 +1,66 @@
+{
+  "file": "Hideouts",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "SmallWorldAreasKey",
+      "type": "longid",
+      "ref": "WorldAreas"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "HideoutFile",
+      "type": "string",
+      "path": "hideout"
+    },
+    {
+      "name": "Keys0",
+      "type": "u64[]"
+    },
+    {
+      "name": "LargeWorldAreasKey",
+      "type": "longid",
+      "ref": "WorldAreas"
+    },
+    {
+      "name": "HideoutImage",
+      "type": "string"
+    },
+    {
+      "name": "IsEnabled",
+      "type": "u8"
+    },
+    {
+      "name": "Weight",
+      "type": "i32"
+    },
+    {
+      "name": "Key0",
+      "type": "longid",
+      "ref": "HideoutRarity"
+    },
+    {
+      "name": "Flag1",
+      "type": "bool"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Data0",
+      "type": "i32[]"
+    },
+    {
+      "name": "Flag2",
+      "type": "bool"
+    }
+  ]
+}

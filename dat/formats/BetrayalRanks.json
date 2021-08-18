@@ -1,0 +1,21 @@
+{
+  "file": "BetrayalRanks",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "Text",
+      "type": "string"
+    },
+    {
+      "name": "Level",
+      "type": "i32"
+    },
+    {
+      "name": "RankImage",
+      "type": "string"
+    }
+  ]
+}

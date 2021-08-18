@@ -1,0 +1,19 @@
+{
+  "file": "AfflictionRewardTypeVisuals",
+  "fields": [
+    {
+      "name": "AfflictionRewardTypes",
+      "type": "shortid",
+      "ref": "AfflictionRewardTypes"
+    },
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    }
+  ]
+}

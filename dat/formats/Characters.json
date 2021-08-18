@@ -1,0 +1,146 @@
+{
+  "file": "Characters",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Name",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "AOFile",
+      "type": "string",
+      "path": "ao"
+    },
+    {
+      "name": "ACTFile",
+      "type": "string",
+      "path": "act"
+    },
+    {
+      "name": "BaseMaxLife",
+      "type": "i32"
+    },
+    {
+      "name": "BaseMaxMana",
+      "type": "i32"
+    },
+    {
+      "name": "WeaponSpeed",
+      "type": "i32",
+      "description": "Attack Speed in milliseconds"
+    },
+    {
+      "name": "MinDamage",
+      "type": "i32"
+    },
+    {
+      "name": "MaxDamage",
+      "type": "i32"
+    },
+    {
+      "name": "MaxAttackDistance",
+      "type": "i32"
+    },
+    {
+      "name": "Icon",
+      "type": "string"
+    },
+    {
+      "name": "IntegerId",
+      "type": "i32",
+      "unique": true
+    },
+    {
+      "name": "BaseStrength",
+      "type": "i32"
+    },
+    {
+      "name": "BaseDexterity",
+      "type": "i32"
+    },
+    {
+      "name": "BaseIntelligence",
+      "type": "i32"
+    },
+    {
+      "name": "Keys0",
+      "type": "u64[]"
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    },
+    {
+      "name": "StartSkillGem_SkillGemsKey",
+      "type": "longid",
+      "ref": "SkillGems"
+    },
+    {
+      "name": "Unknown13",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown14",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown15",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown16",
+      "type": "i32"
+    },
+    {
+      "name": "CharacterSize",
+      "type": "i32"
+    },
+    {
+      "name": "IntroSoundFile",
+      "type": "string",
+      "path": "ogg"
+    },
+    {
+      "name": "StartWeapon_BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "Unknown27",
+      "type": "shortid"
+    },
+    {
+      "name": "TraitDescription",
+      "type": "string"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Key1",
+      "type": "u64"
+    },
+    {
+      "name": "Key2",
+      "type": "u64"
+    },
+    {
+      "name": "Key3",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown31",
+      "type": "i32"
+    },
+    {
+      "name": "Keys1",
+      "type": "u64[]"
+    }
+  ]
+}

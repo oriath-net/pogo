@@ -1,0 +1,42 @@
+{
+  "file": "ExtraTerrainFeatures",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Data0",
+      "type": "i32[]"
+    },
+    {
+      "name": "Data1",
+      "type": "i32[]"
+    },
+    {
+      "name": "Flag0",
+      "type": "u8"
+    },
+    {
+      "name": "Data2",
+      "type": "i32[]"
+    },
+    {
+      "name": "Data3",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Flag1",
+      "type": "u8"
+    }
+  ]
+}

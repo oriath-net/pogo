@@ -1,0 +1,38 @@
+{
+  "file": "MapCompletionAchievements",
+  "fields": [
+    {
+      "name": "Unknown0",
+      "type": "string"
+    },
+    {
+      "name": "MapStatConditionsKeys",
+      "type": "longid[]",
+      "ref": "MapStatConditions"
+    },
+    {
+      "name": "StatsKeys",
+      "type": "longid[]",
+      "ref": "Stats"
+    },
+    {
+      "name": "AchievementItemsKeys",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "MapTierAchievementsKeys",
+      "type": "longid[]",
+      "ref": "MapTierAchievements"
+    },
+    {
+      "name": "Unknown11",
+      "type": "u8"
+    },
+    {
+      "name": "WorldAreasKeys",
+      "type": "longid[]",
+      "ref": "WorldAreas"
+    }
+  ]
+}

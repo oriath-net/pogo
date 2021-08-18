@@ -1,0 +1,136 @@
+{
+  "file": "PassiveSkills",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Icon_DDSFile",
+      "type": "string",
+      "path": "dds"
+    },
+    {
+      "name": "StatsKeys",
+      "type": "longid[]",
+      "ref": "Stats"
+    },
+    {
+      "name": "Stat1Value",
+      "type": "i32"
+    },
+    {
+      "name": "Stat2Value",
+      "type": "i32"
+    },
+    {
+      "name": "Stat3Value",
+      "type": "i32"
+    },
+    {
+      "name": "Stat4Value",
+      "type": "i32"
+    },
+    {
+      "name": "PassiveSkillGraphId",
+      "type": "i32",
+      "unique": true,
+      "description": "Id used by PassiveSkillGraph.psg"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "CharactersKeys",
+      "type": "longid[]",
+      "ref": "Characters"
+    },
+    {
+      "name": "IsKeystone",
+      "type": "bool"
+    },
+    {
+      "name": "IsNotable",
+      "type": "bool"
+    },
+    {
+      "name": "FlavourText",
+      "type": "string"
+    },
+    {
+      "name": "IsJustIcon",
+      "type": "bool"
+    },
+    {
+      "name": "AchievementItemsKey",
+      "type": "longid",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "IsJewelSocket",
+      "type": "bool"
+    },
+    {
+      "name": "AscendancyKey",
+      "type": "longid",
+      "ref": "Ascendancy"
+    },
+    {
+      "name": "IsAscendancyStartingNode",
+      "type": "bool"
+    },
+    {
+      "name": "Reminder_ClientStringsKeys",
+      "type": "longid[]",
+      "ref": "ClientStrings"
+    },
+    {
+      "name": "SkillPointsGranted",
+      "type": "i32"
+    },
+    {
+      "name": "IsMultipleChoice",
+      "type": "bool"
+    },
+    {
+      "name": "IsMultipleChoiceOption",
+      "type": "bool"
+    },
+    {
+      "name": "Stat5Value",
+      "type": "i32"
+    },
+    {
+      "name": "PassiveSkillBuffsKeys",
+      "type": "longid[]",
+      "ref": "PassiveSkillBuffs"
+    },
+    {
+      "name": "GrantedEffectsPerLevelKey",
+      "type": "longid",
+      "ref": "GrantedEffectsPerLevel"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "Flag1",
+      "type": "u8"
+    },
+    {
+      "name": "IsProxyPassive",
+      "type": "u8"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    }
+  ]
+}

@@ -1,7 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="SoundEffects">
-    <field name="Id"                    type="string" unique="true" />
-    <field name="SoundFile"             type="string" /> <!-- file_path=True file_ext=.ogg -->
-    <field name="SoundFile_2D"          type="string" /> <!-- file_path=True file_ext=.ogg -->
-    <field name="Unknown3"              type="bool" />
-</format>

@@ -1,0 +1,17 @@
+{
+  "file": "MapTiers",
+  "fields": [
+    {
+      "name": "Tier",
+      "type": "i32"
+    },
+    {
+      "name": "Level",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    }
+  ]
+}

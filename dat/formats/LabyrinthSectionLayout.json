@@ -1,0 +1,47 @@
+{
+  "file": "LabyrinthSectionLayout",
+  "fields": [
+    {
+      "name": "LabyrinthSectionKey",
+      "type": "longid",
+      "ref": "LabyrinthSection"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "LabyrinthSectionLayoutKeys",
+      "type": "shortid[]",
+      "ref": "LabyrinthSectionLayout"
+    },
+    {
+      "name": "LabyrinthSecretsKey0",
+      "type": "longid",
+      "ref": "LabyrinthSecrets"
+    },
+    {
+      "name": "LabyrinthSecretsKey1",
+      "type": "longid",
+      "ref": "LabyrinthSecrets"
+    },
+    {
+      "name": "LabyrinthAreasKey",
+      "type": "longid",
+      "ref": "LabyrinthAreas"
+    },
+    {
+      "name": "Float0",
+      "type": "f32"
+    },
+    {
+      "name": "Float1",
+      "type": "f32"
+    },
+    {
+      "name": "LabyrinthNodeOverridesKeys",
+      "type": "longid[]",
+      "ref": "LabyrinthNodeOverrides"
+    }
+  ]
+}

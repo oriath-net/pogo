@@ -1,0 +1,31 @@
+{
+  "file": "DamageParticleEffects",
+  "fields": [
+    {
+      "name": "DamageParticleEffectTypes",
+      "type": "shortid",
+      "ref": "DamageParticleEffectTypes"
+    },
+    {
+      "name": "Variation",
+      "type": "i32"
+    },
+    {
+      "name": "PETFile",
+      "type": "string",
+      "path": "pet"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Key1",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    }
+  ]
+}

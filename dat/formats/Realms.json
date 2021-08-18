@@ -1,0 +1,50 @@
+{
+  "file": "Realms",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Server",
+      "type": "string[]"
+    },
+    {
+      "name": "IsEnabled",
+      "type": "bool"
+    },
+    {
+      "name": "Server2",
+      "type": "string[]"
+    },
+    {
+      "name": "ShortName",
+      "type": "string"
+    },
+    {
+      "name": "Data0",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "IsGammaRealm",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32[]"
+    }
+  ]
+}

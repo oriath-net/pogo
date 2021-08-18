@@ -1,0 +1,23 @@
+{
+  "file": "SynthesisRewardTypes",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    },
+    {
+      "name": "ArtFile",
+      "type": "string"
+    },
+    {
+      "name": "AchievementItemsKey",
+      "type": "longid",
+      "ref": "AchievementItems"
+    }
+  ]
+}

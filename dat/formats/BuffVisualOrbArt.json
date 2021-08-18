@@ -1,0 +1,30 @@
+{
+  "file": "BuffVisualOrbArt",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown2",
+      "type": "string[]"
+    },
+    {
+      "name": "Unknown3",
+      "type": "string[]"
+    },
+    {
+      "name": "Unknown4",
+      "type": "string"
+    },
+    {
+      "name": "Unknown5",
+      "type": "string"
+    }
+  ]
+}

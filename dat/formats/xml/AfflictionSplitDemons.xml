@@ -1,6 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="AfflictionSplitDemons">
-    <field name="Unknown0"              type="i32" />
-    <field name="MonsterVarietiesKey"   type="longid" ref="MonsterVarieties" />
-    <field name="AfflictionRandomModCategoriesKey" type="longid" ref="AfflictionRandomModCategories" />
-</format>

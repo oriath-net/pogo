@@ -1,0 +1,10 @@
+{
+  "file": "BlightChestTypes",
+  "fields": [
+    {
+      "name": "ChestsKey",
+      "type": "longid",
+      "ref": "Chests"
+    }
+  ]
+}

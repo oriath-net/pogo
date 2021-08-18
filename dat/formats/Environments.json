@@ -1,0 +1,45 @@
+{
+  "file": "Environments",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Base_ENVFile",
+      "type": "string",
+      "path": "env"
+    },
+    {
+      "name": "Corrupted_ENVFile",
+      "type": "string",
+      "path": "env"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "EnvironmentTransitionsKey",
+      "type": "longid",
+      "ref": "EnvironmentTransitions"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    }
+  ]
+}

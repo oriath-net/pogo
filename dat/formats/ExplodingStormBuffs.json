@@ -1,0 +1,89 @@
+{
+  "file": "ExplodingStormBuffs",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "BuffDefinitionsKey1",
+      "type": "longid",
+      "ref": "BuffDefinitions"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "StatValues",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown7",
+      "type": "i32"
+    },
+    {
+      "name": "Data1",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown10",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown11",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown12",
+      "type": "i32"
+    },
+    {
+      "name": "Friendly_MonsterVarietiesKey",
+      "type": "longid",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "MiscObjectsKey",
+      "type": "longid",
+      "ref": "MiscObjects"
+    },
+    {
+      "name": "MiscAnimatedKey",
+      "type": "longid",
+      "ref": "MiscAnimated"
+    },
+    {
+      "name": "BuffVisualsKey",
+      "type": "longid",
+      "ref": "BuffVisuals"
+    },
+    {
+      "name": "Enemy_MonsterVarietiesKey",
+      "type": "longid",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "Unknown23",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown24",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown25",
+      "type": "i32"
+    },
+    {
+      "name": "BuffDefinitionsKey2",
+      "type": "longid",
+      "ref": "BuffDefinitions"
+    },
+    {
+      "name": "IsOnlySpawningNearPlayer",
+      "type": "bool"
+    }
+  ]
+}

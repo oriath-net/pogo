@@ -1,0 +1,35 @@
+{
+  "file": "Words",
+  "fields": [
+    {
+      "name": "WordlistsKey",
+      "type": "i32"
+    },
+    {
+      "name": "Text",
+      "type": "string"
+    },
+    {
+      "name": "SpawnWeight_TagsKeys",
+      "type": "longid[]",
+      "ref": "Tags"
+    },
+    {
+      "name": "SpawnWeight_Values",
+      "type": "u32[]"
+    },
+    {
+      "name": "Unknown6",
+      "type": "i32"
+    },
+    {
+      "name": "Text2",
+      "type": "string"
+    },
+    {
+      "name": "Inflection",
+      "type": "string",
+      "description": "the inflection identifier used for i18n in related fields"
+    }
+  ]
+}

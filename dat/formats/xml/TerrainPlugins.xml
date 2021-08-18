@@ -1,5 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="TerrainPlugins">
-    <field name="Id"                    type="string" unique="true" />
-    <field name="UnknownUnique"         type="i32" unique="true" />
-</format>

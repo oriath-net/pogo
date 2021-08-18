@@ -1,9 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="SafehouseBYOCrafting">
-    <field name="BetrayalJobsKey"       type="longid" ref="BetrayalJobs" />
-    <field name="BetrayalTargetsKey"    type="longid" ref="BetrayalTargets" />
-    <field name="BetrayalRanksKey"      type="longid" ref="BetrayalRanks" />
-    <field name="Description"           type="string" />
-    <field name="ServerCommand"         type="string" />
-    <field name="Keys0"                 type="u64[]" />
-</format>

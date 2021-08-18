@@ -1,0 +1,30 @@
+{
+  "file": "BuffVisualOrbs",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "BuffVisualOrbTypesKey",
+      "type": "longid",
+      "ref": "BuffVisualOrbTypes"
+    },
+    {
+      "name": "BuffVisualOrbArtKeys",
+      "type": "longid[]",
+      "ref": "BuffVisualOrbArt"
+    },
+    {
+      "name": "Player_BuffVisualOrbArtKeys",
+      "type": "longid[]",
+      "ref": "BuffVisualOrbArt"
+    },
+    {
+      "name": "BuffVisualOrbArtKeys2",
+      "type": "longid[]",
+      "ref": "BuffVisualOrbArt"
+    }
+  ]
+}

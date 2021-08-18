@@ -1,0 +1,58 @@
+{
+  "file": "MapPins",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "PositionX",
+      "type": "i32",
+      "description": "X starts at left side of image, can be negative"
+    },
+    {
+      "name": "PositionY",
+      "type": "i32",
+      "description": "Y starts at top side of image, can be negative"
+    },
+    {
+      "name": "Waypoint_WorldAreasKey",
+      "type": "longid",
+      "ref": "WorldAreas"
+    },
+    {
+      "name": "WorldAreasKeys",
+      "type": "longid[]",
+      "ref": "WorldAreas"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "FlavourText",
+      "type": "string"
+    },
+    {
+      "name": "Data1",
+      "type": "u32[]"
+    },
+    {
+      "name": "Act",
+      "type": "i32"
+    },
+    {
+      "name": "UnknownId",
+      "type": "string"
+    },
+    {
+      "name": "Data0",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown13",
+      "type": "i32"
+    }
+  ]
+}

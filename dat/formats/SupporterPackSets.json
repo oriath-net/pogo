@@ -1,0 +1,34 @@
+{
+  "file": "SupporterPackSets",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "FormatTitle",
+      "type": "string"
+    },
+    {
+      "name": "Background",
+      "type": "string"
+    },
+    {
+      "name": "Time0",
+      "type": "string"
+    },
+    {
+      "name": "Time1",
+      "type": "string"
+    },
+    {
+      "name": "ShopPackagePlatformKey",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown0",
+      "type": "string"
+    }
+  ]
+}

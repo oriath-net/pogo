@@ -1,0 +1,54 @@
+{
+  "file": "UniqueStashLayout",
+  "fields": [
+    {
+      "name": "WordsKey",
+      "type": "longid",
+      "ref": "Words"
+    },
+    {
+      "name": "ItemVisualIdentityKey",
+      "type": "longid",
+      "ref": "ItemVisualIdentity"
+    },
+    {
+      "name": "UniqueStashTypesKey",
+      "type": "longid",
+      "ref": "UniqueStashTypes"
+    },
+    {
+      "name": "Key3",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "Flag1",
+      "type": "bool"
+    },
+    {
+      "name": "UniqueStashLayoutKey",
+      "type": "shortid",
+      "ref": "UniqueStashLayout"
+    },
+    {
+      "name": "UniqueStashLayoutKey2",
+      "type": "shortid",
+      "ref": "UniqueStashLayout"
+    },
+    {
+      "name": "Flag2",
+      "type": "bool"
+    }
+  ]
+}

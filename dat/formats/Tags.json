@@ -1,0 +1,22 @@
+{
+  "file": "Tags",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Unknown0",
+      "type": "u32"
+    },
+    {
+      "name": "DisplayString",
+      "type": "string"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    }
+  ]
+}

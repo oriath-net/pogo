@@ -1,4 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="TencentAutoLootPetCurrenciesExcludable">
-    <field name="BaseItemTypesKey"      type="longid" ref="BaseItemTypes" />
-</format>

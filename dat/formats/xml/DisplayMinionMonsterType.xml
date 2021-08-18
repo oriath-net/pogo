@@ -1,5 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="DisplayMinionMonsterType">
-    <field name="Id"                    type="i32" unique="true" />
-    <field name="MonsterVarietiesKey"   type="longid" ref="MonsterVarieties" />
-</format>

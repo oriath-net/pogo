@@ -1,0 +1,26 @@
+{
+  "file": "QuestRewardOffers",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "QuestKey",
+      "type": "longid",
+      "ref": "Quest"
+    },
+    {
+      "name": "QuestState",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    }
+  ]
+}

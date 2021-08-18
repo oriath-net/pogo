@@ -1,6 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="ElderMapBossOverride">
-    <field name="WorldAreasKey"         type="longid" ref="WorldAreas" unique="true" />
-    <field name="MonsterVarietiesKeys"  type="longid[]" ref="MonsterVarieties" />
-    <field name="TerrainMetadata"       type="string" /> <!-- file_path=True -->
-</format>

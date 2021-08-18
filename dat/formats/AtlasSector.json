@@ -1,0 +1,19 @@
+{
+  "file": "AtlasSector",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "SpawnWeight_TagsKeys",
+      "type": "longid[]",
+      "ref": "Tags"
+    },
+    {
+      "name": "SpawnWeight_Values",
+      "type": "i32[]"
+    }
+  ]
+}

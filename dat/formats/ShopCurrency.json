@@ -1,0 +1,13 @@
+{
+  "file": "ShopCurrency",
+  "fields": [
+    {
+      "name": "CurrencyCode",
+      "type": "string"
+    },
+    {
+      "name": "CurrencySign",
+      "type": "string"
+    }
+  ]
+}

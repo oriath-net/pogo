@@ -1,0 +1,22 @@
+{
+  "file": "PassiveSkillFilterOptions",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Unknown3",
+      "type": "string"
+    }
+  ]
+}

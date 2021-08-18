@@ -1,8 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="QuestAchievements">
-    <field name="Id"                    type="string" unique="true" />
-    <field name="QuestStates"           type="i32[]" />
-    <field name="Unknown3"              type="i32[]" />
-    <field name="AchievementItemsKeys"  type="u64[]" />
-    <field name="Keys0"                 type="u64[]" />
-</format>

@@ -1,0 +1,9 @@
+{
+  "file": "MicrotransactionCharacterPortraitVariations",
+  "fields": [
+    {
+      "name": "Key0",
+      "type": "u64"
+    }
+  ]
+}

@@ -1,5 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="BlightRewardTypes">
-    <field name="Id"                    type="string" unique="true" />
-    <field name="Icon"                  type="string" /> <!-- file_path=True -->
-</format>

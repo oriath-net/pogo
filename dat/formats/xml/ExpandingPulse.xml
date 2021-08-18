@@ -1,9 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="ExpandingPulse">
-    <field name="Unknown0"              type="i32[]" />
-    <field name="Unknown1"              type="i32[]" />
-    <field name="Unknown2"              type="f32[]" />
-    <field name="Keys0"                 type="u64[]" />
-    <field name="Key0"                  type="u64" />
-    <field name="Flag0"                 type="bool" />
-</format>

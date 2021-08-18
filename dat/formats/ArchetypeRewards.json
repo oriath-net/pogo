@@ -1,0 +1,27 @@
+{
+  "file": "ArchetypeRewards",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Keys0",
+      "type": "u64[]"
+    },
+    {
+      "name": "Key1",
+      "type": "u64"
+    },
+    {
+      "name": "BK2File",
+      "type": "string",
+      "path": "bk2"
+    }
+  ]
+}

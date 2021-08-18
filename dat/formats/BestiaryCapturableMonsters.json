@@ -1,0 +1,66 @@
+{
+  "file": "BestiaryCapturableMonsters",
+  "fields": [
+    {
+      "name": "MonsterVarietiesKey",
+      "type": "longid",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "BestiaryGroupsKey",
+      "type": "longid",
+      "ref": "BestiaryGroups"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "IconSmall",
+      "type": "string"
+    },
+    {
+      "name": "Icon",
+      "type": "string"
+    },
+    {
+      "name": "Boss_MonsterVarietiesKey",
+      "type": "longid",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "BestiaryGenusKey",
+      "type": "longid",
+      "ref": "BestiaryGenus"
+    },
+    {
+      "name": "Flag1",
+      "type": "bool"
+    },
+    {
+      "name": "BestiaryCapturableMonstersKey",
+      "type": "shortid",
+      "ref": "BestiaryCapturableMonsters"
+    },
+    {
+      "name": "Flag2",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "Flag3",
+      "type": "bool"
+    }
+  ]
+}

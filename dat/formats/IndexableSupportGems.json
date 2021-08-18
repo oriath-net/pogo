@@ -1,0 +1,18 @@
+{
+  "file": "IndexableSupportGems",
+  "fields": [
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    }
+  ]
+}

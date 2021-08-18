@@ -1,8 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="DescentExiles">
-    <field name="Id"                    type="string" unique="true" />
-    <field name="WorldAreasKey"         type="longid" ref="WorldAreas" />
-    <field name="CharactersKey"         type="longid" ref="Characters" />
-    <field name="MonsterVarietiesKey"   type="longid" ref="MonsterVarieties" />
-    <field name="Unknown7"              type="i32" />
-</format>

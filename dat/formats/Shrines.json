@@ -1,0 +1,90 @@
+{
+  "file": "Shrines",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "TimeoutInSeconds",
+      "type": "i32"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "ChargesShared",
+      "type": "bool"
+    },
+    {
+      "name": "Player_ShrineBuffsKey",
+      "type": "longid",
+      "ref": "ShrineBuffs"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    },
+    {
+      "name": "Monster_ShrineBuffsKey",
+      "type": "longid",
+      "ref": "ShrineBuffs"
+    },
+    {
+      "name": "SummonMonster_MonsterVarietiesKey",
+      "type": "longid",
+      "ref": "MonsterVarieties",
+      "description": "The aoe ground effects for example"
+    },
+    {
+      "name": "SummonPlayer_MonsterVarietiesKey",
+      "type": "longid",
+      "ref": "MonsterVarieties",
+      "description": "The aoe ground effects for example"
+    },
+    {
+      "name": "Unknown10",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown11",
+      "type": "i32"
+    },
+    {
+      "name": "ShrineSoundsKey",
+      "type": "longid",
+      "ref": "ShrineSounds"
+    },
+    {
+      "name": "Unknown14",
+      "type": "bool"
+    },
+    {
+      "name": "AchievementItemsKeys",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "IsPVPOnly",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown17",
+      "type": "bool"
+    },
+    {
+      "name": "IsLesserShrine",
+      "type": "bool"
+    }
+  ]
+}

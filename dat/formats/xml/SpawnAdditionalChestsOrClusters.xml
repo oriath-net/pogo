@@ -1,6 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="SpawnAdditionalChestsOrClusters">
-    <field name="StatsKey"              type="longid" ref="Stats" />
-    <field name="ChestsKey"             type="longid" ref="Chests" />
-    <field name="ChestClustersKey"      type="longid" ref="ChestClusters" />
-</format>

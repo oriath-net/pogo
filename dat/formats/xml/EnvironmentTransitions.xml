@@ -1,6 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="EnvironmentTransitions">
-    <field name="Id"                    type="string" />
-    <field name="OTFiles"               type="string[]" /> <!-- file_path=True file_ext=.ot -->
-    <field name="Data0"                 type="string[]" />
-</format>

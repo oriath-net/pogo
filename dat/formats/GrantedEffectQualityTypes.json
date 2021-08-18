@@ -1,0 +1,19 @@
+{
+  "file": "GrantedEffectQualityTypes",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "i32",
+      "unique": true
+    },
+    {
+      "name": "Text",
+      "type": "string"
+    },
+    {
+      "name": "ClientStringsKey",
+      "type": "longid",
+      "ref": "ClientStrings"
+    }
+  ]
+}

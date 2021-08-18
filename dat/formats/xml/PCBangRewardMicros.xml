@@ -1,5 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="PCBangRewardMicros">
-    <field name="BaseItemTypesKey"      type="u64" />
-    <field name="Unknown0"              type="i32" />
-</format>

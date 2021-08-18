@@ -1,0 +1,65 @@
+{
+  "file": "TreasureHunterMissions",
+  "fields": [
+    {
+      "name": "Unknown0",
+      "type": "string"
+    },
+    {
+      "name": "Unknown1",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown3",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown5",
+      "type": "u64[]"
+    },
+    {
+      "name": "Unknown7",
+      "type": "u64[]"
+    },
+    {
+      "name": "Unknown9",
+      "type": "u64[]"
+    },
+    {
+      "name": "Unknown11",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown12",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown13",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown14",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown15",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown19",
+      "type": "u8"
+    },
+    {
+      "name": "Unknown16",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown17",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown18",
+      "type": "i32"
+    }
+  ]
+}

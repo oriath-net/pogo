@@ -1,6 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="CharacterPanelTabs">
-    <field name="Id"                    type="string" unique="true" />
-    <field name="Unknown2"              type="i32" />
-    <field name="Text"                  type="string" />
-</format>

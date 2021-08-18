@@ -1,0 +1,20 @@
+{
+  "file": "BlightCraftingResults",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "PassiveSkillsKey",
+      "type": "longid",
+      "ref": "PassiveSkills"
+    }
+  ]
+}

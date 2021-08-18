@@ -1,0 +1,260 @@
+{
+  "file": "Mods",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "ModTypeKey",
+      "type": "longid",
+      "ref": "ModType"
+    },
+    {
+      "name": "Level",
+      "type": "i32"
+    },
+    {
+      "name": "StatsKey1",
+      "type": "longid",
+      "ref": "Stats"
+    },
+    {
+      "name": "StatsKey2",
+      "type": "longid",
+      "ref": "Stats"
+    },
+    {
+      "name": "StatsKey3",
+      "type": "longid",
+      "ref": "Stats"
+    },
+    {
+      "name": "StatsKey4",
+      "type": "longid",
+      "ref": "Stats"
+    },
+    {
+      "name": "Domain",
+      "type": "i32"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "GenerationType",
+      "type": "i32"
+    },
+    {
+      "name": "CorrectGroup",
+      "type": "string"
+    },
+    {
+      "name": "Stat1Min",
+      "type": "i32"
+    },
+    {
+      "name": "Stat1Max",
+      "type": "i32"
+    },
+    {
+      "name": "Stat2Min",
+      "type": "i32"
+    },
+    {
+      "name": "Stat2Max",
+      "type": "i32"
+    },
+    {
+      "name": "Stat3Min",
+      "type": "i32"
+    },
+    {
+      "name": "Stat3Max",
+      "type": "i32"
+    },
+    {
+      "name": "Stat4Min",
+      "type": "i32"
+    },
+    {
+      "name": "Stat4Max",
+      "type": "i32"
+    },
+    {
+      "name": "SpawnWeight_TagsKeys",
+      "type": "longid[]",
+      "ref": "Tags"
+    },
+    {
+      "name": "SpawnWeight_Values",
+      "type": "u32[]"
+    },
+    {
+      "name": "BuffDefinitionsKey",
+      "type": "longid",
+      "ref": "BuffDefinitions"
+    },
+    {
+      "name": "BuffValue",
+      "type": "i32"
+    },
+    {
+      "name": "TagsKeys",
+      "type": "longid[]",
+      "ref": "Tags"
+    },
+    {
+      "name": "GrantedEffectsPerLevelKeys",
+      "type": "longid[]",
+      "ref": "GrantedEffectsPerLevel"
+    },
+    {
+      "name": "Data1",
+      "type": "u32[]"
+    },
+    {
+      "name": "Data2",
+      "type": "u32[]"
+    },
+    {
+      "name": "MonsterMetadata",
+      "type": "string"
+    },
+    {
+      "name": "Data3",
+      "type": "i32[]"
+    },
+    {
+      "name": "Data4",
+      "type": "i32[]"
+    },
+    {
+      "name": "BuffVisualsKey",
+      "type": "longid",
+      "ref": "BuffVisuals"
+    },
+    {
+      "name": "Stat5Min",
+      "type": "i32"
+    },
+    {
+      "name": "Stat5Max",
+      "type": "i32"
+    },
+    {
+      "name": "StatsKey5",
+      "type": "longid",
+      "ref": "Stats"
+    },
+    {
+      "name": "FullAreaClear_AchievementItemsKey",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "AchievementItemsKey",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "GenerationWeight_TagsKeys",
+      "type": "longid[]",
+      "ref": "Tags"
+    },
+    {
+      "name": "GenerationWeight_Values",
+      "type": "i32[]"
+    },
+    {
+      "name": "Data5",
+      "type": "i32[]"
+    },
+    {
+      "name": "IsEssenceOnlyModifier",
+      "type": "bool"
+    },
+    {
+      "name": "Stat6Min",
+      "type": "i32"
+    },
+    {
+      "name": "Stat6Max",
+      "type": "i32"
+    },
+    {
+      "name": "StatsKey6",
+      "type": "longid",
+      "ref": "Stats"
+    },
+    {
+      "name": "MaxLevel",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown67",
+      "type": "u8"
+    },
+    {
+      "name": "Unveil_AchievementItemsKey",
+      "type": "longid",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "Keys0",
+      "type": "u64[]"
+    },
+    {
+      "name": "MonsterOnDeath",
+      "type": "string"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32[]"
+    },
+    {
+      "name": "Keys1",
+      "type": "u64[]"
+    },
+    {
+      "name": "Heist_SubStatValue1",
+      "type": "i32"
+    },
+    {
+      "name": "Heist_SubStatValue2",
+      "type": "i32"
+    },
+    {
+      "name": "Heist_StatsKey0",
+      "type": "longid",
+      "ref": "Stats"
+    },
+    {
+      "name": "Heist_StatsKey1",
+      "type": "longid",
+      "ref": "Stats"
+    },
+    {
+      "name": "Heist_AddStatValue1",
+      "type": "i32"
+    },
+    {
+      "name": "Heist_AddStatValue2",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    }
+  ]
+}

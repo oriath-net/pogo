@@ -1,0 +1,19 @@
+{
+  "file": "ShopPaymentPackagePrice",
+  "fields": [
+    {
+      "name": "ShopPaymentPackageKey",
+      "type": "longid",
+      "ref": "ShopPaymentPackage"
+    },
+    {
+      "name": "ShopCountryKey",
+      "type": "longid",
+      "ref": "ShopCountry"
+    },
+    {
+      "name": "Price",
+      "type": "i32"
+    }
+  ]
+}

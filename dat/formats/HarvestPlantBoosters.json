@@ -1,0 +1,35 @@
+{
+  "file": "HarvestPlantBoosters",
+  "fields": [
+    {
+      "name": "HarvestObjectsKey",
+      "type": "longid",
+      "ref": "HarvestObjects",
+      "unique": true
+    },
+    {
+      "name": "Radius",
+      "type": "i32"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Lifeforce",
+      "type": "i32"
+    },
+    {
+      "name": "AdditionalCraftingOptionsChance",
+      "type": "i32"
+    },
+    {
+      "name": "RareExtraChances",
+      "type": "i32"
+    },
+    {
+      "name": "HarvestPlantBoosterFamilies",
+      "type": "i32"
+    }
+  ]
+}

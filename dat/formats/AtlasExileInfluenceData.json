@@ -1,0 +1,34 @@
+{
+  "file": "AtlasExileInfluenceData",
+  "fields": [
+    {
+      "name": "AtlasExileInfluenceOutcomeTypesKey",
+      "type": "longid",
+      "ref": "AtlasExileInfluenceOutcomeTypes"
+    },
+    {
+      "name": "Unknown1",
+      "type": "u64[]"
+    },
+    {
+      "name": "Unknown2",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown3",
+      "type": "u64[]"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown6",
+      "type": "i32[]"
+    }
+  ]
+}

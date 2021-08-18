@@ -1,0 +1,58 @@
+{
+  "file": "MonsterResistances",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "FireNormal",
+      "type": "i32"
+    },
+    {
+      "name": "ColdNormal",
+      "type": "i32"
+    },
+    {
+      "name": "LightningNormal",
+      "type": "i32"
+    },
+    {
+      "name": "ChaosNormal",
+      "type": "i32"
+    },
+    {
+      "name": "FireCruel",
+      "type": "i32"
+    },
+    {
+      "name": "ColdCruel",
+      "type": "i32"
+    },
+    {
+      "name": "LightningCruel",
+      "type": "i32"
+    },
+    {
+      "name": "ChaosCruel",
+      "type": "i32"
+    },
+    {
+      "name": "FireMerciless",
+      "type": "i32"
+    },
+    {
+      "name": "ColdMerciless",
+      "type": "i32"
+    },
+    {
+      "name": "LightningMerciless",
+      "type": "i32"
+    },
+    {
+      "name": "ChaosMerciless",
+      "type": "i32"
+    }
+  ]
+}

@@ -1,6 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="AdditionalLifeScaling">
-    <field name="IntId"                 type="i32" />
-    <field name="ID"                    type="string" />
-    <field name="DatFile"               type="string" /> <!-- file_path=True file_ext=.dat -->
-</format>

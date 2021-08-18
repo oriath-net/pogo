@@ -1,0 +1,18 @@
+{
+  "file": "HarvestCraftTiers",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "FrameImage",
+      "type": "string"
+    },
+    {
+      "name": "FrameHighlight",
+      "type": "string"
+    }
+  ]
+}

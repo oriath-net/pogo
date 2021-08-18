@@ -1,6 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="BetrayalChoiceActions">
-    <field name="Id"                    type="string" />
-    <field name="BetrayalChoicesKey"    type="longid" ref="BetrayalChoices" />
-    <field name="ClientStringsKey"      type="longid" ref="ClientStrings" />
-</format>

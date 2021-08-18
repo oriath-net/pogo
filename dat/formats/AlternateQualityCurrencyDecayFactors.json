@@ -1,0 +1,14 @@
+{
+  "file": "AlternateQualityCurrencyDecayFactors",
+  "fields": [
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "Factor",
+      "type": "i32"
+    }
+  ]
+}

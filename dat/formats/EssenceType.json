@@ -1,0 +1,22 @@
+{
+  "file": "EssenceType",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "EssenceType",
+      "type": "i32"
+    },
+    {
+      "name": "IsCorruptedEssence",
+      "type": "bool"
+    },
+    {
+      "name": "WordsKey",
+      "type": "longid",
+      "ref": "Words"
+    }
+  ]
+}

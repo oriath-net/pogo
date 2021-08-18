@@ -1,0 +1,22 @@
+{
+  "file": "MetamorphosisMetaMonsters",
+  "fields": [
+    {
+      "name": "MonsterVarietiesKey",
+      "type": "longid",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "Unknown_Keys",
+      "type": "u64[]"
+    },
+    {
+      "name": "Unknown_Values",
+      "type": "i32[]"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    }
+  ]
+}

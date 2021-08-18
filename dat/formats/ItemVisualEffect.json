@@ -1,0 +1,74 @@
+{
+  "file": "ItemVisualEffect",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "DaggerEPKFile",
+      "type": "string",
+      "path": "epk"
+    },
+    {
+      "name": "BowEPKFile",
+      "type": "string",
+      "path": "epk"
+    },
+    {
+      "name": "OneHandedMaceEPKFile",
+      "type": "string",
+      "path": "epk"
+    },
+    {
+      "name": "OneHandedSwordEPKFile",
+      "type": "string",
+      "path": "epk"
+    },
+    {
+      "name": "Index5",
+      "type": "string"
+    },
+    {
+      "name": "TwoHandedSwordEPKFile",
+      "type": "string",
+      "path": "epk"
+    },
+    {
+      "name": "TwoHandedStaffEPKFile",
+      "type": "string",
+      "path": "epk"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32",
+      "unique": true
+    },
+    {
+      "name": "TwoHandedMaceEPKFile",
+      "type": "string",
+      "path": "epk"
+    },
+    {
+      "name": "OneHandedAxeEPKFile",
+      "type": "string",
+      "path": "epk"
+    },
+    {
+      "name": "TwoHandedAxeEPKFile",
+      "type": "string",
+      "path": "epk"
+    },
+    {
+      "name": "ClawEPKFile",
+      "type": "string",
+      "path": "epk"
+    },
+    {
+      "name": "PETFile",
+      "type": "string",
+      "path": "pet"
+    }
+  ]
+}

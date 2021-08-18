@@ -1,0 +1,33 @@
+{
+  "file": "DamageHitEffects",
+  "fields": [
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Keys0",
+      "type": "u64[]"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "string[]"
+    },
+    {
+      "name": "Unknown6",
+      "type": "string[]"
+    }
+  ]
+}

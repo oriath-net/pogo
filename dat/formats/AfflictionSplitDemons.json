@@ -1,0 +1,19 @@
+{
+  "file": "AfflictionSplitDemons",
+  "fields": [
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "MonsterVarietiesKey",
+      "type": "longid",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "AfflictionRandomModCategoriesKey",
+      "type": "longid",
+      "ref": "AfflictionRandomModCategories"
+    }
+  ]
+}

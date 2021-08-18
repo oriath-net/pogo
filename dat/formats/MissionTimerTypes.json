@@ -1,0 +1,17 @@
+{
+  "file": "MissionTimerTypes",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "Image",
+      "type": "string"
+    },
+    {
+      "name": "BackgroundImage",
+      "type": "string"
+    }
+  ]
+}

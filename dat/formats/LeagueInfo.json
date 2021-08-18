@@ -1,0 +1,54 @@
+{
+  "file": "LeagueInfo",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "PanelImage",
+      "type": "string"
+    },
+    {
+      "name": "HeaderImage",
+      "type": "string"
+    },
+    {
+      "name": "Screenshots",
+      "type": "string[]"
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    },
+    {
+      "name": "League",
+      "type": "string"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "ItemImages",
+      "type": "string[]"
+    },
+    {
+      "name": "HoverImages",
+      "type": "string[]"
+    },
+    {
+      "name": "TrailerVideoLink",
+      "type": "string"
+    },
+    {
+      "name": "BackgroundImage",
+      "type": "string"
+    },
+    {
+      "name": "Flag1",
+      "type": "bool"
+    }
+  ]
+}

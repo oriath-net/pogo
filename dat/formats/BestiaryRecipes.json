@@ -1,0 +1,44 @@
+{
+  "file": "BestiaryRecipes",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    },
+    {
+      "name": "BestiaryRecipeComponentKeys",
+      "type": "longid[]",
+      "ref": "BestiaryRecipeComponent"
+    },
+    {
+      "name": "Notes",
+      "type": "string"
+    },
+    {
+      "name": "HintText",
+      "type": "string"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "AchievementItemsKeys",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "Flag1",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    }
+  ]
+}

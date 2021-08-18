@@ -1,0 +1,14 @@
+{
+  "file": "AtlasMods",
+  "fields": [
+    {
+      "name": "ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "AtlasModTiers",
+      "type": "i32"
+    }
+  ]
+}

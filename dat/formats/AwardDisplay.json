@@ -1,0 +1,51 @@
+{
+  "file": "AwardDisplay",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Text",
+      "type": "string"
+    },
+    {
+      "name": "BackgroundImage",
+      "type": "string"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "f32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "f32"
+    },
+    {
+      "name": "Unknown6",
+      "type": "string"
+    },
+    {
+      "name": "Unknown7",
+      "type": "string"
+    },
+    {
+      "name": "ForegroundImage",
+      "type": "string"
+    },
+    {
+      "name": "OGGFile",
+      "type": "string",
+      "path": "ogg"
+    },
+    {
+      "name": "Unknown8",
+      "type": "i32"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "file": "ShopItem",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    },
+    {
+      "name": "BundleItems",
+      "type": "i32[]"
+    },
+    {
+      "name": "Purchaseable",
+      "type": "bool"
+    },
+    {
+      "name": "BundleCounts",
+      "type": "i32[]"
+    },
+    {
+      "name": "Price",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i64[]"
+    },
+    {
+      "name": "ShopImage",
+      "type": "string",
+      "path": "art"
+    },
+    {
+      "name": "Unknown2",
+      "type": "longid"
+    },
+    {
+      "name": "YoutubeVideoID",
+      "type": "string"
+    },
+    {
+      "name": "LargeImage",
+      "type": "string",
+      "path": "art"
+    },
+    {
+      "name": "UsageNotes",
+      "type": "string",
+      "since": "1.3"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32",
+      "since": "1.1"
+    },
+    {
+      "name": "DailyDealImage",
+      "type": "string",
+      "path": "art",
+      "since": "1.1"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32",
+      "since": "2.0"
+    }
+  ]
+}

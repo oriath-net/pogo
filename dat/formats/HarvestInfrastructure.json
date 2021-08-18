@@ -1,0 +1,52 @@
+{
+  "file": "HarvestInfrastructure",
+  "fields": [
+    {
+      "name": "HarvestObjectsKey",
+      "type": "longid",
+      "ref": "HarvestObjects",
+      "unique": true
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Key1",
+      "type": "u64"
+    },
+    {
+      "name": "Key2",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown6",
+      "type": "i32"
+    },
+    {
+      "name": "Key3",
+      "type": "u64"
+    },
+    {
+      "name": "Keys0",
+      "type": "u64[]"
+    },
+    {
+      "name": "Unknown7",
+      "type": "i32"
+    },
+    {
+      "name": "HarvestInfrastructureKey",
+      "type": "shortid",
+      "ref": "HarvestInfrastructure"
+    }
+  ]
+}

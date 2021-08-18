@@ -1,0 +1,15 @@
+{
+  "file": "InfluenceExalts",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "i32",
+      "unique": true
+    },
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "file": "MonsterSegments",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "Shapes",
+      "type": "string"
+    }
+  ]
+}

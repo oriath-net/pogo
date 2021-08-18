@@ -1,0 +1,20 @@
+{
+  "file": "SpawnAdditionalChestsOrClusters",
+  "fields": [
+    {
+      "name": "StatsKey",
+      "type": "longid",
+      "ref": "Stats"
+    },
+    {
+      "name": "ChestsKey",
+      "type": "longid",
+      "ref": "Chests"
+    },
+    {
+      "name": "ChestClustersKey",
+      "type": "longid",
+      "ref": "ChestClusters"
+    }
+  ]
+}

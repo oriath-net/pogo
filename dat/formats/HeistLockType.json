@@ -1,0 +1,19 @@
+{
+  "file": "HeistLockType",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "HeistJobsKey",
+      "type": "longid",
+      "ref": "HeistJobs"
+    },
+    {
+      "name": "SkillIcon",
+      "type": "string"
+    }
+  ]
+}

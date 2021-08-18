@@ -1,0 +1,95 @@
+{
+  "file": "GroundEffects",
+  "fields": [
+    {
+      "name": "GroundEffectTypesKey",
+      "type": "longid",
+      "ref": "GroundEffectTypes"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "Flag1",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown6",
+      "type": "i32"
+    },
+    {
+      "name": "Flag2",
+      "type": "bool"
+    },
+    {
+      "name": "Flag3",
+      "type": "bool"
+    },
+    {
+      "name": "AOFile",
+      "type": "string",
+      "path": "ao"
+    },
+    {
+      "name": "Flag4",
+      "type": "bool"
+    },
+    {
+      "name": "Data0",
+      "type": "i32[]"
+    },
+    {
+      "name": "Data1",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown12",
+      "type": "i32"
+    },
+    {
+      "name": "Key1",
+      "type": "u64"
+    },
+    {
+      "name": "Key2",
+      "type": "u64"
+    },
+    {
+      "name": "Key3",
+      "type": "u64"
+    },
+    {
+      "name": "Key4",
+      "type": "u64"
+    },
+    {
+      "name": "Key5",
+      "type": "u64"
+    },
+    {
+      "name": "Flag5",
+      "type": "bool"
+    },
+    {
+      "name": "Flag6",
+      "type": "bool"
+    },
+    {
+      "name": "Flag7",
+      "type": "bool"
+    }
+  ]
+}

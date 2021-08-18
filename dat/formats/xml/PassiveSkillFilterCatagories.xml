@@ -1,5 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="PassiveSkillFilterCatagories">
-    <field name="Id"                    type="string" unique="true" />
-    <field name="Name"                  type="string" />
-</format>

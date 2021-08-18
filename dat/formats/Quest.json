@@ -1,0 +1,47 @@
+{
+  "file": "Quest",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Act",
+      "type": "i32"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Icon_DDSFile",
+      "type": "string",
+      "path": "dds"
+    },
+    {
+      "name": "QuestId",
+      "type": "i32"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown6",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown7",
+      "type": "i32"
+    }
+  ]
+}

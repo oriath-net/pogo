@@ -1,9 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="StashType">
-    <field name="Id"                    type="string" unique="true" />
-    <field name="IntId"                 type="i32" unique="true" />
-    <field name="Id2"                   type="string" />
-    <field name="Unknown3"              type="i32" />
-    <field name="Unknown4"              type="i32" />
-    <field name="Unknown5"              type="i32" />
-</format>

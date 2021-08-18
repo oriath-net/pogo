@@ -1,5 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="BreachBossLifeScalingPerLevel">
-    <field name="MonsterLevel"          type="i32" />
-    <field name="LifeMultiplier"        type="i32" />
-</format>

@@ -1,0 +1,70 @@
+{
+  "file": "ChestEffects",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Normal_EPKFile",
+      "type": "string",
+      "path": "epk"
+    },
+    {
+      "name": "Normal_Closed_AOFile",
+      "type": "string",
+      "path": "ao"
+    },
+    {
+      "name": "Normal_Open_AOFile",
+      "type": "string",
+      "path": "ao"
+    },
+    {
+      "name": "Magic_EPKFile",
+      "type": "string",
+      "path": "epk"
+    },
+    {
+      "name": "Unique_EPKFile",
+      "type": "string",
+      "path": "epk"
+    },
+    {
+      "name": "Rare_EPKFile",
+      "type": "string",
+      "path": "epk"
+    },
+    {
+      "name": "Magic_Closed_AOFile",
+      "type": "string",
+      "path": "ao"
+    },
+    {
+      "name": "Unique_Closed_AOFile",
+      "type": "string",
+      "path": "ao"
+    },
+    {
+      "name": "Rare_Closed_AOFile",
+      "type": "string",
+      "path": "ao"
+    },
+    {
+      "name": "Magic_Open_AOFile",
+      "type": "string",
+      "path": "ao"
+    },
+    {
+      "name": "Unique_Open_AOFile",
+      "type": "string",
+      "path": "ao"
+    },
+    {
+      "name": "Rare_Open_AOFile",
+      "type": "string",
+      "path": "ao"
+    }
+  ]
+}

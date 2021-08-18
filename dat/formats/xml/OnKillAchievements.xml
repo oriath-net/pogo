@@ -1,5 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="OnKillAchievements">
-    <field name="MonsterVarietiesKey"   type="longid" ref="MonsterVarieties" />
-    <field name="Key0"                  type="u64" />
-</format>

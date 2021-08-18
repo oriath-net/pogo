@@ -1,5 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="BackendErrors">
-    <field name="Id"                    type="string" unique="true" />
-    <field name="Text"                  type="string" />
-</format>

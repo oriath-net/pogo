@@ -1,0 +1,82 @@
+{
+  "file": "HarvestSeedTypes",
+  "fields": [
+    {
+      "name": "HarvestObjectsKey",
+      "type": "longid",
+      "ref": "HarvestObjects",
+      "unique": true
+    },
+    {
+      "name": "Key1",
+      "type": "u64"
+    },
+    {
+      "name": "GrowthCycles",
+      "type": "i32"
+    },
+    {
+      "name": "AOFiles",
+      "type": "string[]",
+      "path": "ao"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Tier",
+      "type": "i32"
+    },
+    {
+      "name": "RequiredNearbySeed_Tier",
+      "type": "i32"
+    },
+    {
+      "name": "RequiredNearbySeed_Amount",
+      "type": "i32"
+    },
+    {
+      "name": "WildLifeforceConsumedPercentage",
+      "type": "i32"
+    },
+    {
+      "name": "VividLifeforceConsumedPercentage",
+      "type": "i32"
+    },
+    {
+      "name": "PrimalLifeforceConsumedPercentage",
+      "type": "i32"
+    },
+    {
+      "name": "Text",
+      "type": "string"
+    },
+    {
+      "name": "HarvestCraftOptionsKeys",
+      "type": "longid[]",
+      "ref": "HarvestCraftOptions"
+    },
+    {
+      "name": "Unknown14",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown15",
+      "type": "i32[]"
+    },
+    {
+      "name": "AchievementItemsKeys",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "OutcomeType",
+      "type": "i32"
+    }
+  ]
+}

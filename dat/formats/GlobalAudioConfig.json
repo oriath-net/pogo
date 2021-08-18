@@ -1,0 +1,18 @@
+{
+  "file": "GlobalAudioConfig",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Value",
+      "type": "i32"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    }
+  ]
+}

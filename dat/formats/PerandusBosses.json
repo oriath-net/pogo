@@ -1,0 +1,22 @@
+{
+  "file": "PerandusBosses",
+  "fields": [
+    {
+      "name": "MonsterVarietiesKey",
+      "type": "longid",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "MinLevel",
+      "type": "i32"
+    },
+    {
+      "name": "MaxLevel",
+      "type": "i32"
+    },
+    {
+      "name": "SpawnWeight",
+      "type": "i32"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "file": "GeometryAttack",
+  "fields": [
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "Keys0",
+      "type": "u64[]"
+    },
+    {
+      "name": "Keys1",
+      "type": "u64[]"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown6",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown7",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown8",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown9",
+      "type": "i32"
+    },
+    {
+      "name": "Flag1",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown10",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown11",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown12",
+      "type": "i32"
+    },
+    {
+      "name": "Flag2",
+      "type": "bool"
+    },
+    {
+      "name": "Flag3",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown13",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown14",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown15",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown16",
+      "type": "i32"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown18",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown19",
+      "type": "i32"
+    },
+    {
+      "name": "Flag4",
+      "type": "bool"
+    },
+    {
+      "name": "Flag5",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown21",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown22",
+      "type": "i32"
+    },
+    {
+      "name": "Flag6",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown23",
+      "type": "i32"
+    },
+    {
+      "name": "Flag7",
+      "type": "bool"
+    },
+    {
+      "name": "Key1",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown25",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown26",
+      "type": "i32"
+    },
+    {
+      "name": "Flag8",
+      "type": "bool"
+    },
+    {
+      "name": "Flag9",
+      "type": "bool"
+    },
+    {
+      "name": "Key2",
+      "type": "u64"
+    },
+    {
+      "name": "Flag10",
+      "type": "u8"
+    },
+    {
+      "name": "Flag11",
+      "type": "u8"
+    },
+    {
+      "name": "Flag12",
+      "type": "u8"
+    },
+    {
+      "name": "Flag13",
+      "type": "u8"
+    },
+    {
+      "name": "Flag14",
+      "type": "u8"
+    },
+    {
+      "name": "Unknown40",
+      "type": "shortid"
+    },
+    {
+      "name": "Flag15",
+      "type": "u8"
+    },
+    {
+      "name": "Flag16",
+      "type": "u8"
+    },
+    {
+      "name": "Key3",
+      "type": "u64"
+    },
+    {
+      "name": "Flag17",
+      "type": "u8"
+    }
+  ]
+}

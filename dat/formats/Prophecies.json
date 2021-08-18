@@ -1,0 +1,58 @@
+{
+  "file": "Prophecies",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "PredictionText",
+      "type": "string"
+    },
+    {
+      "name": "UnknownUnique",
+      "type": "i32",
+      "unique": true
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "FlavourText",
+      "type": "string"
+    },
+    {
+      "name": "QuestTracker_ClientStringsKeys",
+      "type": "longid[]",
+      "ref": "ClientStrings"
+    },
+    {
+      "name": "OGGFile",
+      "type": "string",
+      "path": "ogg"
+    },
+    {
+      "name": "ProphecyChainKey",
+      "type": "longid",
+      "ref": "ProphecyChain"
+    },
+    {
+      "name": "ProphecyChainPosition",
+      "type": "i32"
+    },
+    {
+      "name": "IsEnabled",
+      "type": "bool"
+    },
+    {
+      "name": "SealCost",
+      "type": "i32"
+    },
+    {
+      "name": "PredictionText2",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "file": "MetamorphosisRewardTypeItemsClient",
+  "fields": [
+    {
+      "name": "MetamorphosisRewardTypesKey",
+      "type": "longid",
+      "ref": "MetamorphosisRewardTypes"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    }
+  ]
+}

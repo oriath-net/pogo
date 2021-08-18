@@ -1,0 +1,27 @@
+{
+  "file": "LabyrinthIzaroChests",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "ChestsKey",
+      "type": "longid",
+      "ref": "Chests"
+    },
+    {
+      "name": "SpawnWeight",
+      "type": "i32"
+    },
+    {
+      "name": "MinLabyrinthTier",
+      "type": "i32"
+    },
+    {
+      "name": "MaxLabyrinthTier",
+      "type": "i32"
+    }
+  ]
+}

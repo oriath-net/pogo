@@ -1,0 +1,56 @@
+{
+  "file": "AlternatePassiveAdditions",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "AlternateTreeVersionsKey",
+      "type": "longid",
+      "ref": "AlternateTreeVersions"
+    },
+    {
+      "name": "SpawnWeight",
+      "type": "i32"
+    },
+    {
+      "name": "StatsKeys",
+      "type": "longid[]",
+      "ref": "Stats"
+    },
+    {
+      "name": "Stat1Min",
+      "type": "i32"
+    },
+    {
+      "name": "Stat1Max",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown6",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown7",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown8",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown9",
+      "type": "i32"
+    },
+    {
+      "name": "PassiveType",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown11",
+      "type": "i32"
+    }
+  ]
+}

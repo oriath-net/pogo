@@ -1,0 +1,28 @@
+{
+  "file": "UniqueMapInfo",
+  "fields": [
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "Key1",
+      "type": "u64"
+    },
+    {
+      "name": "FlavourTextKey",
+      "type": "longid",
+      "ref": "FlavourText"
+    },
+    {
+      "name": "ItemVisualIdentityKey",
+      "type": "longid",
+      "ref": "ItemVisualIdentity"
+    },
+    {
+      "name": "Flag0",
+      "type": "u8"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "file": "SigilDisplay",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Active_StatsKey",
+      "type": "longid",
+      "ref": "Stats"
+    },
+    {
+      "name": "Inactive_StatsKey",
+      "type": "longid",
+      "ref": "Stats"
+    },
+    {
+      "name": "DDSFile",
+      "type": "string",
+      "path": "dds"
+    },
+    {
+      "name": "Inactive_ArtFile",
+      "type": "string"
+    },
+    {
+      "name": "Active_ArtFile",
+      "type": "string"
+    },
+    {
+      "name": "Frame_ArtFile",
+      "type": "string"
+    }
+  ]
+}

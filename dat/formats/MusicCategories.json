@@ -1,0 +1,22 @@
+{
+  "file": "MusicCategories",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Order",
+      "type": "i32"
+    },
+    {
+      "name": "Flag0",
+      "type": "u8"
+    }
+  ]
+}

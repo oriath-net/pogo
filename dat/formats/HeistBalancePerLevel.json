@@ -1,0 +1,89 @@
+{
+  "file": "HeistBalancePerLevel",
+  "fields": [
+    {
+      "name": "Level",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown1",
+      "type": "f32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "f32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "f32"
+    },
+    {
+      "name": "Unknown6",
+      "type": "f32"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Key1",
+      "type": "u64"
+    },
+    {
+      "name": "Key2",
+      "type": "u64"
+    },
+    {
+      "name": "Key3",
+      "type": "u64"
+    },
+    {
+      "name": "Key4",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown17",
+      "type": "f32"
+    },
+    {
+      "name": "Unknown18",
+      "type": "f32"
+    },
+    {
+      "name": "Unknown19",
+      "type": "f32"
+    },
+    {
+      "name": "Unknown20",
+      "type": "f32"
+    },
+    {
+      "name": "Key5",
+      "type": "u64"
+    },
+    {
+      "name": "Key6",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown23",
+      "type": "f32"
+    },
+    {
+      "name": "Unknown24",
+      "type": "f32"
+    },
+    {
+      "name": "Unknown25",
+      "type": "i32"
+    }
+  ]
+}

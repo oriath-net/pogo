@@ -1,0 +1,15 @@
+{
+  "file": "ProphecyType",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "UnknownUnique",
+      "type": "i32",
+      "unique": true
+    }
+  ]
+}

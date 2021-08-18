@@ -1,4 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="ShopRegion">
-    <field name="Id"                    type="string" unique="true" />
-</format>

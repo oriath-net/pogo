@@ -1,0 +1,14 @@
+{
+  "file": "MonsterArmours",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "ArtString_SMFile",
+      "type": "string",
+      "path": "sm"
+    }
+  ]
+}

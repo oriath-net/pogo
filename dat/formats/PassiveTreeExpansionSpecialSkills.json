@@ -1,0 +1,15 @@
+{
+  "file": "PassiveTreeExpansionSpecialSkills",
+  "fields": [
+    {
+      "name": "PassiveSkillsKey",
+      "type": "longid",
+      "ref": "PassiveSkills"
+    },
+    {
+      "name": "StatsKey",
+      "type": "longid",
+      "ref": "Stats"
+    }
+  ]
+}

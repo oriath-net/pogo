@@ -1,0 +1,46 @@
+{
+  "file": "UniqueStashTypes",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Order",
+      "type": "i32"
+    },
+    {
+      "name": "Width",
+      "type": "i32"
+    },
+    {
+      "name": "Height",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Unknown7",
+      "type": "i32"
+    },
+    {
+      "name": "Image",
+      "type": "string"
+    },
+    {
+      "name": "Unknown9",
+      "type": "i32"
+    }
+  ]
+}

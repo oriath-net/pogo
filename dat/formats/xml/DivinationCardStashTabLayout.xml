@@ -1,5 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="DivinationCardStashTabLayout">
-    <field name="BaseItemTypesKey"      type="longid" ref="BaseItemTypes" unique="true" />
-    <field name="IsEnabled"             type="bool" />
-</format>

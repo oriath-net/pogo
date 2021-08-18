@@ -1,6 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="BlightCraftingResults">
-    <field name="Id"                    type="string" unique="true" />
-    <field name="ModsKey"               type="longid" ref="Mods" />
-    <field name="PassiveSkillsKey"      type="longid" ref="PassiveSkills" />
-</format>

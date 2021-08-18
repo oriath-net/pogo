@@ -1,0 +1,36 @@
+{
+  "file": "ShopCategory",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "ClientText",
+      "type": "string"
+    },
+    {
+      "name": "ClientJPGFile",
+      "type": "string",
+      "path": "jpg"
+    },
+    {
+      "name": "WebsiteText",
+      "type": "string"
+    },
+    {
+      "name": "WebsiteJPGFile",
+      "type": "string"
+    },
+    {
+      "name": "Unknown0",
+      "type": "shortid"
+    },
+    {
+      "name": "AppliedTo_BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    }
+  ]
+}

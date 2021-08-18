@@ -1,6 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="HeistLockType">
-    <field name="Id"                    type="string" unique="true" />
-    <field name="HeistJobsKey"          type="longid" ref="HeistJobs" />
-    <field name="SkillIcon"             type="string" /> <!-- file_path=True -->
-</format>

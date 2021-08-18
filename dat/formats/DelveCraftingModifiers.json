@@ -1,0 +1,87 @@
+{
+  "file": "DelveCraftingModifiers",
+  "fields": [
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "AddedModsKeys",
+      "type": "longid[]",
+      "ref": "Mods"
+    },
+    {
+      "name": "NegativeWeight_TagsKeys",
+      "type": "longid[]",
+      "ref": "Tags"
+    },
+    {
+      "name": "NegativeWeight_Values",
+      "type": "i32[]"
+    },
+    {
+      "name": "ForcedAddModsKeys",
+      "type": "longid[]",
+      "ref": "Mods"
+    },
+    {
+      "name": "ForbiddenDelveCraftingTagsKeys",
+      "type": "longid[]",
+      "ref": "DelveCraftingTags"
+    },
+    {
+      "name": "AllowedDelveCraftingTagsKeys",
+      "type": "longid[]",
+      "ref": "DelveCraftingTags"
+    },
+    {
+      "name": "CanMirrorItem",
+      "type": "bool"
+    },
+    {
+      "name": "CorruptedEssenceChance",
+      "type": "i32"
+    },
+    {
+      "name": "CanImproveQuality",
+      "type": "bool"
+    },
+    {
+      "name": "CanRollEnchant",
+      "type": "bool"
+    },
+    {
+      "name": "HasLuckyRolls",
+      "type": "bool"
+    },
+    {
+      "name": "SellPrice_ModsKeys",
+      "type": "longid[]",
+      "ref": "Mods"
+    },
+    {
+      "name": "CanRollWhiteSockets",
+      "type": "bool"
+    },
+    {
+      "name": "Weight_TagsKeys",
+      "type": "longid[]",
+      "ref": "Tags"
+    },
+    {
+      "name": "Weight_Values",
+      "type": "i32[]"
+    },
+    {
+      "name": "DelveCraftingModifierDescriptionsKeys",
+      "type": "longid[]",
+      "ref": "DelveCraftingModifierDescriptions"
+    },
+    {
+      "name": "BlockedDelveCraftingModifierDescriptionsKeys",
+      "type": "longid[]",
+      "ref": "DelveCraftingModifierDescriptions"
+    }
+  ]
+}

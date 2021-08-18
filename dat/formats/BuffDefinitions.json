@@ -1,0 +1,180 @@
+{
+  "file": "BuffDefinitions",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    },
+    {
+      "name": "Invisible",
+      "type": "bool"
+    },
+    {
+      "name": "Removable",
+      "type": "bool"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "StatsKeys",
+      "type": "longid[]",
+      "ref": "Stats"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "Flag1",
+      "type": "bool"
+    },
+    {
+      "name": "Maximum_StatsKey",
+      "type": "longid",
+      "ref": "Stats",
+      "description": "Stat that holds the maximum number for this buff"
+    },
+    {
+      "name": "Current_StatsKey",
+      "type": "longid",
+      "ref": "Stats",
+      "description": "Stat that holds the current number for this buff"
+    },
+    {
+      "name": "Flag2",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "BuffVisualsKey",
+      "type": "longid",
+      "ref": "BuffVisuals"
+    },
+    {
+      "name": "Flag3",
+      "type": "bool"
+    },
+    {
+      "name": "Flag4",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Flag5",
+      "type": "bool"
+    },
+    {
+      "name": "Flag6",
+      "type": "bool"
+    },
+    {
+      "name": "Flag7",
+      "type": "bool"
+    },
+    {
+      "name": "Flag8",
+      "type": "bool"
+    },
+    {
+      "name": "BuffLimit",
+      "type": "i32"
+    },
+    {
+      "name": "Flag10",
+      "type": "bool"
+    },
+    {
+      "name": "Id2",
+      "type": "string"
+    },
+    {
+      "name": "IsRecovery",
+      "type": "bool"
+    },
+    {
+      "name": "Flag11",
+      "type": "bool"
+    },
+    {
+      "name": "Flag12",
+      "type": "bool"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Flag13",
+      "type": "u8"
+    },
+    {
+      "name": "Unknown6",
+      "type": "i32"
+    },
+    {
+      "name": "Flag14",
+      "type": "u8"
+    },
+    {
+      "name": "Flag15",
+      "type": "u8"
+    },
+    {
+      "name": "Unknown7",
+      "type": "i32"
+    },
+    {
+      "name": "Data0",
+      "type": "i32[]"
+    },
+    {
+      "name": "Flag16",
+      "type": "bool"
+    },
+    {
+      "name": "Flag17",
+      "type": "bool"
+    },
+    {
+      "name": "Key1",
+      "type": "u64"
+    },
+    {
+      "name": "Flag18",
+      "type": "bool"
+    },
+    {
+      "name": "Keys0",
+      "type": "u64[]"
+    },
+    {
+      "name": "Keys1",
+      "type": "u64[]"
+    },
+    {
+      "name": "Keys2",
+      "type": "u64[]"
+    },
+    {
+      "name": "Keys3",
+      "type": "u64[]"
+    }
+  ]
+}

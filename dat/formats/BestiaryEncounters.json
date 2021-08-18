@@ -1,0 +1,36 @@
+{
+  "file": "BestiaryEncounters",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "MinLevel",
+      "type": "i32"
+    },
+    {
+      "name": "MaxLevel",
+      "type": "i32"
+    },
+    {
+      "name": "SpawnWeight",
+      "type": "i32"
+    },
+    {
+      "name": "MonsterPacksKey",
+      "type": "longid",
+      "ref": "MonsterPacks"
+    },
+    {
+      "name": "MonsterVarietiesKey",
+      "type": "longid",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "MonsterSpawnerId",
+      "type": "string"
+    }
+  ]
+}

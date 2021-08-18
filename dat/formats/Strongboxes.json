@@ -1,0 +1,27 @@
+{
+  "file": "Strongboxes",
+  "fields": [
+    {
+      "name": "ChestsKey",
+      "type": "longid",
+      "ref": "Chests",
+      "unique": true
+    },
+    {
+      "name": "SpawnWeight",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "IsCartographerBox",
+      "type": "bool"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    }
+  ]
+}

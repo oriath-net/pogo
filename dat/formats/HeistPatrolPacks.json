@@ -1,0 +1,34 @@
+{
+  "file": "HeistPatrolPacks",
+  "fields": [
+    {
+      "name": "MonsterPacksKey",
+      "type": "longid",
+      "ref": "MonsterPacks"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown7",
+      "type": "u8"
+    }
+  ]
+}

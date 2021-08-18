@@ -1,0 +1,31 @@
+{
+  "file": "IncursionBrackets",
+  "fields": [
+    {
+      "name": "MinLevel",
+      "type": "i32"
+    },
+    {
+      "name": "Incursion_WorldAreasKey",
+      "type": "longid",
+      "ref": "WorldAreas"
+    },
+    {
+      "name": "Template_WorldAreasKey",
+      "type": "longid",
+      "ref": "WorldAreas"
+    },
+    {
+      "name": "Data0",
+      "type": "f32[]"
+    },
+    {
+      "name": "Unknown0",
+      "type": "f32"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    }
+  ]
+}

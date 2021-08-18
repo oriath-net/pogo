@@ -1,0 +1,18 @@
+{
+  "file": "ItemExperiencePerLevel",
+  "fields": [
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "ItemCurrentLevel",
+      "type": "i32"
+    },
+    {
+      "name": "Experience",
+      "type": "i32"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "file": "BreachBossLifeScalingPerLevel",
+  "fields": [
+    {
+      "name": "MonsterLevel",
+      "type": "i32"
+    },
+    {
+      "name": "LifeMultiplier",
+      "type": "i32"
+    }
+  ]
+}

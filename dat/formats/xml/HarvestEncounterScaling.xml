@@ -1,7 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="HarvestEncounterScaling">
-    <field name="Level"                 type="i32" />
-    <field name="Multiplier"            type="f32" />
-    <field name="StatsKeys"             type="u64[]" />
-    <field name="StatsValues"           type="i32[]" />
-</format>

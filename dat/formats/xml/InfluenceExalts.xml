@@ -1,5 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="InfluenceExalts">
-    <field name="Id"                    type="i32" unique="true" />
-    <field name="BaseItemTypesKey"      type="longid" ref="BaseItemTypes" />
-</format>

@@ -1,0 +1,42 @@
+{
+  "file": "HeistDoors",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Unknown1",
+      "type": "string"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Key1",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown4",
+      "type": "string"
+    },
+    {
+      "name": "Unknown5",
+      "type": "string[]"
+    },
+    {
+      "name": "Unknown6",
+      "type": "string[]"
+    },
+    {
+      "name": "Unknown7",
+      "type": "i32"
+    },
+    {
+      "name": "Key2",
+      "type": "u64"
+    }
+  ]
+}

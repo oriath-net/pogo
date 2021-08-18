@@ -1,0 +1,26 @@
+{
+  "file": "DelveAzuriteShop",
+  "fields": [
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "SpawnWeight",
+      "type": "i32"
+    },
+    {
+      "name": "Cost",
+      "type": "i32"
+    },
+    {
+      "name": "MinDepth",
+      "type": "i32"
+    },
+    {
+      "name": "IsEnabled",
+      "type": "bool"
+    }
+  ]
+}

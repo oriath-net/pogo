@@ -1,0 +1,108 @@
+{
+  "file": "GrantedEffects",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "IsSupport",
+      "type": "bool"
+    },
+    {
+      "name": "AllowedActiveSkillTypes",
+      "type": "u32[]",
+      "description": "This support gem only supports active skills with at least one of these types"
+    },
+    {
+      "name": "BaseEffectiveness",
+      "type": "f32"
+    },
+    {
+      "name": "IncrementalEffectiveness",
+      "type": "f32"
+    },
+    {
+      "name": "SupportGemLetter",
+      "type": "string"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "AddedActiveSkillTypes",
+      "type": "u32[]",
+      "description": "This support gem adds these types to supported active skills"
+    },
+    {
+      "name": "ExcludedActiveSkillTypes",
+      "type": "u32[]",
+      "description": "This support gem does not support active skills with one of these types"
+    },
+    {
+      "name": "SupportsGemsOnly",
+      "type": "bool",
+      "description": "This support gem only supports active skills that come from gem items"
+    },
+    {
+      "name": "Unknown1",
+      "type": "u32"
+    },
+    {
+      "name": "Data3",
+      "type": "i32[]"
+    },
+    {
+      "name": "Flag1",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "CastTime",
+      "type": "i32"
+    },
+    {
+      "name": "ActiveSkillsKey",
+      "type": "longid",
+      "ref": "ActiveSkills"
+    },
+    {
+      "name": "Flag2",
+      "type": "bool"
+    },
+    {
+      "name": "Flag3",
+      "type": "bool"
+    },
+    {
+      "name": "Data4",
+      "type": "i32[]"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Key1",
+      "type": "u64"
+    },
+    {
+      "name": "Flag4",
+      "type": "bool"
+    },
+    {
+      "name": "Keys0",
+      "type": "u64[]"
+    },
+    {
+      "name": "GrantedEffectsKey",
+      "type": "shortid",
+      "ref": "GrantedEffects"
+    }
+  ]
+}

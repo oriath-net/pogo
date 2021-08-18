@@ -1,0 +1,14 @@
+{
+  "file": "PassiveSkillStatCategories",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    }
+  ]
+}

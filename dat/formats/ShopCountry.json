@@ -1,0 +1,18 @@
+{
+  "file": "ShopCountry",
+  "fields": [
+    {
+      "name": "CountryTwoLetterCode",
+      "type": "string"
+    },
+    {
+      "name": "Country",
+      "type": "string"
+    },
+    {
+      "name": "ShopCurrencyKey",
+      "type": "longid",
+      "ref": "ShopCurrency"
+    }
+  ]
+}

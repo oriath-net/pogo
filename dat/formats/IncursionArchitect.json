@@ -1,0 +1,14 @@
+{
+  "file": "IncursionArchitect",
+  "fields": [
+    {
+      "name": "MonsterVarietiesKey",
+      "type": "longid",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "MinLevel",
+      "type": "i32"
+    }
+  ]
+}

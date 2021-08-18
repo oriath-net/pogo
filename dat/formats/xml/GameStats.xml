@@ -1,5 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="GameStats">
-    <field name="Id"                    type="string" unique="true" />
-    <field name="Id2"                   type="string" unique="true" />
-</format>

@@ -1,0 +1,71 @@
+{
+  "file": "BloodTypes",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "PETFile1",
+      "type": "string",
+      "path": "pet"
+    },
+    {
+      "name": "PETFile2",
+      "type": "string",
+      "path": "pet"
+    },
+    {
+      "name": "PETFile3",
+      "type": "string",
+      "path": "pet"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "PETFile4",
+      "type": "string",
+      "path": "pet"
+    },
+    {
+      "name": "PETFile5",
+      "type": "string",
+      "path": "pet"
+    },
+    {
+      "name": "PETFile6",
+      "type": "string",
+      "path": "pet"
+    },
+    {
+      "name": "Key1",
+      "type": "u64"
+    },
+    {
+      "name": "Keys0",
+      "type": "u64[]"
+    },
+    {
+      "name": "Key2",
+      "type": "u64"
+    },
+    {
+      "name": "PETFile7",
+      "type": "string",
+      "path": "pet"
+    },
+    {
+      "name": "PETFile8",
+      "type": "string",
+      "path": "pet"
+    },
+    {
+      "name": "PETFile9",
+      "type": "string",
+      "path": "pet"
+    }
+  ]
+}

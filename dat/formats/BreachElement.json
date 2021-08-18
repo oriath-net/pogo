@@ -1,0 +1,25 @@
+{
+  "file": "BreachElement",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "ShardItemType",
+      "type": "longid",
+      "ref": "BaseItemTypes",
+      "description": "Splinter of [X]"
+    },
+    {
+      "name": "FragmentItemType",
+      "type": "longid",
+      "ref": "BaseItemTypes",
+      "description": "[X]'s Breachstone"
+    },
+    {
+      "name": "Unknown1",
+      "type": "longid"
+    }
+  ]
+}

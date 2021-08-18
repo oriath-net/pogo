@@ -1,0 +1,10 @@
+{
+  "file": "PreloadGroups",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    }
+  ]
+}

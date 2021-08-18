@@ -1,0 +1,14 @@
+{
+  "file": "MTXSetBonus",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "ArtFile",
+      "type": "string"
+    }
+  ]
+}

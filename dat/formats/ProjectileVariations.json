@@ -1,0 +1,15 @@
+{
+  "file": "ProjectileVariations",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "ProjectileKey",
+      "type": "longid",
+      "ref": "Projectiles"
+    }
+  ]
+}

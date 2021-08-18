@@ -1,0 +1,14 @@
+{
+  "file": "HeistConstants",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Value",
+      "type": "f32"
+    }
+  ]
+}

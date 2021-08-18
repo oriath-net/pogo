@@ -1,0 +1,73 @@
+{
+  "file": "BetrayalDialogue",
+  "fields": [
+    {
+      "name": "BetrayalDialogueCueKey",
+      "type": "longid",
+      "ref": "BetrayalDialogueCue"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32[]"
+    },
+    {
+      "name": "BetrayalTargetsKey",
+      "type": "longid",
+      "ref": "BetrayalTargets"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Key2",
+      "type": "u64"
+    },
+    {
+      "name": "Keys1",
+      "type": "u64[]"
+    },
+    {
+      "name": "BetrayalUpgradesKey",
+      "type": "longid",
+      "ref": "BetrayalUpgrades"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32[]"
+    },
+    {
+      "name": "Keys0",
+      "type": "u64[]"
+    },
+    {
+      "name": "Flag1",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown6",
+      "type": "i32[]"
+    },
+    {
+      "name": "NPCTextAudioKey",
+      "type": "longid",
+      "ref": "NPCTextAudio"
+    },
+    {
+      "name": "Unknown7",
+      "type": "i32[]"
+    }
+  ]
+}

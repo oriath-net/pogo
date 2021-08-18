@@ -1,0 +1,65 @@
+{
+  "file": "StrDexIntMissionExtraRequirement",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "SpawnWeight",
+      "type": "i32"
+    },
+    {
+      "name": "MinLevel",
+      "type": "i32"
+    },
+    {
+      "name": "MaxLevel",
+      "type": "i32"
+    },
+    {
+      "name": "TimeLimit",
+      "type": "i32",
+      "description": "in milliseconds"
+    },
+    {
+      "name": "HasTimeBonusPerKill",
+      "type": "bool"
+    },
+    {
+      "name": "HasTimeBonusPerObjectTagged",
+      "type": "bool"
+    },
+    {
+      "name": "HasLimitedPortals",
+      "type": "bool"
+    },
+    {
+      "name": "NPCTalkKey",
+      "type": "longid",
+      "ref": "NPCTalk"
+    },
+    {
+      "name": "TimeLimitBonusFromObjective",
+      "type": "i32",
+      "description": "in milliseconds"
+    },
+    {
+      "name": "ObjectCount",
+      "type": "i32"
+    },
+    {
+      "name": "Data0",
+      "type": "i32[]"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    },
+    {
+      "name": "Keys0",
+      "type": "u64[]"
+    }
+  ]
+}

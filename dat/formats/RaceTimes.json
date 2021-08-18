@@ -1,0 +1,22 @@
+{
+  "file": "RaceTimes",
+  "fields": [
+    {
+      "name": "RacesKey",
+      "type": "longid",
+      "ref": "Races"
+    },
+    {
+      "name": "Index",
+      "type": "i32"
+    },
+    {
+      "name": "StartUNIXTime",
+      "type": "i32"
+    },
+    {
+      "name": "EndUNIXTime",
+      "type": "i32"
+    }
+  ]
+}

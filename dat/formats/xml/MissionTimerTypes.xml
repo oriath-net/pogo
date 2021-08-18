@@ -1,6 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="MissionTimerTypes">
-    <field name="Id"                    type="string" />
-    <field name="Image"                 type="string" /> <!-- file_path=True -->
-    <field name="BackgroundImage"       type="string" /> <!-- file_path=True -->
-</format>

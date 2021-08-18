@@ -1,0 +1,14 @@
+{
+  "file": "BackendErrors",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Text",
+      "type": "string"
+    }
+  ]
+}

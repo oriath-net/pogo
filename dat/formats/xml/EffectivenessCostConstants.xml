@@ -1,5 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="EffectivenessCostConstants">
-    <field name="Id"                    type="string" unique="true" />
-    <field name="Multiplier"            type="f32" /> <!-- Rounded -->
-</format>

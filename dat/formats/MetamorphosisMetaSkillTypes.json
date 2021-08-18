@@ -1,0 +1,55 @@
+{
+  "file": "MetamorphosisMetaSkillTypes",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    },
+    {
+      "name": "UnavailableArt",
+      "type": "string"
+    },
+    {
+      "name": "Unknown3",
+      "type": "string"
+    },
+    {
+      "name": "AvailableArt",
+      "type": "string"
+    },
+    {
+      "name": "BaseItemTypesKey",
+      "type": "u64"
+    },
+    {
+      "name": "BodypartName",
+      "type": "string"
+    },
+    {
+      "name": "Unknown8",
+      "type": "i32"
+    },
+    {
+      "name": "AchievementItemsKeys",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "BodypartNamePlural",
+      "type": "string"
+    },
+    {
+      "name": "Unknown11",
+      "type": "i32"
+    }
+  ]
+}

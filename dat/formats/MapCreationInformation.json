@@ -1,0 +1,14 @@
+{
+  "file": "MapCreationInformation",
+  "fields": [
+    {
+      "name": "MapsKey",
+      "type": "longid",
+      "ref": "Maps"
+    },
+    {
+      "name": "Tier",
+      "type": "i32"
+    }
+  ]
+}

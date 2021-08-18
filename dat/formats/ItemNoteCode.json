@@ -1,0 +1,22 @@
+{
+  "file": "ItemNoteCode",
+  "fields": [
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "Code",
+      "type": "string"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    }
+  ]
+}

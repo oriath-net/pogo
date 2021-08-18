@@ -1,0 +1,38 @@
+{
+  "file": "BestiaryNets",
+  "fields": [
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "CaptureMinLevel",
+      "type": "i32"
+    },
+    {
+      "name": "CaptureMaxLevel",
+      "type": "i32"
+    },
+    {
+      "name": "DropMinLevel",
+      "type": "i32"
+    },
+    {
+      "name": "DropMaxLevel",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "IsEnabled",
+      "type": "bool"
+    }
+  ]
+}

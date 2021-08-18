@@ -1,0 +1,14 @@
+{
+  "file": "MicrotransactionRarityDisplay",
+  "fields": [
+    {
+      "name": "Rarity",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "ImageFile",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "file": "ItemVisualIdentity",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "DDSFile",
+      "type": "string",
+      "path": "dds"
+    },
+    {
+      "name": "AOFile",
+      "type": "string",
+      "path": "ao"
+    },
+    {
+      "name": "SoundEffectsKey",
+      "type": "longid",
+      "ref": "SoundEffects",
+      "description": "Inventory sound effect"
+    },
+    {
+      "name": "UnknownUniqueInt",
+      "type": "i32",
+      "unique": true
+    },
+    {
+      "name": "AOFile2",
+      "type": "string",
+      "path": "ao"
+    },
+    {
+      "name": "MarauderSMFiles",
+      "type": "string[]",
+      "path": "sm"
+    },
+    {
+      "name": "RangerSMFiles",
+      "type": "string[]",
+      "path": "sm"
+    },
+    {
+      "name": "WitchSMFiles",
+      "type": "string[]",
+      "path": "sm"
+    },
+    {
+      "name": "DuelistDexSMFiles",
+      "type": "string[]",
+      "path": "sm"
+    },
+    {
+      "name": "TemplarSMFiles",
+      "type": "string[]",
+      "path": "sm"
+    },
+    {
+      "name": "ShadowSMFiles",
+      "type": "string[]",
+      "path": "sm"
+    },
+    {
+      "name": "ScionSMFiles",
+      "type": "string[]",
+      "path": "sm"
+    },
+    {
+      "name": "MarauderShape",
+      "type": "string"
+    },
+    {
+      "name": "RangerShape",
+      "type": "string"
+    },
+    {
+      "name": "WitchShape",
+      "type": "string"
+    },
+    {
+      "name": "DuelistShape",
+      "type": "string"
+    },
+    {
+      "name": "TemplarShape",
+      "type": "string"
+    },
+    {
+      "name": "ShadowShape",
+      "type": "string"
+    },
+    {
+      "name": "ScionShape",
+      "type": "string"
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Pickup_AchievementItemsKeys",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "SMFiles",
+      "type": "string[]",
+      "path": "sm"
+    },
+    {
+      "name": "Identify_AchievementItemsKeys",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "EPKFile",
+      "type": "string",
+      "path": "epk"
+    },
+    {
+      "name": "Corrupt_AchievementItemsKeys",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "IsAlternateArt",
+      "type": "bool"
+    },
+    {
+      "name": "Flag2",
+      "type": "bool"
+    },
+    {
+      "name": "CreateCorruptedJewelAchievementItemsKey",
+      "type": "longid",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "AnimationLocation",
+      "type": "string"
+    },
+    {
+      "name": "Unknown2",
+      "type": "string"
+    },
+    {
+      "name": "Unknown3",
+      "type": "string"
+    },
+    {
+      "name": "Unknown4",
+      "type": "string"
+    },
+    {
+      "name": "Unknown5",
+      "type": "string"
+    },
+    {
+      "name": "Unknown6",
+      "type": "string"
+    },
+    {
+      "name": "Unknown7",
+      "type": "string"
+    },
+    {
+      "name": "Unknown8",
+      "type": "string"
+    },
+    {
+      "name": "Unknown9",
+      "type": "string"
+    },
+    {
+      "name": "Unknown10",
+      "type": "string"
+    },
+    {
+      "name": "Unknown11",
+      "type": "string"
+    },
+    {
+      "name": "Unknown12",
+      "type": "string"
+    },
+    {
+      "name": "Unknown13",
+      "type": "string"
+    },
+    {
+      "name": "IsAtlasOfWorldsMapIcon",
+      "type": "bool"
+    },
+    {
+      "name": "IsTier16Icon",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown15",
+      "type": "i32[]"
+    },
+    {
+      "name": "Flag3",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown16",
+      "type": "u64[]"
+    }
+  ]
+}

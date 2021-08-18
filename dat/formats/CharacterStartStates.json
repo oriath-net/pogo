@@ -1,0 +1,58 @@
+{
+  "file": "CharacterStartStates",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    },
+    {
+      "name": "CharactersKey",
+      "type": "longid",
+      "ref": "Characters"
+    },
+    {
+      "name": "Level",
+      "type": "i32"
+    },
+    {
+      "name": "PassiveSkillsKeys",
+      "type": "longid[]",
+      "ref": "PassiveSkills"
+    },
+    {
+      "name": "IsPVP",
+      "type": "bool"
+    },
+    {
+      "name": "CharacterStartStateSetKey",
+      "type": "longid",
+      "ref": "CharacterStartStateSet"
+    },
+    {
+      "name": "Key1",
+      "type": "u64"
+    },
+    {
+      "name": "CharacterStartQuestStateKeys",
+      "type": "longid[]",
+      "ref": "CharacterStartQuestState"
+    },
+    {
+      "name": "Bool0",
+      "type": "u8"
+    },
+    {
+      "name": "InfoText",
+      "type": "string"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "file": "ArchitectLifeScalingPerLevel",
+  "fields": [
+    {
+      "name": "Level",
+      "type": "i32"
+    },
+    {
+      "name": "MoreLife",
+      "type": "i32"
+    }
+  ]
+}

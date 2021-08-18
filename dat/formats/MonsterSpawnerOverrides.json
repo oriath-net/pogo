@@ -1,0 +1,19 @@
+{
+  "file": "MonsterSpawnerOverrides",
+  "fields": [
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Base_MonsterVarietiesKey",
+      "type": "longid",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "Override_MonsterVarietiesKey",
+      "type": "longid",
+      "ref": "MonsterVarieties"
+    }
+  ]
+}

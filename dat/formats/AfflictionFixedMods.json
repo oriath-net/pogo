@@ -1,0 +1,14 @@
+{
+  "file": "AfflictionFixedMods",
+  "fields": [
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "ModsKey",
+      "type": "longid",
+      "ref": "Mods"
+    }
+  ]
+}

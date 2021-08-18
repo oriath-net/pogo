@@ -1,0 +1,18 @@
+{
+  "file": "CharacterPanelTabs",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Text",
+      "type": "string"
+    }
+  ]
+}

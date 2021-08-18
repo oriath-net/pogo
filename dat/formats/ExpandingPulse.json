@@ -1,0 +1,29 @@
+{
+  "file": "ExpandingPulse",
+  "fields": [
+    {
+      "name": "Unknown0",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown2",
+      "type": "f32[]"
+    },
+    {
+      "name": "Keys0",
+      "type": "u64[]"
+    },
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Flag0",
+      "type": "bool"
+    }
+  ]
+}

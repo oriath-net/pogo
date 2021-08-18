@@ -1,0 +1,15 @@
+{
+  "file": "SpecialRooms",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "ARMFile",
+      "type": "string",
+      "path": "arm"
+    }
+  ]
+}

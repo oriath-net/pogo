@@ -1,0 +1,18 @@
+{
+  "file": "MasterHideoutLevels",
+  "fields": [
+    {
+      "name": "NPCMasterKey",
+      "type": "longid",
+      "ref": "NPCMaster"
+    },
+    {
+      "name": "Level",
+      "type": "i32"
+    },
+    {
+      "name": "MissionsRequired",
+      "type": "i32"
+    }
+  ]
+}

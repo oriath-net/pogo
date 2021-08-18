@@ -1,0 +1,21 @@
+{
+  "file": "HarvestEncounterScaling",
+  "fields": [
+    {
+      "name": "Level",
+      "type": "i32"
+    },
+    {
+      "name": "Multiplier",
+      "type": "f32"
+    },
+    {
+      "name": "StatsKeys",
+      "type": "u64[]"
+    },
+    {
+      "name": "StatsValues",
+      "type": "i32[]"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "file": "NPCDialogueStyles",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "HeaderBaseFile",
+      "type": "string"
+    },
+    {
+      "name": "ButtomFile",
+      "type": "string"
+    },
+    {
+      "name": "BannerFiles",
+      "type": "string[]"
+    },
+    {
+      "name": "HeaderFiles",
+      "type": "string[]"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown6",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown7",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown8",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown9",
+      "type": "i32"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "file": "MonsterHeights",
+  "fields": [
+    {
+      "name": "Key0",
+      "type": "u64"
+    },
+    {
+      "name": "Unknown1",
+      "type": "f32"
+    },
+    {
+      "name": "Key1",
+      "type": "u64"
+    }
+  ]
+}

@@ -1,7 +1,0 @@
-<!-- Imported from PyPoE -->
-<format file="BetrayalRanks">
-    <field name="Id"                    type="string" />
-    <field name="Text"                  type="string" />
-    <field name="Level"                 type="i32" />
-    <field name="RankImage"             type="string" /> <!-- file_path=True -->
-</format>

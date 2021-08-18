@@ -1,0 +1,36 @@
+{
+  "file": "WeaponTypes",
+  "fields": [
+    {
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes",
+      "unique": true
+    },
+    {
+      "name": "Critical",
+      "type": "i32"
+    },
+    {
+      "name": "Speed",
+      "type": "i32",
+      "description": "1000 / speed -> attacks per second"
+    },
+    {
+      "name": "DamageMin",
+      "type": "i32"
+    },
+    {
+      "name": "DamageMax",
+      "type": "i32"
+    },
+    {
+      "name": "RangeMax",
+      "type": "i32"
+    },
+    {
+      "name": "Null6",
+      "type": "i32"
+    }
+  ]
+}
