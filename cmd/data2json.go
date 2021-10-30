@@ -31,6 +31,10 @@ var Data2json = cli.Command{
 			Name:  "verbose-debug",
 			Usage: "Display insanely verbose debugging messages",
 		},
+		&cli.BoolFlag{
+			Name:  "strict",
+			Usage: "Fail on warnings (implicitly enables debug)",
+		},
 		&cli.StringFlag{
 			Name:        "version",
 			Usage:       "Path of Exile version to assume for formats",
@@ -52,6 +56,9 @@ func do_data2json(c *cli.Context) error {
 		p.SetDebug(2)
 	} else if c.Bool("debug") {
 		p.SetDebug(1)
+	}
+	if c.Bool("strict") {
+		p.SetStrict(1)
 	}
 
 	fmtDir := c.String("fmt")

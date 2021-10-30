@@ -17,15 +17,16 @@ import (
 )
 
 const (
-	NotTheBs uint64 = 0xbbbb_bbbb_bbbb_bbbb
-	NullID64 uint64 = 0xfefe_fefe_fefe_fefe
-	NullID32 uint32 = 0xfefe_fefe
+	notTheBs  string = "\xbb\xbb\xbb\xbb\xbb\xbb\xbb\xbb"
+	nullRow64 uint64 = 0xfefe_fefe_fefe_fefe
+	nullRow32 uint32 = 0xfefe_fefe
 )
 
 type DataParser struct {
 	formatSource fs.FS
 	formats      map[string]DataFormat
 	debug        int
+	strict       int
 	version      string
 }
 
@@ -51,7 +52,7 @@ var rawEmbeddedFormats embed.FS
 var embeddedFormats fs.FS
 
 func init() {
-	// we embedded formats/json/*.json, but we actually just want *.json
+	// we embedded formats/*.json, but we actually just want *.json
 	subfs, err := fs.Sub(rawEmbeddedFormats, "formats")
 	if err != nil {
 		panic(err)
@@ -69,6 +70,13 @@ func InitParser(version string) *DataParser {
 
 func (dp *DataParser) SetDebug(level int) {
 	dp.debug = level
+}
+
+func (dp *DataParser) SetStrict(level int) {
+	dp.strict = level
+	if dp.debug == 0 {
+		dp.debug = 1
+	}
 }
 
 func (dp *DataParser) SetFormatDir(path string) {
@@ -105,24 +113,25 @@ func (p *DataParser) Parse(r io.Reader, fileName string) ([]interface{}, error) 
 		return nil, err
 	}
 
-	var rowCount int32
-	err = binary.Read(bytes.NewReader(dat), binary.LittleEndian, &rowCount)
+	var rowCount32 int32
+	err = binary.Read(bytes.NewReader(dat), binary.LittleEndian, &rowCount32)
 	if err != nil {
 		return nil, err
 	}
+	rowCount := int(rowCount32)
 
 	rowSize := df.Size()
-	dynOffset := int64(4 + int(rowCount)*rowSize)
+	dynOffset := 4 + rowCount*rowSize
 
 	if int(dynOffset) > len(dat) {
-		return nil, fmt.Errorf("row size (%d bytes) is larger than data file", rowSize)
+		return nil, p.debugBoundary(dat, rowSize, rowCount)
 	}
 
 	ds := &dataState{
 		parser:    p,
 		rowType:   df.Type(),
 		rowSize:   rowSize,
-		rowCount:  int(rowCount),
+		rowCount:  rowCount,
 		rowFormat: &df,
 		rowData:   dat[4:dynOffset],
 		dynData:   dat[dynOffset:],
@@ -133,9 +142,8 @@ func (p *DataParser) Parse(r io.Reader, fileName string) ([]interface{}, error) 
 		ds.seenOffsets = make(map[int]bool)
 	}
 
-	err = ds.checkBoundary(dat)
-	if err != nil {
-		return nil, err
+	if !bytes.Equal(ds.dynData[:8], []byte(notTheBs)) {
+		return nil, p.debugBoundary(dat, rowSize, rowCount)
 	}
 
 	rows := make([]interface{}, ds.rowCount)
@@ -153,6 +161,9 @@ func (p *DataParser) Parse(r io.Reader, fileName string) ([]interface{}, error) 
 
 	if ds.parser.debug >= 1 && ds.lastOffset < len(ds.dynData) {
 		log.Printf("*** last dynamic offset was %x, leaving %d bytes unused", ds.lastOffset, len(ds.dynData)-ds.lastOffset)
+		if ds.parser.strict > 0 {
+			return nil, fmt.Errorf("%d bytes of data unused", len(ds.dynData)-ds.lastOffset)
+		}
 	} else if ds.parser.debug >= 2 {
 		log.Printf("*** all dynamic data used")
 	}
@@ -169,26 +180,18 @@ func (p *DataParser) dumpDataFormat(df DataFormat) {
 	}
 }
 
-func (ds *dataState) checkBoundary(data []byte) error {
-	var expectBBBB uint64
-	err := binary.Read(bytes.NewReader(ds.dynData), binary.LittleEndian, &expectBBBB)
-	if err != nil {
-		return err
-	}
-	if expectBBBB != NotTheBs {
-		if ds.rowCount == 0 {
-			return fmt.Errorf(
-				"format specification inconsistent with data file (zero rows?)",
-			)
-		}
-		boundary := strings.Index(string(data), "\xbb\xbb\xbb\xbb\xbb\xbb\xbb\xbb")
-		actualRowSize := (boundary - 4) / ds.rowCount
+func (p *DataParser) debugBoundary(data []byte, rowSize int, rowCount int) error {
+	if rowCount == 0 {
 		return fmt.Errorf(
-			"format specification inconsistent with data file (spec defines %d bytes/row, file has %d bytes/row)",
-			ds.rowSize, actualRowSize,
+			"format specification inconsistent with data file (zero rows?)",
 		)
 	}
-	return nil
+	boundary := bytes.Index(data, []byte(notTheBs))
+	actualRowSize := (boundary - 4) / rowCount
+	return fmt.Errorf(
+		"format specification inconsistent with data file (spec defines %d bytes/row, file has %d bytes/row)",
+		rowSize, actualRowSize,
+	)
 }
 
 func (ds *dataState) readRow(id int) (interface{}, error) {
@@ -224,12 +227,12 @@ func (ds *dataState) readField(tgt reflect.Value, typ FieldType, rowdat []byte, 
 
 		if ds.rowFormat.width.is64Bit() {
 			val = binary.LittleEndian.Uint64(rowdat)
-			if val == NullID64 {
+			if val == nullRow64 {
 				return nil
 			}
 		} else {
 			val = uint64(binary.LittleEndian.Uint32(rowdat))
-			if uint32(val) == NullID32 {
+			if uint32(val) == nullRow32 {
 				return nil
 			}
 		}
@@ -243,14 +246,14 @@ func (ds *dataState) readField(tgt reflect.Value, typ FieldType, rowdat []byte, 
 
 		if ds.rowFormat.width.is64Bit() {
 			hival := binary.LittleEndian.Uint64(rowdat[8:])
-			if hival == NullID64 && val == NullID64 {
+			if hival == nullRow64 && val == nullRow64 {
 				return nil
 			}
 			if hival != 0 {
 				return fmt.Errorf("unexpected value in high half of longid (%016x %016x)", val, hival)
 			}
 		} else {
-			if val == NullID64 {
+			if val == nullRow64 {
 				return nil
 			}
 		}
@@ -363,9 +366,7 @@ func (ds *dataState) readArray(tgt reflect.Value, rowdat []byte, dyndat []byte) 
 		return err
 	}
 
-	ds.usedDyndat("array", offset, length)
-
-	return err
+	return ds.usedDyndat("array", offset, length)
 }
 
 func (ds *dataState) readString(tgt reflect.Value, rowdat []byte, dyndat []byte) error {
@@ -412,9 +413,7 @@ func (ds *dataState) readStringArray(tgt reflect.Value, rowdat []byte, dyndat []
 
 	tgt.Set(reflect.ValueOf(strs))
 
-	ds.usedDyndat("offsets", offsetBase, offsetLength)
-
-	return nil
+	return ds.usedDyndat("offsets", offsetBase, offsetLength)
 }
 
 func (ds *dataState) readStringFrom(dyndat []byte, offset int) (string, error) {
@@ -435,8 +434,7 @@ func (ds *dataState) readStringFrom(dyndat []byte, offset int) (string, error) {
 			ch := rune(binary.LittleEndian.Uint32(dyndat[offset:]))
 			offset += 4
 			if ch == 0 {
-				ds.usedDyndat("string", origOffset, offset-origOffset)
-				return string(str), nil
+				return string(str), ds.usedDyndat("string", origOffset, offset-origOffset)
 			}
 			str = append(str, ch)
 		}
@@ -449,8 +447,7 @@ func (ds *dataState) readStringFrom(dyndat []byte, offset int) (string, error) {
 			ch := binary.LittleEndian.Uint16(dyndat[offset:])
 			offset += 2
 			if ch == 0 {
-				ds.usedDyndat("string", origOffset, offset-origOffset+2) // +2? yep
-				return string(utf16.Decode(str)), nil
+				return string(utf16.Decode(str)), ds.usedDyndat("string", origOffset, offset-origOffset+2) // +2? yep
 			}
 			str = append(str, ch)
 		}
@@ -459,9 +456,9 @@ func (ds *dataState) readStringFrom(dyndat []byte, offset int) (string, error) {
 	return "", io.EOF
 }
 
-func (ds *dataState) usedDyndat(purpose string, offset int, length int) {
+func (ds *dataState) usedDyndat(purpose string, offset int, length int) error {
 	if ds.parser.debug == 0 {
-		return
+		return nil
 	}
 	message := ""
 	warning := false
@@ -470,20 +467,27 @@ func (ds *dataState) usedDyndat(purpose string, offset int, length int) {
 		if seen {
 			message = "(reused)"
 		} else {
-			message = "OFFSET WENT BACKWARDS"
+			message = "offset went backwards"
 			warning = true
 		}
 	} else {
+		if offset > ds.lastOffset {
+			message = fmt.Sprintf("skipped %d bytes", offset-ds.lastOffset)
+			warning = true
+		}
 		ds.lastOffset = offset + length
 	}
-	if offset > ds.lastOffset {
-		message = fmt.Sprintf("skipped %d bytes", offset-ds.lastOffset)
-		warning = true
+	if warning && ds.parser.strict > 0 {
+		return fmt.Errorf("%s in row %d, %s %s", message, ds.curRow, purpose, ds.curField)
 	}
 	if ds.parser.debug >= 2 {
-		log.Printf(" -> %10s %-24s | %6x + %-4x -> %-6x%s", purpose, ds.curField, offset, length, offset+length, message)
+		if warning {
+			message = strings.ToUpper(message)
+		}
+		log.Printf(" -> %10s %-24s | %6x + %-4x -> %-8x%s", purpose, ds.curField, offset, length, offset+length, message)
 	} else if warning {
 		log.Printf("*** Row %d, %s %s, at %x + %x: %s", ds.curRow, purpose, ds.curField, offset, length, message)
 	}
 	ds.seenOffsets[offset] = true
+	return nil
 }

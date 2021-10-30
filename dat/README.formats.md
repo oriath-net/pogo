@@ -13,8 +13,7 @@ Top level
 ---------
 
 The top level of a format description must be a JSON object with the keys
-`file` and `fields`, and optionally with the fields `description`, `since`,
-and `until`.
+`file` and `fields`, and optionally with the field `description`.
 
 `file` must be set to the same base name as in the file name.
 
@@ -22,10 +21,6 @@ and `until`.
 
 `description` may contain some freeform text describing the file and its
 status.
-
-`since` and `until` may be set to the first known version numbers in which
-this file was present and removed, respectively. These fields are currently
-treated as informational; they are not used during parsing.
 
 
 Fields

@@ -8,27 +8,28 @@ import (
 	"github.com/mcuadros/go-version"
 )
 
-type jsonFormat struct {
-	File   string      `json:"file"`
-	Fields []jsonField `json:"fields"`
-	Since  string      `json:"since"`
-	Until  string      `json:"until"`
+type JsonFormat struct {
+	File        string      `json:"file"`
+	Fields      []JsonField `json:"fields"`
+	Description string      `json:"description,omitempty"`
+	Since       string      `json:"since,omitempty"`
+	Until       string      `json:"until,omitempty"`
 }
 
-type jsonField struct {
+type JsonField struct {
 	Name        string `json:"name"`
 	Type        string `json:"type"`
-	Description string `json:"description"`
-	Since       string `json:"since"`
-	Until       string `json:"until"`
-	Unique      bool   `json:"unique"`
-	Ref         string `json:"ref"`
-	RefField    string `json:"ref-field"`
-	Path        string `json:"path"`
+	Description string `json:"description,omitempty"`
+	Since       string `json:"since,omitempty"`
+	Until       string `json:"until,omitempty"`
+	Unique      bool   `json:"unique,omitempty"`
+	Ref         string `json:"ref,omitempty"`
+	RefField    string `json:"ref-field,omitempty"`
+	Path        string `json:"path,omitempty"`
 }
 
 func (dp *DataParser) typeFromJSON(jsonData []byte) (DataFormat, error) {
-	jfmt := jsonFormat{}
+	jfmt := JsonFormat{}
 
 	jdec := json.NewDecoder(bytes.NewReader(jsonData))
 	jdec.DisallowUnknownFields()
