@@ -28,8 +28,8 @@
       "ref": "MonsterPacks"
     },
     {
-      "name": "Key2",
-      "type": "u64"
+      "name": "AchievementItem",
+      "type": "longid"
     },
     {
       "name": "Regular_GuildCharacter",
@@ -69,7 +69,7 @@
     },
     {
       "name": "MapSeriesKey",
-      "type": "shortid",
+      "type": "i32",
       "ref": "MapSeries"
     },
     {
@@ -79,6 +79,11 @@
     {
       "name": "Flag1",
       "type": "bool"
+    },
+    {
+      "name": "Flag2",
+      "type": "bool",
+      "since": "3.16"
     }
   ]
 }

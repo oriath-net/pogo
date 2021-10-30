@@ -16,7 +16,7 @@
     },
     {
       "name": "Unknown1",
-      "type": "i64"
+      "type": "longid"
     },
     {
       "name": "X",
@@ -28,7 +28,7 @@
     },
     {
       "name": "Unknown4",
-      "type": "i64"
+      "type": "longid"
     },
     {
       "name": "CitadelName",
@@ -48,11 +48,16 @@
     },
     {
       "name": "Unknown7",
-      "type": "i64"
+      "type": "longid"
     },
     {
       "name": "Unknown8",
-      "type": "i64"
+      "type": "longid"
+    },
+    {
+      "name": "Unknown9",
+      "type": "longid",
+      "since": "3.16"
     }
   ]
 }

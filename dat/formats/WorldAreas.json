@@ -117,13 +117,14 @@
     },
     {
       "name": "Unknown32_2",
-      "type": "i64",
+      "type": "longid",
       "since": "3.15",
       "description": "related to PvP in some way"
     },
     {
       "name": "Unknown33",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
     },
     {
       "name": "AchievementItemsKey",
@@ -141,7 +142,8 @@
     },
     {
       "name": "Unknown39",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
     },
     {
       "name": "VaalArea_WorldAreasKeys",
@@ -154,16 +156,19 @@
     },
     {
       "name": "Strongbox_SpawnChance",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
     },
     {
       "name": "Strongbox_MaxCount",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
     },
     {
       "name": "Strongbox_RarityWeight",
       "type": "i32[]",
-      "description": "Normal/Magic/Rare/Unique spawn distribution"
+      "description": "Normal/Magic/Rare/Unique spawn distribution",
+      "until": "3.16"
     },
     {
       "name": "Flag0",
@@ -171,7 +176,8 @@
     },
     {
       "name": "Unknown46",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
     },
     {
       "name": "MaxLevel",
@@ -188,7 +194,8 @@
     },
     {
       "name": "Unknown51",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
     },
     {
       "name": "IsHideout",
@@ -196,22 +203,26 @@
     },
     {
       "name": "Unknown52",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
     },
     {
       "name": "Unknown53",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
     },
     {
       "name": "Unknown54",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
     },
     {
       "name": "Unknown55",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
     },
     {
-      "name": "Unknown56",
+      "name": "Inflection",
       "type": "i32"
     },
     {
@@ -224,7 +235,9 @@
     },
     {
       "name": "Unknown59",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
+
     },
     {
       "name": "TagsKeys",
@@ -237,15 +250,21 @@
     },
     {
       "name": "Unknown62",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
+
     },
     {
       "name": "Unknown63",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
+
     },
     {
       "name": "Unknown64",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
+
     },
     {
       "name": "IsLabyrinthAirlock",
@@ -267,15 +286,21 @@
     },
     {
       "name": "Unknown69",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
+
     },
     {
       "name": "Unknown70",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
+
     },
     {
       "name": "Unknown71",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
+
     },
     {
       "name": "TSIFile",
@@ -284,7 +309,7 @@
     },
     {
       "name": "Key0",
-      "type": "u64"
+      "type": "longid"
     },
     {
       "name": "Unknown75",
@@ -292,11 +317,15 @@
     },
     {
       "name": "Unknown76",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
+
     },
     {
       "name": "Unknown77",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
+
     },
     {
       "name": "WaypointActivation_AchievementItemsKeys",
@@ -313,11 +342,15 @@
     },
     {
       "name": "Unknown80",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
+
     },
     {
       "name": "Unknown81",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
+
     },
     {
       "name": "FirstEntry_NPCTextAudioKey",
@@ -337,19 +370,23 @@
     },
     {
       "name": "Unknown87",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
     },
     {
       "name": "Unknown88",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
     },
     {
       "name": "Unknown89",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
     },
     {
       "name": "Unknown90",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
     },
     {
       "name": "Unknown91",
@@ -357,7 +394,8 @@
     },
     {
       "name": "Unknown94",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
     },
     {
       "name": "EnvironmentsKey",
@@ -366,19 +404,23 @@
     },
     {
       "name": "Unknown85",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
     },
     {
       "name": "Unknown86",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
     },
     {
       "name": "Unknown92",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
     },
     {
       "name": "Unknown93",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
     },
     {
       "name": "Unknown95",
@@ -386,11 +428,11 @@
     },
     {
       "name": "Unknown96",
-      "type": "i32"
+      "type": "shortid"
     },
     {
       "name": "Unknown97",
-      "type": "i32"
+      "type": "shortid"
     },
     {
       "name": "Unknown98",
@@ -418,11 +460,12 @@
     },
     {
       "name": "Unknown103",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
     },
     {
       "name": "Unknown104",
-      "type": "i32"
+      "type": "shortid"
     },
     {
       "name": "Flag2",
@@ -430,11 +473,13 @@
     },
     {
       "name": "Unknown105",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
     },
     {
       "name": "Unknown106",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
     },
     {
       "name": "Unknown107",
@@ -446,28 +491,34 @@
     },
     {
       "name": "Unknown109",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
     },
     {
       "name": "MetamorphChance",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
     },
     {
       "name": "DeliriumChance",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
     },
     {
       "name": "HarvestChance",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
     },
     {
       "name": "HeistChance",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.16"
     },
     {
       "name": "RitualChance",
       "type": "i32",
-      "since": "3.13"
+      "since": "3.13",
+      "until": "3.16"
     },
     {
       "name": "Unknown110",
@@ -478,12 +529,14 @@
     {
       "name": "UltimatumChance",
       "type": "i32",
-      "since": "3.14"
+      "since": "3.14",
+      "until": "3.16"
     },
     {
       "name": "ExpeditionChance",
       "type": "i32",
-      "since": "3.15"
+      "since": "3.15",
+      "until": "3.16"
     }
   ]
 }
