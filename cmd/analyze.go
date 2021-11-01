@@ -17,7 +17,7 @@ import (
 var Analyze = cli.Command{
 	Name:      "analyze",
 	Usage:     "Analyze a .dat file",
-	UsageText: "pogo analyze [options] [<Content.ggpk>:]<Data/File.dat>",
+	UsageText: "pogo analyze [options] [<Content.ggpk>:]<Data/File.dat>...",
 
 	Flags: []cli.Flag{
 		&cli.BoolFlag{
@@ -35,7 +35,7 @@ func findBBBB(data []byte) int {
 
 func do_analyze(c *cli.Context) error {
 	if !c.Args().Present() {
-		return fmt.Errorf("Must specify a data file")
+		return errNotEnoughArguments
 	}
 
 	short := c.Bool("short")

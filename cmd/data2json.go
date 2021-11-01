@@ -21,7 +21,7 @@ var Data2json = cli.Command{
 	Flags: []cli.Flag{
 		&cli.StringFlag{
 			Name:  "fmt",
-			Usage: "path to a Go configuration file containing formats",
+			Usage: "path to a directory containing formats",
 		},
 		&cli.BoolFlag{
 			Name:  "debug",
@@ -67,7 +67,7 @@ func do_data2json(c *cli.Context) error {
 	}
 
 	if !c.Args().Present() {
-		return fmt.Errorf("Must specify a data file")
+		return errNotEnoughArguments
 	}
 
 	dat_path := c.Args().First()

@@ -74,34 +74,45 @@ func (dp *DataParser) SetDebug(level int) {
 
 func (dp *DataParser) SetStrict(level int) {
 	dp.strict = level
-	if dp.debug == 0 {
-		dp.debug = 1
-	}
 }
 
 func (dp *DataParser) SetFormatDir(path string) {
 	dp.formatSource = os.DirFS(path)
 }
 
-func (p *DataParser) Parse(r io.Reader, fileName string) ([]interface{}, error) {
+func (p *DataParser) getFormat(filename string) (DataFormat, error) {
+	df, ok := p.formats[filename]
+	if ok {
+		return df, nil
+	}
+
+	fileBaseName := strings.TrimSuffix(filename, path.Ext(filename))
+	data, err := fs.ReadFile(p.formatSource, fileBaseName+".json")
+	if err != nil {
+		if os.IsNotExist(err) {
+			return DataFormat{}, err
+		} else {
+			return DataFormat{}, fmt.Errorf("unable to load format definition for %s: %w", filename, err)
+		}
+	}
+
+	df, err = p.typeFromJSON(data)
+	if err != nil {
+		return DataFormat{}, fmt.Errorf("unable to parse format definition for %s: %w", filename, err)
+	}
+
+	df.width = widthForFilename(filename)
+
+	return df, nil
+}
+
+func (p *DataParser) Parse(r io.Reader, filename string) ([]interface{}, error) {
 	var err error
 
-	fileName = path.Base(fileName)
-
-	df, dfExists := p.formats[fileName]
-	if !dfExists {
-		fileBaseName := strings.TrimSuffix(fileName, path.Ext(fileName))
-		data, err := fs.ReadFile(p.formatSource, fileBaseName+".json")
-		if err != nil {
-			return nil, fmt.Errorf("unable to load format definition for %s: %w", fileName, err)
-		}
-
-		df, err = p.typeFromJSON(data)
-		if err != nil {
-			return nil, fmt.Errorf("unable to parse format definition for %s: %w", fileName, err)
-		}
-
-		df.width = widthForFilename(fileName)
+	filename = path.Base(filename)
+	df, err := p.getFormat(filename)
+	if err != nil {
+		return nil, err
 	}
 
 	if p.debug >= 2 {
@@ -137,7 +148,7 @@ func (p *DataParser) Parse(r io.Reader, fileName string) ([]interface{}, error) 
 		dynData:   dat[dynOffset:],
 	}
 
-	if p.debug > 0 {
+	if p.debug > 0 || p.strict > 0 {
 		ds.lastOffset = 8 // boundary occupies 0-7
 		ds.seenOffsets = make(map[int]bool)
 	}
@@ -457,7 +468,7 @@ func (ds *dataState) readStringFrom(dyndat []byte, offset int) (string, error) {
 }
 
 func (ds *dataState) usedDyndat(purpose string, offset int, length int) error {
-	if ds.parser.debug == 0 {
+	if ds.parser.debug == 0 && ds.parser.strict == 0 {
 		return nil
 	}
 	message := ""
@@ -485,7 +496,7 @@ func (ds *dataState) usedDyndat(purpose string, offset int, length int) error {
 			message = strings.ToUpper(message)
 		}
 		log.Printf(" -> %10s %-24s | %6x + %-4x -> %-8x%s", purpose, ds.curField, offset, length, offset+length, message)
-	} else if warning {
+	} else if warning { // implies ds.parser.debug > 0
 		log.Printf("*** Row %d, %s %s, at %x + %x: %s", ds.curRow, purpose, ds.curField, offset, length, message)
 	}
 	ds.seenOffsets[offset] = true

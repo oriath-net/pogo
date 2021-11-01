@@ -25,6 +25,8 @@ func main() {
 			&cmd.Data2json,
 			&cmd.Extract,
 			&cmd.Ls,
+			&cmd.Schema2json,
+			&cmd.Validate,
 		},
 	}
 
