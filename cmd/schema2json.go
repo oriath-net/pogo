@@ -138,7 +138,7 @@ func do_schema2json(c *cli.Context) error {
 			case "row":
 				jfield.Type = "shortid"
 			case "array":
-				jfield.Type = "u8" // placeholder
+				jfield.Type = "void"
 			default:
 				jfield.Type = sf.Type
 			}

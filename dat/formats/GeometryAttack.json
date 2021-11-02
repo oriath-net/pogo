@@ -59,7 +59,7 @@
     },
     {
       "name": "Unknown14",
-      "type": "u8[]"
+      "type": "void[]"
     },
     {
       "name": "Unknown15",
@@ -167,7 +167,7 @@
     },
     {
       "name": "Unknown41",
-      "type": "u8[]"
+      "type": "void[]"
     },
     {
       "name": "Flag42",

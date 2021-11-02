@@ -509,7 +509,7 @@
     {
       "name": "Unknown68",
       "since": "3.13",
-      "type": "u8[]"
+      "type": "void[]"
     },
     {
       "name": "UltimatumChance",

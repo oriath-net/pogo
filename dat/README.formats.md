@@ -71,10 +71,7 @@ Types
 -----
 
 * `bool` - 1-byte value, always 1=true or 0=false
-* `u32` - 4-byte unsigned integer value
-* `u64` - 8-byte unsigned integer value
 * `i32` - 4-byte signed integer value
-* `i64` - 8-byte signed integer value
 * `f32` - 4-byte floating-point value
 * `string` - 4/8 byte dynamic offset to a UTF-16 string (or UTF-32 in `.datl`)
 * `shortid` - 4/8 byte integer referencing a row in the current table
@@ -84,12 +81,19 @@ Each of these types can be suffixed by `[]` to indicate an array. An array
 always exists within the row as a 4/8 byte element count followed by a 4/8
 byte dynamic offset to the first value.
 
+Additionally, the type `void[]` can be used for arrays with unknown contents.
+If an array of this type has nonzero length, it will be read as a series of
+null values, and will throw an error under the strict parser.
+
 The following types are currently supported, but are theorized to not actually
 exist (i.e. any extant fields with these types contain misparsed data):
 
 * `u8`  - 1-byte unsigned integer value
 * `u16` - 2-byte unsigned integer value
 * `i16` - 2-byte signed integer value
+* `u32` - 4-byte unsigned integer value
+* `i64` - 8-byte signed integer value
+* `u64` - 8-byte unsigned integer value
 * `f64` - 8-byte floating-point value
 
 

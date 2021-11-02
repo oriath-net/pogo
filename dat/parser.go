@@ -220,7 +220,7 @@ func (ds *dataState) readRow(id int) (interface{}, error) {
 			ds.dynData,
 		)
 		if err != nil {
-			return nil, fmt.Errorf("error reading field %s of row %d: %w", field.Name, i, err)
+			return nil, fmt.Errorf("error reading field %s of row %d: %w", field.Name, id, err)
 		}
 	}
 
@@ -332,6 +332,21 @@ func (ds *dataState) readField(tgt reflect.Value, typ FieldType, rowdat []byte, 
 
 	case TypeListString:
 		return ds.readStringArray(tgt, rowdat, dyndat)
+
+	case TypeListVoid:
+		var count int64
+		if ds.rowFormat.width.is64Bit() {
+			count = int64(binary.LittleEndian.Uint64(rowdat[0:]))
+		} else {
+			count = int64(binary.LittleEndian.Uint32(rowdat[0:]))
+		}
+		if count > 0 && ds.parser.strict > 0 {
+			return fmt.Errorf("non-empty void[]")
+		}
+		// gaze into the abyss
+		voidArray := make([]interface{}, count)
+		tgt.Set(reflect.ValueOf(voidArray))
+		return nil
 
 	default:
 		panic(fmt.Errorf("type '%s' not handled in readField", typ))
@@ -491,7 +506,7 @@ func (ds *dataState) usedDyndat(purpose string, offset int, length int) error {
 		ds.lastOffset = offset + length
 	}
 	if warning && ds.parser.strict > 0 {
-		return fmt.Errorf("%s in row %d, %s %s", message, ds.curRow, purpose, ds.curField)
+		return fmt.Errorf("%s before %s %s", message, purpose, ds.curField)
 	}
 	if ds.parser.debug >= 2 {
 		if warning {

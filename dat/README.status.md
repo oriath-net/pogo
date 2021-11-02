@@ -687,7 +687,7 @@
 | MonsterSpawnerOverrides          | 3.0-     | ✅ | ✅ | ✅
 | MonsterStatsFromMapStats         | 3.6-3.11 | ❓ | ❓ | ❓
 | MonsterTypes                     | all      | ✅ | ✅ | ❌
-| MonsterVarieties                 | all      | ⚠️ | ❌ | ❌
+| MonsterVarieties                 | all      | ⚠️ | ⚠️ | ❌
 | MonsterVarietiesArtVariations    | 3.15-    | ⚠️ | ⚠️ | ⚠️
 | MouseCursorSizeSettings          | 3.15-    | ✅ | ✅ | ✅
 | MoveDaemon                       | 3.4-     | ✅ | ✅ | ❌

@@ -399,7 +399,7 @@
     },
     {
       "name": "Unknown92",
-      "type": "u8[]"
+      "type": "void[]"
     },
     {
       "name": "Unknown93",

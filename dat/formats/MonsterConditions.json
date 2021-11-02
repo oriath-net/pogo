@@ -41,7 +41,7 @@
     {
       "name": "Unknown8",
       "description": "possibly TagsNotPresent, but unused",
-      "type": "u8[]"
+      "type": "void[]"
     },
     {
       "name": "Unknown9",

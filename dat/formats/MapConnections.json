@@ -33,7 +33,7 @@
     },
     {
       "name": "Unknown7",
-      "type": "u8[]",
+      "type": "void[]",
       "since": "3.7"
     }
   ]

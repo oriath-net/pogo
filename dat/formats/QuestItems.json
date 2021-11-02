@@ -24,7 +24,7 @@
     },
     {
       "name": "Unknown5",
-      "type": "u8[]"
+      "type": "void[]"
     },
     {
       "name": "Flag6",

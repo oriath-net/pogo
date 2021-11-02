@@ -41,7 +41,8 @@
               "f64[]",
               "string[]",
               "shortid[]",
-              "longid[]"
+              "longid[]",
+              "void[]"
             ]
           },
           "description": {

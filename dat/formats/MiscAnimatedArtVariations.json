@@ -7,7 +7,7 @@
     },
     {
       "name": "Unknown1",
-      "type": "u8[]"
+      "type": "void[]"
     },
     {
       "name": "Unknown2",

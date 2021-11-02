@@ -31,6 +31,7 @@ const (
 	TypeListString            = "string[]"
 	TypeListShortID           = "shortid[]"
 	TypeListLongID            = "longid[]"
+	TypeListVoid              = "void[]"
 )
 
 func (ft FieldType) Valid() bool {
@@ -46,7 +47,8 @@ func (ft FieldType) Valid() bool {
 		TypeListInt32, TypeListInt64,
 		TypeListFloat32, TypeListFloat64,
 		TypeListBool, TypeListString,
-		TypeListShortID, TypeListLongID:
+		TypeListShortID, TypeListLongID,
+		TypeListVoid:
 		return true
 	default:
 		return false
@@ -86,7 +88,8 @@ func (ft FieldType) Size(w parserWidth) int {
 		TypeListInt32, TypeListInt64,
 		TypeListFloat32, TypeListFloat64,
 		TypeListBool, TypeListString,
-		TypeListShortID, TypeListLongID:
+		TypeListShortID, TypeListLongID,
+		TypeListVoid:
 		if w.is64Bit() {
 			return 16
 		} else {
@@ -147,6 +150,8 @@ func (ft FieldType) reflectType() reflect.Type {
 		// (never?) actually contain null values, but it'd be nice to handle
 		// properly
 		return reflect.TypeOf([]uint64{})
+	case TypeListVoid:
+		return reflect.TypeOf([]interface{}(nil))
 	default:
 		panic("invalid FieldType")
 	}
