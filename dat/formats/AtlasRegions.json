@@ -19,12 +19,12 @@
       "type": "longid"
     },
     {
-      "name": "Unknown4",
-      "type": "i32"
+      "name": "X",
+      "type": "f32"
     },
     {
-      "name": "Unknown5",
-      "type": "i32"
+      "name": "Y",
+      "type": "f32"
     },
     {
       "name": "Key6",
@@ -39,7 +39,7 @@
       "type": "i32"
     },
     {
-      "name": "BK2File",
+      "name": "CitadelRevealVideo",
       "type": "string"
     },
     {
@@ -56,7 +56,8 @@
     },
     {
       "name": "Key13",
-      "type": "longid"
+      "type": "longid",
+      "since": "3.16"
     }
   ]
 }

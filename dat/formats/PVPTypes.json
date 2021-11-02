@@ -3,11 +3,13 @@
   "fields": [
     {
       "name": "Id",
-      "type": "string"
+      "type": "string",
+      "since": "3.15"
     },
     {
       "name": "Key1",
-      "type": "longid"
+      "type": "longid",
+      "since": "3.15"
     }
   ]
 }

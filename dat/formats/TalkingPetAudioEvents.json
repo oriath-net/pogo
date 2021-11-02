@@ -2,7 +2,7 @@
   "file": "TalkingPetAudioEvents",
   "fields": [
     {
-      "name": "Event",
+      "name": "Id",
       "type": "string"
     },
     {
@@ -18,12 +18,14 @@
       "type": "i32"
     },
     {
-      "name": "Unknown4",
-      "type": "i32[]"
+      "name": "OnDropBaseItemType",
+      "type": "longid[]",
+      "ref": "BaseItemTypes"
     },
     {
-      "name": "Unknown5",
-      "type": "i32[]"
+      "name": "OnDropItemClass",
+      "type": "longid[]",
+      "ref": "ItemClasses"
     },
     {
       "name": "Unknown6",

@@ -13,7 +13,8 @@
     },
     {
       "name": "HASH16",
-      "type": "i32"
+      "type": "i32",
+      "since": "2.1"
     },
     {
       "name": "HASH32",
@@ -21,19 +22,23 @@
     },
     {
       "name": "Unknown4",
-      "type": "i32"
+      "type": "i32",
+      "since": "2.1"
     },
     {
       "name": "Flag5",
-      "type": "bool"
+      "type": "bool",
+      "since": "3.8"
     },
     {
       "name": "Flag6",
-      "type": "bool"
+      "type": "bool",
+      "since": "3.8"
     },
     {
       "name": "Unknown7",
-      "type": "u8[]"
+      "type": "longid[]",
+      "since": "3.16"
     }
   ]
 }

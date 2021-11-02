@@ -6,52 +6,60 @@
       "type": "string"
     },
     {
-      "name": "Key1",
-      "type": "longid"
+      "name": "RarityEquals",
+      "type": "longid",
+      "ref": "Rarity"
     },
     {
-      "name": "Key2",
-      "type": "longid"
+      "name": "StatsPresent",
+      "type": "longid",
+      "ref": "Stats"
     },
     {
-      "name": "Key3",
-      "type": "longid"
+      "name": "RarityNotEquals",
+      "type": "longid",
+      "ref": "Rarity"
     },
     {
-      "name": "Key4",
-      "type": "longid[]"
+      "name": "StatsNotPresent",
+      "type": "longid[]",
+      "ref": "Stats"
     },
     {
-      "name": "Flag5",
+      "name": "IsMapBoss",
       "type": "bool"
     },
     {
-      "name": "Flag6",
+      "name": "IsNotMapBoss",
       "type": "bool"
     },
     {
-      "name": "Key7",
-      "type": "longid[]"
+      "name": "TagsPresent",
+      "type": "longid[]",
+      "ref": "Tags"
     },
     {
       "name": "Unknown8",
+      "description": "possibly TagsNotPresent, but unused",
       "type": "u8[]"
     },
     {
       "name": "Unknown9",
+      "description": "set to 3 on IsFirst3Possessed",
       "type": "i32"
     },
     {
-      "name": "Unknown10",
+      "name": "MinLevel",
       "type": "i32"
     },
     {
-      "name": "Unknown11",
+      "name": "MaxLevel",
       "type": "i32"
     },
     {
       "name": "Unknown12",
-      "type": "i32"
+      "type": "i32",
+      "since": "3.16"
     }
   ]
 }

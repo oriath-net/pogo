@@ -75,15 +75,18 @@
     },
     {
       "name": "Flag15",
-      "type": "bool"
+      "type": "bool",
+      "since": "3.7"
     },
     {
       "name": "Flag16",
-      "type": "bool"
+      "type": "bool",
+      "since": "3.9"
     },
     {
       "name": "Flag17",
-      "type": "bool"
+      "type": "bool",
+      "since": "3.16"
     }
   ]
 }

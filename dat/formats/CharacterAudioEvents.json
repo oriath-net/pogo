@@ -66,12 +66,16 @@
       "ref": "CharacterTextAudio"
     },
     {
-      "name": "Flag13",
-      "type": "bool"
+      "name": "IsGameplayEvent",
+      "type": "bool",
+      "since": "3.0",
+      "description": "affects 'disable gameplay event voices'"
     },
     {
-      "name": "Flag14",
-      "type": "bool"
+      "name": "Flag1",
+      "type": "bool",
+      "since": "3.14",
+      "description": "always false"
     }
   ]
 }

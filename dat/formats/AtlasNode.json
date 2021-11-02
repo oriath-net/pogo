@@ -21,6 +21,11 @@
       "ref": "Maps"
     },
     {
+      "name": "Unknown3",
+      "type": "i32",
+      "until": "3.14"
+    },
+    {
       "name": "FlavourTextKey",
       "type": "longid",
       "ref": "FlavourText"
@@ -174,6 +179,16 @@
     {
       "name": "Unknown40",
       "type": "i32"
+    },
+    {
+      "name": "X",
+      "type": "f32",
+      "until": "3.13"
+    },
+    {
+      "name": "Y",
+      "type": "f32",
+      "until": "3.13"
     },
     {
       "name": "DDSFile",

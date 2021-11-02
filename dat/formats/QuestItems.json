@@ -40,7 +40,8 @@
     },
     {
       "name": "Unknown9",
-      "type": "i32"
+      "type": "i32",
+      "since": "3.16"
     }
   ]
 }

@@ -10,16 +10,33 @@
       "type": "longid"
     },
     {
+      "name": "FirstNPCKey",
+      "type": "longid",
+      "until": "3.13",
+      "ref": "NPCs"
+    },
+    {
+      "name": "AdditionalNPCKeys",
+      "type": "longid[]",
+      "until": "3.13",
+      "ref": "NPCs"
+    },
+    {
       "name": "NPCTextAudioKeys",
       "type": "longid[]",
       "ref": "NPCTextAudio"
     },
     {
-      "name": "Unknown3",
+      "name": "SpeakerIndexes",
+      "type": "i32[]",
+      "until": "3.13"
+    },
+    {
+      "name": "TimingAdjust",
       "type": "i32[]"
     },
     {
-      "name": "Unknown4",
+      "name": "Unknown7",
       "type": "i32"
     }
   ]
