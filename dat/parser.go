@@ -170,10 +170,12 @@ func (p *DataParser) Parse(r io.Reader, filename string) ([]interface{}, error) 
 		}
 	}
 
-	if ds.parser.debug >= 1 && ds.lastOffset < len(ds.dynData) {
-		log.Printf("*** last dynamic offset was %x, leaving %d bytes unused", ds.lastOffset, len(ds.dynData)-ds.lastOffset)
+	if ds.lastOffset < len(ds.dynData) {
+		if ds.parser.debug >= 1 {
+			log.Printf("*** last dynamic offset was %x, leaving %d bytes unused", ds.lastOffset, len(ds.dynData)-ds.lastOffset)
+		}
 		if ds.parser.strict > 0 {
-			return nil, fmt.Errorf("%d bytes of data unused", len(ds.dynData)-ds.lastOffset)
+			return nil, fmt.Errorf("%d trailing bytes of dynamic data unused", len(ds.dynData)-ds.lastOffset)
 		}
 	} else if ds.parser.debug >= 2 {
 		log.Printf("*** all dynamic data used")

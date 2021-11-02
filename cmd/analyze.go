@@ -61,6 +61,12 @@ func do_analyze(c *cli.Context) error {
 		}
 		rowCount := int(rowCount32)
 
+		fmt.Println(path)
+		if rowCount == 0 {
+			fmt.Printf("  %d rows, row size indeterminate\n\n", rowCount)
+			continue
+		}
+
 		boundary := findBBBB(dat)
 		varBytes := len(dat) - boundary
 		varData := dat[boundary:]
@@ -68,7 +74,6 @@ func do_analyze(c *cli.Context) error {
 		rowBytes := (boundary - 4) / rowCount
 		remainderBytes := boundary - rowBytes*rowCount - 4
 
-		fmt.Println(path)
 		if remainderBytes == 0 {
 			fmt.Printf("  %d rows, %d bytes per row\n", rowCount, rowBytes)
 		} else {
