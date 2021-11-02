@@ -11,7 +11,7 @@
     },
     {
       "name": "Unknown2",
-      "type": "i32[]"
+      "type": "longid[]"
     },
     {
       "name": "Unknown3",

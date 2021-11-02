@@ -350,7 +350,7 @@
 | FlavourText                      | all      | ✅ | ✅ | ✅
 | FlavourTextImages                | 3.0-     | ✅ | ✅ | ✅
 | Footprints                       | 2.1-     | ✅ | ✅ | ✅
-| FootstepAudio                    | 3.8-     | ❌ | ❌ | ❌
+| FootstepAudio                    | 3.8-     | ✅ | ✅ | ✅
 | FragmentStashTabLayout           | 3.2-     | ✅ | ✅ | ❌
 
 ## G
@@ -710,7 +710,7 @@
 | NormalDifficultyMasterWeights    | 1.2-2.6  | ❓ | ❓ | ❓
 | Notifications                    | 1.3-     | ✅ | ✅ | ❌
 | NPCAdditionalVendorItems         | 3.5-3.11 | ❓ | ❓ | ❓
-| NPCAudio                         | 2.3-     | ⚠️ | ❌ | ❌
+| NPCAudio                         | 2.3-     | ✅ | ✅ | ✅
 | NPCConversations                 | 3.12-    | ✅ | ✅ | ✅
 | NPCDialogueStyles                | 3.12-    | ✅ | ✅ | ❌
 | NPCFollowerVariations            | 3.5-     | ✅ | ✅ | ❌
@@ -763,7 +763,7 @@
 | PathOfEndurance                  | 2.6-3.11 | ❓ | ❓ | ❓
 | PCBangRewardMicros               | 3.7-     | ✅ | ✅ | ✅
 | PerandusBosses                   | 2.2-3.15 | ✅ | ✅ | ✅
-| PerandusChests                   | 2.2-3.15 | ❌ | ❌ | ❌
+| PerandusChests                   | 2.2-3.15 | ✅ | ✅ | ✅
 | PerandusDaemons                  | 2.2-3.15 | ✅ | ✅ | ✅
 | PerandusGuards                   | 2.2-3.15 | ✅ | ✅ | ❌
 | PerLevelValues                   | all      | ✅ | ✅ | ✅
@@ -775,7 +775,7 @@
 | ProjectileCollisionTypes         | 3.14-    | ❓ | ❓ | ❓
 | Projectiles                      | all      | ⚠️ | ❌ | ❌
 | ProjectilesArtVariations         | 3.15-    | ⚠️ | ⚠️ | ⚠️
-| ProjectileVariations             | 2.4-3.14 | ❌ | ❌ | ❌
+| ProjectileVariations             | 2.4-3.14 | ✅ | ✅ | ✅
 | Prophecies                       | 2.3-     | ✅ | ✅ | ❌
 | ProphecyChain                    | 2.3-     | ✅ | ✅ | ❌
 | ProphecySetNames                 | 3.8-     | ✅ | ✅ | ✅
@@ -823,8 +823,8 @@
 | RitualSetKillAchievements        | 3.13-    | ✅ | ✅ | ✅
 | RitualSpawnPatterns              | 3.13-    | ✅ | ✅ | ✅
 | RogueExiles                      | 2.1-     | ✅ | ✅ | ❌
-| Rulesets                         | 3.11-    | ⚠️ | ⚠️ | ❌
-| RunicCircles                     | 2.0-     | ⚠️ | ⚠️ | ⚠️
+| Rulesets                         | 3.11-    | ✅ | ✅ | ✅
+| RunicCircles                     | 2.0-     | ✅ | ✅ | ✅
 
 ## S
 
@@ -947,7 +947,7 @@
 | TormentSpirits                   | 1.3-     | ✅ | ✅ | ✅
 | TreasureHunterMissions           | 3.3-     | ✅ | ✅ | ✅
 | TriggerBeam                      | 3.11-    | ✅ | ✅ | ❌
-| TriggerSpawners                  | 2.4-     | ⚠️ | ❌ | ⚠️
+| TriggerSpawners                  | 2.4-     | ✅ | ✅ | ✅
 | Tutorial                         | 3.0-     | ✅ | ✅ | ❌
 
 ## U
@@ -1005,11 +1005,11 @@
 
 | File                             | Releases | current  | dat64 | history
 | -------------------------------- | -------- | -------- | ----- | --------
-| XPPerLevelForMissions            | 1.2-3.4  | ❓ | ❓ | ❓
+| XPPerLevelForMissions            | 1.2-3.4  | ✅ | ✅ | ✅
 
 ## Z
 
 | File                             | Releases | current  | dat64 | history
 | -------------------------------- | -------- | -------- | ----- | --------
 | ZanaLevels                       | 3.9-     | ✅ | ✅ | ✅
-| ZanaQuests                       | 3.0-3.8  | ❓ | ❓ | ❓
+| ZanaQuests                       | 3.0-3.8  | ✅ | ✅ | ✅

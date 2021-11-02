@@ -7,32 +7,37 @@
       "unique": true
     },
     {
-      "name": "Unknown1",
-      "type": "i32[]"
+      "name": "AudioFiles",
+      "type": "string[]"
     },
     {
-      "name": "Unknown2",
+      "name": "AudioWeights",
       "type": "i32[]"
     },
     {
       "name": "VolumePercentage",
-      "type": "i32"
+      "type": "i32",
+      "since": "3.0"
     },
     {
       "name": "Unknown4",
-      "type": "i32"
+      "type": "i32",
+      "since": "3.4"
     },
     {
       "name": "Unknown5",
-      "type": "i32"
+      "type": "i32",
+      "since": "3.4"
     },
     {
       "name": "Unknown6",
-      "type": "i32"
+      "type": "i32",
+      "since": "3.5"
     },
     {
       "name": "Unknown7",
-      "type": "i32"
+      "type": "i32",
+      "since": "3.5"
     }
   ]
 }

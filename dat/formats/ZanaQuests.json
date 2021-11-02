@@ -1,0 +1,38 @@
+{
+  "file": "ZanaQuests",
+  "fields": [
+    {
+      "name": "Unknown1",
+      "type": "longid"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32",
+      "until": "3.2"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown6",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown7",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown8",
+      "type": "bool"
+    }
+  ]
+}

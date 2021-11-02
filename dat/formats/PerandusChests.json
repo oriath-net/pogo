@@ -21,6 +21,11 @@
     {
       "name": "MaxLevel",
       "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "longid",
+      "since": "3.13"
     }
   ]
 }

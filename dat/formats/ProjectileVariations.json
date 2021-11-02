@@ -4,12 +4,25 @@
     {
       "name": "Id",
       "type": "string",
-      "unique": true
+      "unique": true,
+      "until": "3.14"
+    },
+    {
+      "name": "Id",
+      "type": "i32",
+      "unique": true,
+      "since": "3.14"
     },
     {
       "name": "ProjectileKey",
       "type": "longid",
       "ref": "Projectiles"
+    },
+    {
+      "name": "Flag1",
+      "type": "bool",
+      "since": "3.5",
+      "until": "3.9"
     }
   ]
 }

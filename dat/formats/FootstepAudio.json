@@ -3,12 +3,19 @@
   "fields": [
     {
       "name": "Unknown0",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.13"
     },
     {
       "name": "Id",
       "type": "string",
       "unique": true
+    },
+    {
+      "name": "Unknown0",
+      "type": "i32",
+      "since": "3.13",
+      "description": "yes, it literally just moved"
     }
   ]
 }
