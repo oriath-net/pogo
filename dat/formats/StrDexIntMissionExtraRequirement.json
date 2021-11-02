@@ -50,16 +50,16 @@
       "type": "i32"
     },
     {
-      "name": "Data0",
+      "name": "Unknown11",
       "type": "i32[]"
     },
     {
-      "name": "Flag0",
+      "name": "Flag12",
       "type": "bool"
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "Key13",
+      "type": "longid[]"
     }
   ]
 }

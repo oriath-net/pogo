@@ -27,23 +27,23 @@
       "type": "i32"
     },
     {
-      "name": "Flag0",
+      "name": "Flag6",
       "type": "bool"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "Key7",
+      "type": "longid"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "Key8",
+      "type": "longid"
     },
     {
-      "name": "Unknown8",
+      "name": "Unknown9",
       "type": "i32"
     },
     {
-      "name": "Flag1",
+      "name": "Flag10",
       "type": "bool"
     }
   ]

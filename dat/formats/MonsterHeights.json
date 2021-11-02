@@ -2,16 +2,26 @@
   "file": "MonsterHeights",
   "fields": [
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "MonsterVariety",
+      "type": "longid",
+      "ref": "MonsterVarieties"
     },
     {
       "name": "Unknown1",
       "type": "f32"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "MonsterHeightBracket",
+      "type": "longid",
+      "ref": "MonsterHeightBrackets"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
     }
   ]
 }

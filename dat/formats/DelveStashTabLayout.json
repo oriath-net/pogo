@@ -35,6 +35,14 @@
     {
       "name": "StackSize",
       "type": "i32"
+    },
+    {
+      "name": "HideIfNoneOwned",
+      "type": "bool"
+    },
+    {
+      "name": "Image",
+      "type": "string"
     }
   ]
 }

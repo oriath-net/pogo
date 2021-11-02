@@ -1,0 +1,39 @@
+{
+  "file": "MavenDialog",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "TextAudioT1",
+      "type": "longid",
+      "ref": "NPCTextAudio"
+    },
+    {
+      "name": "TextAudioT2",
+      "type": "longid",
+      "ref": "NPCTextAudio"
+    },
+    {
+      "name": "TextAudioT3",
+      "type": "longid",
+      "ref": "NPCTextAudio"
+    },
+    {
+      "name": "TextAudioT4",
+      "type": "longid",
+      "ref": "NPCTextAudio"
+    },
+    {
+      "name": "TextAudioT5",
+      "type": "longid",
+      "ref": "NPCTextAudio"
+    },
+    {
+      "name": "Flag6",
+      "type": "bool"
+    }
+  ]
+}

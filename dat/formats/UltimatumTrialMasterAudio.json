@@ -1,0 +1,34 @@
+{
+  "file": "UltimatumTrialMasterAudio",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "Variant",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "TextAudio",
+      "type": "longid",
+      "ref": "NPCTextAudio"
+    },
+    {
+      "name": "RoundsMin",
+      "type": "i32"
+    },
+    {
+      "name": "RoundsMax",
+      "type": "i32"
+    }
+  ]
+}

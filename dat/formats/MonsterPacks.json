@@ -12,11 +12,11 @@
       "ref": "WorldAreas"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown2",
       "type": "i32"
     },
     {
-      "name": "Unknown1",
+      "name": "Unknown3",
       "type": "i32"
     },
     {
@@ -33,15 +33,15 @@
       "ref": "MonsterVarieties"
     },
     {
-      "name": "Flag0",
+      "name": "Flag7",
       "type": "bool"
     },
     {
-      "name": "Unknown2",
+      "name": "Unknown8",
       "type": "i32"
     },
     {
-      "name": "Data1",
+      "name": "Unknown9",
       "type": "string[]"
     },
     {
@@ -58,20 +58,26 @@
       "type": "i32"
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "WorldAreas2",
+      "type": "longid[]",
+      "ref": "Tags"
     },
     {
-      "name": "Unknown3",
+      "name": "Unknown14",
       "type": "i32"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "PackFormation",
+      "type": "longid",
+      "ref": "PackFormation"
     },
     {
-      "name": "Unknown4",
+      "name": "Unknown16",
       "type": "i32"
+    },
+    {
+      "name": "Flag17",
+      "type": "bool"
     }
   ]
 }

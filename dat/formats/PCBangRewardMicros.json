@@ -2,11 +2,11 @@
   "file": "PCBangRewardMicros",
   "fields": [
     {
-      "name": "BaseItemTypesKey",
-      "type": "u64"
+      "name": "Key0",
+      "type": "longid"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown1",
       "type": "i32"
     }
   ]

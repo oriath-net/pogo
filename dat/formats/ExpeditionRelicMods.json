@@ -1,0 +1,19 @@
+{
+  "file": "ExpeditionRelicMods",
+  "fields": [
+    {
+      "name": "Mod",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Categories",
+      "type": "i32[]"
+    },
+    {
+      "name": "DestroyAchievements",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    }
+  ]
+}

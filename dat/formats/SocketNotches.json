@@ -1,0 +1,25 @@
+{
+  "file": "SocketNotches",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    },
+    {
+      "name": "RedSocketImage",
+      "type": "string"
+    },
+    {
+      "name": "BlueSocketImage",
+      "type": "string"
+    },
+    {
+      "name": "GreenSocketImage",
+      "type": "string"
+    }
+  ]
+}

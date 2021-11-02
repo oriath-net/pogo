@@ -3,20 +3,21 @@
   "fields": [
     {
       "name": "Id",
-      "type": "string",
-      "unique": true
+      "type": "string"
     },
     {
       "name": "Unknown1",
       "type": "string"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "HeistJobsKey1",
+      "type": "longid",
+      "ref": "HeistJobs"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "HeistJobsKey2",
+      "type": "longid",
+      "ref": "HeistJobs"
     },
     {
       "name": "Unknown4",
@@ -35,8 +36,9 @@
       "type": "i32"
     },
     {
-      "name": "Key2",
-      "type": "u64"
+      "name": "HeistAreasKey",
+      "type": "longid",
+      "ref": "HeistAreas"
     }
   ]
 }

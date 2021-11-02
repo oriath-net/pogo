@@ -1,0 +1,15 @@
+{
+  "file": "RitualSetKillAchievements",
+  "fields": [
+    {
+      "name": "Achievement",
+      "type": "longid",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "KillBosses",
+      "type": "longid[]",
+      "ref": "MonsterVarieties"
+    }
+  ]
+}

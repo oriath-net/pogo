@@ -12,8 +12,8 @@
       "ref": "Chests"
     },
     {
-      "name": "Data1",
-      "type": "u32[]"
+      "name": "Unknown2",
+      "type": "i32[]"
     },
     {
       "name": "Unknown3",

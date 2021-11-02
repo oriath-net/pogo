@@ -12,15 +12,15 @@
       "ref": "Tags"
     },
     {
-      "name": "Flag0",
+      "name": "Flag2",
       "type": "bool"
     },
     {
-      "name": "Unknown2",
+      "name": "Unknown3",
       "type": "i32"
     },
     {
-      "name": "Flag1",
+      "name": "Flag4",
       "type": "bool"
     }
   ]

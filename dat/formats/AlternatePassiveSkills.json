@@ -94,8 +94,7 @@
     },
     {
       "name": "DDSIcon",
-      "type": "string",
-      "path": "dds"
+      "type": "string"
     },
     {
       "name": "AchievementItemsKeys",
@@ -103,11 +102,11 @@
       "ref": "AchievementItems"
     },
     {
-      "name": "Unknown19",
+      "name": "Unknown24",
       "type": "i32"
     },
     {
-      "name": "Unknown20",
+      "name": "Unknown25",
       "type": "i32"
     }
   ]

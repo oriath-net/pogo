@@ -13,8 +13,7 @@
     },
     {
       "name": "ARMFile",
-      "type": "string",
-      "path": "arm"
+      "type": "string"
     }
   ]
 }

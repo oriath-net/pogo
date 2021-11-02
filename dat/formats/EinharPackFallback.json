@@ -3,11 +3,11 @@
   "fields": [
     {
       "name": "Key0",
-      "type": "u64"
+      "type": "longid"
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "Key1",
+      "type": "longid[]"
     }
   ]
 }

@@ -30,28 +30,55 @@
       "type": "f32"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "HeistValueScalingKey1",
+      "type": "longid",
+      "ref": "HeistValueScaling"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "HeistValueScalingKey2",
+      "type": "longid",
+      "ref": "HeistValueScaling"
     },
     {
-      "name": "Key2",
-      "type": "u64"
+      "name": "HeistValueScalingKey3",
+      "type": "longid",
+      "ref": "HeistValueScaling"
     },
     {
-      "name": "Key3",
-      "type": "u64"
+      "name": "HeistValueScalingKey4",
+      "type": "longid",
+      "ref": "HeistValueScaling"
     },
     {
-      "name": "Key4",
-      "type": "u64"
+      "name": "HeistValueScalingKey5",
+      "type": "longid",
+      "ref": "HeistValueScaling"
     },
     {
-      "name": "Unknown17",
+      "name": "Unknown12",
       "type": "f32"
+    },
+    {
+      "name": "Unknown13",
+      "type": "f32"
+    },
+    {
+      "name": "Unknown14",
+      "type": "f32"
+    },
+    {
+      "name": "Unknown15",
+      "type": "f32"
+    },
+    {
+      "name": "HeistValueScalingKey6",
+      "type": "longid",
+      "ref": "HeistValueScaling"
+    },
+    {
+      "name": "HeistValueScalingKey7",
+      "type": "longid",
+      "ref": "HeistValueScaling"
     },
     {
       "name": "Unknown18",
@@ -63,26 +90,6 @@
     },
     {
       "name": "Unknown20",
-      "type": "f32"
-    },
-    {
-      "name": "Key5",
-      "type": "u64"
-    },
-    {
-      "name": "Key6",
-      "type": "u64"
-    },
-    {
-      "name": "Unknown23",
-      "type": "f32"
-    },
-    {
-      "name": "Unknown24",
-      "type": "f32"
-    },
-    {
-      "name": "Unknown25",
       "type": "i32"
     }
   ]

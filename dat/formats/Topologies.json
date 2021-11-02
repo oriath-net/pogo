@@ -8,8 +8,7 @@
     },
     {
       "name": "DGRFile",
-      "type": "string",
-      "path": "dgr"
+      "type": "string"
     },
     {
       "name": "Unknown2",

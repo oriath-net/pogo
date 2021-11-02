@@ -8,10 +8,26 @@
     },
     {
       "name": "Unknown1",
-      "type": "i64"
+      "type": "i32"
     },
     {
-      "name": "Unknown3",
+      "name": "Flag2",
+      "type": "bool"
+    },
+    {
+      "name": "Flag3",
+      "type": "bool"
+    },
+    {
+      "name": "Flag4",
+      "type": "bool"
+    },
+    {
+      "name": "Flag5",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown6",
       "type": "i32"
     },
     {

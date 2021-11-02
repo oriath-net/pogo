@@ -13,8 +13,7 @@
     },
     {
       "name": "BK2File",
-      "type": "string",
-      "path": "bk2"
+      "type": "string"
     }
   ]
 }

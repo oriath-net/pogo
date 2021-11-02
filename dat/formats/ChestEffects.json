@@ -8,63 +8,51 @@
     },
     {
       "name": "Normal_EPKFile",
-      "type": "string",
-      "path": "epk"
+      "type": "string"
     },
     {
       "name": "Normal_Closed_AOFile",
-      "type": "string",
-      "path": "ao"
+      "type": "string"
     },
     {
       "name": "Normal_Open_AOFile",
-      "type": "string",
-      "path": "ao"
+      "type": "string"
     },
     {
       "name": "Magic_EPKFile",
-      "type": "string",
-      "path": "epk"
+      "type": "string"
     },
     {
       "name": "Unique_EPKFile",
-      "type": "string",
-      "path": "epk"
+      "type": "string"
     },
     {
       "name": "Rare_EPKFile",
-      "type": "string",
-      "path": "epk"
+      "type": "string"
     },
     {
       "name": "Magic_Closed_AOFile",
-      "type": "string",
-      "path": "ao"
+      "type": "string"
     },
     {
       "name": "Unique_Closed_AOFile",
-      "type": "string",
-      "path": "ao"
+      "type": "string"
     },
     {
       "name": "Rare_Closed_AOFile",
-      "type": "string",
-      "path": "ao"
+      "type": "string"
     },
     {
       "name": "Magic_Open_AOFile",
-      "type": "string",
-      "path": "ao"
+      "type": "string"
     },
     {
       "name": "Unique_Open_AOFile",
-      "type": "string",
-      "path": "ao"
+      "type": "string"
     },
     {
       "name": "Rare_Open_AOFile",
-      "type": "string",
-      "path": "ao"
+      "type": "string"
     }
   ]
 }

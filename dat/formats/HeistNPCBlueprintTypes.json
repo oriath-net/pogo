@@ -2,11 +2,12 @@
   "file": "HeistNPCBlueprintTypes",
   "fields": [
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "NPCsKey",
+      "type": "longid",
+      "ref": "NPCs"
     },
     {
-      "name": "Unknown2",
+      "name": "Unknown1",
       "type": "i32"
     }
   ]

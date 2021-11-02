@@ -1,0 +1,13 @@
+{
+  "file": "AtlasRegionUpgradeRegions",
+  "fields": [
+    {
+      "name": "Key0",
+      "type": "longid"
+    },
+    {
+      "name": "Key1",
+      "type": "longid"
+    }
+  ]
+}

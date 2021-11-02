@@ -4,8 +4,8 @@
     {
       "name": "BaseItemTypesKey",
       "type": "longid",
-      "ref": "BaseItemTypes",
-      "unique": true
+      "unique": true,
+      "ref": "BaseItemTypes"
     },
     {
       "name": "SpawnWeight",
@@ -21,23 +21,23 @@
       "type": "i32"
     },
     {
-      "name": "Flag0",
+      "name": "Flag4",
       "type": "bool"
     },
     {
-      "name": "Flag1",
+      "name": "Flag5",
       "type": "bool"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "Key6",
+      "type": "longid"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "Key7",
+      "type": "longid"
     },
     {
-      "name": "Unknown11",
+      "name": "Unknown8",
       "type": "i32"
     }
   ]

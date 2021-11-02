@@ -10,8 +10,9 @@
       "type": "i32"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "WorldArea",
+      "type": "longid",
+      "ref": "WorldAreas"
     },
     {
       "name": "Unknown3",

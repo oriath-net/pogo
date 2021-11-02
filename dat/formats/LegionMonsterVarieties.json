@@ -12,16 +12,18 @@
       "ref": "LegionFactions"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "LegionRanksKey",
+      "type": "longid",
+      "ref": "LegionRanks"
     },
     {
       "name": "Unknown3",
       "type": "i32"
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "MiscAnimatedKey",
+      "type": "longid[]",
+      "ref": "MiscAnimated"
     },
     {
       "name": "Unknown5",
@@ -64,12 +66,13 @@
       "type": "i32"
     },
     {
-      "name": "Keys1",
-      "type": "u64[]"
+      "name": "Key15",
+      "type": "longid[]"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "MonsterVarietiesKey2",
+      "type": "longid",
+      "ref": "MonsterVarieties"
     }
   ]
 }

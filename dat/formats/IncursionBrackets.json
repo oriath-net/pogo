@@ -16,15 +16,15 @@
       "ref": "WorldAreas"
     },
     {
-      "name": "Data0",
+      "name": "Unknown3",
       "type": "f32[]"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown4",
       "type": "f32"
     },
     {
-      "name": "Unknown1",
+      "name": "Unknown5",
       "type": "i32"
     }
   ]

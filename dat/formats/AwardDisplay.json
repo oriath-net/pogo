@@ -40,11 +40,10 @@
     },
     {
       "name": "OGGFile",
-      "type": "string",
-      "path": "ogg"
+      "type": "string"
     },
     {
-      "name": "Unknown8",
+      "name": "Unknown10",
       "type": "i32"
     }
   ]

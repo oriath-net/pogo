@@ -8,10 +8,6 @@
     {
       "name": "Level",
       "type": "i32"
-    },
-    {
-      "name": "Unknown0",
-      "type": "i32"
     }
   ]
 }

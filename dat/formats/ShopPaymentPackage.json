@@ -19,15 +19,15 @@
       "type": "bool"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown4",
       "type": "i32"
     },
     {
-      "name": "Unknown1",
+      "name": "Unknown5",
       "type": "i32"
     },
     {
-      "name": "Flag0",
+      "name": "Flag6",
       "type": "bool"
     },
     {
@@ -35,23 +35,23 @@
       "type": "bool"
     },
     {
-      "name": "Data0",
+      "name": "Unknown8",
       "type": "i32[]"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "Key9",
+      "type": "longid"
     },
     {
       "name": "BackgroundImage",
       "type": "string"
     },
     {
-      "name": "Unknown5",
+      "name": "Unknown11",
       "type": "string"
     },
     {
-      "name": "Flag1",
+      "name": "Flag12",
       "type": "bool"
     },
     {
@@ -65,7 +65,7 @@
       "description": "Number of points the user gets back if they opt-out of physical items"
     },
     {
-      "name": "Unknown6",
+      "name": "Unknown15",
       "type": "i32"
     },
     {
@@ -73,7 +73,7 @@
       "type": "i32[]"
     },
     {
-      "name": "Unknown8",
+      "name": "Unknown17",
       "type": "string"
     }
   ]

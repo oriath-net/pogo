@@ -17,37 +17,41 @@
       "ref": "UniqueStashTypes"
     },
     {
-      "name": "Key3",
-      "type": "u64"
-    },
-    {
-      "name": "Unknown1",
+      "name": "Unknown3",
       "type": "i32"
     },
     {
-      "name": "Unknown2",
+      "name": "Unknown4",
       "type": "i32"
     },
     {
-      "name": "Flag0",
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown6",
+      "type": "i32"
+    },
+    {
+      "name": "ShowIfEmpty",
       "type": "bool"
     },
     {
-      "name": "Flag1",
+      "name": "Flag8",
       "type": "bool"
     },
     {
-      "name": "UniqueStashLayoutKey",
+      "name": "RenamedVersion",
       "type": "shortid",
       "ref": "UniqueStashLayout"
     },
     {
-      "name": "UniqueStashLayoutKey2",
+      "name": "BaseVersion",
       "type": "shortid",
       "ref": "UniqueStashLayout"
     },
     {
-      "name": "Flag2",
+      "name": "IsAlternateArt",
       "type": "bool"
     }
   ]

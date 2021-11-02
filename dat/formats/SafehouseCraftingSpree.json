@@ -7,12 +7,11 @@
       "ref": "BetrayalJobs"
     },
     {
-      "name": "BetrayalRanksKey",
-      "type": "longid",
-      "ref": "BetrayalRanks"
+      "name": "Rank",
+      "type": "i32"
     },
     {
-      "name": "Currency_Values",
+      "name": "CurrencyCount",
       "type": "i32[]"
     },
     {
@@ -25,8 +24,8 @@
       "ref": "SafehouseCraftingSpreeCurrencies"
     },
     {
-      "name": "Data0",
-      "type": "i32[]"
+      "name": "Key5",
+      "type": "longid[]"
     }
   ]
 }

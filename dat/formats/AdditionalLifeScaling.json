@@ -11,8 +11,7 @@
     },
     {
       "name": "DatFile",
-      "type": "string",
-      "path": "dat"
+      "type": "string"
     }
   ]
 }

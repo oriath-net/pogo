@@ -1,0 +1,13 @@
+{
+  "file": "HellscapeExperienceLevels",
+  "fields": [
+    {
+      "name": "Level",
+      "type": "i32"
+    },
+    {
+      "name": "Experience",
+      "type": "i32"
+    }
+  ]
+}

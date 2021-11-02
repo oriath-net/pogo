@@ -12,28 +12,31 @@
     },
     {
       "name": "BaseIcon_DDSFile",
-      "type": "string",
-      "path": "dds"
+      "type": "string"
     },
     {
       "name": "Infected_DDSFile",
-      "type": "string",
-      "path": "dds"
+      "type": "string"
     },
     {
       "name": "Shaper_DDSFile",
-      "type": "string",
-      "path": "dds"
+      "type": "string"
     },
     {
       "name": "Elder_DDSFile",
-      "type": "string",
-      "path": "dds"
+      "type": "string"
     },
     {
       "name": "Drawn_DDSFile",
-      "type": "string",
-      "path": "dds"
+      "type": "string"
+    },
+    {
+      "name": "Delirious_DDSFile",
+      "type": "string"
+    },
+    {
+      "name": "UberBlight_DDSFile",
+      "type": "string"
     }
   ]
 }

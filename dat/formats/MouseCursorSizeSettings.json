@@ -1,0 +1,17 @@
+{
+  "file": "MouseCursorSizeSettings",
+  "fields": [
+    {
+      "name": "Size",
+      "type": "string"
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    },
+    {
+      "name": "Ratio",
+      "type": "f32"
+    }
+  ]
+}

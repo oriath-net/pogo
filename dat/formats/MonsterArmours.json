@@ -7,8 +7,7 @@
     },
     {
       "name": "ArtString_SMFile",
-      "type": "string",
-      "path": "sm"
+      "type": "string"
     }
   ]
 }

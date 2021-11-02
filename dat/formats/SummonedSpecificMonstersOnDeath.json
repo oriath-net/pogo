@@ -16,16 +16,16 @@
       "type": "i32"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "Key3",
+      "type": "longid"
     },
     {
       "name": "Unknown4",
       "type": "i32"
     },
     {
-      "name": "Unknown7",
-      "type": "u8"
+      "name": "Flag5",
+      "type": "bool"
     }
   ]
 }

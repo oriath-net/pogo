@@ -7,32 +7,26 @@
     },
     {
       "name": "InventoryIdKey",
-      "type": "shortid",
-      "ref": "InventoryId"
+      "type": "i32"
     },
     {
       "name": "InventoryTypeKey",
-      "type": "shortid",
-      "ref": "InventoryType"
+      "type": "i32"
     },
     {
       "name": "Unknown3",
       "type": "i32"
     },
     {
-      "name": "Flag0",
+      "name": "Flag4",
       "type": "bool"
     },
     {
-      "name": "Flag1",
+      "name": "Flag5",
       "type": "bool"
     },
     {
-      "name": "Unknown4",
-      "type": "i32"
-    },
-    {
-      "name": "Flag2",
+      "name": "Flag6",
       "type": "bool"
     }
   ]

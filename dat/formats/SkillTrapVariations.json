@@ -10,8 +10,9 @@
       "type": "string"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "MiscAnimated",
+      "type": "longid",
+      "ref": "MiscAnimated"
     }
   ]
 }

@@ -18,24 +18,31 @@
     },
     {
       "name": "NPCMasterKey",
-      "type": "shortid",
-      "ref": "NPCMaster"
-    },
-    {
-      "name": "Unknown0",
       "type": "i32"
     },
     {
-      "name": "Unknown1",
+      "name": "Unknown4",
       "type": "i32"
     },
     {
-      "name": "Unknown2",
+      "name": "Unknown5",
       "type": "i32"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "Unknown6",
+      "type": "i32"
+    },
+    {
+      "name": "Key7",
+      "type": "longid"
+    },
+    {
+      "name": "Unknown8",
+      "type": "i32"
+    },
+    {
+      "name": "Flag9",
+      "type": "bool"
     }
   ]
 }

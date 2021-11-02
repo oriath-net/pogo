@@ -16,32 +16,33 @@
     },
     {
       "name": "Icon_DDSFile",
-      "type": "string",
-      "path": "dds"
+      "type": "string"
     },
     {
       "name": "QuestId",
       "type": "i32"
     },
     {
-      "name": "Flag0",
+      "name": "Flag5",
       "type": "bool"
     },
     {
-      "name": "Unknown4",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown5",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown6",
-      "type": "i32[]"
+      "name": "Type",
+      "type": "longid",
+      "ref": "QuestType"
     },
     {
       "name": "Unknown7",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown8",
       "type": "i32"
+    },
+    {
+      "name": "TrackerGroup",
+      "type": "longid",
+      "ref": "QuestTrackerGroup"
     }
   ]
 }

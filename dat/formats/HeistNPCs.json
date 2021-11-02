@@ -42,19 +42,15 @@
       "type": "string"
     },
     {
-      "name": "Unknown9",
-      "type": "i32"
-    },
-    {
       "name": "SilhouetteFile",
       "type": "string"
     },
     {
-      "name": "Unknown11",
+      "name": "Unknown10",
       "type": "i32"
     },
     {
-      "name": "Unknown12",
+      "name": "Unknown11",
       "type": "i32"
     },
     {
@@ -87,8 +83,11 @@
     },
     {
       "name": "AOFile",
-      "type": "string",
-      "path": "ao"
+      "type": "string"
+    },
+    {
+      "name": "Key19",
+      "type": "longid"
     }
   ]
 }

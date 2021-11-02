@@ -54,6 +54,14 @@
       "name": "ExperienceGain_StatsKey",
       "type": "longid",
       "ref": "Stats"
+    },
+    {
+      "name": "ConsoleBlueprintLegend",
+      "type": "string"
+    },
+    {
+      "name": "Description",
+      "type": "string"
     }
   ]
 }

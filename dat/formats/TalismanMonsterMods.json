@@ -2,16 +2,14 @@
   "file": "TalismanMonsterMods",
   "fields": [
     {
-      "name": "Unknown1",
-      "type": "i32"
+      "name": "ModTypeKey",
+      "type": "longid",
+      "ref": "ModType"
     },
     {
-      "name": "Unknown2",
-      "type": "i32"
-    },
-    {
-      "name": "Key0",
-      "type": "u64"
+      "name": "ModsKey",
+      "type": "longid",
+      "ref": "Mods"
     }
   ]
 }

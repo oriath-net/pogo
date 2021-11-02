@@ -1,0 +1,17 @@
+{
+  "file": "MiscEffectPacksArtVariations",
+  "fields": [
+    {
+      "name": "Unknown0",
+      "type": "string"
+    },
+    {
+      "name": "Unknown1",
+      "type": "u8[]"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    }
+  ]
+}

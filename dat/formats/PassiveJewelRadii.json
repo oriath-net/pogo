@@ -1,0 +1,21 @@
+{
+  "file": "PassiveJewelRadii",
+  "fields": [
+    {
+      "name": "ID",
+      "type": "string"
+    },
+    {
+      "name": "RingOuterRadius",
+      "type": "i32"
+    },
+    {
+      "name": "RingInnerRadius",
+      "type": "i32"
+    },
+    {
+      "name": "Radius",
+      "type": "i32"
+    }
+  ]
+}

@@ -16,11 +16,12 @@
       "type": "string"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "BestiaryEncountersKey",
+      "type": "longid",
+      "ref": "BestiaryEncounters"
     },
     {
-      "name": "Flag0",
+      "name": "Flag4",
       "type": "bool"
     },
     {
@@ -42,7 +43,7 @@
       "ref": "BestiaryGenus"
     },
     {
-      "name": "Flag1",
+      "name": "Flag9",
       "type": "bool"
     },
     {
@@ -51,15 +52,15 @@
       "ref": "BestiaryCapturableMonsters"
     },
     {
-      "name": "Flag2",
+      "name": "IsDisabled",
       "type": "bool"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown12",
       "type": "i32"
     },
     {
-      "name": "Flag3",
+      "name": "Flag13",
       "type": "bool"
     }
   ]

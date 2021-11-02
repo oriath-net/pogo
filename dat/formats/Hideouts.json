@@ -12,17 +12,16 @@
       "ref": "WorldAreas"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown2",
       "type": "i32"
     },
     {
       "name": "HideoutFile",
-      "type": "string",
-      "path": "hideout"
+      "type": "string"
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "Key4",
+      "type": "longid[]"
     },
     {
       "name": "LargeWorldAreasKey",
@@ -35,19 +34,19 @@
     },
     {
       "name": "IsEnabled",
-      "type": "u8"
+      "type": "bool"
     },
     {
       "name": "Weight",
       "type": "i32"
     },
     {
-      "name": "Key0",
+      "name": "Key9",
       "type": "longid",
       "ref": "HideoutRarity"
     },
     {
-      "name": "Flag1",
+      "name": "Flag10",
       "type": "bool"
     },
     {
@@ -55,11 +54,23 @@
       "type": "string"
     },
     {
-      "name": "Data0",
+      "name": "Unknown12",
       "type": "i32[]"
     },
     {
-      "name": "Flag2",
+      "name": "Flag13",
+      "type": "bool"
+    },
+    {
+      "name": "Flag14",
+      "type": "bool"
+    },
+    {
+      "name": "Flag15",
+      "type": "bool"
+    },
+    {
+      "name": "Flag16",
       "type": "bool"
     }
   ]

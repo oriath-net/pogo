@@ -6,8 +6,12 @@
       "type": "string"
     },
     {
-      "name": "Unknown14",
-      "type": "i16"
+      "name": "Flag1",
+      "type": "bool"
+    },
+    {
+      "name": "Flag2",
+      "type": "bool"
     },
     {
       "name": "Signature_ModsKey",
@@ -15,8 +19,8 @@
       "ref": "Mods"
     },
     {
-      "name": "Flag0",
-      "type": "u8"
+      "name": "Flag4",
+      "type": "bool"
     },
     {
       "name": "SpawnWeight_TagsKeys",
@@ -28,31 +32,19 @@
       "type": "i32[]"
     },
     {
-      "name": "Data0",
+      "name": "Unknown7",
       "type": "i32[]"
     },
     {
-      "name": "Data1",
+      "name": "Unknown8",
       "type": "i32[]"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "Key9",
+      "type": "longid"
     },
     {
-      "name": "HelpText",
-      "type": "string"
-    },
-    {
-      "name": "HelpTextForNextLevel",
-      "type": "string"
-    },
-    {
-      "name": "Key2",
-      "type": "u64"
-    },
-    {
-      "name": "Unknown0",
+      "name": "Unknown10",
       "type": "i32"
     },
     {
@@ -60,20 +52,16 @@
       "type": "string"
     },
     {
-      "name": "Key3",
-      "type": "u64"
+      "name": "Key12",
+      "type": "longid"
     },
     {
-      "name": "Unknown1",
+      "name": "Unknown13",
       "type": "i32"
     },
     {
-      "name": "Unknown2",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown3",
-      "type": "i32"
+      "name": "Key14",
+      "type": "longid"
     }
   ]
 }

@@ -7,8 +7,13 @@
       "unique": true
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "SurgeEffects",
+      "type": "longid[]",
+      "ref": "SurgeEffects"
+    },
+    {
+      "name": "IntId",
+      "type": "i32"
     }
   ]
 }

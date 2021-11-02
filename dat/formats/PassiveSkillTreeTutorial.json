@@ -11,8 +11,8 @@
       "ref": "Characters"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "Key2",
+      "type": "longid"
     },
     {
       "name": "ChoiceA_Description",
@@ -23,8 +23,8 @@
       "type": "string"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "Key5",
+      "type": "longid"
     },
     {
       "name": "ChoiceA_PassiveTreeURL",
@@ -35,12 +35,12 @@
       "type": "string"
     },
     {
-      "name": "Key2",
-      "type": "u64"
+      "name": "Key8",
+      "type": "longid"
     },
     {
-      "name": "Key3",
-      "type": "u64"
+      "name": "Key9",
+      "type": "longid"
     }
   ]
 }

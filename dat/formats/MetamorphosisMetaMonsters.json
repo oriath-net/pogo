@@ -7,11 +7,11 @@
       "ref": "MonsterVarieties"
     },
     {
-      "name": "Unknown_Keys",
-      "type": "u64[]"
+      "name": "Key1",
+      "type": "longid[]"
     },
     {
-      "name": "Unknown_Values",
+      "name": "Unknown2",
       "type": "i32[]"
     },
     {

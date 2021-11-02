@@ -15,16 +15,16 @@
       "type": "f32"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "Key3",
+      "type": "longid"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "Key4",
+      "type": "longid"
     },
     {
-      "name": "Key2",
-      "type": "u64"
+      "name": "Key5",
+      "type": "longid"
     }
   ]
 }

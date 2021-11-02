@@ -8,6 +8,10 @@
     {
       "name": "Controller",
       "type": "string"
+    },
+    {
+      "name": "Unknown2",
+      "type": "string"
     }
   ]
 }

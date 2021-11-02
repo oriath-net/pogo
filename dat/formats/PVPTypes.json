@@ -1,4 +1,13 @@
 {
   "file": "PVPTypes",
-  "fields": []
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "Key1",
+      "type": "longid"
+    }
+  ]
 }

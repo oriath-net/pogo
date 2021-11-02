@@ -7,21 +7,20 @@
       "unique": true
     },
     {
-      "name": "Key0",
-      "type": "u64"
-    },
-    {
-      "name": "Keys0",
-      "type": "u64[]"
-    },
-    {
       "name": "Key1",
-      "type": "u64"
+      "type": "longid"
+    },
+    {
+      "name": "Key2",
+      "type": "longid[]"
+    },
+    {
+      "name": "Key3",
+      "type": "longid"
     },
     {
       "name": "BK2File",
-      "type": "string",
-      "path": "bk2"
+      "type": "string"
     }
   ]
 }

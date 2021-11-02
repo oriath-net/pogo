@@ -6,12 +6,9 @@
       "type": "string"
     },
     {
-      "name": "Key0",
-      "type": "u64"
-    },
-    {
-      "name": "Unknown1",
-      "type": "i32"
+      "name": "ExclusionGroup",
+      "type": "longid",
+      "ref": "LabyrinthExclusionGroups"
     },
     {
       "name": "Unknown2",
@@ -23,6 +20,10 @@
     },
     {
       "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
       "type": "i32"
     }
   ]

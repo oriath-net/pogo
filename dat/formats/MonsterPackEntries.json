@@ -12,11 +12,11 @@
       "ref": "MonsterPacks"
     },
     {
-      "name": "Flag0",
+      "name": "Flag2",
       "type": "bool"
     },
     {
-      "name": "Unknown1",
+      "name": "Unknown3",
       "type": "i32"
     },
     {

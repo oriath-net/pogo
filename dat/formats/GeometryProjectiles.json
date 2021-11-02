@@ -6,19 +6,11 @@
       "type": "i32"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "Key1",
+      "type": "longid"
     },
     {
-      "name": "Flag0",
-      "type": "bool"
-    },
-    {
-      "name": "Unknown2",
-      "type": "i32"
-    },
-    {
-      "name": "Flag1",
+      "name": "Flag2",
       "type": "bool"
     },
     {
@@ -26,11 +18,7 @@
       "type": "i32"
     },
     {
-      "name": "Unknown4",
-      "type": "i32"
-    },
-    {
-      "name": "Flag2",
+      "name": "Flag4",
       "type": "bool"
     },
     {
@@ -42,11 +30,7 @@
       "type": "i32"
     },
     {
-      "name": "Unknown7",
-      "type": "i32"
-    },
-    {
-      "name": "Flag3",
+      "name": "Flag7",
       "type": "bool"
     },
     {
@@ -62,20 +46,48 @@
       "type": "i32"
     },
     {
-      "name": "Unknown11",
-      "type": "u8"
+      "name": "Flag11",
+      "type": "bool"
     },
     {
       "name": "Unknown12",
-      "type": "u8"
+      "type": "i32"
     },
     {
       "name": "Unknown13",
-      "type": "u8"
+      "type": "i32"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "Unknown14",
+      "type": "i32"
+    },
+    {
+      "name": "Flag15",
+      "type": "bool"
+    },
+    {
+      "name": "Flag16",
+      "type": "bool"
+    },
+    {
+      "name": "Flag17",
+      "type": "bool"
+    },
+    {
+      "name": "Key18",
+      "type": "longid"
+    },
+    {
+      "name": "Flag19",
+      "type": "bool"
+    },
+    {
+      "name": "Key20",
+      "type": "longid"
+    },
+    {
+      "name": "Unknown21",
+      "type": "i32"
     }
   ]
 }

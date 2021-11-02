@@ -1,0 +1,18 @@
+{
+  "file": "MicrotransactionCursorVariations",
+  "fields": [
+    {
+      "name": "Key0",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "Key1",
+      "type": "longid"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    }
+  ]
+}

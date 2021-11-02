@@ -7,20 +7,12 @@
       "unique": true
     },
     {
-      "name": "Flag0",
-      "type": "u8"
-    },
-    {
       "name": "Flag1",
-      "type": "u8"
+      "type": "bool"
     },
     {
-      "name": "Unknown1",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown2",
-      "type": "i32"
+      "name": "Flag2",
+      "type": "bool"
     },
     {
       "name": "Unknown3",
@@ -40,6 +32,14 @@
     },
     {
       "name": "Unknown7",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown8",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown9",
       "type": "i32"
     }
   ]

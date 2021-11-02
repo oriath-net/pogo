@@ -7,11 +7,11 @@
       "unique": true
     },
     {
-      "name": "AudioFiles",
-      "type": "string[]"
+      "name": "Unknown1",
+      "type": "i32[]"
     },
     {
-      "name": "AudioWeights",
+      "name": "Unknown2",
       "type": "i32[]"
     },
     {
@@ -19,19 +19,19 @@
       "type": "i32"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown4",
       "type": "i32"
     },
     {
-      "name": "Unknown1",
+      "name": "Unknown5",
       "type": "i32"
     },
     {
-      "name": "Unknown2",
+      "name": "Unknown6",
       "type": "i32"
     },
     {
-      "name": "Unknown3",
+      "name": "Unknown7",
       "type": "i32"
     }
   ]

@@ -7,8 +7,9 @@
       "unique": true
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "BaseItemType",
+      "type": "longid",
+      "ref": "BaseItemTypes"
     },
     {
       "name": "X",
@@ -19,20 +20,25 @@
       "type": "i32"
     },
     {
-      "name": "Unknown4",
+      "name": "IntId",
+      "type": "i32",
+      "unique": true
+    },
+    {
+      "name": "Width",
       "type": "i32"
     },
     {
-      "name": "Unknown5",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown6",
+      "name": "Height",
       "type": "i32"
     },
     {
       "name": "Unknown7",
       "type": "i32"
+    },
+    {
+      "name": "Flag8",
+      "type": "bool"
     }
   ]
 }

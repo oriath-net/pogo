@@ -28,35 +28,33 @@
       "ref": "Stats"
     },
     {
-      "name": "Flag0",
+      "name": "Flag6",
       "type": "bool"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown7",
       "type": "i32"
     },
     {
-      "name": "Flag1",
+      "name": "Flag8",
       "type": "bool"
     },
     {
       "name": "Maximum_StatsKey",
       "type": "longid",
-      "ref": "Stats",
-      "description": "Stat that holds the maximum number for this buff"
+      "ref": "Stats"
     },
     {
       "name": "Current_StatsKey",
       "type": "longid",
-      "ref": "Stats",
-      "description": "Stat that holds the current number for this buff"
+      "ref": "Stats"
     },
     {
-      "name": "Flag2",
+      "name": "Flag11",
       "type": "bool"
     },
     {
-      "name": "Unknown1",
+      "name": "Unknown12",
       "type": "i32"
     },
     {
@@ -65,31 +63,31 @@
       "ref": "BuffVisuals"
     },
     {
-      "name": "Flag3",
+      "name": "Flag14",
       "type": "bool"
     },
     {
-      "name": "Flag4",
+      "name": "Flag15",
       "type": "bool"
     },
     {
-      "name": "Unknown2",
+      "name": "Unknown16",
       "type": "i32"
     },
     {
-      "name": "Flag5",
+      "name": "Flag17",
       "type": "bool"
     },
     {
-      "name": "Flag6",
+      "name": "Flag18",
       "type": "bool"
     },
     {
-      "name": "Flag7",
+      "name": "Flag19",
       "type": "bool"
     },
     {
-      "name": "Flag8",
+      "name": "Flag20",
       "type": "bool"
     },
     {
@@ -97,7 +95,7 @@
       "type": "i32"
     },
     {
-      "name": "Flag10",
+      "name": "Flag22",
       "type": "bool"
     },
     {
@@ -109,72 +107,84 @@
       "type": "bool"
     },
     {
-      "name": "Flag11",
+      "name": "Flag25",
       "type": "bool"
     },
     {
-      "name": "Flag12",
+      "name": "Flag26",
       "type": "bool"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "Key27",
+      "type": "longid"
     },
     {
-      "name": "Flag13",
-      "type": "u8"
+      "name": "Flag28",
+      "type": "bool"
     },
     {
-      "name": "Unknown6",
+      "name": "Unknown29",
       "type": "i32"
     },
     {
-      "name": "Flag14",
-      "type": "u8"
+      "name": "Flag30",
+      "type": "bool"
     },
     {
-      "name": "Flag15",
-      "type": "u8"
+      "name": "Flag31",
+      "type": "bool"
     },
     {
-      "name": "Unknown7",
+      "name": "Unknown32",
       "type": "i32"
     },
     {
-      "name": "Data0",
+      "name": "Unknown33",
       "type": "i32[]"
     },
     {
-      "name": "Flag16",
+      "name": "Flag34",
       "type": "bool"
     },
     {
-      "name": "Flag17",
+      "name": "Flag35",
       "type": "bool"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "Key36",
+      "type": "longid"
     },
     {
-      "name": "Flag18",
+      "name": "Flag37",
       "type": "bool"
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "Key38",
+      "type": "longid[]"
     },
     {
-      "name": "Keys1",
-      "type": "u64[]"
+      "name": "Key39",
+      "type": "longid[]"
     },
     {
-      "name": "Keys2",
-      "type": "u64[]"
+      "name": "Key40",
+      "type": "longid[]"
     },
     {
-      "name": "Keys3",
-      "type": "u64[]"
+      "name": "Key41",
+      "type": "longid[]"
+    },
+    {
+      "name": "Unknown42",
+      "type": "i32"
+    },
+    {
+      "name": "Flag43",
+      "type": "bool"
+    },
+    {
+      "name": "Key44",
+      "type": "longid"
     }
   ]
 }

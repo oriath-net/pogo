@@ -8,8 +8,7 @@
     },
     {
       "name": "AOFiles",
-      "type": "string[]",
-      "path": "ao"
+      "type": "string[]"
     },
     {
       "name": "LoopAnimationIds",
@@ -24,19 +23,19 @@
       "type": "i32"
     },
     {
-      "name": "Flag0",
+      "name": "Flag5",
       "type": "bool"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown6",
       "type": "i32"
     },
     {
-      "name": "Flag1",
+      "name": "Flag7",
       "type": "bool"
     },
     {
-      "name": "Flag2",
+      "name": "Flag8",
       "type": "bool"
     },
     {
@@ -44,86 +43,88 @@
       "type": "string"
     },
     {
-      "name": "Unknown1",
-      "type": "i32"
-    },
-    {
-      "name": "Key0",
-      "type": "u64"
-    },
-    {
-      "name": "Unknown2",
-      "type": "i32"
-    },
-    {
-      "name": "Flag3",
-      "type": "bool"
-    },
-    {
-      "name": "Flag4",
-      "type": "bool"
-    },
-    {
-      "name": "Stuck_AOFile",
-      "type": "string",
-      "path": "ao"
-    },
-    {
-      "name": "Bounce_AOFile",
-      "type": "string",
-      "path": "ao"
-    },
-    {
-      "name": "Unknown5",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown6",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown7",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown8",
-      "type": "i32"
-    },
-    {
-      "name": "Key1",
-      "type": "u64"
-    },
-    {
-      "name": "Key2",
-      "type": "u64"
-    },
-    {
-      "name": "Unknown9",
-      "type": "i32"
-    },
-    {
       "name": "Unknown10",
       "type": "i32"
     },
     {
-      "name": "Unknown11",
-      "type": "i32"
+      "name": "Key11",
+      "type": "longid"
     },
     {
       "name": "Unknown12",
       "type": "i32"
     },
     {
-      "name": "Unknown13",
+      "name": "Flag13",
+      "type": "bool"
+    },
+    {
+      "name": "Flag14",
+      "type": "bool"
+    },
+    {
+      "name": "Stuck_AOFile",
+      "type": "string[]"
+    },
+    {
+      "name": "Bounce_AOFile",
+      "type": "string"
+    },
+    {
+      "name": "Unknown17",
       "type": "i32"
     },
     {
-      "name": "Unknown14",
+      "name": "Unknown18",
       "type": "i32"
     },
     {
-      "name": "Unknown15",
+      "name": "Unknown19",
       "type": "i32"
+    },
+    {
+      "name": "Unknown20",
+      "type": "i32"
+    },
+    {
+      "name": "Key21",
+      "type": "longid"
+    },
+    {
+      "name": "Key22",
+      "type": "longid"
+    },
+    {
+      "name": "Unknown23",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown24",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown25",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown26",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown27",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown28",
+      "type": "string[]"
+    },
+    {
+      "name": "Flag29",
+      "type": "bool"
+    },
+    {
+      "name": "Key30",
+      "type": "longid"
     }
   ]
 }

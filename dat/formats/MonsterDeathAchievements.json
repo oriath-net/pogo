@@ -17,8 +17,8 @@
       "ref": "AchievementItems"
     },
     {
-      "name": "Flag0",
-      "type": "u8"
+      "name": "Flag3",
+      "type": "bool"
     },
     {
       "name": "PlayerConditionsKeys",
@@ -31,47 +31,47 @@
       "ref": "MonsterDeathConditions"
     },
     {
-      "name": "Unknown5",
-      "type": "u64[]"
-    },
-    {
-      "name": "Unknown6",
-      "type": "i32"
+      "name": "Key6",
+      "type": "longid[]"
     },
     {
       "name": "Unknown7",
       "type": "i32"
     },
     {
-      "name": "Flag1",
-      "type": "u8"
-    },
-    {
-      "name": "Flag2",
-      "type": "u8"
-    },
-    {
       "name": "Unknown8",
-      "type": "u64"
+      "type": "i32"
     },
     {
-      "name": "Unknown9",
-      "type": "u64[]"
+      "name": "Flag9",
+      "type": "bool"
     },
     {
-      "name": "Unknown10",
-      "type": "u64[]"
+      "name": "Flag10",
+      "type": "bool"
     },
     {
-      "name": "Unknown11",
-      "type": "u64[]"
+      "name": "Key11",
+      "type": "longid"
     },
     {
-      "name": "Unknown12",
-      "type": "u64"
+      "name": "Key12",
+      "type": "longid[]"
     },
     {
-      "name": "Unknown13",
+      "name": "Key13",
+      "type": "longid[]"
+    },
+    {
+      "name": "Key14",
+      "type": "longid[]"
+    },
+    {
+      "name": "Key15",
+      "type": "longid"
+    },
+    {
+      "name": "Unknown16",
       "type": "i32"
     },
     {
@@ -80,8 +80,8 @@
       "ref": "NearbyMonsterConditions"
     },
     {
-      "name": "Flag3",
-      "type": "u8"
+      "name": "Flag18",
+      "type": "bool"
     },
     {
       "name": "MultiPartAchievementConditionsKeys",
@@ -89,8 +89,12 @@
       "ref": "MultiPartAchievementConditions"
     },
     {
-      "name": "Unknown16",
+      "name": "Unknown20",
       "type": "i32"
+    },
+    {
+      "name": "Flag21",
+      "type": "bool"
     }
   ]
 }

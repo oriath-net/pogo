@@ -19,8 +19,9 @@
       "type": "i32"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "ExtraTerrainFeaturesKey",
+      "type": "longid",
+      "ref": "ExtraTerrainFeatures"
     }
   ]
 }

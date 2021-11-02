@@ -1,0 +1,27 @@
+{
+  "file": "SurgeEffects",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "Key1",
+      "type": "longid",
+      "ref": "MiscAnimated"
+    },
+    {
+      "name": "Unknown2",
+      "type": "f32[]"
+    },
+    {
+      "name": "Key3",
+      "type": "longid[]",
+      "ref": "MiscAnimated"
+    },
+    {
+      "name": "Unknown4",
+      "type": "string[]"
+    }
+  ]
+}

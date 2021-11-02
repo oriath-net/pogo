@@ -42,8 +42,7 @@
     },
     {
       "name": "DGRFile",
-      "type": "string",
-      "path": "dgr"
+      "type": "string"
     },
     {
       "name": "Unknown9",
@@ -54,17 +53,16 @@
       "type": "i32"
     },
     {
-      "name": "Flag0",
+      "name": "Flag11",
       "type": "bool"
     },
     {
-      "name": "Flag1",
+      "name": "Flag12",
       "type": "bool"
     },
     {
       "name": "Blueprint_DDSFile",
-      "type": "string",
-      "path": "dds"
+      "type": "string"
     },
     {
       "name": "AchievementItemsKeys",

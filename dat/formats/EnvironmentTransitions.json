@@ -7,11 +7,10 @@
     },
     {
       "name": "OTFiles",
-      "type": "string[]",
-      "path": "ot"
+      "type": "string[]"
     },
     {
-      "name": "Data0",
+      "name": "Unknown2",
       "type": "string[]"
     }
   ]

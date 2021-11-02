@@ -1,0 +1,19 @@
+{
+  "file": "InfluenceTags",
+  "fields": [
+    {
+      "name": "ItemClass",
+      "type": "longid",
+      "ref": "ItemClasses"
+    },
+    {
+      "name": "Influence",
+      "type": "i32"
+    },
+    {
+      "name": "Tag",
+      "type": "longid",
+      "ref": "Tags"
+    }
+  ]
+}

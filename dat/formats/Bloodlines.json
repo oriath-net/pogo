@@ -26,11 +26,10 @@
     },
     {
       "name": "SpawnWeight_Values",
-      "type": "i32[]",
-      "description": "0 disables"
+      "type": "i32[]"
     },
     {
-      "name": "Unknown8",
+      "name": "Unknown6",
       "type": "i32"
     },
     {
@@ -39,7 +38,7 @@
       "ref": "BuffDefinitions"
     },
     {
-      "name": "Unknown11",
+      "name": "Unknown8",
       "type": "i32[]"
     },
     {
@@ -57,19 +56,20 @@
       "ref": "MonsterVarieties"
     },
     {
-      "name": "Unknown20",
+      "name": "Unknown12",
       "type": "i32"
     },
     {
-      "name": "Flag0",
+      "name": "Flag13",
       "type": "bool"
     },
     {
-      "name": "Keys2",
-      "type": "u64[]"
+      "name": "AchievementItemsKey",
+      "type": "longid[]",
+      "ref": "AchievementItems"
     },
     {
-      "name": "Flag1",
+      "name": "Flag15",
       "type": "bool"
     }
   ]

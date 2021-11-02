@@ -2,13 +2,17 @@
   "file": "AfflictionFixedMods",
   "fields": [
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "Rarity",
+      "type": "i32"
     },
     {
-      "name": "ModsKey",
+      "name": "Mod",
       "type": "longid",
       "ref": "Mods"
+    },
+    {
+      "name": "Key2",
+      "type": "longid"
     }
   ]
 }

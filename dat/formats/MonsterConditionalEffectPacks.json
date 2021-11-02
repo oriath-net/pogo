@@ -7,23 +7,27 @@
       "unique": true
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "MiscEffectPack1",
+      "type": "longid[]",
+      "ref": "MiscEffectPacks"
     },
     {
-      "name": "Keys1",
-      "type": "u64[]"
+      "name": "MiscEffectPack2",
+      "type": "longid[]",
+      "ref": "MiscEffectPacks"
     },
     {
-      "name": "Data0",
-      "type": "i32[]"
+      "name": "MiscEffectPack3",
+      "type": "longid[]",
+      "ref": "MiscEffectPacks"
     },
     {
-      "name": "Data1",
-      "type": "i32[]"
+      "name": "MiscEffectPack4",
+      "type": "longid[]",
+      "ref": "MiscEffectPacks"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown5",
       "type": "i32"
     }
   ]

@@ -1,0 +1,19 @@
+{
+  "file": "InfluenceModUpgrades",
+  "fields": [
+    {
+      "name": "InfluenceMod",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "UpgradedMod",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Flag2",
+      "type": "bool"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "file": "Colours",
+  "fields": [
+    {
+      "name": "Item",
+      "type": "string"
+    },
+    {
+      "name": "Red",
+      "type": "i32"
+    },
+    {
+      "name": "Green",
+      "type": "i32"
+    },
+    {
+      "name": "Blue",
+      "type": "i32"
+    },
+    {
+      "name": "RgbCode",
+      "type": "string"
+    }
+  ]
+}

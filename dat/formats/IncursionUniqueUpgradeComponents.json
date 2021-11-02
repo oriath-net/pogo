@@ -2,11 +2,11 @@
   "file": "IncursionUniqueUpgradeComponents",
   "fields": [
     {
-      "name": "UniqueItemsKey",
-      "type": "u64"
+      "name": "Key0",
+      "type": "longid"
     },
     {
-      "name": "BaseItemTypesKey",
+      "name": "BaseItemType",
       "type": "longid",
       "ref": "BaseItemTypes"
     }

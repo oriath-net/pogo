@@ -7,20 +7,15 @@
       "unique": true
     },
     {
-      "name": "Flag0",
-      "type": "bool"
-    },
-    {
       "name": "Flag1",
       "type": "bool"
     },
     {
-      "name": "IntId",
-      "type": "i32",
-      "unique": true
+      "name": "Flag2",
+      "type": "bool"
     },
     {
-      "name": "Flag2",
+      "name": "Flag3",
       "type": "bool"
     },
     {
@@ -34,6 +29,10 @@
       "type": "string",
       "ref": "Animation",
       "ref-field": "Id"
+    },
+    {
+      "name": "Flag6",
+      "type": "bool"
     }
   ]
 }

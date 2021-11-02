@@ -2,11 +2,13 @@
   "file": "HeistObjectives",
   "fields": [
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "BaseItemType",
+      "type": "longid",
+      "unique": true,
+      "ref": "BaseItemTypes"
     },
     {
-      "name": "Unknown1",
+      "name": "Scaling",
       "type": "f32"
     },
     {

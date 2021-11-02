@@ -15,83 +15,81 @@
       "type": "string"
     },
     {
-      "name": "Unknown0",
+      "name": "ItemClassCategory",
+      "type": "longid",
+      "ref": "ItemClassCategories"
+    },
+    {
+      "name": "RemovedIfLeavesArea",
+      "type": "bool"
+    },
+    {
+      "name": "Key5",
+      "type": "longid[]"
+    },
+    {
+      "name": "Key6",
+      "type": "longid[]"
+    },
+    {
+      "name": "AllocateToMapOwner",
+      "type": "bool"
+    },
+    {
+      "name": "AlwaysAllocate",
+      "type": "bool"
+    },
+    {
+      "name": "CanHaveVeiledMods",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown10",
       "type": "i32"
     },
     {
-      "name": "Elder_TagsKey",
-      "type": "longid",
-      "ref": "Tags"
-    },
-    {
-      "name": "Shaper_TagsKey",
-      "type": "longid",
-      "ref": "Tags"
-    },
-    {
-      "name": "Flag0",
-      "type": "bool"
-    },
-    {
-      "name": "AchievementItemsKeys",
-      "type": "longid[]",
-      "ref": "AchievementItems"
-    },
-    {
-      "name": "Identify_AchievementItemsKeys",
-      "type": "longid[]",
-      "ref": "AchievementItems"
-    },
-    {
-      "name": "Crusader_TagsKey",
-      "type": "longid",
-      "ref": "Tags"
-    },
-    {
-      "name": "Eyrie_TagsKey",
-      "type": "longid",
-      "ref": "Tags"
-    },
-    {
-      "name": "Basilisk_TagsKey",
-      "type": "longid",
-      "ref": "Tags"
-    },
-    {
-      "name": "Adjudicator_TagsKey",
-      "type": "longid",
-      "ref": "Tags"
-    },
-    {
-      "name": "Flag1",
-      "type": "bool"
-    },
-    {
-      "name": "Flag2",
-      "type": "bool"
-    },
-    {
-      "name": "Flag3",
-      "type": "bool"
-    },
-    {
-      "name": "Unknown1",
+      "name": "Unknown11",
       "type": "i32"
     },
     {
-      "name": "Unknown2",
-      "type": "i32"
-    },
-    {
-      "name": "Flag4",
+      "name": "AlwaysShow",
       "type": "bool"
     },
     {
-      "name": "Unknown3",
-      "type": "i32"
+      "name": "CanBeCorrupted",
+      "type": "bool"
     },
     {
-      "name": "Flag5",
+      "name": "CanHaveIncubators",
+      "type": "bool"
+    },
+    {
+      "name": "CanHaveInfluence",
+      "type": "bool"
+    },
+    {
+      "name": "CanBeDoubleCorrupted",
+      "type": "bool"
+    },
+    {
+      "name": "CanHaveAspects",
+      "type": "bool"
+    },
+    {
+      "name": "CanTransferSkin",
+      "type": "bool"
+    },
+    {
+      "name": "ItemStance",
+      "type": "longid",
+      "ref": "ItemStances"
+    },
+    {
+      "name": "CanScourge",
+      "type": "bool"
+    },
+    {
+      "name": "Flag21",
       "type": "bool"
     }
   ]

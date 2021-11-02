@@ -7,23 +7,23 @@
       "ref": "Quest"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown1",
       "type": "i32"
     },
     {
       "name": "QuestStates",
-      "type": "u32[]"
+      "type": "i32[]"
     },
     {
-      "name": "Data0",
-      "type": "u32[]"
+      "name": "Unknown3",
+      "type": "i32[]"
     },
     {
       "name": "Text",
       "type": "string"
     },
     {
-      "name": "Flag0",
+      "name": "Flag5",
       "type": "bool"
     },
     {
@@ -36,7 +36,7 @@
       "ref": "MapPins"
     },
     {
-      "name": "Unknown1",
+      "name": "Unknown8",
       "type": "i32"
     },
     {
@@ -49,32 +49,29 @@
       "ref": "MapPins"
     },
     {
-      "name": "Keys2",
-      "type": "u64[]"
+      "name": "Key11",
+      "type": "longid[]"
     },
     {
-      "name": "Flag1",
+      "name": "Flag12",
       "type": "bool"
     },
     {
-      "name": "Data1",
+      "name": "Unknown13",
       "type": "i32[]"
     },
     {
       "name": "QuestStateCalcuationKey",
+      "type": "shortid[]",
+      "ref": "QuestStates"
+    },
+    {
+      "name": "Unknown15",
       "type": "i32"
     },
     {
-      "name": "Key0",
-      "type": "u64"
-    },
-    {
-      "name": "Unknown3",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown4",
-      "type": "i32"
+      "name": "Key16",
+      "type": "longid"
     }
   ]
 }

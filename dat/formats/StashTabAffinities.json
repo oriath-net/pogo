@@ -1,0 +1,17 @@
+{
+  "file": "StashTabAffinities",
+  "fields": [
+    {
+      "name": "SpecializedStash",
+      "type": "i32"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "ShowInStashes",
+      "type": "i32[]"
+    }
+  ]
+}

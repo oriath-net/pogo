@@ -1,0 +1,17 @@
+{
+  "file": "HideoutDoodadTags",
+  "fields": [
+    {
+      "name": "Type",
+      "type": "string"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32[]"
+    }
+  ]
+}

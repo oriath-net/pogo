@@ -9,6 +9,14 @@
     {
       "name": "Image",
       "type": "string"
+    },
+    {
+      "name": "IsHC",
+      "type": "bool"
+    },
+    {
+      "name": "IsSSF",
+      "type": "bool"
     }
   ]
 }

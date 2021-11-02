@@ -7,16 +7,16 @@
       "unique": true
     },
     {
-      "name": "Key0",
-      "type": "u64"
-    },
-    {
       "name": "Key1",
-      "type": "u64"
+      "type": "longid"
     },
     {
       "name": "Key2",
-      "type": "u64"
+      "type": "longid"
+    },
+    {
+      "name": "Key3",
+      "type": "longid"
     },
     {
       "name": "Unknown4",
@@ -31,32 +31,31 @@
       "type": "string"
     },
     {
-      "name": "Flag0",
+      "name": "Flag7",
       "type": "bool"
     },
     {
-      "name": "Flag1",
+      "name": "Flag8",
       "type": "bool"
     },
     {
-      "name": "Key3",
-      "type": "u64"
+      "name": "Key9",
+      "type": "longid"
     },
     {
-      "name": "Key4",
-      "type": "u64"
+      "name": "Key10",
+      "type": "longid"
     },
     {
       "name": "EPKFile",
-      "type": "string",
-      "path": "epk"
+      "type": "string"
     },
     {
-      "name": "Unknown10",
+      "name": "Unknown12",
       "type": "i32"
     },
     {
-      "name": "Unknown11",
+      "name": "Unknown13",
       "type": "i32"
     }
   ]

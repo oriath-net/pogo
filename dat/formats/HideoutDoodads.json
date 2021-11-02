@@ -4,41 +4,27 @@
     {
       "name": "BaseItemTypesKey",
       "type": "longid",
-      "ref": "BaseItemTypes",
-      "unique": true
+      "unique": true,
+      "ref": "BaseItemTypes"
     },
     {
       "name": "Variation_AOFiles",
-      "type": "string[]",
-      "path": "ao"
-    },
-    {
-      "name": "FavourCost",
-      "type": "i32"
-    },
-    {
-      "name": "MasterLevel",
-      "type": "i32"
-    },
-    {
-      "name": "HideoutNPCsKey",
-      "type": "longid",
-      "ref": "HideoutNPCs"
+      "type": "string[]"
     },
     {
       "name": "IsNonMasterDoodad",
       "type": "bool"
     },
     {
-      "name": "Unknown1",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown2",
-      "type": "i32"
-    },
-    {
       "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
       "type": "i32"
     },
     {
@@ -46,12 +32,24 @@
       "type": "string"
     },
     {
+      "name": "Flag7",
+      "type": "bool"
+    },
+    {
       "name": "IsCraftingBench",
       "type": "bool"
     },
     {
-      "name": "Flag0",
+      "name": "Key9",
+      "type": "longid[]"
+    },
+    {
+      "name": "Flag10",
       "type": "bool"
+    },
+    {
+      "name": "Key11",
+      "type": "longid"
     }
   ]
 }

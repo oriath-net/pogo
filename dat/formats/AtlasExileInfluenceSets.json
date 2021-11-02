@@ -7,8 +7,9 @@
       "unique": true
     },
     {
-      "name": "AtlasExileInfluencePacksKey",
-      "type": "u64[]"
+      "name": "InfluencePacks",
+      "type": "longid[]",
+      "ref": "AtlasExileInfluenceOutcomes"
     }
   ]
 }

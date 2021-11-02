@@ -2,8 +2,9 @@
   "file": "BlightCraftingUniques",
   "fields": [
     {
-      "name": "Unknown0",
-      "type": "u64"
+      "name": "WordsKey",
+      "type": "longid",
+      "ref": "Words"
     }
   ]
 }

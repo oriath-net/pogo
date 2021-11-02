@@ -23,7 +23,7 @@
       "type": "i32"
     },
     {
-      "name": "Unknown2",
+      "name": "Unknown5",
       "type": "i32"
     },
     {
@@ -32,7 +32,7 @@
       "ref": "AchievementItems"
     },
     {
-      "name": "Unknown3",
+      "name": "Unknown7",
       "type": "i32"
     }
   ]

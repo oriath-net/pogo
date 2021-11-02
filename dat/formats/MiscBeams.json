@@ -7,11 +7,12 @@
       "unique": true
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "MiscAnimated",
+      "type": "longid",
+      "ref": "MiscAnimated"
     },
     {
-      "name": "Unknown3",
+      "name": "Unknown2",
       "type": "i32"
     },
     {
@@ -20,7 +21,7 @@
       "ref": "PreloadGroups"
     },
     {
-      "name": "Unknown1",
+      "name": "Unknown4",
       "type": "i32"
     }
   ]

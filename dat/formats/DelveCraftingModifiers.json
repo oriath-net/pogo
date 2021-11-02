@@ -82,6 +82,14 @@
       "name": "BlockedDelveCraftingModifierDescriptionsKeys",
       "type": "longid[]",
       "ref": "DelveCraftingModifierDescriptions"
+    },
+    {
+      "name": "Flag18",
+      "type": "bool"
+    },
+    {
+      "name": "Flag19",
+      "type": "bool"
     }
   ]
 }

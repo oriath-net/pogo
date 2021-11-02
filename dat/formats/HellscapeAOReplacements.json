@@ -1,0 +1,17 @@
+{
+  "file": "HellscapeAOReplacements",
+  "fields": [
+    {
+      "name": "Original",
+      "type": "string"
+    },
+    {
+      "name": "HASH32",
+      "type": "i32"
+    },
+    {
+      "name": "Replacement",
+      "type": "string"
+    }
+  ]
+}

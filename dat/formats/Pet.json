@@ -12,7 +12,11 @@
       "ref": "BaseItemTypes"
     },
     {
-      "name": "Unknown3",
+      "name": "HASH16",
+      "type": "i32"
+    },
+    {
+      "name": "HASH32",
       "type": "i32"
     },
     {
@@ -20,12 +24,16 @@
       "type": "i32"
     },
     {
-      "name": "Unknown1",
-      "type": "i32"
+      "name": "Flag5",
+      "type": "bool"
     },
     {
-      "name": "Unknown5",
-      "type": "i16"
+      "name": "Flag6",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown7",
+      "type": "u8[]"
     }
   ]
 }

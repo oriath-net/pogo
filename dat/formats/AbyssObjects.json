@@ -3,18 +3,19 @@
   "fields": [
     {
       "name": "Id",
-      "type": "string"
+      "type": "string",
+      "unique": true
     },
     {
-      "name": "Unknown1",
+      "name": "MinLevel",
       "type": "i32"
     },
     {
-      "name": "Unknown2",
+      "name": "MaxLevel",
       "type": "i32"
     },
     {
-      "name": "Unknown3",
+      "name": "SpawnWeight",
       "type": "i32"
     },
     {
@@ -30,20 +31,26 @@
       "type": "i32"
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "DaemonSpawners",
+      "type": "longid[]",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "Unknown8",
+      "type": "i32"
     },
     {
       "name": "Unknown9",
       "type": "i32"
     },
     {
-      "name": "Unknown10",
-      "type": "i32"
+      "name": "AbyssalDepths",
+      "type": "longid",
+      "ref": "WorldAreas"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "Unknown11",
+      "type": "i32"
     },
     {
       "name": "Unknown12",
@@ -78,8 +85,8 @@
       "type": "i32"
     },
     {
-      "name": "Unknown20",
-      "type": "i32"
+      "name": "Flag20",
+      "type": "bool"
     }
   ]
 }

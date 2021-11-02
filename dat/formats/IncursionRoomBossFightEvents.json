@@ -2,12 +2,17 @@
   "file": "IncursionRoomBossFightEvents",
   "fields": [
     {
-      "name": "Unknown0",
-      "type": "i32"
+      "name": "Room",
+      "type": "longid",
+      "ref": "IncursionRooms"
     },
     {
-      "name": "Data0",
-      "type": "i32[]"
+      "name": "Unknown1",
+      "type": "string"
+    },
+    {
+      "name": "Unknown2",
+      "type": "string"
     },
     {
       "name": "Unknown3",
@@ -22,12 +27,8 @@
       "type": "string"
     },
     {
-      "name": "Unknown6",
-      "type": "string"
-    },
-    {
-      "name": "Key0",
-      "type": "u64"
+      "name": "Key6",
+      "type": "longid"
     }
   ]
 }

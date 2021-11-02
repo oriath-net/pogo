@@ -31,15 +31,16 @@
       "type": "string"
     },
     {
-      "name": "Flag0",
+      "name": "Flag7",
       "type": "bool"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "TagsKey",
+      "type": "longid",
+      "ref": "Tags"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown9",
       "type": "i32"
     },
     {
@@ -48,8 +49,9 @@
       "ref": "Mods"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "CurrencyItemsKey",
+      "type": "longid",
+      "ref": "CurrencyItems"
     }
   ]
 }

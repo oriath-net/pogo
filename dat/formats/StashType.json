@@ -16,11 +16,11 @@
       "type": "string"
     },
     {
-      "name": "Unknown3",
+      "name": "Width",
       "type": "i32"
     },
     {
-      "name": "Unknown4",
+      "name": "Height",
       "type": "i32"
     },
     {

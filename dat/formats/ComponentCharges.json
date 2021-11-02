@@ -4,9 +4,9 @@
     {
       "name": "BaseItemTypesKey",
       "type": "string",
+      "unique": true,
       "ref": "BaseItemTypes",
-      "ref-field": "Id",
-      "unique": true
+      "ref-field": "Id"
     },
     {
       "name": "MaxCharges",
@@ -14,6 +14,14 @@
     },
     {
       "name": "PerCharge",
+      "type": "i32"
+    },
+    {
+      "name": "MaxCharges2",
+      "type": "i32"
+    },
+    {
+      "name": "PerCharge2",
       "type": "i32"
     }
   ]

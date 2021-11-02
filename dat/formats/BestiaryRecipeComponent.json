@@ -31,8 +31,9 @@
       "ref": "BestiaryCapturableMonsters"
     },
     {
-      "name": "RarityKey",
-      "type": "i32"
+      "name": "BeastRarity",
+      "type": "longid",
+      "ref": "Rarity"
     },
     {
       "name": "BestiaryGenusKey",

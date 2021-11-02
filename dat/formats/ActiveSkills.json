@@ -15,21 +15,21 @@
       "type": "string"
     },
     {
-      "name": "Index3",
+      "name": "Unknown3",
       "type": "string"
     },
     {
       "name": "Icon_DDSFile",
-      "type": "string",
-      "path": "dds"
+      "type": "string"
     },
     {
       "name": "ActiveSkillTargetTypes",
-      "type": "u32[]"
+      "type": "i32[]"
     },
     {
       "name": "ActiveSkillTypes",
-      "type": "u32[]"
+      "type": "longid[]",
+      "ref": "ActiveSkillType"
     },
     {
       "name": "WeaponRestriction_ItemClassesKeys",
@@ -45,21 +45,20 @@
       "type": "string"
     },
     {
-      "name": "Flag0",
+      "name": "Flag10",
       "type": "bool"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown11",
       "type": "string"
     },
     {
-      "name": "Flag1",
+      "name": "Flag12",
       "type": "bool"
     },
     {
       "name": "SkillTotemId",
-      "type": "i32",
-      "description": "This links to SkillTotems.dat, but the number mayexceed the number of entries; in that case it is player skill."
+      "type": "i32"
     },
     {
       "name": "IsManuallyCasted",
@@ -68,56 +67,62 @@
     {
       "name": "Input_StatKeys",
       "type": "longid[]",
-      "ref": "Stats",
-      "description": "Stats that will modify this skill specifically"
+      "ref": "Stats"
     },
     {
       "name": "Output_StatKeys",
       "type": "longid[]",
-      "ref": "Stats",
-      "description": "Stat an input stat will be transformed into"
+      "ref": "Stats"
     },
     {
       "name": "MinionActiveSkillTypes",
-      "type": "i32[]",
-      "description": "ActiveSkillTypes of skills of minions summoned by this skill"
+      "type": "longid[]",
+      "ref": "ActiveSkillType"
     },
     {
-      "name": "Flag2",
+      "name": "Flag18",
       "type": "bool"
     },
     {
-      "name": "Flag3",
+      "name": "Flag19",
       "type": "bool"
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "Key20",
+      "type": "longid[]"
     },
     {
-      "name": "Unknown1",
+      "name": "Unknown21",
       "type": "i32"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "AlternateSkillTargetingBehavioursKey",
+      "type": "longid",
+      "ref": "AlternateSkillTargetingBehaviours"
     },
     {
-      "name": "Flag4",
+      "name": "Flag23",
       "type": "bool"
     },
     {
       "name": "AIFile",
-      "type": "string",
-      "path": ".ai"
+      "type": "string"
     },
     {
-      "name": "Unknown2",
-      "type": "i32"
+      "name": "Key25",
+      "type": "longid[]"
     },
     {
-      "name": "Unknown3",
-      "type": "i32"
+      "name": "Flag26",
+      "type": "bool"
+    },
+    {
+      "name": "Flag27",
+      "type": "bool"
+    },
+    {
+      "name": "Flag28",
+      "type": "bool"
     }
   ]
 }

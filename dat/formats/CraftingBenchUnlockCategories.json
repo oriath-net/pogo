@@ -3,7 +3,8 @@
   "fields": [
     {
       "name": "Id",
-      "type": "string"
+      "type": "string",
+      "unique": true
     },
     {
       "name": "Unknown1",
@@ -18,7 +19,7 @@
       "type": "string"
     },
     {
-      "name": "CraftingItemClassCategoriesKeys",
+      "name": "CraftingItemClassCategories",
       "type": "longid[]",
       "ref": "CraftingItemClassCategories"
     },

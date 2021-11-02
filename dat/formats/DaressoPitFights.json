@@ -7,39 +7,39 @@
       "unique": true
     },
     {
-      "name": "Key0",
-      "type": "u64"
-    },
-    {
-      "name": "Unknown1",
-      "type": "i32"
+      "name": "Key1",
+      "type": "longid"
     },
     {
       "name": "Unknown2",
-      "type": "i32[]"
-    },
-    {
-      "name": "FlagUnknown0",
-      "type": "bool"
-    },
-    {
-      "name": "FlagUnknown2",
-      "type": "bool"
+      "type": "i32"
     },
     {
       "name": "Unknown3",
-      "type": "i32"
+      "type": "i32[]"
     },
     {
-      "name": "Unknown4",
-      "type": "i32"
+      "name": "Flag4",
+      "type": "bool"
+    },
+    {
+      "name": "Flag5",
+      "type": "bool"
     },
     {
       "name": "Unknown6",
       "type": "i32"
     },
     {
-      "name": "FlagUnknown3",
+      "name": "Unknown7",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown8",
+      "type": "i32"
+    },
+    {
+      "name": "Flag9",
       "type": "bool"
     }
   ]

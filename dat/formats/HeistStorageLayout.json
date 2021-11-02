@@ -7,11 +7,12 @@
       "unique": true
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "BaseItemType",
+      "type": "longid",
+      "ref": "BaseItemTypes"
     },
     {
-      "name": "Flag0",
+      "name": "Flag2",
       "type": "bool"
     },
     {
@@ -19,7 +20,7 @@
       "type": "string"
     },
     {
-      "name": "Unknown3",
+      "name": "Unknown4",
       "type": "i32"
     },
     {
@@ -28,15 +29,11 @@
       "ref": "HeistJobs"
     },
     {
-      "name": "Unknown5",
+      "name": "Columns",
       "type": "i32"
     },
     {
-      "name": "Unknown6",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown7",
+      "name": "Rows",
       "type": "i32"
     },
     {
@@ -52,8 +49,13 @@
       "type": "i32"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "Unknown11",
+      "type": "i32"
+    },
+    {
+      "name": "ItemClass",
+      "type": "longid",
+      "ref": "ItemClasses"
     }
   ]
 }

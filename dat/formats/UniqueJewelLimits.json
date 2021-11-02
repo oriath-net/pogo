@@ -2,8 +2,8 @@
   "file": "UniqueJewelLimits",
   "fields": [
     {
-      "name": "UniqueItemsKey",
-      "type": "u64"
+      "name": "Key0",
+      "type": "longid"
     },
     {
       "name": "Limit",

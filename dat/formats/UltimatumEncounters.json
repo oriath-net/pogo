@@ -1,0 +1,44 @@
+{
+  "file": "UltimatumEncounters",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    },
+    {
+      "name": "ModTypes",
+      "type": "longid[]",
+      "ref": "UltimatumModifierTypes"
+    },
+    {
+      "name": "BossARMFile",
+      "type": "string"
+    },
+    {
+      "name": "Type",
+      "type": "longid",
+      "ref": "UltimatumEncounterTypes"
+    },
+    {
+      "name": "Icon",
+      "type": "string"
+    },
+    {
+      "name": "HASH16",
+      "type": "i32"
+    },
+    {
+      "name": "Flag7",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown8",
+      "type": "i32"
+    }
+  ]
+}

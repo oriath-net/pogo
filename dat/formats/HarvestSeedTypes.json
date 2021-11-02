@@ -4,12 +4,12 @@
     {
       "name": "HarvestObjectsKey",
       "type": "longid",
-      "ref": "HarvestObjects",
-      "unique": true
+      "unique": true,
+      "ref": "HarvestObjects"
     },
     {
       "name": "Key1",
-      "type": "u64"
+      "type": "longid"
     },
     {
       "name": "GrowthCycles",
@@ -17,8 +17,7 @@
     },
     {
       "name": "AOFiles",
-      "type": "string[]",
-      "path": "ao"
+      "type": "string[]"
     },
     {
       "name": "Unknown4",

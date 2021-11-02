@@ -11,11 +11,11 @@
       "type": "i32"
     },
     {
-      "name": "Unknown1",
+      "name": "Unknown2",
       "type": "i32"
     },
     {
-      "name": "Unknown2",
+      "name": "Unknown3",
       "type": "i32"
     },
     {
@@ -56,26 +56,22 @@
     {
       "name": "Goddess_CharacterTextAudioKeys",
       "type": "longid[]",
-      "ref": "CharacterTextAudio",
-      "description": "For Oni-Goroshi unique"
+      "description": "For the Goddess Bound/Scorned/Unleashed unique",
+      "ref": "CharacterTextAudio"
     },
     {
       "name": "JackTheAxe_CharacterTextAudioKeys",
       "type": "longid[]",
-      "ref": "CharacterTextAudio",
-      "description": "For Jack the Axe unique"
+      "description": "For Jack the Axe unique",
+      "ref": "CharacterTextAudio"
     },
     {
-      "name": "IsGameplayEvent",
-      "type": "bool",
-      "since": "3.0",
-      "description": "affects 'disable gameplay event voices'"
+      "name": "Flag13",
+      "type": "bool"
     },
     {
-      "name": "Flag1",
-      "type": "bool",
-      "since": "3.14",
-      "description": "always false"
+      "name": "Flag14",
+      "type": "bool"
     }
   ]
 }

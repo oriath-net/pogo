@@ -8,8 +8,7 @@
     },
     {
       "name": "DDSFile",
-      "type": "string",
-      "path": "dds"
+      "type": "string"
     }
   ]
 }

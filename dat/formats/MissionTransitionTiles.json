@@ -8,8 +8,7 @@
     },
     {
       "name": "TDTFile",
-      "type": "string",
-      "path": "tdt"
+      "type": "string"
     },
     {
       "name": "Unknown2",

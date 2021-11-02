@@ -36,12 +36,12 @@
       "ref": "CharacterPanelTabs"
     },
     {
-      "name": "Flag0",
+      "name": "Flag7",
       "type": "bool"
     },
     {
-      "name": "Data4",
-      "type": "u32[]"
+      "name": "Unknown8",
+      "type": "i32[]"
     }
   ]
 }

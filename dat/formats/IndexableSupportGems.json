@@ -2,13 +2,14 @@
   "file": "IndexableSupportGems",
   "fields": [
     {
-      "name": "Unknown0",
-      "type": "i32"
+      "name": "Index",
+      "type": "i32",
+      "unique": true
     },
     {
-      "name": "BaseItemTypesKey",
+      "name": "SupportGem",
       "type": "longid",
-      "ref": "BaseItemTypes"
+      "ref": "SkillGems"
     },
     {
       "name": "Name",

@@ -7,19 +7,19 @@
       "unique": true
     },
     {
-      "name": "Data0",
+      "name": "Unknown1",
       "type": "i32[]"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown2",
       "type": "i32"
     },
     {
-      "name": "Data1",
+      "name": "Unknown3",
       "type": "i32[]"
     },
     {
-      "name": "Flag0",
+      "name": "Flag4",
       "type": "bool"
     }
   ]

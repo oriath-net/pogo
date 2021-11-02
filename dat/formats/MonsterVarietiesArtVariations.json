@@ -1,0 +1,17 @@
+{
+  "file": "MonsterVarietiesArtVariations",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "u8[]"
+    }
+  ]
+}

@@ -15,8 +15,9 @@
       "type": "string"
     },
     {
-      "name": "Unknown0",
-      "type": "i32"
+      "name": "Key3",
+      "type": "shortid",
+      "ref": "HeistChestRewardTypes"
     },
     {
       "name": "RewardRoomName",
@@ -39,11 +40,12 @@
       "type": "string"
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "HeistJobsKey",
+      "type": "longid[]",
+      "ref": "HeistJobs"
     },
     {
-      "name": "Unknown1",
+      "name": "Unknown10",
       "type": "i32"
     }
   ]

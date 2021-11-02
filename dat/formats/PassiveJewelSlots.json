@@ -7,11 +7,12 @@
       "ref": "PassiveSkills"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "PassiveTreeExpansionJewelSize",
+      "type": "longid",
+      "ref": "PassiveTreeExpansionJewelSizes"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown2",
       "type": "i32"
     },
     {
@@ -20,16 +21,12 @@
       "ref": "PassiveJewelSlots"
     },
     {
-      "name": "Unknown1",
-      "type": "u64"
+      "name": "Key4",
+      "type": "longid"
     },
     {
-      "name": "Unknown2",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown3",
-      "type": "i32"
+      "name": "Unknown5",
+      "type": "i32[]"
     }
   ]
 }

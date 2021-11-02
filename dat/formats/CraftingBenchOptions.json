@@ -11,18 +11,18 @@
       "type": "i32"
     },
     {
-      "name": "ModsKey",
+      "name": "AddMod",
       "type": "longid",
       "ref": "Mods"
     },
     {
-      "name": "Cost_BaseItemTypesKeys",
+      "name": "Cost_BaseItemTypes",
       "type": "longid[]",
       "ref": "BaseItemTypes"
     },
     {
       "name": "Cost_Values",
-      "type": "u32[]"
+      "type": "i32[]"
     },
     {
       "name": "RequiredLevel",
@@ -37,7 +37,7 @@
       "type": "i32"
     },
     {
-      "name": "ItemClassesKeys",
+      "name": "ItemClasses",
       "type": "longid[]",
       "ref": "ItemClasses"
     },
@@ -58,7 +58,7 @@
       "type": "i32"
     },
     {
-      "name": "Data0",
+      "name": "Unknown13",
       "type": "i32[]"
     },
     {
@@ -75,7 +75,7 @@
     },
     {
       "name": "RecipeIds",
-      "type": "shortid[]",
+      "type": "i32[]",
       "ref": "RecipeUnlockDisplay",
       "ref-field": "RecipeId"
     },
@@ -84,20 +84,16 @@
       "type": "i32"
     },
     {
-      "name": "ModFamily",
-      "type": "string"
-    },
-    {
-      "name": "CraftingItemClassCategoriesKeys",
+      "name": "CraftingItemClassCategories",
       "type": "longid[]",
       "ref": "CraftingItemClassCategories"
     },
     {
-      "name": "MaximumMapTier",
+      "name": "Unknown20",
       "type": "i32"
     },
     {
-      "name": "CraftingBenchUnlockCategoriesKey",
+      "name": "UnlockCategory",
       "type": "longid",
       "ref": "CraftingBenchUnlockCategories"
     },
@@ -110,32 +106,45 @@
       "type": "i32"
     },
     {
-      "name": "AffixType",
-      "type": "string"
+      "name": "Key24",
+      "type": "longid[]"
     },
     {
-      "name": "Keys1",
-      "type": "u64[]"
+      "name": "Key25",
+      "type": "longid[]"
     },
     {
-      "name": "Keys2",
-      "type": "u64[]"
-    },
-    {
-      "name": "AchievementItemsKeys",
-      "type": "longid[]",
-      "ref": "AchievementItems"
-    },
-    {
-      "name": "Unknown0",
+      "name": "Unknown26",
       "type": "i32"
     },
     {
-      "name": "Unknown1",
+      "name": "Unknown27",
       "type": "i32"
     },
     {
-      "name": "Flag0",
+      "name": "Flag28",
+      "type": "bool"
+    },
+    {
+      "name": "Key29",
+      "type": "longid"
+    },
+    {
+      "name": "AddEnchantment",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "SortCategory",
+      "type": "longid",
+      "ref": "CraftingBenchSortCategories"
+    },
+    {
+      "name": "Key32",
+      "type": "longid"
+    },
+    {
+      "name": "Flag33",
       "type": "bool"
     }
   ]

@@ -4,16 +4,16 @@
     {
       "name": "HarvestObjectsKey",
       "type": "longid",
-      "ref": "HarvestObjects",
-      "unique": true
+      "unique": true,
+      "ref": "HarvestObjects"
     },
     {
       "name": "Radius",
       "type": "i32"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "Key2",
+      "type": "longid"
     },
     {
       "name": "Lifeforce",

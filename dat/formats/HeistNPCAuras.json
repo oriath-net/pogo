@@ -7,8 +7,8 @@
       "ref": "Stats"
     },
     {
-      "name": "Unknown1",
-      "type": "u64"
+      "name": "Key1",
+      "type": "longid"
     }
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "file": "HellscapeItemModificationTiers",
+  "fields": [
+    {
+      "name": "Tier",
+      "type": "i32"
+    },
+    {
+      "name": "IsMap",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "MinItemLvl",
+      "type": "i32"
+    }
+  ]
+}

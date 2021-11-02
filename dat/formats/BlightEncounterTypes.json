@@ -12,7 +12,7 @@
     },
     {
       "name": "IsGeneric",
-      "type": "u8"
+      "type": "bool"
     },
     {
       "name": "Weight",

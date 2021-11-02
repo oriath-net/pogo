@@ -2,44 +2,43 @@
   "file": "AegisVariations",
   "fields": [
     {
-      "name": "Id",
+      "name": "Name",
       "type": "string"
     },
     {
-      "name": "AbsorbsPhysical",
+      "name": "DefendsAgainstPhysical",
       "type": "bool"
     },
     {
-      "name": "AbsorbsFire",
+      "name": "DefendsAgainstFire",
       "type": "bool"
     },
     {
-      "name": "AbsorbsCold",
+      "name": "DefendsAgainstCold",
       "type": "bool"
     },
     {
-      "name": "AbsorbsLightning",
+      "name": "DefendsAgainstLightning",
       "type": "bool"
     },
     {
-      "name": "Flag5",
-      "type": "bool",
-      "description": "probably AbsorbsChaos, but unused"
+      "name": "DefendsAgainstChaos",
+      "type": "bool"
     },
     {
-      "name": "Unknown1",
+      "name": "Key6",
       "type": "longid"
     },
     {
-      "name": "Unknown2",
+      "name": "Key7",
       "type": "longid"
     },
     {
-      "name": "Unknown3",
+      "name": "Key8",
       "type": "longid"
     },
     {
-      "name": "Unknown4",
+      "name": "Key9",
       "type": "longid"
     }
   ]

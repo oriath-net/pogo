@@ -1,0 +1,9 @@
+{
+  "file": "HellscapeImmuneMonsters",
+  "fields": [
+    {
+      "name": "Key0",
+      "type": "longid"
+    }
+  ]
+}

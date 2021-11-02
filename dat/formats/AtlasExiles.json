@@ -16,18 +16,6 @@
       "type": "string"
     },
     {
-      "name": "Unknown0",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown1",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown2",
-      "type": "i32"
-    },
-    {
       "name": "Unknown3",
       "type": "i32"
     },
@@ -36,16 +24,21 @@
       "type": "i32"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown6",
+      "type": "i32"
     },
     {
       "name": "Unknown7",
       "type": "i32"
     },
     {
-      "name": "Unknown8",
-      "type": "i32"
+      "name": "QuestKey",
+      "type": "longid",
+      "ref": "Quest"
     },
     {
       "name": "Unknown9",
@@ -66,6 +59,32 @@
     {
       "name": "Unknown13",
       "type": "i32"
+    },
+    {
+      "name": "Unknown14",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown15",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown16",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown17",
+      "type": "i32"
+    },
+    {
+      "name": "StatsKey",
+      "type": "longid",
+      "ref": "Stats"
+    },
+    {
+      "name": "InventoriesKey",
+      "type": "longid",
+      "ref": "Inventories"
     }
   ]
 }

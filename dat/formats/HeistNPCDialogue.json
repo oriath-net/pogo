@@ -2,20 +2,24 @@
   "file": "HeistNPCDialogue",
   "fields": [
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "DialogueEventKey",
+      "type": "longid",
+      "ref": "DialogueEvent"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "HeistNPCsKey",
+      "type": "longid",
+      "ref": "HeistNPCs"
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "AudioNormal",
+      "type": "longid[]",
+      "ref": "NPCTextAudio"
     },
     {
-      "name": "Keys1",
-      "type": "u64[]"
+      "name": "AudioLoud",
+      "type": "longid[]",
+      "ref": "NPCTextAudio"
     },
     {
       "name": "Unknown4",

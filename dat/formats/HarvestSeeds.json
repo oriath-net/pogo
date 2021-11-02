@@ -1,0 +1,58 @@
+{
+  "file": "HarvestSeeds",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "Monster",
+      "type": "longid",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "Tier",
+      "type": "i32"
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    },
+    {
+      "name": "Key4",
+      "type": "longid[]"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown6",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown7",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown8",
+      "type": "i32"
+    },
+    {
+      "name": "SeedAnimation",
+      "type": "string"
+    },
+    {
+      "name": "Unknown10",
+      "type": "i32"
+    },
+    {
+      "name": "HatchAnimation",
+      "type": "string"
+    },
+    {
+      "name": "SeedType",
+      "type": "i32"
+    }
+  ]
+}

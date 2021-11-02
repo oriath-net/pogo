@@ -8,64 +8,63 @@
     },
     {
       "name": "PETFile1",
-      "type": "string",
-      "path": "pet"
+      "type": "string"
     },
     {
       "name": "PETFile2",
-      "type": "string",
-      "path": "pet"
+      "type": "string"
     },
     {
       "name": "PETFile3",
-      "type": "string",
-      "path": "pet"
+      "type": "string"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "Key4",
+      "type": "longid"
     },
     {
       "name": "PETFile4",
-      "type": "string",
-      "path": "pet"
+      "type": "string"
     },
     {
       "name": "PETFile5",
-      "type": "string",
-      "path": "pet"
+      "type": "string"
     },
     {
       "name": "PETFile6",
-      "type": "string",
-      "path": "pet"
+      "type": "string"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "Key8",
+      "type": "longid"
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "Key9",
+      "type": "longid[]"
     },
     {
-      "name": "Key2",
-      "type": "u64"
+      "name": "Key10",
+      "type": "longid"
     },
     {
       "name": "PETFile7",
-      "type": "string",
-      "path": "pet"
+      "type": "string"
     },
     {
       "name": "PETFile8",
-      "type": "string",
-      "path": "pet"
+      "type": "string"
     },
     {
       "name": "PETFile9",
-      "type": "string",
-      "path": "pet"
+      "type": "string"
+    },
+    {
+      "name": "Key14",
+      "type": "longid"
+    },
+    {
+      "name": "Key15",
+      "type": "longid"
     }
   ]
 }

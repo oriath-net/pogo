@@ -99,8 +99,9 @@
       "type": "bool"
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "AchievementItems",
+      "type": "longid[]",
+      "ref": "AchievementItems"
     }
   ]
 }

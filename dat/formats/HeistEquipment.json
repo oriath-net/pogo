@@ -4,8 +4,8 @@
     {
       "name": "BaseItemTypesKey",
       "type": "longid",
-      "ref": "BaseItemTypes",
-      "unique": true
+      "unique": true,
+      "ref": "BaseItemTypes"
     },
     {
       "name": "RequiredJob_HeistJobsKey",

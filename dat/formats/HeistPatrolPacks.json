@@ -27,8 +27,8 @@
       "type": "i32"
     },
     {
-      "name": "Unknown7",
-      "type": "u8"
+      "name": "Flag6",
+      "type": "bool"
     }
   ]
 }

@@ -1,0 +1,49 @@
+{
+  "file": "UltimatumItemisedRewards",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "HASH16",
+      "type": "i32"
+    },
+    {
+      "name": "RewardText",
+      "type": "string"
+    },
+    {
+      "name": "ItemVisualIdentityKey",
+      "type": "longid",
+      "ref": "ItemVisualIdentity"
+    },
+    {
+      "name": "RewardType",
+      "type": "i32"
+    },
+    {
+      "name": "SacrificeItem",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "SacrificeAmount",
+      "type": "i32"
+    },
+    {
+      "name": "SacrificeText",
+      "type": "string"
+    },
+    {
+      "name": "Flag8",
+      "type": "bool"
+    },
+    {
+      "name": "TrialMods",
+      "type": "longid[]",
+      "ref": "Mods"
+    }
+  ]
+}

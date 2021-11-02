@@ -8,8 +8,8 @@
     {
       "name": "MonsterVarietiesKey",
       "type": "longid",
-      "ref": "MonsterVarieties",
-      "description": "Monster that plays the effect, i.e. the \"nova\" etc."
+      "description": "Monster that plays the effect, i.e. the 'nova' etc.",
+      "ref": "MonsterVarieties"
     },
     {
       "name": "AchievementItemsKey",

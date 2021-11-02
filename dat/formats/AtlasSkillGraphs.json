@@ -1,0 +1,22 @@
+{
+  "file": "AtlasSkillGraphs",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "SkillGraph",
+      "type": "string"
+    },
+    {
+      "name": "RegionName",
+      "type": "string"
+    },
+    {
+      "name": "Achievements",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    }
+  ]
+}

@@ -3,8 +3,7 @@
   "fields": [
     {
       "name": "DamageParticleEffectTypes",
-      "type": "shortid",
-      "ref": "DamageParticleEffectTypes"
+      "type": "i32"
     },
     {
       "name": "Variation",
@@ -12,19 +11,20 @@
     },
     {
       "name": "PETFile",
-      "type": "string",
-      "path": "pet"
+      "type": "string"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "ImpactSoundData1",
+      "type": "longid",
+      "ref": "ImpactSoundData"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "ImpactSoundData2",
+      "type": "longid",
+      "ref": "ImpactSoundData"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown5",
       "type": "i32"
     }
   ]

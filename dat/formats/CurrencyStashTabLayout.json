@@ -11,10 +11,6 @@
       "ref": "BaseItemTypes"
     },
     {
-      "name": "Unknown1",
-      "type": "i32"
-    },
-    {
       "name": "Unknown2",
       "type": "i32"
     },
@@ -31,7 +27,11 @@
       "type": "i32"
     },
     {
-      "name": "Flag0",
+      "name": "Unknown6",
+      "type": "i32"
+    },
+    {
+      "name": "Flag7",
       "type": "bool"
     }
   ]

@@ -12,8 +12,9 @@
       "ref": "Chests"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "UniqueChestsKey",
+      "type": "longid",
+      "ref": "UniqueChests"
     },
     {
       "name": "MinLevel",
@@ -28,7 +29,7 @@
       "type": "i32"
     },
     {
-      "name": "Unknown8",
+      "name": "Unknown6",
       "type": "i32"
     }
   ]

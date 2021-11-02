@@ -28,7 +28,7 @@
       "type": "i32"
     },
     {
-      "name": "Unknown7",
+      "name": "Unknown6",
       "type": "i32[]"
     },
     {
@@ -42,16 +42,18 @@
       "ref": "ItemVisualIdentity"
     },
     {
-      "name": "Key2",
-      "type": "u64"
+      "name": "GrantedEffectsKey",
+      "type": "longid",
+      "ref": "GrantedEffects"
     },
     {
-      "name": "Unknown11",
+      "name": "Unknown10",
       "type": "i32"
     },
     {
-      "name": "Key3",
-      "type": "u64"
+      "name": "ItemClassesKey",
+      "type": "longid",
+      "ref": "ItemClasses"
     }
   ]
 }

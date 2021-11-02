@@ -1,0 +1,45 @@
+{
+  "file": "ItemCosts",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "Cost1Currencies",
+      "type": "longid[]",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "Cost1Values",
+      "type": "i32[]"
+    },
+    {
+      "name": "Cost2Currencies",
+      "type": "longid[]",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "Cost2Values",
+      "type": "i32[]"
+    },
+    {
+      "name": "Cost3Currencies",
+      "type": "longid[]",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "Cost3Values",
+      "type": "i32[]"
+    },
+    {
+      "name": "Cost4Currencies",
+      "type": "longid[]",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "Cost4Values",
+      "type": "i32[]"
+    }
+  ]
+}

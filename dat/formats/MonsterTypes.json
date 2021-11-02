@@ -31,11 +31,6 @@
       "type": "i32"
     },
     {
-      "name": "TagsKeys",
-      "type": "longid[]",
-      "ref": "Tags"
-    },
-    {
       "name": "MonsterResistancesKey",
       "type": "longid",
       "ref": "MonsterResistances"
@@ -46,6 +41,10 @@
     },
     {
       "name": "IsSmallAbyssMonster",
+      "type": "bool"
+    },
+    {
+      "name": "Flag10",
       "type": "bool"
     }
   ]

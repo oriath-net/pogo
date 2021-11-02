@@ -11,7 +11,7 @@
     },
     {
       "name": "Unknown2",
-      "type": "i32"
+      "type": "i32[]"
     },
     {
       "name": "Unknown3",
@@ -35,10 +35,6 @@
     },
     {
       "name": "Unknown8",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown9",
       "type": "i32"
     }
   ]

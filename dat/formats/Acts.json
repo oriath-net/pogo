@@ -3,22 +3,11 @@
   "fields": [
     {
       "name": "Id",
-      "type": "string"
+      "type": "string",
+      "unique": true
     },
     {
       "name": "Part",
-      "type": "i32"
-    },
-    {
-      "name": "Name",
-      "type": "string"
-    },
-    {
-      "name": "Unknown0",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown1",
       "type": "i32"
     },
     {
@@ -26,23 +15,35 @@
       "type": "string"
     },
     {
-      "name": "Unknown3",
-      "type": "string"
+      "name": "ActNumber",
+      "type": "i32"
     },
     {
       "name": "Unknown4",
       "type": "i32"
     },
     {
-      "name": "Unknown5",
-      "type": "bool"
+      "name": "WorldPanelImage",
+      "type": "string"
     },
     {
-      "name": "Unknown6",
-      "type": "i32"
+      "name": "WorldPanelImageEpilogue",
+      "type": "string"
     },
     {
       "name": "Unknown7",
+      "type": "i32"
+    },
+    {
+      "name": "IsPostGame",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown9",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown10",
       "type": "i32"
     }
   ]

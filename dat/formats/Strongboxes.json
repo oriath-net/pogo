@@ -4,15 +4,15 @@
     {
       "name": "ChestsKey",
       "type": "longid",
-      "ref": "Chests",
-      "unique": true
+      "unique": true,
+      "ref": "Chests"
     },
     {
       "name": "SpawnWeight",
       "type": "i32"
     },
     {
-      "name": "Unknown1",
+      "name": "Unknown2",
       "type": "i32"
     },
     {
@@ -20,7 +20,7 @@
       "type": "bool"
     },
     {
-      "name": "Flag0",
+      "name": "Flag4",
       "type": "bool"
     }
   ]

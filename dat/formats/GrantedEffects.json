@@ -12,8 +12,9 @@
     },
     {
       "name": "AllowedActiveSkillTypes",
-      "type": "u32[]",
-      "description": "This support gem only supports active skills with at least one of these types"
+      "type": "longid[]",
+      "description": "This support gem only supports active skills with at least one of these types",
+      "ref": "ActiveSkillType"
     },
     {
       "name": "BaseEffectiveness",
@@ -28,18 +29,20 @@
       "type": "string"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown6",
       "type": "i32"
     },
     {
       "name": "AddedActiveSkillTypes",
-      "type": "u32[]",
-      "description": "This support gem adds these types to supported active skills"
+      "type": "longid[]",
+      "description": "This support gem adds these types to supported active skills",
+      "ref": "ActiveSkillType"
     },
     {
       "name": "ExcludedActiveSkillTypes",
-      "type": "u32[]",
-      "description": "This support gem does not support active skills with one of these types"
+      "type": "longid[]",
+      "description": "This support gem does not support active skills with one of these types",
+      "ref": "ActiveSkillType"
     },
     {
       "name": "SupportsGemsOnly",
@@ -47,19 +50,19 @@
       "description": "This support gem only supports active skills that come from gem items"
     },
     {
-      "name": "Unknown1",
-      "type": "u32"
+      "name": "Unknown10",
+      "type": "i32"
     },
     {
-      "name": "Data3",
+      "name": "Unknown11",
       "type": "i32[]"
     },
     {
-      "name": "Flag1",
+      "name": "Flag12",
       "type": "bool"
     },
     {
-      "name": "Unknown2",
+      "name": "Unknown13",
       "type": "i32"
     },
     {
@@ -72,32 +75,34 @@
       "ref": "ActiveSkills"
     },
     {
-      "name": "Flag2",
+      "name": "Flag16",
       "type": "bool"
     },
     {
-      "name": "Flag3",
+      "name": "Flag17",
       "type": "bool"
     },
     {
-      "name": "Data4",
+      "name": "Unknown18",
       "type": "i32[]"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "Key19",
+      "type": "longid"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "MultiPartAchievement",
+      "type": "longid",
+      "ref": "MultiPartAchievements"
     },
     {
-      "name": "Flag4",
+      "name": "Flag21",
       "type": "bool"
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "ItemClasses",
+      "type": "longid[]",
+      "ref": "ItemClasses"
     },
     {
       "name": "GrantedEffectsKey",

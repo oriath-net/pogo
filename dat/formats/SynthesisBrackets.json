@@ -2,8 +2,9 @@
   "file": "SynthesisBrackets",
   "fields": [
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "WorldAreasKey1",
+      "type": "longid",
+      "ref": "WorldAreas"
     },
     {
       "name": "MinLevel",
@@ -14,8 +15,9 @@
       "type": "i32"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "WorldAreasKey2",
+      "type": "longid",
+      "ref": "WorldAreas"
     },
     {
       "name": "Unknown4",

@@ -1,0 +1,17 @@
+{
+  "file": "GamepadType",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "Console",
+      "type": "string"
+    },
+    {
+      "name": "ImageFile",
+      "type": "string"
+    }
+  ]
+}

@@ -2,21 +2,22 @@
   "file": "AtlasExileInfluenceData",
   "fields": [
     {
-      "name": "AtlasExileInfluenceOutcomeTypesKey",
+      "name": "InfluenceOutcome",
       "type": "longid",
-      "ref": "AtlasExileInfluenceOutcomeTypes"
+      "ref": "AtlasExileInfluenceOutcomes"
     },
     {
-      "name": "Unknown1",
-      "type": "u64[]"
+      "name": "Key1",
+      "type": "longid[]"
     },
     {
-      "name": "Unknown2",
-      "type": "u64"
+      "name": "Key2",
+      "type": "longid"
     },
     {
-      "name": "Unknown3",
-      "type": "u64[]"
+      "name": "Key3",
+      "type": "longid[]",
+      "ref": "Stats"
     },
     {
       "name": "Unknown4",

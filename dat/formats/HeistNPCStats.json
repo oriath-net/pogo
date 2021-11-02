@@ -7,10 +7,6 @@
       "ref": "Stats"
     },
     {
-      "name": "Flag0",
-      "type": "bool"
-    },
-    {
       "name": "Flag1",
       "type": "bool"
     },
@@ -20,6 +16,10 @@
     },
     {
       "name": "Flag3",
+      "type": "bool"
+    },
+    {
+      "name": "Flag4",
       "type": "bool"
     }
   ]

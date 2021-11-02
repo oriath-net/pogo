@@ -8,64 +8,53 @@
     },
     {
       "name": "DDSFile",
-      "type": "string",
-      "path": "dds"
+      "type": "string"
     },
     {
       "name": "AOFile",
-      "type": "string",
-      "path": "ao"
+      "type": "string"
     },
     {
-      "name": "SoundEffectsKey",
+      "name": "InventorySoundEffect",
       "type": "longid",
-      "ref": "SoundEffects",
-      "description": "Inventory sound effect"
+      "ref": "SoundEffects"
     },
     {
-      "name": "UnknownUniqueInt",
+      "name": "Unknown4",
       "type": "i32",
       "unique": true
     },
     {
       "name": "AOFile2",
-      "type": "string",
-      "path": "ao"
+      "type": "string"
     },
     {
       "name": "MarauderSMFiles",
-      "type": "string[]",
-      "path": "sm"
+      "type": "string[]"
     },
     {
       "name": "RangerSMFiles",
-      "type": "string[]",
-      "path": "sm"
+      "type": "string[]"
     },
     {
       "name": "WitchSMFiles",
-      "type": "string[]",
-      "path": "sm"
+      "type": "string[]"
     },
     {
       "name": "DuelistDexSMFiles",
-      "type": "string[]",
-      "path": "sm"
+      "type": "string[]"
     },
     {
       "name": "TemplarSMFiles",
-      "type": "string[]",
-      "path": "sm"
+      "type": "string[]"
     },
     {
       "name": "ShadowSMFiles",
-      "type": "string[]",
-      "path": "sm"
+      "type": "string[]"
     },
     {
       "name": "ScionSMFiles",
-      "type": "string[]",
-      "path": "sm"
+      "type": "string[]"
     },
     {
       "name": "MarauderShape",
@@ -96,11 +85,11 @@
       "type": "string"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown20",
       "type": "i32"
     },
     {
-      "name": "Unknown1",
+      "name": "Unknown21",
       "type": "i32"
     },
     {
@@ -110,8 +99,7 @@
     },
     {
       "name": "SMFiles",
-      "type": "string[]",
-      "path": "sm"
+      "type": "string[]"
     },
     {
       "name": "Identify_AchievementItemsKeys",
@@ -120,8 +108,7 @@
     },
     {
       "name": "EPKFile",
-      "type": "string",
-      "path": "epk"
+      "type": "string"
     },
     {
       "name": "Corrupt_AchievementItemsKeys",
@@ -133,7 +120,7 @@
       "type": "bool"
     },
     {
-      "name": "Flag2",
+      "name": "Flag28",
       "type": "bool"
     },
     {
@@ -146,51 +133,51 @@
       "type": "string"
     },
     {
-      "name": "Unknown2",
+      "name": "Unknown31",
       "type": "string"
     },
     {
-      "name": "Unknown3",
+      "name": "Unknown32",
       "type": "string"
     },
     {
-      "name": "Unknown4",
+      "name": "Unknown33",
       "type": "string"
     },
     {
-      "name": "Unknown5",
+      "name": "Unknown34",
       "type": "string"
     },
     {
-      "name": "Unknown6",
+      "name": "Unknown35",
       "type": "string"
     },
     {
-      "name": "Unknown7",
+      "name": "Unknown36",
       "type": "string"
     },
     {
-      "name": "Unknown8",
+      "name": "Unknown37",
       "type": "string"
     },
     {
-      "name": "Unknown9",
+      "name": "Unknown38",
       "type": "string"
     },
     {
-      "name": "Unknown10",
+      "name": "Unknown39",
       "type": "string"
     },
     {
-      "name": "Unknown11",
+      "name": "Unknown40",
       "type": "string"
     },
     {
-      "name": "Unknown12",
+      "name": "Unknown41",
       "type": "string"
     },
     {
-      "name": "Unknown13",
+      "name": "Unknown42",
       "type": "string"
     },
     {
@@ -202,16 +189,24 @@
       "type": "bool"
     },
     {
-      "name": "Unknown15",
+      "name": "Unknown45",
       "type": "i32[]"
     },
     {
-      "name": "Flag3",
+      "name": "Flag46",
       "type": "bool"
     },
     {
-      "name": "Unknown16",
-      "type": "u64[]"
+      "name": "Key47",
+      "type": "longid[]"
+    },
+    {
+      "name": "Unknown48",
+      "type": "string"
+    },
+    {
+      "name": "Unknown49",
+      "type": "i32"
     }
   ]
 }

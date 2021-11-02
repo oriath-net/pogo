@@ -7,20 +7,16 @@
       "unique": true
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "Key1",
+      "type": "longid[]"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "Key2",
+      "type": "longid"
     },
     {
       "name": "Unknown3",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown4",
-      "type": "i32"
+      "type": "i32[]"
     },
     {
       "name": "StatsKeys",

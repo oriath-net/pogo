@@ -6,28 +6,41 @@
       "type": "string"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "MiscObject",
+      "type": "longid",
+      "ref": "MiscObjects"
     },
     {
       "name": "Unknown2",
       "type": "i32"
     },
     {
-      "name": "Flag0",
-      "type": "u8"
-    },
-    {
-      "name": "InheritsFrom",
+      "name": "Unknown3",
       "type": "string"
     },
     {
-      "name": "Command",
+      "name": "Unknown4",
       "type": "string"
     },
     {
-      "name": "Command_Data",
+      "name": "Unknown5",
       "type": "i32[]"
+    },
+    {
+      "name": "Flag6",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown7",
+      "type": "i32"
+    },
+    {
+      "name": "Flag8",
+      "type": "bool"
+    },
+    {
+      "name": "Flag9",
+      "type": "bool"
     }
   ]
 }

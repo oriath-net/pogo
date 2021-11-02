@@ -3,8 +3,7 @@
   "fields": [
     {
       "name": "SkillTotemsKey",
-      "type": "shortid",
-      "ref": "SkillTotems"
+      "type": "i32"
     },
     {
       "name": "TotemSkinId",

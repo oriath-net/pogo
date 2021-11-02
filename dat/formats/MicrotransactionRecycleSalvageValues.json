@@ -2,15 +2,16 @@
   "file": "MicrotransactionRecycleSalvageValues",
   "fields": [
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "BaseItemType",
+      "type": "longid",
+      "ref": "BaseItemTypes"
     },
     {
-      "name": "Unknown2",
+      "name": "Unknown1",
       "type": "i32"
     },
     {
-      "name": "Unknown3",
+      "name": "Unknown2",
       "type": "i32"
     }
   ]

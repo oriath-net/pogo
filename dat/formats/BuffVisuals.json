@@ -8,26 +8,23 @@
     },
     {
       "name": "BuffDDSFile",
-      "type": "string",
-      "path": "dds"
+      "type": "string"
     },
     {
       "name": "EPKFiles1",
-      "type": "string[]",
-      "path": "epk"
+      "type": "string[]"
     },
     {
       "name": "EPKFiles2",
-      "type": "string[]",
-      "path": "epk"
+      "type": "string[]"
     },
     {
-      "name": "MiscAnimatedKeys1",
+      "name": "PreloadGroups",
       "type": "longid[]",
-      "ref": "MiscAnimated"
+      "ref": "PreloadGroups"
     },
     {
-      "name": "Flag0",
+      "name": "Flag5",
       "type": "bool"
     },
     {
@@ -35,12 +32,14 @@
       "type": "string"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "MiscAnimated1",
+      "type": "longid",
+      "ref": "MiscAnimated"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "MiscAnimated2",
+      "type": "longid",
+      "ref": "MiscAnimated"
     },
     {
       "name": "BuffDescription",
@@ -48,8 +47,7 @@
     },
     {
       "name": "EPKFile",
-      "type": "string",
-      "path": "epk"
+      "type": "string"
     },
     {
       "name": "HasExtraArt",
@@ -60,17 +58,22 @@
       "type": "string"
     },
     {
-      "name": "Unknown2",
+      "name": "Unknown13",
       "type": "i32[]"
     },
     {
       "name": "EPKFiles",
-      "type": "string[]",
-      "path": "epk"
+      "type": "string[]"
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "BuffVisualOrbs",
+      "type": "longid[]",
+      "ref": "BuffVisualOrbs"
+    },
+    {
+      "name": "MiscAnimated3",
+      "type": "longid",
+      "ref": "MiscAnimated"
     }
   ]
 }

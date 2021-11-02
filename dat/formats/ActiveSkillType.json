@@ -1,4 +1,14 @@
 {
   "file": "ActiveSkillType",
-  "fields": []
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Key1",
+      "type": "longid"
+    }
+  ]
 }

@@ -14,15 +14,15 @@
       "type": "i32"
     },
     {
-      "name": "Flag0",
+      "name": "Flag3",
       "type": "bool"
     },
     {
-      "name": "Flag1",
+      "name": "Flag4",
       "type": "bool"
     },
     {
-      "name": "Flag2",
+      "name": "Flag5",
       "type": "bool"
     },
     {
@@ -30,7 +30,7 @@
       "type": "i32"
     },
     {
-      "name": "Unknown5",
+      "name": "Unknown7",
       "type": "i32"
     }
   ]

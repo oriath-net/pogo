@@ -1,0 +1,19 @@
+{
+  "file": "TalkingPetNPCAudio",
+  "fields": [
+    {
+      "name": "Key0",
+      "type": "longid",
+      "ref": "TalkingPetAudioEvents"
+    },
+    {
+      "name": "Key1",
+      "type": "longid",
+      "ref": "TalkingPets"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32[]"
+    }
+  ]
+}

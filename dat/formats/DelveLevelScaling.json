@@ -10,7 +10,7 @@
       "type": "i32"
     },
     {
-      "name": "Unknown1",
+      "name": "Unknown2",
       "type": "i32"
     },
     {
@@ -38,23 +38,27 @@
       "type": "i32"
     },
     {
-      "name": "Unknown4",
+      "name": "Unknown9",
       "type": "i32"
     },
     {
-      "name": "Unknown5",
+      "name": "Unknown10",
       "type": "i32"
     },
     {
-      "name": "Unknown6",
+      "name": "Unknown11",
       "type": "i32"
     },
     {
-      "name": "Unknown7",
+      "name": "Unknown12",
       "type": "i32"
     },
     {
-      "name": "Unknown8",
+      "name": "Unknown13",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown14",
       "type": "i32"
     }
   ]

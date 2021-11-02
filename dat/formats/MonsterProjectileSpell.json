@@ -7,27 +7,29 @@
       "unique": true
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "Projectile",
+      "type": "longid",
+      "ref": "Projectiles"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "Animation",
+      "type": "longid",
+      "ref": "Animation"
     },
     {
-      "name": "Flag0",
+      "name": "Flag3",
       "type": "bool"
     },
     {
-      "name": "Flag1",
+      "name": "Flag4",
       "type": "bool"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown5",
       "type": "i32"
     },
     {
-      "name": "Flag2",
+      "name": "Flag6",
       "type": "bool"
     }
   ]

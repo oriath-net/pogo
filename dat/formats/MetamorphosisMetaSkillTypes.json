@@ -19,7 +19,7 @@
       "type": "string"
     },
     {
-      "name": "Unknown3",
+      "name": "Unknown4",
       "type": "string"
     },
     {
@@ -27,8 +27,9 @@
       "type": "string"
     },
     {
-      "name": "BaseItemTypesKey",
-      "type": "u64"
+      "name": "ItemisedSample",
+      "type": "longid",
+      "ref": "BaseItemTypes"
     },
     {
       "name": "BodypartName",

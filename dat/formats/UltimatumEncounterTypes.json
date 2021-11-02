@@ -1,0 +1,36 @@
+{
+  "file": "UltimatumEncounterTypes",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "ProgressBarText",
+      "type": "string"
+    },
+    {
+      "name": "Flag3",
+      "type": "bool"
+    },
+    {
+      "name": "Flag4",
+      "type": "bool"
+    },
+    {
+      "name": "NormalAchievements",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "InscribedAchievement",
+      "type": "longid",
+      "ref": "AchievementItems"
+    }
+  ]
+}

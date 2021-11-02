@@ -13,13 +13,11 @@
     },
     {
       "name": "AOFile",
-      "type": "string",
-      "path": "ao"
+      "type": "string"
     },
     {
       "name": "ACTFile",
-      "type": "string",
-      "path": "act"
+      "type": "string"
     },
     {
       "name": "BaseMaxLife",
@@ -68,32 +66,28 @@
       "type": "i32"
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "Key15",
+      "type": "longid[]"
     },
     {
       "name": "Description",
       "type": "string"
     },
     {
-      "name": "StartSkillGem_SkillGemsKey",
+      "name": "StartSkillGem",
       "type": "longid",
       "ref": "SkillGems"
     },
     {
-      "name": "Unknown13",
+      "name": "Key18",
+      "type": "longid"
+    },
+    {
+      "name": "Unknown19",
       "type": "i32"
     },
     {
-      "name": "Unknown14",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown15",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown16",
+      "name": "Unknown20",
       "type": "i32"
     },
     {
@@ -102,45 +96,56 @@
     },
     {
       "name": "IntroSoundFile",
-      "type": "string",
-      "path": "ogg"
+      "type": "string"
     },
     {
-      "name": "StartWeapon_BaseItemTypesKey",
+      "name": "StartWeapon",
       "type": "longid",
       "ref": "BaseItemTypes"
     },
     {
-      "name": "Unknown27",
-      "type": "shortid"
+      "name": "Gender",
+      "type": "string"
     },
     {
       "name": "TraitDescription",
       "type": "string"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "Key26",
+      "type": "longid"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "Key27",
+      "type": "longid"
     },
     {
-      "name": "Key2",
-      "type": "u64"
+      "name": "Key28",
+      "type": "longid"
     },
     {
-      "name": "Key3",
-      "type": "u64"
+      "name": "Key29",
+      "type": "longid"
     },
     {
-      "name": "Unknown31",
+      "name": "Unknown30",
       "type": "i32"
     },
     {
-      "name": "Keys1",
-      "type": "u64[]"
+      "name": "Key31",
+      "type": "longid[]"
+    },
+    {
+      "name": "PassiveTreeImage",
+      "type": "string"
+    },
+    {
+      "name": "Unknown33",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown34",
+      "type": "i32"
     }
   ]
 }

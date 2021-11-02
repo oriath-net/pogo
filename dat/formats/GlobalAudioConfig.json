@@ -11,7 +11,7 @@
       "type": "i32"
     },
     {
-      "name": "Flag0",
+      "name": "Flag2",
       "type": "bool"
     }
   ]

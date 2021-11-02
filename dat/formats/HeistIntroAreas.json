@@ -7,33 +7,33 @@
       "unique": true
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "HeistAreasKey",
+      "type": "longid",
+      "ref": "HeistAreas"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
     },
     {
       "name": "Unknown3",
       "type": "i32"
     },
     {
-      "name": "Unknown4",
-      "type": "i32"
+      "name": "DGRFile",
+      "type": "string"
     },
     {
-      "name": "DGRFile",
-      "type": "string",
-      "path": "dgr"
+      "name": "Unknown5",
+      "type": "i32"
     },
     {
       "name": "Unknown6",
       "type": "i32"
     },
     {
-      "name": "Unknown7",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown11",
-      "type": "u8"
+      "name": "Flag7",
+      "type": "bool"
     },
     {
       "name": "Unknown8",

@@ -2,8 +2,9 @@
   "file": "AddBuffToTargetVarieties",
   "fields": [
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "BuffDefinitions",
+      "type": "longid",
+      "ref": "BuffDefinitions"
     },
     {
       "name": "Unknown1",

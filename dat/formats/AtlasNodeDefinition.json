@@ -12,7 +12,7 @@
       "ref": "ItemVisualIdentity"
     },
     {
-      "name": "Flag0",
+      "name": "Flag2",
       "type": "bool"
     },
     {
@@ -20,11 +20,11 @@
       "type": "i32"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown4",
       "type": "i32"
     },
     {
-      "name": "Unknown1",
+      "name": "Unknown5",
       "type": "i32"
     }
   ]

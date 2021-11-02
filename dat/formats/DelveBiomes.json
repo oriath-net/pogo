@@ -28,11 +28,11 @@
       "type": "i32[]"
     },
     {
-      "name": "Data2",
+      "name": "Unknown6",
       "type": "i32[]"
     },
     {
-      "name": "Data3",
+      "name": "Unknown7",
       "type": "i32[]"
     },
     {
@@ -45,11 +45,11 @@
       "ref": "AchievementItems"
     },
     {
-      "name": "Flag0",
+      "name": "Flag10",
       "type": "bool"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown11",
       "type": "i32[]"
     }
   ]

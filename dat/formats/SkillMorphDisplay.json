@@ -3,39 +3,38 @@
   "fields": [
     {
       "name": "Key0",
-      "type": "u64"
+      "type": "longid"
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "Key1",
+      "type": "longid[]"
     },
     {
       "name": "DDSFiles",
-      "type": "string[]",
-      "path": "dds"
-    },
-    {
-      "name": "Unknown0",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown1",
-      "type": "i32[]"
-    },
-    {
-      "name": "Unknown2",
-      "type": "i32"
+      "type": "string[]"
     },
     {
       "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown6",
       "type": "f32[]"
     },
     {
-      "name": "Flag0",
+      "name": "Flag7",
       "type": "bool"
     },
     {
-      "name": "Flag1",
+      "name": "Flag8",
       "type": "bool"
     }
   ]

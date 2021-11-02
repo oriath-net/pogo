@@ -2,63 +2,64 @@
   "file": "ItemVisualHeldBodyModel",
   "fields": [
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "ItemVisualIdentity",
+      "type": "longid",
+      "ref": "ItemVisualIdentity"
     },
     {
-      "name": "Unknown1",
+      "name": "MarauderAnimatedObject",
       "type": "string"
     },
     {
-      "name": "Unknown2",
+      "name": "RangerAnimatedObject",
       "type": "string"
     },
     {
-      "name": "Unknown3",
+      "name": "WitchAnimatedObject",
       "type": "string"
     },
     {
-      "name": "Unknown4",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown5",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown6",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown7",
+      "name": "DuelistAnimatedObject",
       "type": "string"
     },
     {
-      "name": "Unknown8",
+      "name": "TemplarAnimatedObject",
       "type": "string"
     },
     {
-      "name": "Unknown9",
+      "name": "ShadowAnimatedObject",
       "type": "string"
     },
     {
-      "name": "Unknown10",
+      "name": "ScionAnimatedObject",
       "type": "string"
     },
     {
-      "name": "Unknown11",
+      "name": "MarauderBone",
       "type": "string"
     },
     {
-      "name": "Unknown12",
+      "name": "RangerBone",
       "type": "string"
     },
     {
-      "name": "Unknown13",
+      "name": "WitchBone",
       "type": "string"
     },
     {
-      "name": "Unknown14",
+      "name": "DuelistBone",
+      "type": "string"
+    },
+    {
+      "name": "TemplarBone",
+      "type": "string"
+    },
+    {
+      "name": "ShadowBone",
+      "type": "string"
+    },
+    {
+      "name": "ScionBone",
       "type": "string"
     }
   ]

@@ -16,10 +16,10 @@
     },
     {
       "name": "SpawnWeight_Values",
-      "type": "u32[]"
+      "type": "i32[]"
     },
     {
-      "name": "Unknown6",
+      "name": "Unknown4",
       "type": "i32"
     },
     {

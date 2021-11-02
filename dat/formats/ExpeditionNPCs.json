@@ -1,0 +1,72 @@
+{
+  "file": "ExpeditionNPCs",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "NPCs",
+      "type": "longid[]",
+      "ref": "NPCs"
+    },
+    {
+      "name": "RerollItem",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Faction",
+      "type": "longid",
+      "ref": "ExpeditionFactions"
+    },
+    {
+      "name": "Reroll",
+      "type": "longid",
+      "ref": "NPCTextAudio"
+    },
+    {
+      "name": "AllBombsPlaced",
+      "type": "longid",
+      "ref": "NPCTextAudio"
+    },
+    {
+      "name": "BombPlacedRemnant",
+      "type": "longid",
+      "ref": "NPCTextAudio"
+    },
+    {
+      "name": "BombPlacedTreasure",
+      "type": "longid",
+      "ref": "NPCTextAudio"
+    },
+    {
+      "name": "BombPlacedMonsters",
+      "type": "longid",
+      "ref": "NPCTextAudio"
+    },
+    {
+      "name": "BombPlacedGeneric",
+      "type": "longid",
+      "ref": "NPCTextAudio"
+    },
+    {
+      "name": "EncounterComplete",
+      "type": "longid",
+      "ref": "NPCTextAudio"
+    }
+  ]
+}

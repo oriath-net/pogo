@@ -12,12 +12,13 @@
       "ref": "AtlasRegions"
     },
     {
-      "name": "Unknown1",
+      "name": "Unknown2",
       "type": "i32"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "BaseItemTypesKey",
+      "type": "longid",
+      "ref": "BaseItemTypes"
     },
     {
       "name": "QuestState",

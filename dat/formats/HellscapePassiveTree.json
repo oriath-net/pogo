@@ -1,0 +1,19 @@
+{
+  "file": "HellscapePassiveTree",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "AllocationsRequired",
+      "type": "i32"
+    },
+    {
+      "name": "Passives",
+      "type": "longid[]",
+      "ref": "HellscapePassives"
+    }
+  ]
+}

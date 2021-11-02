@@ -4,8 +4,8 @@
     {
       "name": "BaseItemTypesKey",
       "type": "longid",
-      "ref": "BaseItemTypes",
-      "unique": true
+      "unique": true,
+      "ref": "BaseItemTypes"
     },
     {
       "name": "ModsKeys",
@@ -22,19 +22,27 @@
       "type": "i32"
     },
     {
-      "name": "Flag0",
+      "name": "Flag4",
       "type": "bool"
     },
     {
-      "name": "Flag1",
+      "name": "Flag5",
       "type": "bool"
     },
     {
-      "name": "Flag2",
+      "name": "Flag6",
       "type": "bool"
     },
     {
-      "name": "Flag3",
+      "name": "Flag7",
+      "type": "bool"
+    },
+    {
+      "name": "Flag8",
+      "type": "bool"
+    },
+    {
+      "name": "Flag9",
       "type": "bool"
     }
   ]

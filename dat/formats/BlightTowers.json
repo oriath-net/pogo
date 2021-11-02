@@ -19,8 +19,9 @@
       "type": "string"
     },
     {
-      "name": "Unknown4",
-      "type": "i32[]"
+      "name": "NextUpgradeOptions",
+      "type": "shortid[]",
+      "ref": "BlightTowers"
     },
     {
       "name": "Unknown5",
@@ -39,7 +40,7 @@
       "type": "i32"
     },
     {
-      "name": "SpendResourceAchievementItemsKey",
+      "name": "SpendResourceAchievement",
       "type": "longid",
       "ref": "AchievementItems"
     },
@@ -54,11 +55,12 @@
       "ref": "Stats"
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "StatsKeys2",
+      "type": "longid[]",
+      "ref": "Stats"
     },
     {
-      "name": "Flag0",
+      "name": "Flag13",
       "type": "bool"
     }
   ]

@@ -8,67 +8,60 @@
     },
     {
       "name": "DaggerEPKFile",
-      "type": "string",
-      "path": "epk"
+      "type": "string"
     },
     {
       "name": "BowEPKFile",
-      "type": "string",
-      "path": "epk"
+      "type": "string"
     },
     {
       "name": "OneHandedMaceEPKFile",
-      "type": "string",
-      "path": "epk"
+      "type": "string"
     },
     {
       "name": "OneHandedSwordEPKFile",
-      "type": "string",
-      "path": "epk"
+      "type": "string"
     },
     {
-      "name": "Index5",
+      "name": "Unknown5",
       "type": "string"
     },
     {
       "name": "TwoHandedSwordEPKFile",
-      "type": "string",
-      "path": "epk"
+      "type": "string"
     },
     {
       "name": "TwoHandedStaffEPKFile",
-      "type": "string",
-      "path": "epk"
+      "type": "string"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown8",
       "type": "i32",
       "unique": true
     },
     {
       "name": "TwoHandedMaceEPKFile",
-      "type": "string",
-      "path": "epk"
+      "type": "string"
     },
     {
       "name": "OneHandedAxeEPKFile",
-      "type": "string",
-      "path": "epk"
+      "type": "string"
     },
     {
       "name": "TwoHandedAxeEPKFile",
-      "type": "string",
-      "path": "epk"
+      "type": "string"
     },
     {
       "name": "ClawEPKFile",
-      "type": "string",
-      "path": "epk"
+      "type": "string"
     },
     {
       "name": "PETFile",
-      "type": "string",
-      "path": "pet"
+      "type": "string"
+    },
+    {
+      "name": "Shield",
+      "type": "string"
     }
   ]
 }

@@ -7,8 +7,12 @@
       "ref": "MonsterVarieties"
     },
     {
-      "name": "Flag0",
+      "name": "Flag1",
       "type": "bool"
+    },
+    {
+      "name": "Key2",
+      "type": "longid"
     }
   ]
 }

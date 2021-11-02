@@ -1,0 +1,23 @@
+{
+  "file": "HellscapeAreaPacks",
+  "fields": [
+    {
+      "name": "WorldArea",
+      "type": "longid",
+      "ref": "WorldAreas"
+    },
+    {
+      "name": "MonsterPacks",
+      "type": "longid[]",
+      "ref": "MonsterPacks"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    }
+  ]
+}

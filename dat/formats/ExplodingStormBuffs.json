@@ -12,31 +12,31 @@
       "ref": "BuffDefinitions"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "Key2",
+      "type": "longid"
     },
     {
       "name": "StatValues",
       "type": "i32[]"
     },
     {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown6",
+      "type": "i32"
+    },
+    {
       "name": "Unknown7",
       "type": "i32"
     },
     {
-      "name": "Data1",
-      "type": "i32[]"
-    },
-    {
-      "name": "Unknown10",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown11",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown12",
+      "name": "Unknown8",
       "type": "i32"
     },
     {
@@ -65,15 +65,15 @@
       "ref": "MonsterVarieties"
     },
     {
-      "name": "Unknown23",
+      "name": "Unknown14",
       "type": "i32"
     },
     {
-      "name": "Unknown24",
+      "name": "Unknown15",
       "type": "i32"
     },
     {
-      "name": "Unknown25",
+      "name": "Unknown16",
       "type": "i32"
     },
     {

@@ -28,19 +28,18 @@
     },
     {
       "name": "TutorialVideo_BKFile",
-      "type": "string",
-      "path": "bk"
+      "type": "string"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown7",
       "type": "i32"
     },
     {
-      "name": "Unknown1",
+      "name": "Unknown8",
       "type": "f32"
     },
     {
-      "name": "Unknown2",
+      "name": "Unknown9",
       "type": "f32"
     },
     {
@@ -52,7 +51,7 @@
       "type": "bool"
     },
     {
-      "name": "Flag0",
+      "name": "Flag12",
       "type": "bool"
     },
     {
@@ -60,11 +59,11 @@
       "type": "string"
     },
     {
-      "name": "Flag1",
+      "name": "Flag14",
       "type": "bool"
     },
     {
-      "name": "Flag2",
+      "name": "Flag15",
       "type": "bool"
     }
   ]

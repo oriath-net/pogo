@@ -22,8 +22,9 @@
       "type": "i32"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "LegionBalancePerLevelKey",
+      "type": "longid",
+      "ref": "LegionBalancePerLevel"
     },
     {
       "name": "Unknown6",

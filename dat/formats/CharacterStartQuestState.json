@@ -15,8 +15,8 @@
       "type": "i32[]"
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "Key3",
+      "type": "longid[]"
     },
     {
       "name": "MapPinsKeys",
@@ -24,12 +24,12 @@
       "ref": "MapPins"
     },
     {
-      "name": "Data0",
+      "name": "Unknown5",
       "type": "i32[]"
     },
     {
-      "name": "Keys1",
-      "type": "u64[]"
+      "name": "Key6",
+      "type": "longid[]"
     }
   ]
 }

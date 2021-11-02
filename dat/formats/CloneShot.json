@@ -3,7 +3,7 @@
   "fields": [
     {
       "name": "Id",
-      "type": "string",
+      "type": "i32",
       "unique": true
     },
     {
@@ -12,16 +12,19 @@
       "ref": "MonsterVarieties"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "MiscAnimated1",
+      "type": "longid",
+      "ref": "MiscAnimated"
     },
     {
-      "name": "Key2",
-      "type": "u64"
+      "name": "MiscAnimated2",
+      "type": "longid",
+      "ref": "MiscAnimated"
     },
     {
-      "name": "Key3",
-      "type": "u64"
+      "name": "MiscAnimated3",
+      "type": "longid",
+      "ref": "MiscAnimated"
     }
   ]
 }

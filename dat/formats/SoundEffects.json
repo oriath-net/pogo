@@ -8,16 +8,14 @@
     },
     {
       "name": "SoundFile",
-      "type": "string",
-      "path": "ogg"
+      "type": "string"
     },
     {
       "name": "SoundFile_2D",
-      "type": "string",
-      "path": "ogg"
+      "type": "string"
     },
     {
-      "name": "Unknown3",
+      "name": "Flag3",
       "type": "bool"
     }
   ]

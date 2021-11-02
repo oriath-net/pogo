@@ -11,11 +11,11 @@
       "type": "string"
     },
     {
-      "name": "Flag0",
+      "name": "Flag2",
       "type": "bool"
     },
     {
-      "name": "Command2",
+      "name": "EnglishCommand",
       "type": "string"
     },
     {
@@ -23,7 +23,7 @@
       "type": "string"
     },
     {
-      "name": "Flag1",
+      "name": "Flag5",
       "type": "bool"
     }
   ]

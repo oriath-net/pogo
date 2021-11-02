@@ -4,8 +4,8 @@
     {
       "name": "BaseItemTypesKey",
       "type": "longid",
-      "ref": "BaseItemTypes",
-      "unique": true
+      "unique": true,
+      "ref": "BaseItemTypes"
     },
     {
       "name": "Stacks",
@@ -26,8 +26,8 @@
     {
       "name": "FullStack_BaseItemTypesKey",
       "type": "longid",
-      "ref": "BaseItemTypes",
-      "description": "Full stack transforms into this item"
+      "description": "Full stack transforms into this item",
+      "ref": "BaseItemTypes"
     },
     {
       "name": "Description",
@@ -39,7 +39,7 @@
       "ref": "AchievementItems"
     },
     {
-      "name": "Flag1",
+      "name": "Flag8",
       "type": "bool"
     },
     {
@@ -52,11 +52,11 @@
       "ref": "AchievementItems"
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "Key11",
+      "type": "longid[]"
     },
     {
-      "name": "Data0",
+      "name": "Unknown12",
       "type": "i32[]"
     },
     {
@@ -68,16 +68,16 @@
       "type": "string"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown15",
       "type": "i32"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "Key16",
+      "type": "longid"
     },
     {
-      "name": "Key",
-      "type": "u64"
+      "name": "Key17",
+      "type": "longid"
     },
     {
       "name": "AchievementItemsKeys",
@@ -85,8 +85,12 @@
       "ref": "AchievementItems"
     },
     {
-      "name": "Keys1",
-      "type": "u64[]"
+      "name": "Key19",
+      "type": "longid[]"
+    },
+    {
+      "name": "Key20",
+      "type": "longid"
     }
   ]
 }

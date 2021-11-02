@@ -12,9 +12,8 @@
       "ref": "BetrayalTargets"
     },
     {
-      "name": "BetrayalRanksKey",
-      "type": "longid",
-      "ref": "BetrayalRanks"
+      "name": "Rank",
+      "type": "i32"
     },
     {
       "name": "Description",
@@ -25,8 +24,8 @@
       "type": "string"
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "Key5",
+      "type": "longid[]"
     }
   ]
 }

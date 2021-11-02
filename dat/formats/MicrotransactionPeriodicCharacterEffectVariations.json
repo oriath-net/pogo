@@ -8,12 +8,12 @@
     },
     {
       "name": "AOFile",
-      "type": "string",
-      "path": "ao"
+      "type": "string"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "MiscObject",
+      "type": "longid",
+      "ref": "MiscObjects"
     }
   ]
 }

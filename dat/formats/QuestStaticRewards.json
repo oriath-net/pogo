@@ -24,7 +24,7 @@
       "ref": "Quest"
     },
     {
-      "name": "Unknown2",
+      "name": "Unknown5",
       "type": "i32"
     },
     {
@@ -33,7 +33,7 @@
       "ref": "ClientStrings"
     },
     {
-      "name": "Unknown3",
+      "name": "Unknown7",
       "type": "i32"
     }
   ]

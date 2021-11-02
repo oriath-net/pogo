@@ -1,0 +1,90 @@
+{
+  "file": "RitualRuneTypes",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "MiscAnimatedKey1",
+      "type": "longid",
+      "ref": "MiscAnimated"
+    },
+    {
+      "name": "SpawnWeight",
+      "type": "i32"
+    },
+    {
+      "name": "LevelMin",
+      "type": "i32"
+    },
+    {
+      "name": "LevelMax",
+      "type": "i32"
+    },
+    {
+      "name": "BuffDefinitionsKey",
+      "type": "longid",
+      "ref": "BuffDefinitions"
+    },
+    {
+      "name": "Unknown6",
+      "type": "i32[]"
+    },
+    {
+      "name": "SpawnPatterns",
+      "type": "longid[]",
+      "ref": "RitualSpawnPatterns"
+    },
+    {
+      "name": "ModsKey",
+      "type": "longid[]",
+      "ref": "Mods"
+    },
+    {
+      "name": "Unknown9",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown10",
+      "type": "i32[]"
+    },
+    {
+      "name": "MiscAnimatedKey2",
+      "type": "longid",
+      "ref": "MiscAnimated"
+    },
+    {
+      "name": "EnvironmentsKey",
+      "type": "longid",
+      "ref": "Environments"
+    },
+    {
+      "name": "Unknown13",
+      "type": "i32"
+    },
+    {
+      "name": "Achievements",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "Type",
+      "type": "string"
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    },
+    {
+      "name": "DaemonSpawningDataKey",
+      "type": "longid",
+      "ref": "DaemonSpawningData"
+    },
+    {
+      "name": "Flag18",
+      "type": "bool"
+    }
+  ]
+}

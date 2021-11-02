@@ -2,24 +2,17 @@
   "file": "AtlasAwakeningStats",
   "fields": [
     {
-      "name": "Unknown0",
+      "name": "AwakeningLevel",
       "type": "i32"
     },
     {
-      "name": "Unknown1",
-      "type": "i32"
+      "name": "Stats",
+      "type": "longid[]",
+      "ref": "Stats"
     },
     {
-      "name": "Unknown2",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown3",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown4",
-      "type": "i32"
+      "name": "Values",
+      "type": "i32[]"
     }
   ]
 }

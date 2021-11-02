@@ -12,8 +12,7 @@
     },
     {
       "name": "ClientJPGFile",
-      "type": "string",
-      "path": "jpg"
+      "type": "string"
     },
     {
       "name": "WebsiteText",
@@ -24,8 +23,8 @@
       "type": "string"
     },
     {
-      "name": "Unknown0",
-      "type": "shortid"
+      "name": "Unknown5",
+      "type": "i32"
     },
     {
       "name": "AppliedTo_BaseItemTypesKey",

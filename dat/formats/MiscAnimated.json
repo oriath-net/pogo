@@ -8,8 +8,7 @@
     },
     {
       "name": "AOFile",
-      "type": "string",
-      "path": "ao"
+      "type": "string"
     },
     {
       "name": "PreloadGroupsKeys",
@@ -17,11 +16,11 @@
       "ref": "PreloadGroups"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown3",
       "type": "i32"
     },
     {
-      "name": "Unknown1",
+      "name": "Unknown4",
       "type": "i32"
     }
   ]

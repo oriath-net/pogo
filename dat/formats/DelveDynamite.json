@@ -6,18 +6,30 @@
       "type": "i32"
     },
     {
-      "name": "Flare_MiscObjectsKey",
+      "name": "ProjectilesKey",
       "type": "longid",
-      "ref": "MiscObjects"
+      "ref": "Projectiles"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "Key2",
+      "type": "longid"
     },
     {
       "name": "Dynamite_MiscObjectsKey",
       "type": "longid",
       "ref": "MiscObjects"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown6",
+      "type": "i32"
     },
     {
       "name": "Unknown7",
@@ -36,24 +48,12 @@
       "type": "i32"
     },
     {
-      "name": "Unknown11",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown12",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown13",
-      "type": "i32"
-    },
-    {
       "name": "MiscAnimatedKey",
       "type": "longid",
       "ref": "MiscAnimated"
     },
     {
-      "name": "Unknown16",
+      "name": "Unknown12",
       "type": "i32"
     }
   ]

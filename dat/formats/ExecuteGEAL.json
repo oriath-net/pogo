@@ -6,8 +6,13 @@
       "type": "i32"
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "MiscAnimated",
+      "type": "longid[]",
+      "ref": "MiscAnimated"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
     },
     {
       "name": "Unknown3",
@@ -34,11 +39,7 @@
       "type": "i32"
     },
     {
-      "name": "Unknown9",
-      "type": "i32"
-    },
-    {
-      "name": "Flag0",
+      "name": "Flag9",
       "type": "bool"
     },
     {
@@ -46,24 +47,16 @@
       "type": "i32"
     },
     {
-      "name": "Flag1",
+      "name": "Flag11",
       "type": "bool"
     },
     {
-      "name": "Unknown11",
-      "type": "i32"
-    },
-    {
-      "name": "Flag2",
+      "name": "Flag12",
       "type": "bool"
-    },
-    {
-      "name": "Unknown12",
-      "type": "i32"
     },
     {
       "name": "Unknown13",
-      "type": "i32"
+      "type": "u8[]"
     },
     {
       "name": "Unknown14",
@@ -82,23 +75,19 @@
       "type": "i32"
     },
     {
-      "name": "Flag3",
-      "type": "bool"
-    },
-    {
       "name": "Unknown18",
       "type": "i32"
     },
     {
-      "name": "Flag4",
+      "name": "Flag19",
       "type": "bool"
     },
     {
-      "name": "Unknown19",
-      "type": "i32"
+      "name": "Unknown20",
+      "type": "string"
     },
     {
-      "name": "Flag5",
+      "name": "Flag21",
       "type": "bool"
     },
     {
@@ -106,15 +95,23 @@
       "type": "i32"
     },
     {
-      "name": "Unknown20",
-      "type": "i32"
-    },
-    {
-      "name": "Flag6",
+      "name": "Flag23",
       "type": "bool"
     },
     {
-      "name": "Unknown23",
+      "name": "Unknown24",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown25",
+      "type": "i32"
+    },
+    {
+      "name": "Flag26",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown27",
       "type": "i32"
     },
     {
@@ -126,43 +123,39 @@
       "type": "string"
     },
     {
-      "name": "Unknown28",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown29",
-      "type": "i32"
-    },
-    {
       "name": "Unknown30",
-      "type": "i32"
+      "type": "string"
     },
     {
       "name": "Unknown31",
-      "type": "i32"
+      "type": "string"
     },
     {
       "name": "Unknown32",
-      "type": "i32"
-    },
-    {
-      "name": "Flag7",
-      "type": "bool"
-    },
-    {
-      "name": "Flag8",
-      "type": "bool"
+      "type": "string"
     },
     {
       "name": "Unknown33",
-      "type": "i32"
+      "type": "string"
     },
     {
       "name": "Unknown34",
       "type": "i32"
     },
     {
-      "name": "Unknown35",
+      "name": "Flag35",
+      "type": "bool"
+    },
+    {
+      "name": "Flag36",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown37",
+      "type": "u8[]"
+    },
+    {
+      "name": "Unknown38",
       "type": "i32"
     }
   ]

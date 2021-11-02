@@ -4,8 +4,8 @@
     {
       "name": "BaseItemTypesKey",
       "type": "longid",
-      "ref": "BaseItemTypes",
-      "unique": true
+      "unique": true,
+      "ref": "BaseItemTypes"
     },
     {
       "name": "GrantedEffectsKey",
@@ -53,24 +53,31 @@
       "ref": "GrantedEffects"
     },
     {
-      "name": "MinionGlobalSkillLevelStatsKey",
-      "type": "u64"
+      "name": "MinionGlobalSkillLevelStat",
+      "type": "longid",
+      "ref": "Stats"
     },
     {
       "name": "SupportSkillName",
       "type": "string"
     },
     {
-      "name": "Flag2",
+      "name": "Flag13",
       "type": "bool"
     },
     {
-      "name": "Flag3",
+      "name": "Flag14",
       "type": "bool"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "AwakenedVariant",
+      "type": "shortid",
+      "ref": "SkillGems"
+    },
+    {
+      "name": "RegularVariant",
+      "type": "shortid",
+      "ref": "SkillGems"
     }
   ]
 }

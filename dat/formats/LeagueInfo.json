@@ -27,7 +27,7 @@
       "type": "string"
     },
     {
-      "name": "Flag0",
+      "name": "Flag6",
       "type": "bool"
     },
     {
@@ -47,7 +47,11 @@
       "type": "string"
     },
     {
-      "name": "Flag1",
+      "name": "Flag11",
+      "type": "bool"
+    },
+    {
+      "name": "Flag12",
       "type": "bool"
     }
   ]

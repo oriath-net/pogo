@@ -7,7 +7,47 @@
       "ref": "BaseItemTypes"
     },
     {
+      "name": "ArmourMin",
+      "type": "i32"
+    },
+    {
+      "name": "ArmourMax",
+      "type": "i32"
+    },
+    {
+      "name": "EvasionMin",
+      "type": "i32"
+    },
+    {
+      "name": "EvasionMax",
+      "type": "i32"
+    },
+    {
+      "name": "EnergyShieldMin",
+      "type": "i32"
+    },
+    {
+      "name": "EnergyShieldMax",
+      "type": "i32"
+    },
+    {
       "name": "IncreasedMovementSpeed",
+      "type": "i32"
+    },
+    {
+      "name": "WardMin",
+      "type": "i32"
+    },
+    {
+      "name": "WardMax",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown10",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown11",
       "type": "i32"
     }
   ]

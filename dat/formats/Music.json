@@ -8,33 +8,32 @@
     },
     {
       "name": "SoundFile",
-      "type": "string",
-      "path": "ogg"
+      "type": "string"
     },
     {
       "name": "BankFile",
-      "type": "string",
-      "path": "bank"
+      "type": "string"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown3",
       "type": "i32"
     },
     {
       "name": "IsAvailableInHideout",
-      "type": "u8"
+      "type": "bool"
     },
     {
       "name": "Name",
       "type": "string"
     },
     {
-      "name": "Unknown5",
-      "type": "i32"
+      "name": "Unknown6",
+      "type": "string"
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "MusicCategories",
+      "type": "longid[]",
+      "ref": "MusicCategories"
     }
   ]
 }

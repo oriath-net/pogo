@@ -11,35 +11,38 @@
       "type": "string"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "OfferingItem",
+      "type": "longid",
+      "ref": "BaseItemTypes"
     },
     {
       "name": "QuestState",
       "type": "i32"
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "RequiredTrials",
+      "type": "longid[]",
+      "ref": "LabyrinthTrials"
     },
     {
       "name": "AreaLevel",
       "type": "i32"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown6",
       "type": "i32"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "JewelReward",
+      "type": "longid",
+      "ref": "Words"
     },
     {
-      "name": "Data0",
+      "name": "Unknown8",
       "type": "i32[]"
     },
     {
-      "name": "Data1",
+      "name": "Unknown9",
       "type": "i32[]"
     },
     {
@@ -47,16 +50,17 @@
       "type": "i32"
     },
     {
-      "name": "Unknown1",
+      "name": "Unknown11",
       "type": "i32"
     },
     {
-      "name": "Unknown2",
+      "name": "Unknown12",
       "type": "i32"
     },
     {
-      "name": "Key2",
-      "type": "u64"
+      "name": "CraftingFontDescription",
+      "type": "longid",
+      "ref": "ClientStrings"
     }
   ]
 }

@@ -7,11 +7,11 @@
       "ref": "WorldAreas"
     },
     {
-      "name": "Unknown2",
+      "name": "Unknown1",
       "type": "i32"
     },
     {
-      "name": "Data0",
+      "name": "Unknown2",
       "type": "i32[]"
     },
     {
@@ -25,19 +25,19 @@
       "ref": "MonsterVarieties"
     },
     {
-      "name": "Unknown9",
+      "name": "Unknown5",
       "type": "i32"
     },
     {
-      "name": "Unknown10",
+      "name": "Unknown6",
       "type": "i32"
     },
     {
-      "name": "Unknown11",
+      "name": "Unknown7",
       "type": "i32"
     },
     {
-      "name": "Unknown12",
+      "name": "Unknown8",
       "type": "i32"
     }
   ]

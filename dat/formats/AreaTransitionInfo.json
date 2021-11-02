@@ -3,67 +3,59 @@
   "fields": [
     {
       "name": "Key0",
-      "type": "u64"
+      "type": "longid"
     },
     {
       "name": "Key1",
-      "type": "u64"
-    },
-    {
-      "name": "Unknown2",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown3",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown4",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown5",
-      "type": "i32"
+      "type": "longid"
     },
     {
       "name": "Key2",
-      "type": "u64"
+      "type": "longid"
     },
     {
       "name": "Key3",
-      "type": "u64"
+      "type": "longid"
     },
     {
       "name": "Key4",
-      "type": "u64"
+      "type": "longid"
     },
     {
       "name": "Key5",
-      "type": "u64"
+      "type": "longid"
     },
     {
       "name": "Key6",
-      "type": "u64"
+      "type": "longid"
     },
     {
       "name": "Key7",
-      "type": "u64"
+      "type": "longid"
     },
     {
       "name": "Key8",
-      "type": "u64"
+      "type": "longid"
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "Key9",
+      "type": "longid"
     },
     {
-      "name": "Unknown24",
+      "name": "Key10",
+      "type": "longid"
+    },
+    {
+      "name": "Key11",
+      "type": "longid[]"
+    },
+    {
+      "name": "Unknown12",
       "type": "i32"
     },
     {
-      "name": "Keys1",
-      "type": "u64[]"
+      "name": "Key13",
+      "type": "longid[]"
     }
   ]
 }

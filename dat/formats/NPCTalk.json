@@ -7,7 +7,7 @@
       "ref": "NPCs"
     },
     {
-      "name": "Unknown2",
+      "name": "Unknown1",
       "type": "i32"
     },
     {
@@ -15,28 +15,29 @@
       "type": "string"
     },
     {
-      "name": "Data0",
-      "type": "u32[]"
+      "name": "Unknown3",
+      "type": "i32[]"
     },
     {
-      "name": "Data1",
-      "type": "u32[]"
+      "name": "Unknown4",
+      "type": "i32[]"
     },
     {
-      "name": "Data2",
-      "type": "u32[]"
+      "name": "Unknown5",
+      "type": "i32[]"
     },
     {
       "name": "Script",
       "type": "string"
     },
     {
-      "name": "Unknown11",
+      "name": "Unknown7",
       "type": "i32"
     },
     {
-      "name": "Unknown12",
-      "type": "i32"
+      "name": "Key8",
+      "type": "longid",
+      "ref": "NPCTalkCategory"
     },
     {
       "name": "QuestKey",
@@ -44,7 +45,7 @@
       "ref": "Quest"
     },
     {
-      "name": "Unknown15",
+      "name": "Unknown10",
       "type": "i32"
     },
     {
@@ -57,19 +58,27 @@
       "type": "string"
     },
     {
-      "name": "Flag0",
+      "name": "Flag13",
       "type": "bool"
     },
     {
-      "name": "Flag1",
+      "name": "Flag14",
       "type": "bool"
     },
     {
-      "name": "Data5",
+      "name": "Unknown15",
       "type": "i32[]"
     },
     {
-      "name": "Data6",
+      "name": "Unknown16",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown17",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown18",
       "type": "i32[]"
     },
     {
@@ -77,31 +86,23 @@
       "type": "i32"
     },
     {
-      "name": "Unknown20",
-      "type": "i32[]"
-    },
-    {
-      "name": "Unknown21",
-      "type": "i32"
-    },
-    {
-      "name": "Flag2",
+      "name": "Flag20",
       "type": "bool"
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "Key21",
+      "type": "longid[]"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "Key22",
+      "type": "longid"
     },
     {
-      "name": "Flag3",
+      "name": "Flag23",
       "type": "bool"
     },
     {
-      "name": "Flag4",
+      "name": "Flag24",
       "type": "bool"
     },
     {
@@ -109,23 +110,23 @@
       "type": "string"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "Key26",
+      "type": "longid"
     },
     {
-      "name": "Key2",
-      "type": "u64"
+      "name": "Key27",
+      "type": "longid"
     },
     {
-      "name": "Unknown23",
+      "name": "Unknown28",
       "type": "i32"
     },
     {
-      "name": "Unknown24",
-      "type": "i32"
+      "name": "Unknown29",
+      "type": "i32[]"
     },
     {
-      "name": "Unknown25",
+      "name": "Unknown30",
       "type": "i32"
     }
   ]

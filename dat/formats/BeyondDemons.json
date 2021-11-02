@@ -7,11 +7,11 @@
       "ref": "MonsterVarieties"
     },
     {
-      "name": "Flag0",
+      "name": "Flag1",
       "type": "bool"
     },
     {
-      "name": "Flag1",
+      "name": "Flag2",
       "type": "bool"
     }
   ]

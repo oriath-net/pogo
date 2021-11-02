@@ -2,8 +2,9 @@
   "file": "AfflictionStartDialogue",
   "fields": [
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "WorldAreasKey",
+      "type": "longid",
+      "ref": "WorldAreas"
     },
     {
       "name": "NPCTextAudioKey",
@@ -11,8 +12,8 @@
       "ref": "NPCTextAudio"
     },
     {
-      "name": "Unknown0",
-      "type": "u64[]"
+      "name": "Key2",
+      "type": "longid[]"
     }
   ]
 }

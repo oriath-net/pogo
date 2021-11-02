@@ -11,8 +11,9 @@
       "type": "i32"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "LegionBalancePerLevelKey",
+      "type": "longid",
+      "ref": "LegionBalancePerLevel"
     },
     {
       "name": "Unknown3",
@@ -23,20 +24,24 @@
       "type": "f32"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "BuffVisualsKey",
+      "type": "longid",
+      "ref": "BuffVisuals"
     },
     {
-      "name": "Key2",
-      "type": "u64"
+      "name": "MiscAnimatedKey1",
+      "type": "longid",
+      "ref": "MiscAnimated"
     },
     {
-      "name": "Key3",
-      "type": "u64"
+      "name": "MiscAnimatedKey2",
+      "type": "longid",
+      "ref": "MiscAnimated"
     },
     {
-      "name": "Key4",
-      "type": "u64"
+      "name": "MiscAnimatedKey3",
+      "type": "longid",
+      "ref": "MiscAnimated"
     },
     {
       "name": "AchievementItemsKeys1",
@@ -44,12 +49,14 @@
       "ref": "AchievementItems"
     },
     {
-      "name": "Key5",
-      "type": "u64"
+      "name": "MiscAnimatedKey4",
+      "type": "longid",
+      "ref": "MiscAnimated"
     },
     {
-      "name": "Key6",
-      "type": "u64"
+      "name": "MiscAnimatedKey5",
+      "type": "longid",
+      "ref": "MiscAnimated"
     },
     {
       "name": "Unknown12",
@@ -63,6 +70,15 @@
       "name": "AchievementItemsKeys2",
       "type": "longid[]",
       "ref": "AchievementItems"
+    },
+    {
+      "name": "StatsKey",
+      "type": "longid",
+      "ref": "Stats"
+    },
+    {
+      "name": "Shard",
+      "type": "string"
     }
   ]
 }

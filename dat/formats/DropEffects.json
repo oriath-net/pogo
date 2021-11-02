@@ -8,8 +8,7 @@
     },
     {
       "name": "AOFile",
-      "type": "string",
-      "path": "ao"
+      "type": "string"
     }
   ]
 }

@@ -1,0 +1,34 @@
+{
+  "file": "PassiveSkillMasteryGroups",
+  "fields": [
+    {
+      "name": "ID",
+      "type": "string"
+    },
+    {
+      "name": "MasteryEffects",
+      "type": "longid[]",
+      "ref": "PassiveSkillMasteryEffects"
+    },
+    {
+      "name": "InactiveIcon",
+      "type": "string"
+    },
+    {
+      "name": "ActiveIcon",
+      "type": "string"
+    },
+    {
+      "name": "ActiveEffectImage",
+      "type": "string"
+    },
+    {
+      "name": "Flag5",
+      "type": "bool"
+    },
+    {
+      "name": "Key6",
+      "type": "longid"
+    }
+  ]
+}

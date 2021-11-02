@@ -12,14 +12,6 @@
       "ref": "LegionRanks"
     },
     {
-      "name": "Unknown0",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown1",
-      "type": "i32"
-    },
-    {
       "name": "Unknown2",
       "type": "i32"
     },
@@ -33,6 +25,14 @@
     },
     {
       "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown6",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown7",
       "type": "i32"
     }
   ]

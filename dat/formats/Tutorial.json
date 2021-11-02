@@ -8,43 +8,43 @@
     },
     {
       "name": "UIFile",
-      "type": "string",
-      "path": "ui"
+      "type": "string"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "ClientString",
+      "type": "longid",
+      "ref": "ClientStrings"
     },
     {
       "name": "IsEnabled",
       "type": "bool"
     },
     {
-      "name": "Unknown0",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown1",
-      "type": "i32[]"
-    },
-    {
-      "name": "Unknown2",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown3",
-      "type": "i32"
-    },
-    {
       "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
       "type": "i32[]"
     },
     {
-      "name": "Flag0",
+      "name": "Unknown6",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown7",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown8",
+      "type": "i32[]"
+    },
+    {
+      "name": "Flag9",
       "type": "bool"
     },
     {
-      "name": "Flag1",
+      "name": "Flag10",
       "type": "bool"
     }
   ]

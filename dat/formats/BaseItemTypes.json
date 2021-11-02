@@ -42,31 +42,13 @@
       "ref": "Mods"
     },
     {
-      "name": "Unknown0",
+      "name": "SizeOnGround",
       "type": "i32"
     },
     {
       "name": "SoundEffectsKey",
       "type": "longid",
       "ref": "SoundEffects"
-    },
-    {
-      "name": "NormalPurchase_BaseItemTypesKeys",
-      "type": "shortid[]",
-      "ref": "BaseItemTypes"
-    },
-    {
-      "name": "NormalPurchase_Costs",
-      "type": "i32[]"
-    },
-    {
-      "name": "MagicPurchase_BaseItemTypesKeys",
-      "type": "shortid[]",
-      "ref": "BaseItemTypes"
-    },
-    {
-      "name": "MagicPurchase_Costs",
-      "type": "i32[]"
     },
     {
       "name": "TagsKeys",
@@ -78,7 +60,7 @@
       "type": "i32"
     },
     {
-      "name": "Flag0",
+      "name": "IsDropDisabled",
       "type": "bool"
     },
     {
@@ -87,33 +69,14 @@
       "ref": "ItemVisualIdentity"
     },
     {
-      "name": "UnknownUnique",
-      "type": "u32",
+      "name": "HASH",
+      "type": "i32",
       "unique": true
     },
     {
       "name": "VendorRecipe_AchievementItemsKeys",
       "type": "longid[]",
-      "ref": "AchievementItems",
-      "description": "Achievement check when selling this item to vendors"
-    },
-    {
-      "name": "RarePurchase_BaseItemTypesKeys",
-      "type": "shortid[]",
-      "ref": "BaseItemTypes"
-    },
-    {
-      "name": "RarePurchase_Costs",
-      "type": "i32[]"
-    },
-    {
-      "name": "UniquePurchase_BaseItemTypesKeys",
-      "type": "shortid[]",
-      "ref": "BaseItemTypes"
-    },
-    {
-      "name": "UniquePurchase_Costs",
-      "type": "i32[]"
+      "ref": "AchievementItems"
     },
     {
       "name": "Inflection",
@@ -123,8 +86,7 @@
     {
       "name": "Equip_AchievementItemsKey",
       "type": "longid",
-      "ref": "AchievementItems",
-      "description": "Achievement check when equipping this item"
+      "ref": "AchievementItems"
     },
     {
       "name": "IsCorrupted",
@@ -148,19 +110,29 @@
     {
       "name": "FragmentBaseItemTypesKey",
       "type": "shortid",
+      "description": "the item which represents this item in the fragment stash tab",
       "ref": "BaseItemTypes"
     },
     {
-      "name": "IsBlessing",
+      "name": "Flag24",
       "type": "bool"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "ItemShopType",
+      "type": "longid",
+      "ref": "ItemShopType"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "Key26",
+      "type": "longid"
+    },
+    {
+      "name": "Key27",
+      "type": "longid"
+    },
+    {
+      "name": "Flag28",
+      "type": "bool"
     }
   ]
 }

@@ -7,8 +7,24 @@
       "unique": true
     },
     {
-      "name": "ArtFile",
-      "type": "string"
+      "name": "Key1",
+      "type": "longid"
+    },
+    {
+      "name": "Key2",
+      "type": "longid[]"
+    },
+    {
+      "name": "Key3",
+      "type": "longid[]"
+    },
+    {
+      "name": "Key4",
+      "type": "longid[]"
+    },
+    {
+      "name": "Key5",
+      "type": "longid[]"
     }
   ]
 }

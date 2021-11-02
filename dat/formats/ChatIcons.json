@@ -1,0 +1,13 @@
+{
+  "file": "ChatIcons",
+  "fields": [
+    {
+      "name": "Icon",
+      "type": "string"
+    },
+    {
+      "name": "Image",
+      "type": "string"
+    }
+  ]
+}

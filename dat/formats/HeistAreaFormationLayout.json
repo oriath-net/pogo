@@ -2,12 +2,9 @@
   "file": "HeistAreaFormationLayout",
   "fields": [
     {
-      "name": "Key0",
-      "type": "u64"
-    },
-    {
-      "name": "Unknown0",
-      "type": "i32"
+      "name": "HeistAreasKey",
+      "type": "longid",
+      "ref": "HeistAreas"
     },
     {
       "name": "Unknown1",
@@ -42,15 +39,19 @@
       "type": "i32"
     },
     {
-      "name": "Flag0",
-      "type": "bool"
-    },
-    {
       "name": "Unknown9",
       "type": "i32"
     },
     {
-      "name": "Unknown10",
+      "name": "Flag10",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown11",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown12",
       "type": "i32"
     }
   ]

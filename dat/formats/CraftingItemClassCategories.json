@@ -3,15 +3,16 @@
   "fields": [
     {
       "name": "Id",
-      "type": "string"
+      "type": "string",
+      "unique": true
     },
     {
-      "name": "ItemClassesKeys",
+      "name": "ItemClasses",
       "type": "longid[]",
       "ref": "ItemClasses"
     },
     {
-      "name": "UnknownText",
+      "name": "Unknown2",
       "type": "string"
     },
     {

@@ -8,13 +8,11 @@
     },
     {
       "name": "Active_AOFiles",
-      "type": "string[]",
-      "path": "ao"
+      "type": "string[]"
     },
     {
       "name": "Idle_AOFiles",
-      "type": "string[]",
-      "path": "ao"
+      "type": "string[]"
     }
   ]
 }

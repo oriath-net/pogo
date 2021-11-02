@@ -1,0 +1,25 @@
+{
+  "file": "MiscObjectsArtVariations",
+  "fields": [
+    {
+      "name": "Unknown0",
+      "type": "string"
+    },
+    {
+      "name": "Unknown1",
+      "type": "u8[]"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Key4",
+      "type": "longid"
+    }
+  ]
+}

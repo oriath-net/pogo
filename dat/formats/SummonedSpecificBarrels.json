@@ -12,16 +12,16 @@
       "ref": "Chests"
     },
     {
-      "name": "Key1",
-      "type": "u64"
-    },
-    {
-      "name": "Unknown0",
-      "type": "i32"
-    },
-    {
       "name": "Key2",
-      "type": "u64"
+      "type": "longid"
+    },
+    {
+      "name": "Key3",
+      "type": "longid"
+    },
+    {
+      "name": "Key4",
+      "type": "longid"
     }
   ]
 }

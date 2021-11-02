@@ -18,8 +18,7 @@
     },
     {
       "name": "DDSFile",
-      "type": "string",
-      "path": "dds"
+      "type": "string"
     },
     {
       "name": "Inactive_ArtFile",

@@ -30,11 +30,10 @@
     },
     {
       "name": "PresentARMFile",
-      "type": "string",
-      "path": "arm"
+      "type": "string"
     },
     {
-      "name": "IntId",
+      "name": "HASH16",
       "type": "i32",
       "unique": true
     },
@@ -45,13 +44,11 @@
     },
     {
       "name": "PastARMFile",
-      "type": "string",
-      "path": "arm"
+      "type": "string"
     },
     {
       "name": "TSIFile",
-      "type": "string",
-      "path": "tsi"
+      "type": "string"
     },
     {
       "name": "UIIcon",
@@ -71,17 +68,21 @@
       "ref": "AchievementItems"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown15",
       "type": "i32"
     },
     {
-      "name": "Unknown1",
+      "name": "Unknown16",
       "type": "i32"
     },
     {
       "name": "RoomUpgradeFrom_IncursionRoomsKey",
       "type": "shortid",
       "ref": "IncursionRooms"
+    },
+    {
+      "name": "Key18",
+      "type": "longid"
     }
   ]
 }

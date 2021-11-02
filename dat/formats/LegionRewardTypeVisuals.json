@@ -7,11 +7,12 @@
       "unique": true
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "MinimapIconsKey",
+      "type": "longid",
+      "ref": "MinimapIcons"
     },
     {
-      "name": "Unknown1",
+      "name": "Unknown2",
       "type": "string"
     },
     {
@@ -20,7 +21,7 @@
       "ref": "MiscAnimated"
     },
     {
-      "name": "Unknown2",
+      "name": "Unknown4",
       "type": "f32"
     },
     {

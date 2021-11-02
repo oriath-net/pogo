@@ -11,7 +11,8 @@
     },
     {
       "name": "StatsKeys",
-      "type": "u64[]"
+      "type": "longid[]",
+      "ref": "Stats"
     },
     {
       "name": "StatsValues",

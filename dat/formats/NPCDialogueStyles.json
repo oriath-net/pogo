@@ -41,6 +41,55 @@
     {
       "name": "Unknown9",
       "type": "i32"
+    },
+    {
+      "name": "Unknown10",
+      "type": "i32[]"
+    },
+    {
+      "name": "Key11",
+      "type": "shortid",
+      "ref": "NPCDialogueStyles"
+    },
+    {
+      "name": "Unknown12",
+      "type": "string"
+    },
+    {
+      "name": "Unknown13",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown14",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown15",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown16",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown17",
+      "type": "f32"
+    },
+    {
+      "name": "Unknown18",
+      "type": "string"
+    },
+    {
+      "name": "Unknown19",
+      "type": "string"
+    },
+    {
+      "name": "Unknown20",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown21",
+      "type": "i32"
     }
   ]
 }

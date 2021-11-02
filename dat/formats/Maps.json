@@ -4,8 +4,8 @@
     {
       "name": "BaseItemTypesKey",
       "type": "longid",
-      "ref": "BaseItemTypes",
-      "unique": true
+      "unique": true,
+      "ref": "BaseItemTypes"
     },
     {
       "name": "Regular_WorldAreasKey",
@@ -29,7 +29,8 @@
     },
     {
       "name": "AchievementItem",
-      "type": "longid"
+      "type": "longid",
+      "ref": "AchievementItems"
     },
     {
       "name": "Regular_GuildCharacter",
@@ -70,20 +71,19 @@
     {
       "name": "MapSeriesKey",
       "type": "i32",
-      "ref": "MapSeries"
+      "description": "References MapSeries as an enum: i32, 1-based indexing"
     },
     {
-      "name": "Flag0",
+      "name": "Flag15",
       "type": "bool"
     },
     {
-      "name": "Flag1",
+      "name": "Flag16",
       "type": "bool"
     },
     {
-      "name": "Flag2",
-      "type": "bool",
-      "since": "3.16"
+      "name": "Flag17",
+      "type": "bool"
     }
   ]
 }

@@ -7,8 +7,9 @@
       "ref": "MonsterVarieties"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "GameStat",
+      "type": "longid",
+      "ref": "GameStats"
     }
   ]
 }

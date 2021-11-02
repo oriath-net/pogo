@@ -1,0 +1,51 @@
+{
+  "file": "HellscapePassives",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Stats",
+      "type": "longid[]",
+      "ref": "Stats"
+    },
+    {
+      "name": "StatsValues",
+      "type": "i32[]"
+    },
+    {
+      "name": "Points",
+      "type": "i32"
+    },
+    {
+      "name": "HASH16",
+      "type": "i32"
+    },
+    {
+      "name": "Icon",
+      "type": "string"
+    },
+    {
+      "name": "IconMaxed",
+      "type": "string"
+    },
+    {
+      "name": "Key8",
+      "type": "longid"
+    },
+    {
+      "name": "Unknown9",
+      "type": "i32"
+    },
+    {
+      "name": "Key10",
+      "type": "longid"
+    }
+  ]
+}

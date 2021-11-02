@@ -1,0 +1,51 @@
+{
+  "file": "HellscapeModificationInventoryLayout",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "IsMapSlot",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Width",
+      "type": "i32"
+    },
+    {
+      "name": "Height",
+      "type": "i32"
+    },
+    {
+      "name": "Stat",
+      "type": "longid",
+      "ref": "Stats"
+    },
+    {
+      "name": "StatValue",
+      "type": "i32"
+    },
+    {
+      "name": "Key9",
+      "type": "longid"
+    },
+    {
+      "name": "Key10",
+      "type": "longid"
+    }
+  ]
+}

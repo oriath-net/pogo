@@ -4,8 +4,8 @@
     {
       "name": "HarvestObjectsKey",
       "type": "longid",
-      "ref": "HarvestObjects",
-      "unique": true
+      "unique": true,
+      "ref": "HarvestObjects"
     },
     {
       "name": "Durability",

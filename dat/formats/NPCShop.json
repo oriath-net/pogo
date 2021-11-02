@@ -7,7 +7,7 @@
       "unique": true
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown1",
       "type": "i32"
     },
     {
@@ -17,34 +17,38 @@
     },
     {
       "name": "SoldItem_Weights",
-      "type": "u32[]"
-    },
-    {
-      "name": "Unknown_Keys0",
-      "type": "u64[]"
-    },
-    {
-      "name": "Unknown_Values",
-      "type": "u32[]"
-    },
-    {
-      "name": "Unknown1",
-      "type": "i32"
-    },
-    {
-      "name": "Keys1",
-      "type": "u64[]"
-    },
-    {
-      "name": "Data0",
       "type": "i32[]"
     },
     {
-      "name": "Unknown2",
+      "name": "Key4",
+      "type": "longid[]"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown6",
       "type": "i32"
     },
     {
-      "name": "Unknown3",
+      "name": "Key7",
+      "type": "longid[]"
+    },
+    {
+      "name": "Unknown8",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown9",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown10",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown11",
       "type": "i32"
     }
   ]

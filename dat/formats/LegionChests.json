@@ -17,8 +17,9 @@
       "ref": "LegionRanks"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "MonsterVarietiesKey",
+      "type": "longid",
+      "ref": "MonsterVarieties"
     },
     {
       "name": "Unknown4",

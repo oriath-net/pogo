@@ -11,13 +11,13 @@
       "type": "i32"
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "HeistAreasKey",
+      "type": "longid[]",
+      "ref": "HeistAreas"
     },
     {
       "name": "HeistChestTypesKey",
-      "type": "shortid",
-      "ref": "HeistChestTypes"
+      "type": "i32"
     }
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "file": "MiniQuestStates",
+  "fields": [
+    {
+      "name": "Unknown0",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown1",
+      "type": "u8[]"
+    },
+    {
+      "name": "Unknown2",
+      "type": "u8[]"
+    }
+  ]
+}

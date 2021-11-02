@@ -1,0 +1,14 @@
+{
+  "file": "UltimatumModifierTypes",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Flag1",
+      "type": "bool"
+    }
+  ]
+}

@@ -2,15 +2,16 @@
   "file": "LabyrinthBonusItems",
   "fields": [
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "BaseItemType",
+      "type": "longid",
+      "ref": "BaseItemTypes"
     },
     {
-      "name": "Unknown1",
+      "name": "AreaLevel",
       "type": "i32"
     },
     {
-      "name": "Unknown2",
+      "name": "LabyrinthName",
       "type": "string"
     }
   ]

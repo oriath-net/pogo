@@ -27,15 +27,17 @@
       "type": "string"
     },
     {
-      "name": "Data0",
-      "type": "i32[]"
+      "name": "Key6",
+      "type": "shortid[]",
+      "ref": "Realms"
     },
     {
-      "name": "Unknown0",
-      "type": "i32"
+      "name": "Key7",
+      "type": "shortid",
+      "ref": "Realms"
     },
     {
-      "name": "Unknown1",
+      "name": "Unknown8",
       "type": "i32"
     },
     {
@@ -43,8 +45,8 @@
       "type": "bool"
     },
     {
-      "name": "Unknown2",
-      "type": "i32[]"
+      "name": "SpeedtestUrl",
+      "type": "string[]"
     }
   ]
 }

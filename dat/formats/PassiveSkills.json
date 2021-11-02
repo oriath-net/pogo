@@ -8,11 +8,10 @@
     },
     {
       "name": "Icon_DDSFile",
-      "type": "string",
-      "path": "dds"
+      "type": "string"
     },
     {
-      "name": "StatsKeys",
+      "name": "Stats",
       "type": "longid[]",
       "ref": "Stats"
     },
@@ -35,15 +34,15 @@
     {
       "name": "PassiveSkillGraphId",
       "type": "i32",
-      "unique": true,
-      "description": "Id used by PassiveSkillGraph.psg"
+      "description": "Id used by PassiveSkillGraph.psg",
+      "unique": true
     },
     {
       "name": "Name",
       "type": "string"
     },
     {
-      "name": "CharactersKeys",
+      "name": "Characters",
       "type": "longid[]",
       "ref": "Characters"
     },
@@ -64,7 +63,7 @@
       "type": "bool"
     },
     {
-      "name": "AchievementItemsKey",
+      "name": "AchievementItem",
       "type": "longid",
       "ref": "AchievementItems"
     },
@@ -82,7 +81,7 @@
       "type": "bool"
     },
     {
-      "name": "Reminder_ClientStringsKeys",
+      "name": "ReminderStrings",
       "type": "longid[]",
       "ref": "ClientStrings"
     },
@@ -103,34 +102,39 @@
       "type": "i32"
     },
     {
-      "name": "PassiveSkillBuffsKeys",
+      "name": "PassiveSkillBuffs",
       "type": "longid[]",
-      "ref": "PassiveSkillBuffs"
+      "ref": "BuffTemplates"
     },
     {
-      "name": "GrantedEffectsPerLevelKey",
+      "name": "GrantedEffectsPerLevel",
       "type": "longid",
       "ref": "GrantedEffectsPerLevel"
     },
     {
-      "name": "Flag0",
+      "name": "IsAnointmentOnly",
       "type": "bool"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown26",
       "type": "i32"
     },
     {
-      "name": "Flag1",
-      "type": "u8"
+      "name": "IsExpansion",
+      "type": "bool"
     },
     {
       "name": "IsProxyPassive",
-      "type": "u8"
+      "type": "bool"
     },
     {
-      "name": "Unknown1",
+      "name": "SkillType",
       "type": "i32"
+    },
+    {
+      "name": "MasteryGroup",
+      "type": "longid",
+      "ref": "PassiveSkillMasteryGroups"
     }
   ]
 }

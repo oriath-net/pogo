@@ -8,8 +8,7 @@
     },
     {
       "name": "BuffStatValues",
-      "type": "i32[]",
-      "description": "For use for the related stat in the buff."
+      "type": "i32[]"
     },
     {
       "name": "BuffDefinitionsKey",
@@ -17,8 +16,9 @@
       "ref": "BuffDefinitions"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "BuffVisual",
+      "type": "longid",
+      "ref": "BuffVisuals"
     }
   ]
 }

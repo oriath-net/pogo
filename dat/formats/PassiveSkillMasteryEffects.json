@@ -1,0 +1,30 @@
+{
+  "file": "PassiveSkillMasteryEffects",
+  "fields": [
+    {
+      "name": "ID",
+      "type": "string"
+    },
+    {
+      "name": "HASH",
+      "type": "i32"
+    },
+    {
+      "name": "Stats",
+      "type": "longid[]",
+      "ref": "Stats"
+    },
+    {
+      "name": "Stat1Value",
+      "type": "i32"
+    },
+    {
+      "name": "Stat2Value",
+      "type": "i32"
+    },
+    {
+      "name": "Stat3Value",
+      "type": "i32"
+    }
+  ]
+}

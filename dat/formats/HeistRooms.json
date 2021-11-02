@@ -2,9 +2,9 @@
   "file": "HeistRooms",
   "fields": [
     {
-      "name": "HeistJobsKey",
+      "name": "HeistAreasKey",
       "type": "longid",
-      "ref": "HeistJobs"
+      "ref": "HeistAreas"
     },
     {
       "name": "Id",
@@ -12,16 +12,17 @@
     },
     {
       "name": "ARMFile",
-      "type": "string",
-      "path": "arm"
+      "type": "string"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "HeistJobsKey1",
+      "type": "longid",
+      "ref": "HeistJobs"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "HeistJobsKey2",
+      "type": "longid",
+      "ref": "HeistJobs"
     },
     {
       "name": "Unknown5",
@@ -37,19 +38,19 @@
     },
     {
       "name": "Unknown8",
-      "type": "i32"
+      "type": "string"
     },
     {
       "name": "Unknown9",
       "type": "f32"
     },
     {
-      "name": "Flag0",
-      "type": "u8"
+      "name": "Flag10",
+      "type": "bool"
     },
     {
-      "name": "Flag1",
-      "type": "u8"
+      "name": "Flag11",
+      "type": "bool"
     }
   ]
 }

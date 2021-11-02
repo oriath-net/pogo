@@ -7,7 +7,7 @@
       "unique": true
     },
     {
-      "name": "Unknown0",
+      "name": "Hash",
       "type": "i32"
     },
     {
@@ -94,16 +94,7 @@
     },
     {
       "name": "SpawnWeight_Values",
-      "type": "u32[]"
-    },
-    {
-      "name": "BuffDefinitionsKey",
-      "type": "longid",
-      "ref": "BuffDefinitions"
-    },
-    {
-      "name": "BuffValue",
-      "type": "i32"
+      "type": "i32[]"
     },
     {
       "name": "TagsKeys",
@@ -116,29 +107,20 @@
       "ref": "GrantedEffectsPerLevel"
     },
     {
-      "name": "Data1",
-      "type": "u32[]"
-    },
-    {
-      "name": "Data2",
-      "type": "u32[]"
+      "name": "Unknown24",
+      "type": "i32[]"
     },
     {
       "name": "MonsterMetadata",
       "type": "string"
     },
     {
-      "name": "Data3",
-      "type": "i32[]"
+      "name": "Key26",
+      "type": "longid[]"
     },
     {
-      "name": "Data4",
-      "type": "i32[]"
-    },
-    {
-      "name": "BuffVisualsKey",
-      "type": "longid",
-      "ref": "BuffVisuals"
+      "name": "Key27",
+      "type": "longid[]"
     },
     {
       "name": "Stat5Min",
@@ -173,8 +155,8 @@
       "type": "i32[]"
     },
     {
-      "name": "Data5",
-      "type": "i32[]"
+      "name": "Unknown35",
+      "type": "u8[]"
     },
     {
       "name": "IsEssenceOnlyModifier",
@@ -198,33 +180,26 @@
       "type": "i32"
     },
     {
-      "name": "Unknown67",
-      "type": "u8"
+      "name": "Flag41",
+      "type": "bool"
     },
     {
-      "name": "Unveil_AchievementItemsKey",
-      "type": "longid",
-      "ref": "AchievementItems"
-    },
-    {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "Key42",
+      "type": "longid[]",
+      "ref": "ItemClasses"
     },
     {
       "name": "MonsterOnDeath",
       "type": "string"
     },
     {
-      "name": "Unknown2",
+      "name": "Unknown44",
       "type": "i32"
     },
     {
-      "name": "Unknown3",
-      "type": "i32[]"
-    },
-    {
-      "name": "Keys1",
-      "type": "u64[]"
+      "name": "Key45",
+      "type": "longid[]",
+      "ref": "GrantedEffectsPerLevel"
     },
     {
       "name": "Heist_SubStatValue1",
@@ -253,8 +228,86 @@
       "type": "i32"
     },
     {
-      "name": "Unknown4",
+      "name": "InfluenceTypes",
       "type": "i32"
+    },
+    {
+      "name": "ImplicitTagsKeys",
+      "type": "longid[]",
+      "ref": "Tags"
+    },
+    {
+      "name": "Unknown54",
+      "type": "i32"
+    },
+    {
+      "name": "Flag55",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown56",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown57",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown58",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown59",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown60",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown61",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown62",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown63",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown64",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown65",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown66",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown67",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown68",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown69",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown70",
+      "type": "i32"
+    },
+    {
+      "name": "BuffTemplate",
+      "type": "longid",
+      "ref": "BuffTemplates"
     }
   ]
 }

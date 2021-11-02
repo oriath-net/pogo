@@ -10,11 +10,11 @@
       "type": "string"
     },
     {
-      "name": "Data1",
+      "name": "Unknown2",
       "type": "i32[]"
     },
     {
-      "name": "Data2",
+      "name": "Unknown3",
       "type": "i32[]"
     }
   ]

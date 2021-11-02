@@ -4,11 +4,11 @@
     {
       "name": "BaseItemTypesKey",
       "type": "longid",
-      "ref": "BaseItemTypes",
-      "unique": true
+      "unique": true,
+      "ref": "BaseItemTypes"
     },
     {
-      "name": "Unknown2",
+      "name": "Unknown1",
       "type": "i32"
     },
     {

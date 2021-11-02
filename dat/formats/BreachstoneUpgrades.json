@@ -20,6 +20,10 @@
       "name": "BaseItemTypesKey3",
       "type": "longid",
       "ref": "BaseItemTypes"
+    },
+    {
+      "name": "Key4",
+      "type": "longid"
     }
   ]
 }

@@ -12,7 +12,7 @@
       "ref": "BuffDefinitions"
     },
     {
-      "name": "Flag0",
+      "name": "Flag2",
       "type": "bool"
     },
     {
@@ -30,7 +30,7 @@
       "ref": "Stats"
     },
     {
-      "name": "Flag1",
+      "name": "Flag6",
       "type": "bool"
     },
     {
@@ -38,11 +38,11 @@
       "type": "i32"
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "Key8",
+      "type": "longid[]"
     },
     {
-      "name": "Flag2",
+      "name": "Flag9",
       "type": "bool"
     }
   ]

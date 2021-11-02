@@ -18,7 +18,7 @@
     {
       "name": "CoordinateRect",
       "type": "string",
-      "description": "Coordinates in \"x1, y1, x2, y2\" format"
+      "description": "Coordinates in 'x1, y1, x2, y2' format"
     },
     {
       "name": "RGBFlavourTextColour",
@@ -34,8 +34,19 @@
     },
     {
       "name": "OGGFile",
-      "type": "string",
-      "path": "ogg"
+      "type": "string"
+    },
+    {
+      "name": "PassiveTreeImage",
+      "type": "string"
+    },
+    {
+      "name": "Unknown9",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown10",
+      "type": "i32"
     }
   ]
 }

@@ -1,4 +1,18 @@
 {
   "file": "ItemClassCategories",
-  "fields": []
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Text",
+      "type": "string"
+    },
+    {
+      "name": "Key2",
+      "type": "longid"
+    }
+  ]
 }

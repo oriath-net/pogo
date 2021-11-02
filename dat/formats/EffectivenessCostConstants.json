@@ -8,8 +8,7 @@
     },
     {
       "name": "Multiplier",
-      "type": "f32",
-      "description": "Rounded"
+      "type": "f32"
     }
   ]
 }

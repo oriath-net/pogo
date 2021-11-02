@@ -7,20 +7,24 @@
       "unique": true
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
     },
     {
       "name": "SpawnWeight",
       "type": "i32"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "Key4",
+      "type": "longid"
     },
     {
-      "name": "Key2",
-      "type": "u64"
+      "name": "Key5",
+      "type": "longid"
     },
     {
       "name": "Extra_ModsKeys",
@@ -28,20 +32,24 @@
       "ref": "Mods"
     },
     {
-      "name": "Flag0",
-      "type": "u8"
+      "name": "Flag7",
+      "type": "bool"
     },
     {
-      "name": "Flag1",
-      "type": "u8"
+      "name": "Flag8",
+      "type": "bool"
     },
     {
-      "name": "Flag2",
-      "type": "u8"
+      "name": "Flag9",
+      "type": "bool"
     },
     {
-      "name": "Key3",
-      "type": "u64"
+      "name": "Key10",
+      "type": "longid"
+    },
+    {
+      "name": "Unknown11",
+      "type": "i32"
     },
     {
       "name": "Unknown12",
@@ -56,32 +64,32 @@
       "type": "i32"
     },
     {
-      "name": "Unknown15",
-      "type": "i32"
+      "name": "Key15",
+      "type": "longid"
     },
     {
-      "name": "Key4",
-      "type": "u64"
+      "name": "Key16",
+      "type": "longid"
     },
     {
-      "name": "Key5",
-      "type": "u64"
+      "name": "Key17",
+      "type": "longid"
     },
     {
-      "name": "Key6",
-      "type": "u64"
-    },
-    {
-      "name": "Flag3",
-      "type": "u8"
-    },
-    {
-      "name": "Key7",
-      "type": "u64"
-    },
-    {
-      "name": "Flag4",
+      "name": "Flag18",
       "type": "bool"
+    },
+    {
+      "name": "Key19",
+      "type": "longid"
+    },
+    {
+      "name": "Flag20",
+      "type": "bool"
+    },
+    {
+      "name": "Key21",
+      "type": "longid"
     }
   ]
 }

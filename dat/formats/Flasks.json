@@ -4,8 +4,8 @@
     {
       "name": "BaseItemTypesKey",
       "type": "longid",
-      "ref": "BaseItemTypes",
-      "unique": true
+      "unique": true,
+      "ref": "BaseItemTypes"
     },
     {
       "name": "Name",
@@ -35,6 +35,14 @@
     },
     {
       "name": "BuffStatValues",
+      "type": "i32[]"
+    },
+    {
+      "name": "RecoveryTime2",
+      "type": "i32"
+    },
+    {
+      "name": "BuffStatValues2",
       "type": "i32[]"
     }
   ]

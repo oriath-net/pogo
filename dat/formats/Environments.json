@@ -8,21 +8,11 @@
     },
     {
       "name": "Base_ENVFile",
-      "type": "string",
-      "path": "env"
+      "type": "string"
     },
     {
       "name": "Corrupted_ENVFile",
-      "type": "string",
-      "path": "env"
-    },
-    {
-      "name": "Unknown1",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown2",
-      "type": "i32"
+      "type": "string"
     },
     {
       "name": "Unknown3",
@@ -33,13 +23,18 @@
       "type": "i32"
     },
     {
+      "name": "Unknown5",
+      "type": "u8[]"
+    },
+    {
       "name": "EnvironmentTransitionsKey",
       "type": "longid",
       "ref": "EnvironmentTransitions"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "PreloadGroup",
+      "type": "longid",
+      "ref": "PreloadGroups"
     }
   ]
 }

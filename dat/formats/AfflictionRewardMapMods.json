@@ -5,6 +5,10 @@
       "name": "ModsKey",
       "type": "longid",
       "ref": "Mods"
+    },
+    {
+      "name": "Flag1",
+      "type": "bool"
     }
   ]
 }

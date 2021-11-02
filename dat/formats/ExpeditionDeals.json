@@ -1,0 +1,40 @@
+{
+  "file": "ExpeditionDeals",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "i32",
+      "unique": true
+    },
+    {
+      "name": "Function",
+      "type": "string"
+    },
+    {
+      "name": "Arguments",
+      "type": "string"
+    },
+    {
+      "name": "TextAudio",
+      "type": "longid",
+      "ref": "NPCTextAudio"
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    },
+    {
+      "name": "BuyAchievements",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "Key6",
+      "type": "longid"
+    },
+    {
+      "name": "DealFamily",
+      "type": "i32"
+    }
+  ]
+}

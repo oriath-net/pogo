@@ -7,12 +7,14 @@
       "unique": true
     },
     {
-      "name": "Keys1",
-      "type": "u64[]"
+      "name": "SkillGemInfoKey1",
+      "type": "longid[]",
+      "ref": "SkillGemInfo"
     },
     {
-      "name": "Key2",
-      "type": "u64[]"
+      "name": "SkillGemInfoKey2",
+      "type": "longid[]",
+      "ref": "SkillGemInfo"
     },
     {
       "name": "Description",
@@ -20,17 +22,16 @@
     },
     {
       "name": "International_BK2File",
-      "type": "string",
-      "path": "bk2"
+      "type": "string"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "SkillGemsKey",
+      "type": "longid",
+      "ref": "SkillGems"
     },
     {
       "name": "China_BK2File",
-      "type": "string",
-      "path": "bk2"
+      "type": "string"
     },
     {
       "name": "CharactersKey",

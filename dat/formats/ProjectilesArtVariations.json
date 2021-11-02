@@ -1,0 +1,25 @@
+{
+  "file": "ProjectilesArtVariations",
+  "fields": [
+    {
+      "name": "Projectile",
+      "type": "string"
+    },
+    {
+      "name": "Variant",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "u8[]"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Key4",
+      "type": "longid"
+    }
+  ]
+}

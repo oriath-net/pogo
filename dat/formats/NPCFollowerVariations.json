@@ -17,20 +17,12 @@
       "ref": "MiscAnimated"
     },
     {
-      "name": "Flag0",
+      "name": "Flag3",
       "type": "bool"
     },
     {
-      "name": "Flag1",
+      "name": "Flag4",
       "type": "bool"
-    },
-    {
-      "name": "Unknown3",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown4",
-      "type": "i32"
     },
     {
       "name": "Unknown5",
@@ -45,27 +37,35 @@
       "type": "i32"
     },
     {
-      "name": "Flag2",
-      "type": "bool"
-    },
-    {
-      "name": "Flag3",
-      "type": "bool"
-    },
-    {
       "name": "Unknown8",
-      "type": "i32[]"
-    },
-    {
-      "name": "Unknown9",
-      "type": "i32[]"
-    },
-    {
-      "name": "Unknown10",
       "type": "i32"
     },
     {
-      "name": "Flag4",
+      "name": "Unknown9",
+      "type": "i32"
+    },
+    {
+      "name": "Flag10",
+      "type": "bool"
+    },
+    {
+      "name": "Flag11",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown12",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown13",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown14",
+      "type": "i32"
+    },
+    {
+      "name": "Flag15",
       "type": "bool"
     }
   ]

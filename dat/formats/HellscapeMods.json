@@ -1,0 +1,19 @@
+{
+  "file": "HellscapeMods",
+  "fields": [
+    {
+      "name": "Mod",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32[]"
+    },
+    {
+      "name": "TransformAchievement",
+      "type": "longid",
+      "ref": "AchievementItems"
+    }
+  ]
+}

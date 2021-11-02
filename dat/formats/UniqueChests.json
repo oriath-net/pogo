@@ -30,27 +30,25 @@
       "type": "i32"
     },
     {
-      "name": "Data1",
+      "name": "Unknown6",
       "type": "i32[]"
     },
     {
       "name": "AOFile",
-      "type": "string",
-      "path": "ao"
+      "type": "string"
     },
     {
-      "name": "Flag0",
+      "name": "Flag8",
       "type": "bool"
     },
     {
-      "name": "Data2",
-      "type": "u32[]"
+      "name": "Unknown9",
+      "type": "i32[]"
     },
     {
       "name": "AppearanceChestsKey",
       "type": "longid",
-      "ref": "Chests",
-      "description": "Uses this chest for it\"s visuals"
+      "ref": "Chests"
     },
     {
       "name": "ChestsKey",
@@ -58,8 +56,8 @@
       "ref": "Chests"
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "Key12",
+      "type": "longid[]"
     }
   ]
 }

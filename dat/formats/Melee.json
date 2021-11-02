@@ -2,16 +2,18 @@
   "file": "Melee",
   "fields": [
     {
-      "name": "Unknown0",
-      "type": "u64"
+      "name": "ActiveSkill",
+      "type": "longid",
+      "ref": "ActiveSkills"
     },
     {
       "name": "Unknown1",
       "type": "i32"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "MiscAnimated",
+      "type": "longid",
+      "ref": "MiscAnimated"
     },
     {
       "name": "MeleeTrailsKey1",
@@ -49,20 +51,19 @@
       "ref": "MeleeTrails"
     },
     {
-      "name": "Unknown20",
-      "type": "u8"
+      "name": "Flag10",
+      "type": "bool"
     },
     {
       "name": "SurgeEffect_EPKFile",
-      "type": "string",
-      "path": "epk"
-    },
-    {
-      "name": "Unknown2",
       "type": "string"
     },
     {
-      "name": "Unknown3",
+      "name": "Unknown12",
+      "type": "string"
+    },
+    {
+      "name": "Unknown13",
       "type": "string"
     }
   ]

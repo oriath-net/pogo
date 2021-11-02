@@ -4,8 +4,8 @@
     {
       "name": "ItemVisualIdentityKey",
       "type": "longid",
-      "ref": "ItemVisualIdentity",
-      "unique": true
+      "unique": true,
+      "ref": "ItemVisualIdentity"
     },
     {
       "name": "WorldAreasKey",
@@ -33,6 +33,10 @@
     {
       "name": "Name",
       "type": "string"
+    },
+    {
+      "name": "IsDropDisabled",
+      "type": "bool"
     }
   ]
 }

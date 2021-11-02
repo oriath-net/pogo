@@ -1,0 +1,14 @@
+{
+  "file": "VirtualStatContextFlags",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    }
+  ]
+}

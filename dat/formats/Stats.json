@@ -7,7 +7,7 @@
       "unique": true
     },
     {
-      "name": "Flag0",
+      "name": "Flag1",
       "type": "bool"
     },
     {
@@ -19,11 +19,11 @@
       "type": "bool"
     },
     {
-      "name": "Unknown0",
+      "name": "Semantics",
       "type": "i32"
     },
     {
-      "name": "Flag3",
+      "name": "Flag5",
       "type": "bool"
     },
     {
@@ -31,11 +31,11 @@
       "type": "string"
     },
     {
-      "name": "Flag5",
+      "name": "Flag7",
       "type": "bool"
     },
     {
-      "name": "Flag6",
+      "name": "IsVirtual",
       "type": "bool"
     },
     {
@@ -49,11 +49,11 @@
       "ref": "Stats"
     },
     {
-      "name": "Flag7",
+      "name": "Flag11",
       "type": "bool"
     },
     {
-      "name": "Unknown1",
+      "name": "Unknown12",
       "type": "i32"
     },
     {
@@ -63,28 +63,26 @@
       "ref-field": "Id"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "Key14",
+      "type": "longid"
     },
     {
-      "name": "Flag8",
+      "name": "Flag15",
       "type": "bool"
     },
     {
-      "name": "Flag9",
+      "name": "Flag16",
       "type": "bool"
     },
     {
-      "name": "Flag10",
-      "type": "bool"
+      "name": "IsScalable",
+      "type": "bool",
+      "description": "If not, displayed in advanced mod description as \" — Unscalable Value\""
     },
     {
-      "name": "Unknown2",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown3",
-      "type": "i32"
+      "name": "ContextFlags",
+      "type": "longid[]",
+      "ref": "VirtualStatContextFlags"
     }
   ]
 }

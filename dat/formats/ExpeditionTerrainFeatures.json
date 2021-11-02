@@ -1,0 +1,55 @@
+{
+  "file": "ExpeditionTerrainFeatures",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "ExtraFeature",
+      "type": "longid",
+      "ref": "ExtraTerrainFeatures"
+    },
+    {
+      "name": "ExpeditionFaction",
+      "type": "longid",
+      "ref": "ExpeditionFactions"
+    },
+    {
+      "name": "MinLevel",
+      "type": "i32"
+    },
+    {
+      "name": "MaxLevel",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Area",
+      "type": "longid",
+      "ref": "WorldAreas"
+    },
+    {
+      "name": "ExpeditionAreas",
+      "type": "longid[]",
+      "ref": "ExpeditionAreas"
+    },
+    {
+      "name": "Unknown8",
+      "type": "i32"
+    },
+    {
+      "name": "Flag9",
+      "type": "bool"
+    },
+    {
+      "name": "UnearthAchievements",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    }
+  ]
+}

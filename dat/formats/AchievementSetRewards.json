@@ -2,22 +2,22 @@
   "file": "AchievementSetRewards",
   "fields": [
     {
-      "name": "AchievementSetsDisplayKey",
-      "type": "shortid",
+      "name": "SetId",
+      "type": "i32",
       "ref": "AchievementSetsDisplay",
       "ref-field": "Id"
     },
     {
-      "name": "Unknown1",
+      "name": "AchievementsRequired",
       "type": "i32"
     },
     {
-      "name": "BaseItemTypesKeys",
+      "name": "Rewards",
       "type": "longid[]",
       "ref": "BaseItemTypes"
     },
     {
-      "name": "Unknown2",
+      "name": "TotemPieceEveryNAchievements",
       "type": "i32"
     },
     {
@@ -25,9 +25,16 @@
       "type": "string"
     },
     {
-      "name": "DDSFile",
-      "type": "string",
-      "path": "dds"
+      "name": "NotificationIcon",
+      "type": "string"
+    },
+    {
+      "name": "HideoutName",
+      "type": "string"
+    },
+    {
+      "name": "Id",
+      "type": "string"
     }
   ]
 }

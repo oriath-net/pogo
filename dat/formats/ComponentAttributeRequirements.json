@@ -4,9 +4,9 @@
     {
       "name": "BaseItemTypesKey",
       "type": "string",
+      "unique": true,
       "ref": "BaseItemTypes",
-      "ref-field": "Id",
-      "unique": true
+      "ref-field": "Id"
     },
     {
       "name": "ReqStr",

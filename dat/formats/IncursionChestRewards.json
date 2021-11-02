@@ -12,19 +12,19 @@
       "ref": "IncursionChests"
     },
     {
-      "name": "Unknown0",
+      "name": "ChestMarkerMetadata",
       "type": "string"
     },
     {
-      "name": "Unknown1",
-      "type": "u32"
-    },
-    {
-      "name": "Unknown2",
+      "name": "Unknown3",
       "type": "i32"
     },
     {
-      "name": "Unknown3",
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
       "type": "i32"
     }
   ]

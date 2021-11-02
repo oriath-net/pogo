@@ -11,11 +11,12 @@
       "type": "string"
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "NPCAudioKey",
+      "type": "longid[]",
+      "ref": "NPCAudio"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown3",
       "type": "i32"
     }
   ]

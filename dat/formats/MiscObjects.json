@@ -16,11 +16,11 @@
       "ref": "PreloadGroups"
     },
     {
-      "name": "UnknownUnique",
+      "name": "Unknown3",
       "type": "i32"
     },
     {
-      "name": "Unknown1",
+      "name": "Unknown4",
       "type": "i32"
     }
   ]

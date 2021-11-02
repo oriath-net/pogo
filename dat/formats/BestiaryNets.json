@@ -7,7 +7,7 @@
       "ref": "BaseItemTypes"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown1",
       "type": "i32"
     },
     {
@@ -27,7 +27,7 @@
       "type": "i32"
     },
     {
-      "name": "Unknown1",
+      "name": "Unknown6",
       "type": "i32"
     },
     {

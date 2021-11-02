@@ -7,39 +7,39 @@
       "unique": true
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
-    },
-    {
-      "name": "Data0",
-      "type": "i32[]"
-    },
-    {
-      "name": "Flag0",
-      "type": "bool"
-    },
-    {
-      "name": "Flag1",
-      "type": "bool"
-    },
-    {
-      "name": "Unknown0",
-      "type": "i32"
-    },
-    {
-      "name": "Key0",
-      "type": "u64"
-    },
-    {
-      "name": "Unknown1",
-      "type": "i32"
-    },
-    {
       "name": "Key1",
-      "type": "u64"
+      "type": "longid[]"
     },
     {
       "name": "Unknown2",
+      "type": "i32[]"
+    },
+    {
+      "name": "Flag3",
+      "type": "bool"
+    },
+    {
+      "name": "Flag4",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Key6",
+      "type": "longid"
+    },
+    {
+      "name": "Unknown7",
+      "type": "i32"
+    },
+    {
+      "name": "Key8",
+      "type": "longid"
+    },
+    {
+      "name": "Unknown9",
       "type": "i32"
     }
   ]

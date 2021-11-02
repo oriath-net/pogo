@@ -7,8 +7,9 @@
       "unique": true
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "BlightTopologyNodesKey",
+      "type": "longid",
+      "ref": "BlightTopologyNodes"
     },
     {
       "name": "Unknown2",

@@ -4,8 +4,8 @@
     {
       "name": "BaseItemTypesKey",
       "type": "longid",
-      "ref": "BaseItemTypes",
-      "unique": true
+      "unique": true,
+      "ref": "BaseItemTypes"
     },
     {
       "name": "Tier",
@@ -15,6 +15,10 @@
       "name": "AchievementItemsKeys",
       "type": "longid[]",
       "ref": "AchievementItems"
+    },
+    {
+      "name": "CanUseOnCorrupted",
+      "type": "bool"
     }
   ]
 }

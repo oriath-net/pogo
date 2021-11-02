@@ -11,20 +11,24 @@
       "type": "string"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "Stat1",
+      "type": "longid",
+      "ref": "Stats"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "Stat2",
+      "type": "longid",
+      "ref": "Stats"
     },
     {
-      "name": "Key2",
-      "type": "u64"
+      "name": "Stat3",
+      "type": "longid",
+      "ref": "Stats"
     },
     {
-      "name": "Key3",
-      "type": "u64"
+      "name": "Stat4",
+      "type": "longid",
+      "ref": "Stats"
     }
   ]
 }

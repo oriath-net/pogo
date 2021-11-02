@@ -4,8 +4,8 @@
     {
       "name": "WorldAreasKey",
       "type": "longid",
-      "ref": "WorldAreas",
-      "unique": true
+      "unique": true,
+      "ref": "WorldAreas"
     },
     {
       "name": "MonsterVarietiesKeys",

@@ -1,0 +1,14 @@
+{
+  "file": "ExpeditionMarkersCommon",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "AOFile",
+      "type": "string"
+    }
+  ]
+}

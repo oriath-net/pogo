@@ -2,8 +2,9 @@
   "file": "BlightedSporeAuras",
   "fields": [
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "BuffDefinitionsKey",
+      "type": "longid",
+      "ref": "BuffDefinitions"
     },
     {
       "name": "Unknown1",
@@ -14,11 +15,11 @@
       "type": "i32"
     },
     {
-      "name": "Unknown4",
+      "name": "Unknown3",
       "type": "i32[]"
     },
     {
-      "name": "Unknown5",
+      "name": "Unknown4",
       "type": "i32"
     }
   ]

@@ -7,11 +7,11 @@
       "unique": true
     },
     {
-      "name": "Flag0",
+      "name": "Flag1",
       "type": "bool"
     },
     {
-      "name": "Flag1",
+      "name": "Flag2",
       "type": "bool"
     },
     {
@@ -19,19 +19,19 @@
       "type": "string"
     },
     {
-      "name": "Unknown2",
+      "name": "Unknown4",
       "type": "string"
     },
     {
-      "name": "Unknown3",
+      "name": "Unknown5",
       "type": "i32"
     },
     {
-      "name": "Flag2",
+      "name": "Flag6",
       "type": "bool"
     },
     {
-      "name": "Flag3",
+      "name": "Flag7",
       "type": "bool"
     }
   ]

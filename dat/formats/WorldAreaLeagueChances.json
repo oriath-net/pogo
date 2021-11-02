@@ -1,0 +1,181 @@
+{
+  "file": "WorldAreaLeagueChances",
+  "fields": [
+    {
+      "name": "Key0",
+      "type": "longid"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown6",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown7",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown8",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown9",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown10",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown11",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown12",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown13",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown14",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown15",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown16",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown17",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown18",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown19",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown20",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown21",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown22",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown23",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown24",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown25",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown26",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown27",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown28",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown29",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown30",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown31",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown32",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown33",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown34",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown35",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown36",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown37",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown38",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown39",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown40",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown41",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown42",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown43",
+      "type": "i32"
+    }
+  ]
+}

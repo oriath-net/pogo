@@ -7,7 +7,7 @@
       "unique": true
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown1",
       "type": "i32"
     },
     {
@@ -16,19 +16,19 @@
       "ref": "AchievementItems"
     },
     {
-      "name": "Unknown4",
+      "name": "Unknown3",
       "type": "i32"
     },
     {
-      "name": "Flag0",
+      "name": "Flag4",
       "type": "bool"
     },
     {
-      "name": "Flag1",
+      "name": "Flag5",
       "type": "bool"
     },
     {
-      "name": "Unknown1",
+      "name": "Unknown6",
       "type": "i32"
     }
   ]

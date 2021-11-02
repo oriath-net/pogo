@@ -1,0 +1,51 @@
+{
+  "file": "ExpeditionFactions",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "FactionFlag",
+      "type": "string"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "FactionIcon",
+      "type": "string"
+    },
+    {
+      "name": "MonsterVarieties",
+      "type": "longid",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "Progress1",
+      "type": "longid",
+      "ref": "NPCTextAudio"
+    },
+    {
+      "name": "Progress2Vaal",
+      "type": "longid",
+      "ref": "NPCTextAudio"
+    },
+    {
+      "name": "Progress3Final",
+      "type": "longid",
+      "ref": "NPCTextAudio"
+    },
+    {
+      "name": "Tags",
+      "type": "longid",
+      "ref": "Tags"
+    }
+  ]
+}

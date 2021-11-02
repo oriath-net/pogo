@@ -7,12 +7,8 @@
       "unique": true
     },
     {
-      "name": "Key0",
-      "type": "u64"
-    },
-    {
-      "name": "Unknown1",
-      "type": "i32"
+      "name": "Key1",
+      "type": "longid"
     },
     {
       "name": "Unknown2",
@@ -40,6 +36,10 @@
     },
     {
       "name": "Unknown8",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown9",
       "type": "i32"
     },
     {

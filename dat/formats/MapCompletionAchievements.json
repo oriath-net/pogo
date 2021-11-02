@@ -26,8 +26,8 @@
       "ref": "MapTierAchievements"
     },
     {
-      "name": "Unknown11",
-      "type": "u8"
+      "name": "Flag5",
+      "type": "bool"
     },
     {
       "name": "WorldAreasKeys",

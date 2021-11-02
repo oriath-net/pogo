@@ -11,16 +11,18 @@
       "type": "i32[]"
     },
     {
-      "name": "Unknown3",
+      "name": "Unknown2",
       "type": "i32[]"
     },
     {
-      "name": "AchievementItemsKeys",
-      "type": "u64[]"
+      "name": "AchievementItems",
+      "type": "longid[]",
+      "ref": "AchievementItems"
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "NPCs",
+      "type": "longid[]",
+      "ref": "NPCs"
     }
   ]
 }

@@ -11,40 +11,13 @@
       "type": "i32"
     },
     {
-      "name": "Cost1_BaseItemTypesKeys",
-      "type": "longid[]",
-      "ref": "BaseItemTypesKey"
+      "name": "Cost",
+      "type": "longid",
+      "ref": "ItemCosts"
     },
     {
-      "name": "Cost1_Values",
-      "type": "i32[]"
-    },
-    {
-      "name": "Cost2_BaseItemTypesKeys",
-      "type": "longid[]",
-      "ref": "BaseItemTypesKey"
-    },
-    {
-      "name": "Cost2_Values",
-      "type": "i32[]"
-    },
-    {
-      "name": "Cost3_BaseItemTypesKeys",
-      "type": "longid[]",
-      "ref": "BaseItemTypesKey"
-    },
-    {
-      "name": "Cost3_Values",
-      "type": "i32[]"
-    },
-    {
-      "name": "Cost4_BaseItemTypesKeys",
-      "type": "longid[]",
-      "ref": "BaseItemTypesKey"
-    },
-    {
-      "name": "Cost4_Values",
-      "type": "i32[]"
+      "name": "Key3",
+      "type": "longid"
     }
   ]
 }

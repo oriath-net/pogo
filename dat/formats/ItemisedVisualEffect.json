@@ -22,31 +22,33 @@
       "ref": "ItemVisualIdentity"
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "Stats",
+      "type": "longid[]",
+      "ref": "Stats"
     },
     {
-      "name": "Data1",
-      "type": "u32[]"
+      "name": "ItemClasses",
+      "type": "longid[]",
+      "ref": "ItemClasses"
     },
     {
-      "name": "Keys2",
-      "type": "u64[]"
+      "name": "Key6",
+      "type": "longid[]"
     },
     {
-      "name": "Flag0",
+      "name": "Flag7",
       "type": "bool"
     },
     {
-      "name": "Data3",
-      "type": "u32[]"
-    },
-    {
-      "name": "Data4",
+      "name": "Unknown8",
       "type": "i32[]"
     },
     {
-      "name": "Flag1",
+      "name": "Unknown9",
+      "type": "i32[]"
+    },
+    {
+      "name": "Flag10",
       "type": "bool"
     }
   ]

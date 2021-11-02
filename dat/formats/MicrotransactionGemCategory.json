@@ -1,0 +1,14 @@
+{
+  "file": "MicrotransactionGemCategory",
+  "fields": [
+    {
+      "name": "Key0",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "Id",
+      "type": "string"
+    }
+  ]
+}

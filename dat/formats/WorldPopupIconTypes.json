@@ -12,11 +12,11 @@
     },
     {
       "name": "Unknown2",
-      "type": "string"
+      "type": "i32"
     },
     {
       "name": "Unknown3",
-      "type": "string"
+      "type": "i32"
     }
   ]
 }

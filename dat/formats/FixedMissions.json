@@ -3,11 +3,19 @@
   "fields": [
     {
       "name": "Key0",
-      "type": "u64"
+      "type": "longid"
     },
     {
       "name": "Key1",
-      "type": "u64"
+      "type": "longid"
+    },
+    {
+      "name": "Unknown2",
+      "type": "u8[]"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
     },
     {
       "name": "Unknown4",
@@ -19,18 +27,6 @@
     },
     {
       "name": "Unknown6",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown7",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown8",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown9",
       "type": "i32"
     }
   ]

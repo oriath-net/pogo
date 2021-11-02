@@ -7,11 +7,11 @@
       "unique": true
     },
     {
-      "name": "Flag0",
+      "name": "Flag1",
       "type": "bool"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown2",
       "type": "i32"
     },
     {
@@ -20,40 +20,35 @@
     },
     {
       "name": "AOFiles",
-      "type": "string[]",
-      "path": "ao"
+      "type": "string[]"
     },
     {
-      "name": "Flag1",
+      "name": "Flag5",
       "type": "bool"
     },
     {
-      "name": "Flag2",
+      "name": "Flag6",
       "type": "bool"
     },
     {
-      "name": "Unknown1",
+      "name": "Unknown7",
       "type": "i32"
     },
     {
-      "name": "Flag3",
+      "name": "Flag8",
       "type": "bool"
     },
     {
-      "name": "Flag4",
+      "name": "Flag9",
       "type": "bool"
     },
     {
-      "name": "Unknown2",
+      "name": "Unknown10",
       "type": "i32"
     },
     {
-      "name": "Unknown_Keys",
-      "type": "u64[]"
-    },
-    {
-      "name": "Unknown_Values",
-      "type": "u32[]"
+      "name": "Key11",
+      "type": "longid[]"
     },
     {
       "name": "BaseItemTypesKey",
@@ -61,7 +56,7 @@
       "ref": "BaseItemTypes"
     },
     {
-      "name": "Flag5",
+      "name": "Flag13",
       "type": "bool"
     },
     {
@@ -84,7 +79,7 @@
       "type": "i32"
     },
     {
-      "name": "Unknown3",
+      "name": "Unknown18",
       "type": "string"
     },
     {
@@ -94,36 +89,61 @@
     {
       "name": "Corrupt_AchievementItemsKey",
       "type": "longid",
-      "ref": "AchievementItems",
-      "description": "Achievement item granted on corruption"
+      "ref": "AchievementItems"
     },
     {
       "name": "CurrencyUse_AchievementItemsKey",
       "type": "longid",
-      "ref": "AchievementItems",
-      "description": "Achievement item checked on currency use"
+      "ref": "AchievementItems"
     },
     {
       "name": "Encounter_AchievementItemsKeys",
       "type": "longid[]",
-      "ref": "AchievementItems",
-      "description": "Achievement items granted on encounter"
+      "ref": "AchievementItems"
     },
     {
-      "name": "Key4",
-      "type": "u64"
+      "name": "Key23",
+      "type": "longid"
     },
     {
       "name": "InheritsFrom",
       "type": "string"
     },
     {
-      "name": "Flag6",
+      "name": "Flag25",
       "type": "bool"
     },
     {
-      "name": "Key5",
-      "type": "u64"
+      "name": "Key26",
+      "type": "longid"
+    },
+    {
+      "name": "Unknown27",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown28",
+      "type": "string"
+    },
+    {
+      "name": "Unknown29",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown30",
+      "type": "i32"
+    },
+    {
+      "name": "Flag31",
+      "type": "bool"
+    },
+    {
+      "name": "Key32",
+      "type": "longid"
+    },
+    {
+      "name": "Key33",
+      "type": "longid"
     }
   ]
 }

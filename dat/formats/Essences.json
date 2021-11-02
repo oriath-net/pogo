@@ -4,52 +4,52 @@
     {
       "name": "BaseItemTypesKey",
       "type": "longid",
-      "ref": "BaseItemTypes",
-      "unique": true
+      "unique": true,
+      "ref": "BaseItemTypes"
     },
     {
-      "name": "Unknown1",
-      "type": "u64"
+      "name": "Key1",
+      "type": "longid"
     },
     {
-      "name": "Unknown2",
-      "type": "u64"
+      "name": "Key2",
+      "type": "longid"
     },
     {
-      "name": "Unknown3",
-      "type": "u64"
+      "name": "Key3",
+      "type": "longid"
     },
     {
-      "name": "Unknown4",
-      "type": "u64"
+      "name": "Key4",
+      "type": "longid"
     },
     {
-      "name": "Unknown5",
-      "type": "u64"
+      "name": "Key5",
+      "type": "longid"
     },
     {
-      "name": "Unknown6",
-      "type": "u64"
+      "name": "Key6",
+      "type": "longid"
     },
     {
-      "name": "Unknown7",
-      "type": "u64"
+      "name": "Key7",
+      "type": "longid"
     },
     {
-      "name": "Unknown8",
-      "type": "u64"
+      "name": "Key8",
+      "type": "longid"
     },
     {
-      "name": "Unknown9",
-      "type": "u64"
+      "name": "Key9",
+      "type": "longid"
     },
     {
-      "name": "Unknown10",
-      "type": "u64"
+      "name": "Key10",
+      "type": "longid"
     },
     {
-      "name": "Unknown11",
-      "type": "u64"
+      "name": "Key11",
+      "type": "longid"
     },
     {
       "name": "Display_Wand_ModsKey",
@@ -133,7 +133,7 @@
       "type": "i32"
     },
     {
-      "name": "Unknown31",
+      "name": "Unknown29",
       "type": "i32"
     },
     {

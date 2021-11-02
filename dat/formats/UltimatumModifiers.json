@@ -1,0 +1,109 @@
+{
+  "file": "UltimatumModifiers",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "Types",
+      "type": "longid[]",
+      "ref": "UltimatumModifierTypes"
+    },
+    {
+      "name": "ExtraMods",
+      "type": "longid[]",
+      "ref": "Mods"
+    },
+    {
+      "name": "TypesFiltered",
+      "type": "longid[]",
+      "ref": "UltimatumModifierTypes"
+    },
+    {
+      "name": "DaemonSpawningData",
+      "type": "longid",
+      "ref": "DaemonSpawningData"
+    },
+    {
+      "name": "PreviousTiers",
+      "type": "shortid[]",
+      "ref": "UltimatumModifiers"
+    },
+    {
+      "name": "Flag6",
+      "type": "bool"
+    },
+    {
+      "name": "Bosses",
+      "type": "longid[]",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "Radius",
+      "type": "i32"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Icon",
+      "type": "string"
+    },
+    {
+      "name": "HASH16",
+      "type": "i32"
+    },
+    {
+      "name": "TypesExtra",
+      "type": "longid[]",
+      "ref": "UltimatumModifierTypes"
+    },
+    {
+      "name": "MonsterTypesApplyingRuin",
+      "type": "i32"
+    },
+    {
+      "name": "MiscAnimated",
+      "type": "longid",
+      "ref": "MiscAnimated"
+    },
+    {
+      "name": "BuffTemplates",
+      "type": "longid[]",
+      "ref": "BuffTemplates"
+    },
+    {
+      "name": "Tier",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown17",
+      "type": "i32"
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    },
+    {
+      "name": "MonsterSpawners",
+      "type": "string[]"
+    },
+    {
+      "name": "Flag20",
+      "type": "bool"
+    },
+    {
+      "name": "Achievements",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "TextAudio",
+      "type": "longid",
+      "ref": "NPCTextAudio"
+    }
+  ]
+}

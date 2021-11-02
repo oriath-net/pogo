@@ -8,13 +8,11 @@
     },
     {
       "name": "StereoSoundFile",
-      "type": "string",
-      "path": "ogg"
+      "type": "string"
     },
     {
       "name": "MonoSoundFile",
-      "type": "string",
-      "path": "ogg"
+      "type": "string"
     }
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "file": "BuffVisualsArtVariations",
+  "fields": [
+    {
+      "name": "Buff",
+      "type": "string"
+    },
+    {
+      "name": "Unknown1",
+      "type": "u8[]"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    }
+  ]
+}

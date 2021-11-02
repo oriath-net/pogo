@@ -17,20 +17,19 @@
     },
     {
       "name": "BK2File",
-      "type": "string",
-      "path": "bk2"
+      "type": "string"
     },
     {
-      "name": "Unknown1",
+      "name": "Unknown4",
       "type": "i32[]"
     },
     {
-      "name": "Unknown8",
+      "name": "Unknown5",
       "type": "i32"
     },
     {
-      "name": "Unknown9",
-      "type": "u8"
+      "name": "Flag6",
+      "type": "bool"
     }
   ]
 }

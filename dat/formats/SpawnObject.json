@@ -6,12 +6,12 @@
       "type": "i32"
     },
     {
-      "name": "Unknown1",
-      "type": "i32"
+      "name": "Key1",
+      "type": "longid[]"
     },
     {
       "name": "Unknown2",
-      "type": "i32"
+      "type": "u8[]"
     },
     {
       "name": "Unknown3",
@@ -46,20 +46,20 @@
       "type": "i32"
     },
     {
-      "name": "Unknown11",
-      "type": "i32"
+      "name": "Flag11",
+      "type": "bool"
     },
     {
       "name": "Unknown12",
-      "type": "i32"
+      "type": "string"
     },
     {
       "name": "Unknown13",
       "type": "i32"
     },
     {
-      "name": "Unknown14",
-      "type": "i32"
+      "name": "Flag14",
+      "type": "bool"
     },
     {
       "name": "Unknown15",
@@ -68,10 +68,6 @@
     {
       "name": "Unknown16",
       "type": "i32"
-    },
-    {
-      "name": "Unknown17",
-      "type": "i16"
     }
   ]
 }

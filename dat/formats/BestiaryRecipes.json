@@ -24,7 +24,7 @@
       "type": "string"
     },
     {
-      "name": "Flag0",
+      "name": "Flag5",
       "type": "bool"
     },
     {
@@ -33,11 +33,15 @@
       "ref": "AchievementItems"
     },
     {
-      "name": "Flag1",
+      "name": "Flag7",
       "type": "bool"
     },
     {
-      "name": "Unknown1",
+      "name": "Unknown8",
+      "type": "i32"
+    },
+    {
+      "name": "RedBeastsRequired",
       "type": "i32"
     }
   ]

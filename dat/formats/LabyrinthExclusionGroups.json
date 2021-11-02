@@ -2,8 +2,8 @@
   "file": "LabyrinthExclusionGroups",
   "fields": [
     {
-      "name": "Unknown1",
-      "type": "i32"
+      "name": "Id",
+      "type": "string"
     }
   ]
 }

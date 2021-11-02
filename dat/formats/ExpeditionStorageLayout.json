@@ -1,0 +1,50 @@
+{
+  "file": "ExpeditionStorageLayout",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "BaseItemType",
+      "type": "longid",
+      "ref": "BaseItemTypes"
+    },
+    {
+      "name": "PosX",
+      "type": "i32"
+    },
+    {
+      "name": "PosY",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Width",
+      "type": "i32"
+    },
+    {
+      "name": "Height",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown8",
+      "type": "i32"
+    },
+    {
+      "name": "Flag9",
+      "type": "bool"
+    },
+    {
+      "name": "Key10",
+      "type": "longid"
+    }
+  ]
+}

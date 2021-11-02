@@ -11,12 +11,26 @@
       "type": "i32"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "BuffVisuals1",
+      "type": "longid",
+      "ref": "BuffVisuals"
     },
     {
-      "name": "Key1",
-      "type": "u64"
+      "name": "BuffVisuals2",
+      "type": "longid",
+      "ref": "BuffVisuals"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown6",
+      "type": "i32"
     }
   ]
 }

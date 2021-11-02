@@ -15,16 +15,16 @@
       "type": "i32"
     },
     {
-      "name": "Unknown3",
+      "name": "MinTier",
       "type": "i32"
     },
     {
-      "name": "Unknown4",
+      "name": "MaxTier",
       "type": "i32"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "Key5",
+      "type": "longid"
     },
     {
       "name": "ModsKeys",

@@ -7,13 +7,11 @@
     },
     {
       "name": "GMFile",
-      "type": "string",
-      "path": "gm"
+      "type": "string"
     },
     {
       "name": "AISFile",
-      "type": "string",
-      "path": "ais"
+      "type": "string"
     },
     {
       "name": "ModsKeys",
@@ -25,7 +23,7 @@
       "type": "i32"
     },
     {
-      "name": "Flag0",
+      "name": "Flag5",
       "type": "bool"
     }
   ]

@@ -2,8 +2,9 @@
   "file": "MicrotransactionCharacterPortraitVariations",
   "fields": [
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "BaseItemType",
+      "type": "longid",
+      "ref": "BaseItemTypes"
     }
   ]
 }

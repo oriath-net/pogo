@@ -6,12 +6,17 @@
       "type": "string"
     },
     {
-      "name": "UnknownKey1",
-      "type": "longid"
+      "name": "StatsKey",
+      "type": "longid",
+      "ref": "Stats"
     },
     {
-      "name": "FormatString",
+      "name": "FormatText",
       "type": "string"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
     }
   ]
 }

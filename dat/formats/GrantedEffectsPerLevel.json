@@ -113,10 +113,6 @@
       "type": "i32"
     },
     {
-      "name": "ManaCost",
-      "type": "i32"
-    },
-    {
       "name": "DamageEffectiveness",
       "type": "i32",
       "description": "Damage effectiveness based on 0 = 100%"
@@ -131,17 +127,16 @@
     },
     {
       "name": "CooldownBypassType",
-      "type": "i32",
-      "description": "Charge type to expend to bypass cooldown (Endurance, Frenzy, Power, none)"
+      "type": "i32"
     },
     {
       "name": "StatsKeys2",
       "type": "longid[]",
-      "ref": "Stats",
-      "description": "Used with a value of one"
+      "description": "Used with a value of one",
+      "ref": "Stats"
     },
     {
-      "name": "Unknown30a",
+      "name": "Flag32",
       "type": "bool"
     },
     {
@@ -157,12 +152,7 @@
       "type": "i32"
     },
     {
-      "name": "ManaReservationOverride",
-      "type": "i32",
-      "description": "Mana Reservation Override: #% (if # > 0)"
-    },
-    {
-      "name": "Unknown37",
+      "name": "Unknown36",
       "type": "i32"
     },
     {
@@ -171,11 +161,11 @@
       "description": "Damage multiplier in 1/10000 for attack skills"
     },
     {
-      "name": "Unknown45",
+      "name": "Unknown38",
       "type": "i32"
     },
     {
-      "name": "Unknown46",
+      "name": "ArtVariation",
       "type": "i32"
     },
     {
@@ -183,13 +173,13 @@
       "type": "i32[]"
     },
     {
+      "name": "Unknown41",
+      "type": "i32"
+    },
+    {
       "name": "VaalSoulGainPreventionTime",
       "type": "i32",
       "description": "Time in milliseconds"
-    },
-    {
-      "name": "Unknown47",
-      "type": "i32"
     },
     {
       "name": "BaseDuration",
@@ -197,6 +187,47 @@
     },
     {
       "name": "AttackSpeedMultiplier",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown45",
+      "type": "i32"
+    },
+    {
+      "name": "CostAmounts",
+      "type": "i32[]"
+    },
+    {
+      "name": "CostTypesKeys",
+      "type": "longid[]",
+      "ref": "CostTypes"
+    },
+    {
+      "name": "ManaReservationFlat",
+      "type": "i32"
+    },
+    {
+      "name": "ManaReservationPercent",
+      "type": "i32"
+    },
+    {
+      "name": "LifeReservationFlat",
+      "type": "i32"
+    },
+    {
+      "name": "LifeReservationPercent",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown52",
+      "type": "i32"
+    },
+    {
+      "name": "AttackCritChance",
+      "type": "i32"
+    },
+    {
+      "name": "AttackTime",
       "type": "i32"
     }
   ]

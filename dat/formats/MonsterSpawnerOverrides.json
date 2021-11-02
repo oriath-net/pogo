@@ -3,7 +3,7 @@
   "fields": [
     {
       "name": "Key0",
-      "type": "u64"
+      "type": "longid"
     },
     {
       "name": "Base_MonsterVarietiesKey",

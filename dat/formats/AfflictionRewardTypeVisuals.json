@@ -3,13 +3,11 @@
   "fields": [
     {
       "name": "AfflictionRewardTypes",
-      "type": "shortid",
-      "ref": "AfflictionRewardTypes"
+      "type": "i32"
     },
     {
       "name": "Id",
-      "type": "string",
-      "unique": true
+      "type": "string"
     },
     {
       "name": "Name",

@@ -10,11 +10,11 @@
       "type": "i32"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "Key2",
+      "type": "longid"
     },
     {
-      "name": "Unknown2",
+      "name": "Unknown3",
       "type": "i32"
     }
   ]

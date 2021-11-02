@@ -11,8 +11,8 @@
       "type": "string"
     },
     {
-      "name": "AchievementSetsDisplayKey",
-      "type": "shortid",
+      "name": "SetId",
+      "type": "i32",
       "ref": "AchievementSetsDisplay",
       "ref-field": "Id"
     },
@@ -21,44 +21,16 @@
       "type": "string"
     },
     {
-      "name": "UnknownUnique",
+      "name": "Unknown4",
       "type": "i32",
       "unique": true
-    },
-    {
-      "name": "Flag0",
-      "type": "bool"
-    },
-    {
-      "name": "Flag1",
-      "type": "bool"
-    },
-    {
-      "name": "Flag2",
-      "type": "bool"
-    },
-    {
-      "name": "Unknown3",
-      "type": "i32"
-    },
-    {
-      "name": "Flag3",
-      "type": "bool"
-    },
-    {
-      "name": "Flag4",
-      "type": "bool"
-    },
-    {
-      "name": "Unknown1",
-      "type": "string"
     },
     {
       "name": "Flag5",
       "type": "bool"
     },
     {
-      "name": "Flag6",
+      "name": "HideAchievementItems",
       "type": "bool"
     },
     {
@@ -66,7 +38,35 @@
       "type": "bool"
     },
     {
-      "name": "Unknown2",
+      "name": "MinCompletedItems",
+      "type": "i32"
+    },
+    {
+      "name": "TwoColumnLayout",
+      "type": "bool"
+    },
+    {
+      "name": "ShowItemCompletionsAsOne",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown11",
+      "type": "string"
+    },
+    {
+      "name": "SoftcoreOnly",
+      "type": "bool"
+    },
+    {
+      "name": "HardcoreOnly",
+      "type": "bool"
+    },
+    {
+      "name": "Flag14",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown15",
       "type": "string"
     }
   ]

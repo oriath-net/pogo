@@ -12,7 +12,7 @@
       "ref": "MonsterTypes"
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown2",
       "type": "i32"
     },
     {
@@ -29,13 +29,11 @@
     },
     {
       "name": "ACTFiles",
-      "type": "string[]",
-      "path": "act"
+      "type": "string[]"
     },
     {
       "name": "AOFiles",
-      "type": "string[]",
-      "path": "ao"
+      "type": "string[]"
     },
     {
       "name": "BaseMonsterTypeIndex",
@@ -45,6 +43,23 @@
       "name": "ModsKeys",
       "type": "longid[]",
       "ref": "Mods"
+    },
+    {
+      "name": "Unknown10",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown11",
+      "type": "string"
+    },
+    {
+      "name": "Unknown12",
+      "type": "string"
+    },
+    {
+      "name": "ModelSizeMultiplier",
+      "type": "i32",
+      "description": "in percent"
     },
     {
       "name": "Unknown14",
@@ -59,28 +74,11 @@
       "type": "i32"
     },
     {
-      "name": "ModelSizeMultiplier",
-      "type": "i32",
-      "description": "in percent"
+      "name": "Unknown17",
+      "type": "i32"
     },
     {
       "name": "Unknown18",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown19",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown20",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown21",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown22",
       "type": "i32"
     },
     {
@@ -94,19 +92,19 @@
       "description": "in percent"
     },
     {
-      "name": "Unknown7",
+      "name": "Unknown21",
       "type": "i32[]"
     },
     {
-      "name": "Unknown28",
+      "name": "Unknown22",
       "type": "i32"
     },
     {
-      "name": "Unknown29",
+      "name": "Unknown23",
       "type": "i32"
     },
     {
-      "name": "Unknown30",
+      "name": "Unknown24",
       "type": "i32"
     },
     {
@@ -114,7 +112,7 @@
       "type": "i32"
     },
     {
-      "name": "Unknown32",
+      "name": "Unknown26",
       "type": "i32"
     },
     {
@@ -124,8 +122,7 @@
     },
     {
       "name": "AISFile",
-      "type": "string",
-      "path": "ais"
+      "type": "string"
     },
     {
       "name": "ModsKeys2",
@@ -137,8 +134,8 @@
       "type": "string"
     },
     {
-      "name": "Key2",
-      "type": "u64"
+      "name": "Key31",
+      "type": "longid"
     },
     {
       "name": "Name",
@@ -185,16 +182,12 @@
       "ref": "ItemClasses"
     },
     {
-      "name": "Key1",
-      "type": "u64"
-    },
-    {
       "name": "Helmet_ItemVisualIdentityKey",
       "type": "longid",
       "ref": "ItemVisualIdentity"
     },
     {
-      "name": "Unknown59",
+      "name": "Unknown42",
       "type": "i32"
     },
     {
@@ -213,44 +206,44 @@
       "ref": "AchievementItems"
     },
     {
-      "name": "Flag0",
+      "name": "Flag46",
       "type": "bool"
     },
     {
-      "name": "Unknown66",
+      "name": "Unknown47",
       "type": "i32"
     },
     {
-      "name": "Unknown67",
+      "name": "Unknown48",
       "type": "i32"
     },
     {
-      "name": "Unknown68",
+      "name": "Unknown49",
       "type": "i32"
     },
     {
-      "name": "Unknown69",
+      "name": "Unknown50",
       "type": "i32"
     },
     {
-      "name": "Unknown70",
+      "name": "Unknown51",
       "type": "i32"
     },
     {
-      "name": "Unknown71",
+      "name": "Unknown52",
       "type": "i32"
     },
     {
-      "name": "Unknown72",
+      "name": "Unknown53",
       "type": "i32"
     },
     {
-      "name": "Flag1",
-      "type": "u8"
+      "name": "Flag54",
+      "type": "bool"
     },
     {
-      "name": "Unknown73",
-      "type": "i32"
+      "name": "Unknown55",
+      "type": "string"
     },
     {
       "name": "KillWhileOnslaughtIsActive_AchievementItemsKey",
@@ -288,8 +281,113 @@
       "ref": "Mods"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "Key63",
+      "type": "longid"
+    },
+    {
+      "name": "Unknown64",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown65",
+      "type": "i32"
+    },
+    {
+      "name": "Key66",
+      "type": "longid[]"
+    },
+    {
+      "name": "Key67",
+      "type": "longid[]"
+    },
+    {
+      "name": "Unknown68",
+      "type": "i32"
+    },
+    {
+      "name": "SinkAnimation_AOFile",
+      "type": "string"
+    },
+    {
+      "name": "Flag70",
+      "type": "bool"
+    },
+    {
+      "name": "Key71",
+      "type": "longid[]"
+    },
+    {
+      "name": "Flag72",
+      "type": "bool"
+    },
+    {
+      "name": "Flag73",
+      "type": "bool"
+    },
+    {
+      "name": "Flag74",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown75",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown76",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown77",
+      "type": "f32"
+    },
+    {
+      "name": "Unknown78",
+      "type": "i32"
+    },
+    {
+      "name": "EPKFile",
+      "type": "string"
+    },
+    {
+      "name": "Unknown80",
+      "type": "i32"
+    },
+    {
+      "name": "MonsterConditionalEffectPacksKey",
+      "type": "longid",
+      "ref": "MonsterConditionalEffectPacks"
+    },
+    {
+      "name": "Flag82",
+      "type": "bool"
+    },
+    {
+      "name": "Flag83",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown84",
+      "type": "i32"
+    },
+    {
+      "name": "Flag85",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown86",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown87",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown88",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown89",
+      "type": "i32"
     },
     {
       "name": "Unknown90",
@@ -300,73 +398,16 @@
       "type": "i32"
     },
     {
-      "name": "Keys0",
-      "type": "u64[]"
+      "name": "Unknown92",
+      "type": "u8[]"
     },
     {
-      "name": "Keys1",
-      "type": "u64[]"
-    },
-    {
-      "name": "Unknown96",
+      "name": "Unknown93",
       "type": "i32"
     },
     {
-      "name": "SinkAnimation_AOFile",
-      "type": "string",
-      "path": "ao"
-    },
-    {
-      "name": "Flag2",
-      "type": "u8"
-    },
-    {
-      "name": "Keys2",
-      "type": "u64[]"
-    },
-    {
-      "name": "Flag3",
-      "type": "u8"
-    },
-    {
-      "name": "Flag4",
-      "type": "u8"
-    },
-    {
-      "name": "Flag5",
-      "type": "u8"
-    },
-    {
-      "name": "Unknown100",
+      "name": "Unknown94",
       "type": "i32"
-    },
-    {
-      "name": "Unknown101",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown102",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown103",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown104",
-      "type": "i32"
-    },
-    {
-      "name": "Unknown105",
-      "type": "i32"
-    },
-    {
-      "name": "Key3",
-      "type": "u64"
-    },
-    {
-      "name": "Flag6",
-      "type": "u8"
     }
   ]
 }

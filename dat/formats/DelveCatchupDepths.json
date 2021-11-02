@@ -2,11 +2,11 @@
   "file": "DelveCatchupDepths",
   "fields": [
     {
-      "name": "Unknown0",
+      "name": "Level",
       "type": "i32"
     },
     {
-      "name": "Unknown1",
+      "name": "Depth",
       "type": "i32"
     }
   ]

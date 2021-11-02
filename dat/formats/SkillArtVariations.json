@@ -1,0 +1,57 @@
+{
+  "file": "SkillArtVariations",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "Key1",
+      "type": "longid[]"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32[]"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32[]"
+    },
+    {
+      "name": "Variants",
+      "type": "string[]"
+    },
+    {
+      "name": "Key6",
+      "type": "longid[]"
+    },
+    {
+      "name": "Unknown7",
+      "type": "i32[]"
+    },
+    {
+      "name": "Key8",
+      "type": "longid[]"
+    },
+    {
+      "name": "Key9",
+      "type": "longid"
+    },
+    {
+      "name": "Unknown10",
+      "type": "i32[]"
+    },
+    {
+      "name": "Key11",
+      "type": "longid[]"
+    },
+    {
+      "name": "Unknown12",
+      "type": "i32[]"
+    }
+  ]
+}

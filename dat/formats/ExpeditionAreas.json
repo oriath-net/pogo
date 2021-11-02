@@ -1,0 +1,41 @@
+{
+  "file": "ExpeditionAreas",
+  "fields": [
+    {
+      "name": "Area",
+      "type": "longid",
+      "ref": "WorldAreas"
+    },
+    {
+      "name": "PosX",
+      "type": "i32"
+    },
+    {
+      "name": "PosY",
+      "type": "i32"
+    },
+    {
+      "name": "Tags",
+      "type": "longid[]",
+      "ref": "Tags"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32[]"
+    },
+    {
+      "name": "Flag5",
+      "type": "bool"
+    },
+    {
+      "name": "TextAudio",
+      "type": "longid",
+      "ref": "NPCTextAudio"
+    },
+    {
+      "name": "CompletionAchievements",
+      "type": "longid[]",
+      "ref": "AchievementItems"
+    }
+  ]
+}

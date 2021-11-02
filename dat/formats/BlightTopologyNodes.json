@@ -7,7 +7,7 @@
       "unique": true
     },
     {
-      "name": "Data1",
+      "name": "Unknown1",
       "type": "i32[]"
     },
     {
@@ -15,32 +15,36 @@
       "type": "i32"
     },
     {
-      "name": "Type",
-      "type": "string"
+      "name": "Angle",
+      "type": "i32"
     },
     {
-      "name": "Data3",
+      "name": "Unknown4",
       "type": "i32[]"
     },
     {
-      "name": "Data4",
+      "name": "Unknown5",
       "type": "i32[]"
     },
     {
-      "name": "Data5",
+      "name": "Unknown6",
       "type": "i32[]"
     },
     {
-      "name": "Data6",
+      "name": "Unknown7",
       "type": "i32[]"
     },
     {
-      "name": "Data7",
+      "name": "Unknown8",
       "type": "i32[]"
     },
     {
-      "name": "Data8",
+      "name": "Unknown9",
       "type": "i32[]"
+    },
+    {
+      "name": "Unknown10",
+      "type": "i32"
     }
   ]
 }

@@ -7,15 +7,16 @@
       "unique": true
     },
     {
-      "name": "Unknown0",
+      "name": "Unknown1",
       "type": "i32"
     },
     {
-      "name": "Key0",
-      "type": "u64"
+      "name": "BuffVisual",
+      "type": "longid",
+      "ref": "BuffVisuals"
     },
     {
-      "name": "Unknown2",
+      "name": "Unknown3",
       "type": "i32"
     }
   ]

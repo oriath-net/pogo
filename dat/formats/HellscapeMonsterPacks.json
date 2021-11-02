@@ -1,0 +1,36 @@
+{
+  "file": "HellscapeMonsterPacks",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string",
+      "unique": true
+    },
+    {
+      "name": "MonsterPack",
+      "type": "longid",
+      "ref": "MonsterPacks"
+    },
+    {
+      "name": "Faction",
+      "type": "longid",
+      "ref": "HellscapeFactions"
+    },
+    {
+      "name": "IsDonutPack",
+      "type": "bool"
+    },
+    {
+      "name": "IsElite",
+      "type": "bool"
+    },
+    {
+      "name": "MinLevel",
+      "type": "i32"
+    },
+    {
+      "name": "MaxLevel",
+      "type": "i32"
+    }
+  ]
+}

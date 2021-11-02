@@ -2,7 +2,7 @@
   "file": "ExperienceLevels",
   "fields": [
     {
-      "name": "Index0",
+      "name": "Unknown0",
       "type": "string"
     },
     {
@@ -11,7 +11,7 @@
     },
     {
       "name": "Experience",
-      "type": "u32"
+      "type": "i32"
     }
   ]
 }

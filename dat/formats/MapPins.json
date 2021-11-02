@@ -35,23 +35,23 @@
       "type": "string"
     },
     {
-      "name": "Data1",
-      "type": "u32[]"
+      "name": "Unknown7",
+      "type": "i32[]"
     },
     {
       "name": "Act",
       "type": "i32"
     },
     {
-      "name": "UnknownId",
+      "name": "Unknown9",
       "type": "string"
     },
     {
-      "name": "Data0",
+      "name": "Unknown10",
       "type": "i32[]"
     },
     {
-      "name": "Unknown13",
+      "name": "Unknown11",
       "type": "i32"
     }
   ]
