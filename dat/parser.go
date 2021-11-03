@@ -14,6 +14,8 @@ import (
 	"reflect"
 	"strings"
 	"unicode/utf16"
+
+	"github.com/oriath-net/pogo/util"
 )
 
 const (
@@ -87,7 +89,7 @@ func (p *DataParser) getFormat(filename string) (DataFormat, error) {
 	}
 
 	fileBaseName := strings.TrimSuffix(filename, path.Ext(filename))
-	data, err := fs.ReadFile(p.formatSource, fileBaseName+".json")
+	f, err := p.formatSource.Open(fileBaseName + ".json")
 	if err != nil {
 		if os.IsNotExist(err) {
 			return DataFormat{}, err
@@ -95,13 +97,22 @@ func (p *DataParser) getFormat(filename string) (DataFormat, error) {
 			return DataFormat{}, fmt.Errorf("unable to load format definition for %s: %w", filename, err)
 		}
 	}
+	defer f.Close()
 
-	df, err = p.typeFromJSON(data)
+	jfmt := JsonFormat{}
+	err = util.ReadJson(f, &jfmt)
+	if err != nil {
+		return DataFormat{}, fmt.Errorf("unable to parse format definition for %s: %w", filename, err)
+	}
+
+	df, err = jfmt.BuildType(p)
 	if err != nil {
 		return DataFormat{}, fmt.Errorf("unable to parse format definition for %s: %w", filename, err)
 	}
 
 	df.width = widthForFilename(filename)
+
+	p.formats[filename] = df
 
 	return df, nil
 }

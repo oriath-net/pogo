@@ -1,8 +1,6 @@
 package dat
 
 import (
-	"bytes"
-	"encoding/json"
 	"fmt"
 
 	"github.com/mcuadros/go-version"
@@ -28,16 +26,7 @@ type JsonField struct {
 	Path        string `json:"path,omitempty"`
 }
 
-func (dp *DataParser) typeFromJSON(jsonData []byte) (DataFormat, error) {
-	jfmt := JsonFormat{}
-
-	jdec := json.NewDecoder(bytes.NewReader(jsonData))
-	jdec.DisallowUnknownFields()
-	err := jdec.Decode(&jfmt)
-	if err != nil {
-		return DataFormat{}, err
-	}
-
+func (jfmt JsonFormat) BuildType(dp *DataParser) (DataFormat, error) {
 	if jfmt.File == "" {
 		return DataFormat{}, fmt.Errorf("Missing \"file\" property in data format JSON")
 	}

@@ -2,7 +2,6 @@ package cmd
 
 import (
 	"encoding/hex"
-	"encoding/json"
 	"fmt"
 	"io/fs"
 	"log"
@@ -10,6 +9,7 @@ import (
 	"path/filepath"
 
 	"github.com/oriath-net/pogo/poefs"
+	"github.com/oriath-net/pogo/util"
 
 	cli "github.com/urfave/cli/v2"
 )
@@ -109,11 +109,7 @@ func do_ls(c *cli.Context) error {
 					jout.Sha256 = hex.EncodeToString(sig)
 				}
 			}
-			jdata, err := json.Marshal(jout)
-			if err != nil {
-				panic(err)
-			}
-			fmt.Println(string(jdata))
+			util.WriteJson(os.Stdout, &jout, false)
 		} else if long {
 			if di.IsDir() {
 				fmt.Printf(

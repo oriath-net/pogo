@@ -9,9 +9,9 @@ import (
 	"os"
 	"strings"
 
-	cli "github.com/urfave/cli/v2"
-
 	"github.com/oriath-net/pogo/poefs"
+
+	cli "github.com/urfave/cli/v2"
 )
 
 var Analyze = cli.Command{

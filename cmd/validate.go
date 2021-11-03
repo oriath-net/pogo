@@ -10,10 +10,10 @@ import (
 	"reflect"
 	"strings"
 
-	cli "github.com/urfave/cli/v2"
-
 	"github.com/oriath-net/pogo/dat"
 	"github.com/oriath-net/pogo/poefs"
+
+	cli "github.com/urfave/cli/v2"
 )
 
 var Validate = cli.Command{
@@ -159,7 +159,7 @@ func do_validate(c *cli.Context) error {
 	reportLetter := byte(0)
 	reportFile := io.Writer(nil)
 	if reportTo := c.String("report"); reportTo != "" {
-		fd, err := os.OpenFile(reportTo, os.O_WRONLY|os.O_CREATE|os.O_TRUNC, 0644)
+		fd, err := os.Create(reportTo)
 		if err != nil {
 			return err
 		}

@@ -1,15 +1,15 @@
 package cmd
 
 import (
-	"bytes"
-	"encoding/json"
 	"log"
 	"os"
 	"path/filepath"
 	"regexp"
 	"strconv"
 
-	dat "github.com/oriath-net/pogo/dat"
+	"github.com/oriath-net/pogo/dat"
+	"github.com/oriath-net/pogo/util"
+
 	cli "github.com/urfave/cli/v2"
 )
 
@@ -54,18 +54,6 @@ var Schema2json = cli.Command{
 	Action:    do_schema2json,
 }
 
-func writePrettyJson(dirname string, filename string, data interface{}) error {
-	jdat, err := json.Marshal(data)
-	if err != nil {
-		return err
-	}
-
-	buf := &bytes.Buffer{}
-	json.Indent(buf, jdat, "", "  ")
-	buf.WriteByte('\n')
-	return os.WriteFile(filepath.Join(dirname, filename), buf.Bytes(), 0644)
-}
-
 func do_schema2json(c *cli.Context) error {
 	if c.NArg() < 2 {
 		return errNotEnoughArguments
@@ -74,14 +62,8 @@ func do_schema2json(c *cli.Context) error {
 		return errTooManyArguments
 	}
 
-	schema_path := c.Args().Get(0)
-	jdat, err := os.ReadFile(schema_path)
-	if err != nil {
-		return err
-	}
-
 	schema := schemaTopLevel{}
-	err = json.Unmarshal(jdat, &schema)
+	err := util.ReadJsonFromFile(c.Args().Get(0), &schema)
 	if err != nil {
 		return err
 	}
@@ -92,11 +74,11 @@ func do_schema2json(c *cli.Context) error {
 		return err
 	}
 
-	writePrettyJson(outdir, "_META.json", schemaMetaData{
+	util.WriteJsonToFile(filepath.Join(outdir, "_META.json"), schemaMetaData{
 		"Created by pogo schema2json",
 		schema.Version,
 		schema.CreatedAt,
-	})
+	}, true)
 
 	identifierRegexp := regexp.MustCompile(`^[A-Z][A-Za-z0-9_]*$`)
 
@@ -148,7 +130,7 @@ func do_schema2json(c *cli.Context) error {
 
 			jfmt.Fields = append(jfmt.Fields, jfield)
 		}
-		writePrettyJson(outdir, tbl.Name+".json", jfmt)
+		util.WriteJsonToFile(filepath.Join(outdir, tbl.Name+".json"), jfmt, true)
 	}
 
 	return nil

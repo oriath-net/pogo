@@ -1,16 +1,16 @@
 package cmd
 
 import (
-	"encoding/json"
 	"fmt"
 	"os"
 	"path"
 	"strconv"
 
-	cli "github.com/urfave/cli/v2"
-
 	"github.com/oriath-net/pogo/dat"
 	"github.com/oriath-net/pogo/poefs"
+	"github.com/oriath-net/pogo/util"
+
+	cli "github.com/urfave/cli/v2"
 )
 
 var Data2json = cli.Command{
@@ -82,9 +82,6 @@ func do_data2json(c *cli.Context) error {
 		return err
 	}
 
-	enc := json.NewEncoder(os.Stdout)
-	enc.SetEscapeHTML(false)
-
 	wantRowIDs := make([]int, 0)
 	for _, arg := range c.Args().Tail() {
 		id, err := strconv.Atoi(arg)
@@ -96,14 +93,14 @@ func do_data2json(c *cli.Context) error {
 
 	if len(wantRowIDs) > 0 {
 		for _, i := range wantRowIDs {
-			err := enc.Encode(rows[i])
+			err := util.WriteJson(os.Stdout, rows[i], false)
 			if err != nil {
 				return err
 			}
 		}
 	} else {
 		for i := range rows {
-			err := enc.Encode(rows[i])
+			err := util.WriteJson(os.Stdout, rows[i], false)
 			if err != nil {
 				return err
 			}
