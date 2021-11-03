@@ -17,7 +17,7 @@
     },
     {
       "name": "Key1",
-      "type": "u64"
+      "type": "longid"
     },
     {
       "name": "Unknown4",
@@ -29,7 +29,8 @@
     },
     {
       "name": "Unknown2",
-      "type": "i32[]"
+      "type": "i32[]",
+      "since": "3.10"
     }
   ]
 }

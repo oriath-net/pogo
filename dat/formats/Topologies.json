@@ -21,6 +21,11 @@
     {
       "name": "Unknown4",
       "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "longid",
+      "until": "3.0"
     }
   ]
 }

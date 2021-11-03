@@ -51,15 +51,36 @@
     },
     {
       "name": "Unknown11",
-      "type": "i32[]"
+      "type": "i32[]",
+      "since": "3.2"
+    },
+    {
+      "name": "Unknown11_1",
+      "type": "i32",
+      "since": "3.2",
+      "until": "3.7"
     },
     {
       "name": "Flag12",
-      "type": "bool"
+      "type": "bool",
+      "since": "3.2"
     },
     {
       "name": "Key13",
-      "type": "longid[]"
+      "type": "longid[]",
+      "since": "3.4"
+    },
+    {
+      "name": "Flag14",
+      "type": "bool",
+      "since": "3.7",
+      "until": "3.9"
+    },
+    {
+      "name": "Flag15",
+      "type": "bool",
+      "since": "3.7",
+      "until": "3.9"
     }
   ]
 }

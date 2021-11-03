@@ -77,19 +77,23 @@
     },
     {
       "name": "Flag18",
-      "type": "bool"
+      "type": "bool",
+      "since": "3.6"
     },
     {
       "name": "Key19",
-      "type": "longid"
+      "type": "longid",
+      "since": "3.9"
     },
     {
       "name": "Flag20",
-      "type": "bool"
+      "type": "bool",
+      "since": "3.9"
     },
     {
       "name": "Key21",
-      "type": "longid"
+      "type": "longid",
+      "since": "3.13"
     }
   ]
 }

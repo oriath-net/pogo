@@ -41,11 +41,13 @@
     },
     {
       "name": "Flag9",
-      "type": "bool"
+      "type": "bool",
+      "since": "3.3"
     },
     {
       "name": "Flag10",
-      "type": "bool"
+      "type": "bool",
+      "since": "3.4"
     }
   ]
 }

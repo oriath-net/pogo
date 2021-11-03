@@ -10,16 +10,16 @@
       "type": "longid[]"
     },
     {
-      "name": "Unknown2",
-      "type": "i32[]"
+      "name": "Key2",
+      "type": "longid[]"
     },
     {
-      "name": "Unknown3",
-      "type": "i32[]"
+      "name": "Key3",
+      "type": "longid[]"
     },
     {
-      "name": "Unknown4",
-      "type": "i32[]"
+      "name": "Key4",
+      "type": "longid[]"
     },
     {
       "name": "Variants",
@@ -42,8 +42,8 @@
       "type": "longid"
     },
     {
-      "name": "Unknown10",
-      "type": "i32[]"
+      "name": "Key10",
+      "type": "longid[]"
     },
     {
       "name": "Key11",
@@ -51,7 +51,7 @@
     },
     {
       "name": "Unknown12",
-      "type": "i32[]"
+      "type": "void[]"
     }
   ]
 }

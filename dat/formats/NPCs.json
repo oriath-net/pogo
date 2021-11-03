@@ -54,8 +54,8 @@
     {
       "name": "Key11",
       "type": "shortid",
-      "ref": "NPCs",
-      "since": "3.11"
+      "since": "3.11",
+      "ref": "NPCs"
     },
     {
       "name": "PortraitFile",
@@ -66,14 +66,14 @@
     {
       "name": "Portrait",
       "type": "longid",
-      "ref": "NPCPortraits",
-      "since": "3.13"
+      "since": "3.13",
+      "ref": "NPCPortraits"
     },
     {
       "name": "DialogueStyle",
       "type": "longid",
-      "ref": "NPCDialogueStyles",
-      "since": "3.14"
+      "since": "3.14",
+      "ref": "NPCDialogueStyles"
     }
   ]
 }

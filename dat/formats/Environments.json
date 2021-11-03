@@ -34,8 +34,8 @@
     {
       "name": "PreloadGroup",
       "type": "longid",
-      "ref": "PreloadGroups",
-      "since": "3.7"
+      "since": "3.7",
+      "ref": "PreloadGroups"
     }
   ]
 }

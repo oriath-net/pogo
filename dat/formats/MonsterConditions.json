@@ -40,13 +40,13 @@
     },
     {
       "name": "Unknown8",
-      "description": "possibly TagsNotPresent, but unused",
-      "type": "void[]"
+      "type": "void[]",
+      "description": "possibly TagsNotPresent, but unused"
     },
     {
       "name": "Unknown9",
-      "description": "set to 3 on IsFirst3Possessed",
-      "type": "i32"
+      "type": "i32",
+      "description": "set to 3 on IsFirst3Possessed"
     },
     {
       "name": "MinLevel",

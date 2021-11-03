@@ -4,14 +4,14 @@
     {
       "name": "Id",
       "type": "string",
-      "unique": true,
-      "until": "3.14"
+      "until": "3.14",
+      "unique": true
     },
     {
       "name": "Id",
       "type": "i32",
-      "unique": true,
-      "since": "3.14"
+      "since": "3.14",
+      "unique": true
     },
     {
       "name": "ProjectileKey",

@@ -508,8 +508,8 @@
     },
     {
       "name": "Unknown68",
-      "since": "3.13",
-      "type": "void[]"
+      "type": "void[]",
+      "since": "3.13"
     },
     {
       "name": "UltimatumChance",

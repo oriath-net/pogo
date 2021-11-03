@@ -13,11 +13,13 @@
     },
     {
       "name": "Flag2",
-      "type": "bool"
+      "type": "bool",
+      "since": "3.13"
     },
     {
       "name": "Flag3",
-      "type": "bool"
+      "type": "bool",
+      "since": "3.14"
     }
   ]
 }

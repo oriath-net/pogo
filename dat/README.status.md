@@ -95,8 +95,8 @@
 | AreaType                         | 3.0-     | ✅ | ✅ | ✅
 | ArmourClasses                    | all      | ✅ | ✅ | ✅
 | ArmourSurfaceTypes               | all      | ✅ | ✅ | ✅
-| ArmourTypes                      | all      | ✅ | ✅ | ❌
-| Ascendancy                       | 2.1-     | ✅ | ✅ | ❌
+| ArmourTypes                      | all      | ✅ | ✅ | ✅
+| Ascendancy                       | 2.1-     | ✅ | ✅ | ✅
 | AtlasAwakeningStats              | 3.9-     | ✅ | ✅ | ✅
 | AtlasBaseTypeDrops               | 3.9-     | ✅ | ✅ | ✅
 | AtlasExileBossArenas             | 3.9-     | ✅ | ✅ | ✅
@@ -106,7 +106,7 @@
 | AtlasExileInfluenceOutcomeTypes  | 3.9-     | ✅ | ✅ | ✅
 | AtlasExileInfluencePacks         | 3.9-3.9  | ❓ | ❓ | ❓
 | AtlasExileInfluenceSets          | 3.9-     | ✅ | ✅ | ✅
-| AtlasExileRegionQuestFlags       | 3.9-     | ✅ | ✅ | ❌
+| AtlasExileRegionQuestFlags       | 3.9-     | ✅ | ✅ | ✅
 | AtlasExiles                      | 3.9-     | ✅ | ✅ | ❌
 | AtlasFog                         | 3.6-     | ✅ | ✅ | ✅
 | AtlasInfluenceOutcomes           | 3.2-     | ✅ | ✅ | ✅
@@ -222,8 +222,8 @@
 | CloneShot                        | 3.3-     | ✅ | ❌ | ⚠️
 | CloneShotVariations              | 2.4-3.2  | ❓ | ❓ | ❓
 | Colours                          | 3.16-    | ✅ | ✅ | ❓
-| Commands                         | all      | ✅ | ✅ | ❌
-| ComponentArmour                  | 0.11-3.14 | ✅ | ✅ | ❌
+| Commands                         | all      | ✅ | ✅ | ✅
+| ComponentArmour                  | 0.11-3.14 | ✅ | ✅ | ✅
 | ComponentAttributeRequirements   | all      | ✅ | ✅ | ✅
 | ComponentCharges                 | all      | ✅ | ✅ | ❌
 | CooldownBypassTypes              | all      | ✅ | ✅ | ✅
@@ -492,7 +492,7 @@
 | InventoryType                    | 3.7-     | ✅ | ✅ | ❌
 | ItemClassCategories              | 3.0-     | ✅ | ✅ | ❌
 | ItemClasses                      | all      | ✅ | ✅ | ❌
-| ItemClassesDisplay               | 1.2-2.1  | ❓ | n/a | ❓
+| ItemClassesDisplay               | 1.2-2.1  | ✅ | n/a | ✅
 | ItemCostPerLevel                 | 3.12-    | ✅ | ✅ | ❌
 | ItemCosts                        | 3.16-    | ✅ | ✅ | ❓
 | ItemCreationTemplateCustomAction | 3.7-     | ✅ | ✅ | ✅
@@ -705,7 +705,7 @@
 
 | File                             | Releases | current  | dat64 | history
 | -------------------------------- | -------- | -------- | ----- | --------
-| NearbyMonsterConditions          | 3.8-     | ⚠️ | ❌ | ⚠️
+| NearbyMonsterConditions          | 3.8-     | ✅ | ✅ | ✅
 | NetTiers                         | 3.2-     | ✅ | ✅ | ✅
 | NormalDifficultyMasterWeights    | 1.2-2.6  | ❓ | ❓ | ❓
 | Notifications                    | 1.3-     | ✅ | ✅ | ❌
@@ -746,7 +746,7 @@
 | PassiveJewelDistanceList         | -        | ❓ | n/a | ❓
 | PassiveJewelRadii                | 3.16-    | ✅ | ✅ | ❓
 | PassiveJewelSlots                | 2.0-     | ✅ | ✅ | ❌
-| PassiveSkillBuffs                | 3.5-3.13 | ✅ | ❌ | ❌
+| PassiveSkillBuffs                | 3.5-3.13 | ✅ | ✅ | ✅
 | PassiveSkillFilterCatagories     | 3.11-    | ✅ | ✅ | ✅
 | PassiveSkillFilterOptions        | 3.11-    | ✅ | ✅ | ✅
 | PassiveSkillMasteryEffects       | 3.16-    | ✅ | ✅ | ❓
@@ -858,7 +858,7 @@
 | ShrineSounds                     | 1.0-     | ✅ | ✅ | ✅
 | SigilDisplay                     | 3.5-     | ✅ | ✅ | ✅
 | SingleGroundLaser                | 3.16-    | ✅ | ✅ | ❓
-| SkillArtVariations               | 3.15-    | ⚠️ | ❌ | ⚠️
+| SkillArtVariations               | 3.15-    | ✅ | ✅ | ✅
 | SkillGemInfo                     | 3.4-     | ✅ | ✅ | ❌
 | SkillGems                        | all      | ✅ | ✅ | ❌
 | SkillMines                       | 3.8-     | ✅ | ✅ | ✅
@@ -885,8 +885,8 @@
 | StatInterpolationTypes           | 3.0-     | ✅ | ✅ | ✅
 | Stats                            | all      | ✅ | ✅ | ❌
 | StatSemantics                    | all      | ✅ | ✅ | ✅
-| StatSets                         | 3.10-3.11 | ❓ | ❓ | ❓
-| StrDexIntMissionExtraRequirement | 1.2-     | ✅ | ✅ | ❌
+| StatSets                         | 3.10-3.11 | ✅ | ✅ | ✅
+| StrDexIntMissionExtraRequirement | 1.2-     | ✅ | ✅ | ✅
 | StrDexIntMissionMaps             | 1.2-3.3  | ❓ | ❓ | ❓
 | StrDexIntMissionMods             | 1.2-3.3  | ❓ | ❓ | ❓
 | StrDexIntMissions                | 1.2-     | ✅ | ✅ | ❌
@@ -932,7 +932,7 @@
 | File                             | Releases | current  | dat64 | history
 | -------------------------------- | -------- | -------- | ----- | --------
 | TableMonsterSpawners             | 3.5-     | ✅ | ✅ | ❌
-| Tags                             | all      | ✅ | ✅ | ❌
+| Tags                             | all      | ✅ | ✅ | ✅
 | TalismanMonsterMods              | 2.1-     | ✅ | ✅ | ✅
 | TalismanPacks                    | 2.1-     | ✅ | ✅ | ❌
 | Talismans                        | 2.1-     | ✅ | ✅ | ✅
@@ -941,14 +941,14 @@
 | TalkingPets                      | 3.13-    | ✅ | ✅ | ✅
 | TencentAutoLootPetCurrencies     | 3.8-     | ✅ | ✅ | ✅
 | TencentAutoLootPetCurrenciesExcludable | 3.8-     | ✅ | ✅ | ✅
-| TerrainPlugins                   | 2.4-     | ✅ | ✅ | ❌
-| Tips                             | 1.2-     | ✅ | ✅ | ❌
-| Topologies                       | all      | ✅ | ✅ | ❌
+| TerrainPlugins                   | 2.4-     | ✅ | ✅ | ✅
+| Tips                             | 1.2-     | ✅ | ✅ | ✅
+| Topologies                       | all      | ✅ | ✅ | ✅
 | TormentSpirits                   | 1.3-     | ✅ | ✅ | ✅
 | TreasureHunterMissions           | 3.3-     | ✅ | ✅ | ✅
 | TriggerBeam                      | 3.11-    | ✅ | ✅ | ❌
 | TriggerSpawners                  | 2.4-     | ✅ | ✅ | ✅
-| Tutorial                         | 3.0-     | ✅ | ✅ | ❌
+| Tutorial                         | 3.0-     | ✅ | ✅ | ✅
 
 ## U
 

@@ -7,48 +7,89 @@
       "ref": "BaseItemTypes"
     },
     {
+      "name": "Armour",
+      "type": "i32",
+      "since": "3.15",
+      "until": "3.16"
+    },
+    {
       "name": "ArmourMin",
-      "type": "i32"
+      "type": "i32",
+      "since": "3.16"
     },
     {
       "name": "ArmourMax",
-      "type": "i32"
+      "type": "i32",
+      "since": "3.16"
+    },
+    {
+      "name": "Evasion",
+      "type": "i32",
+      "since": "3.15",
+      "until": "3.16"
     },
     {
       "name": "EvasionMin",
-      "type": "i32"
+      "type": "i32",
+      "since": "3.16"
     },
     {
       "name": "EvasionMax",
-      "type": "i32"
+      "type": "i32",
+      "since": "3.16"
+    },
+    {
+      "name": "EnergyShield",
+      "type": "i32",
+      "since": "3.15",
+      "until": "3.16"
     },
     {
       "name": "EnergyShieldMin",
-      "type": "i32"
+      "type": "i32",
+      "since": "3.16"
     },
     {
       "name": "EnergyShieldMax",
-      "type": "i32"
+      "type": "i32",
+      "since": "3.16"
     },
     {
       "name": "IncreasedMovementSpeed",
-      "type": "i32"
+      "type": "i32",
+      "since": "3.6"
+    },
+    {
+      "name": "Ward",
+      "type": "i32",
+      "since": "3.15",
+      "until": "3.16"
     },
     {
       "name": "WardMin",
-      "type": "i32"
+      "type": "i32",
+      "since": "3.16"
     },
     {
       "name": "WardMax",
-      "type": "i32"
+      "type": "i32",
+      "since": "3.16"
     },
     {
-      "name": "Unknown10",
-      "type": "i32"
+      "name": "Adaptation",
+      "type": "i32",
+      "since": "3.15",
+      "until": "3.16"
     },
     {
-      "name": "Unknown11",
-      "type": "i32"
+      "name": "AdaptationMin",
+      "type": "i32",
+      "since": "3.16"
+    },
+    {
+      "name": "AdaptationMax",
+      "type": "i32",
+      "since": "3.16"
     }
   ]
 }

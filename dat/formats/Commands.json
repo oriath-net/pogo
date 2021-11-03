@@ -16,15 +16,18 @@
     },
     {
       "name": "EnglishCommand",
-      "type": "string"
+      "type": "string",
+      "since": "1.2"
     },
     {
       "name": "Description",
-      "type": "string"
+      "type": "string",
+      "since": "3.0"
     },
     {
       "name": "Flag5",
-      "type": "bool"
+      "type": "bool",
+      "since": "3.12"
     }
   ]
 }

@@ -64,8 +64,8 @@
     {
       "name": "DailyDealImage",
       "type": "string",
-      "path": "art",
-      "since": "1.1"
+      "since": "1.1",
+      "path": "art"
     },
     {
       "name": "Unknown4",
