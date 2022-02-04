@@ -152,7 +152,7 @@ func do_validate(c *cli.Context) error {
 			"0.11", "1.0", "1.1", "1.2", "1.3",
 			"2.0", "2.1", "2.2", "2.3", "2.4", "2.5", "2.6",
 			"3.0", "3.1", "3.2", "3.3", "3.4", "3.5", "3.6", "3.7", "3.8", "3.9",
-			"3.10", "3.11", "3.12", "3.13", "3.14", "3.15", "3.16",
+			"3.10", "3.11", "3.12", "3.13", "3.14", "3.15", "3.16", "3.17",
 		}
 	}
 
@@ -202,7 +202,7 @@ func (r *validateRunner) Validate(filename string) (validateOutput, error) {
 	out := validateOutput{
 		current: statusMissing,
 		dat64:   statusNA,
-		history: statusMissing,
+		history: statusNA,
 	}
 
 	for i := len(r.versions) - 1; i >= 0; i-- {
