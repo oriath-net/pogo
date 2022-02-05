@@ -31,8 +31,9 @@
       "type": "i32[]"
     },
     {
-      "name": "Unknown7",
-      "type": "i32[]"
+      "name": "HarvestAchievementItems",
+      "type": "longid[]",
+      "ref": "AchievementItems"
     },
     {
       "name": "Unknown8",

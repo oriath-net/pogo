@@ -3,8 +3,14 @@
   "fields": [
     {
       "name": "Id",
+      "type": "string",
+      "until": "3.16"
+    },
+    {
+      "name": "Id",
       "type": "i32",
-      "unique": true
+      "unique": true,
+      "since": "3.16"
     },
     {
       "name": "MonsterVarietiesKey",

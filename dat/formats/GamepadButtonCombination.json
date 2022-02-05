@@ -1,0 +1,23 @@
+{
+  "file": "GamepadButtonCombination",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "Button1",
+      "type": "longid",
+      "ref": "GamepadButton"
+    },
+    {
+      "name": "Button2",
+      "type": "longid",
+      "ref": "GamepadButton"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    }
+  ]
+}

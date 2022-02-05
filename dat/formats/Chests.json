@@ -144,6 +144,16 @@
     {
       "name": "Key33",
       "type": "longid"
+    },
+    {
+      "name": "Flag26",
+      "type": "bool",
+      "since": "3.17"
+    },
+    {
+      "name": "Flag27",
+      "type": "bool",
+      "since": "3.17"
     }
   ]
 }

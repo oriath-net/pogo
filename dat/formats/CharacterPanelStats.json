@@ -41,7 +41,13 @@
     },
     {
       "name": "Unknown8",
-      "type": "i32[]"
+      "type": "i32[]",
+      "until": "3.10"
+    },
+    {
+      "name": "Unknown8",
+      "type": "longid[]",
+      "since": "3.10"
     }
   ]
 }

@@ -88,11 +88,11 @@
 | Archetypes                       | 3.2-     | ✅ | ✅ | ❌
 | ArchitectLifeScalingPerLevel     | 3.5-     | ✅ | ✅ | ✅
 | ArchitectMapDifficulty           | 3.3-3.4  | ❓ | ❓ | ❓
-| ArchnemesisMetaRewards           | 3.17-    | ✅ | ✅ | n/a
-| ArchnemesisModComboAchievements  | 3.17-    | ✅ | ✅ | n/a
-| ArchnemesisMods                  | 3.17-    | ✅ | ✅ | n/a
-| ArchnemesisModVisuals            | 3.17-    | ✅ | ✅ | n/a
-| ArchnemesisRecipes               | 3.17-    | ✅ | ✅ | n/a
+| ArchnemesisMetaRewards           | 3.17-    | ✅ | ✅ | ✅
+| ArchnemesisModComboAchievements  | 3.17-    | ✅ | ✅ | ✅
+| ArchnemesisMods                  | 3.17-    | ✅ | ✅ | ✅
+| ArchnemesisModVisuals            | 3.17-    | ✅ | ✅ | ✅
+| ArchnemesisRecipes               | 3.17-    | ✅ | ✅ | ✅
 | AreaInfluenceDoodads             | 3.8-     | ❌ | ❌ | ❌
 | AreaTransitionAnimations         | 3.0-     | ✅ | ✅ | ❌
 | AreaTransitionAnimationTypes     | 3.0-     | ✅ | ✅ | ✅
@@ -104,7 +104,7 @@
 | Ascendancy                       | 2.1-     | ✅ | ✅ | ✅
 | AtlasAwakeningStats              | 3.9-3.16 | ✅ | ✅ | ✅
 | AtlasBaseTypeDrops               | 3.9-3.16 | ✅ | ✅ | ✅
-| AtlasEntities                    | 3.17-    | ✅ | ✅ | n/a
+| AtlasEntities                    | 3.17-    | ✅ | ✅ | ✅
 | AtlasExileBossArenas             | 3.9-     | ❌ | ❌ | ✅
 | AtlasExileInfluence              | 3.9-     | ❌ | ❌ | ✅
 | AtlasExileInfluenceData          | 3.9-3.16 | ✅ | ✅ | ✅
@@ -114,7 +114,7 @@
 | AtlasExileInfluenceSets          | 3.9-3.16 | ✅ | ✅ | ✅
 | AtlasExileRegionQuestFlags       | 3.9-3.16 | ✅ | ✅ | ✅
 | AtlasExiles                      | 3.9-     | ❌ | ❌ | ❌
-| AtlasFavouredMapSlots            | 3.17-    | ✅ | ✅ | n/a
+| AtlasFavouredMapSlots            | 3.17-    | ✅ | ✅ | ✅
 | AtlasFog                         | 3.6-     | ✅ | ✅ | ✅
 | AtlasInfluenceData               | 3.17-    | ❓ | ❓ | ❓
 | AtlasInfluenceOutcomes           | 3.2-     | ❌ | ❌ | ✅
@@ -124,13 +124,13 @@
 | AtlasModTiers                    | 3.9-     | ✅ | ✅ | ✅
 | AtlasNode                        | 2.4-     | ❌ | ❌ | ❌
 | AtlasNodeDefinition              | 3.5-     | ✅ | ✅ | ❌
-| AtlasPassiveSkillTreeGroupType   | 3.17-    | ✅ | ✅ | n/a
+| AtlasPassiveSkillTreeGroupType   | 3.17-    | ✅ | ✅ | ✅
 | AtlasPositions                   | 3.6-     | ✅ | ✅ | ✅
-| AtlasPrimordialAltarChoices      | 3.17-    | ✅ | ✅ | n/a
-| AtlasPrimordialAltarChoiceTypes  | 3.17-    | ✅ | ✅ | n/a
-| AtlasPrimordialBosses            | 3.17-    | ✅ | ✅ | n/a
-| AtlasPrimordialBossInfluence     | 3.17-    | ✅ | ✅ | n/a
-| AtlasPrimordialBossOptions       | 3.17-    | ✅ | ✅ | n/a
+| AtlasPrimordialAltarChoices      | 3.17-    | ✅ | ✅ | ✅
+| AtlasPrimordialAltarChoiceTypes  | 3.17-    | ✅ | ✅ | ✅
+| AtlasPrimordialBosses            | 3.17-    | ✅ | ✅ | ✅
+| AtlasPrimordialBossInfluence     | 3.17-    | ✅ | ✅ | ✅
+| AtlasPrimordialBossOptions       | 3.17-    | ✅ | ✅ | ✅
 | AtlasQuadrant                    | 3.5-3.13 | ✅ | ✅ | ✅
 | AtlasQuestItems                  | 2.4-3.1  | ❓ | ❓ | ❓
 | AtlasRegions                     | 3.9-3.16 | ✅ | ✅ | ❌
@@ -190,7 +190,7 @@
 | BlightRewardTypes                | 3.8-     | ✅ | ✅ | ✅
 | BlightStashTabLayout             | 3.11-    | ✅ | ✅ | ❌
 | BlightTopologies                 | 3.8-     | ✅ | ✅ | ✅
-| BlightTopologyNodes              | 3.8-     | ⚠️ | ❌ | ❌
+| BlightTopologyNodes              | 3.8-     | ✅ | ✅ | ✅
 | BlightTowerAuras                 | 3.8-     | ✅ | ✅ | ✅
 | BlightTowers                     | 3.8-     | ✅ | ✅ | ✅
 | BlightTowersPerLevel             | 3.8-     | ✅ | ✅ | ✅
@@ -221,7 +221,7 @@
 | CharacterAudioEvents             | all      | ✅ | ✅ | ❌
 | CharacterPanelDescriptionModes   | 1.2-     | ✅ | ✅ | ❌
 | CharacterPanelStatContexts       | 1.2-     | ✅ | ✅ | ✅
-| CharacterPanelStats              | 1.2-     | ⚠️ | ⚠️ | ⚠️
+| CharacterPanelStats              | 1.2-     | ✅ | ✅ | ✅
 | CharacterPanelTabs               | 1.2-     | ✅ | ✅ | ✅
 | Characters                       | all      | ✅ | ✅ | ❌
 | CharacterStartItems              | 1.3-3.11 | ❓ | ❓ | ❓
@@ -233,11 +233,11 @@
 | ChestClusters                    | all      | ✅ | ✅ | ✅
 | ChestEffects                     | 2.2-     | ✅ | ✅ | ✅
 | ChestItemTemplates               | 3.3-3.11 | ❓ | ❓ | ❓
-| Chests                           | all      | ❌ | ❌ | ❌
-| ClientLeagueAction               | 3.17-    | ❓ | ❓ | ❓
+| Chests                           | all      | ✅ | ✅ | ❌
+| ClientLeagueAction               | 3.17-    | ✅ | ✅ | ✅
 | ClientStrings                    | all      | ✅ | ✅ | ❌
 | ClientUIScreens                  | 3.10-    | ✅ | ✅ | ✅
-| CloneShot                        | 3.3-     | ✅ | ❌ | ⚠️
+| CloneShot                        | 3.3-     | ✅ | ✅ | ✅
 | CloneShotVariations              | 2.4-3.2  | ❓ | ❓ | ❓
 | Colours                          | 3.16-    | ✅ | ✅ | ✅
 | Commands                         | all      | ✅ | ✅ | ✅
@@ -342,19 +342,19 @@
 | ExpeditionAreas                  | 3.15-    | ✅ | ✅ | ✅
 | ExpeditionBalancePerLevel        | 3.15-    | ✅ | ✅ | ✅
 | ExpeditionCurrency               | 3.15-    | ✅ | ✅ | ❌
-| ExpeditionDealFamilies           | 3.16-    | ❓ | ❓ | ❓
+| ExpeditionDealFamilies           | 3.16-    | ✅ | ✅ | ✅
 | ExpeditionDeals                  | 3.16-    | ✅ | ✅ | ✅
 | ExpeditionFactions               | 3.15-    | ✅ | ✅ | ✅
 | ExpeditionMarkersCommon          | 3.15-    | ✅ | ✅ | ✅
 | ExpeditionNPCs                   | 3.15-    | ✅ | ✅ | ✅
-| ExpeditionRelicModCategories     | 3.15-    | ❓ | ❓ | ❓
+| ExpeditionRelicModCategories     | 3.15-    | ✅ | ✅ | ✅
 | ExpeditionRelicMods              | 3.15-    | ✅ | ✅ | ✅
 | ExpeditionRelics                 | 3.15-    | ✅ | ✅ | ✅
 | ExpeditionStorageLayout          | 3.15-    | ✅ | ✅ | ❌
 | ExpeditionTerrainFeatures        | 3.15-    | ✅ | ✅ | ✅
 | ExperienceLevels                 | all      | ✅ | ✅ | ✅
 | ExplodingStormBuffs              | 2.0-     | ✅ | ✅ | ❌
-| ExtraTerrainFeatureFamily        | 2.4-3.7  | ❓ | ❓ | ❓
+| ExtraTerrainFeatureFamily        | 2.4-3.7  | ✅ | ✅ | ✅
 | ExtraTerrainFeatures             | 2.3-     | ✅ | ✅ | ❌
 
 ## F
@@ -379,8 +379,8 @@
 | -------------------------------- | -------- | -------- | ----- | --------
 | GameConstants                    | all      | ✅ | ✅ | ❌
 | GamepadButton                    | 3.16-    | ✅ | ✅ | ✅
-| GamepadButtonCombination         | 3.17-    | ❓ | ❓ | ❓
-| GamepadThumbstick                | 3.17-    | ❓ | ❓ | ❓
+| GamepadButtonCombination         | 3.17-    | ✅ | ✅ | ✅
+| GamepadThumbstick                | 3.17-    | ✅ | ✅ | ✅
 | GamepadType                      | 3.16-    | ✅ | ✅ | ✅
 | GameStats                        | 3.8-     | ✅ | ✅ | ✅
 | GemTags                          | all      | ✅ | ✅ | ❌
@@ -425,9 +425,9 @@
 | HarvestMetaCraftingOptions       | 3.11-    | ✅ | ✅ | ✅
 | HarvestObjects                   | 3.11-3.12 | ✅ | ✅ | ✅
 | HarvestPerLevelValues            | 3.11-    | ✅ | ✅ | ❌
-| HarvestPlantBoosterFamilies      | 3.12-3.12 | ✅ | ✅ | n/a
-| HarvestPlantBoosters             | 3.12-3.12 | ✅ | ✅ | n/a
-| HarvestSeeds                     | 3.13-    | ⚠️ | ⚠️ | ⚠️
+| HarvestPlantBoosterFamilies      | 3.12-3.12 | ✅ | ✅ | ✅
+| HarvestPlantBoosters             | 3.12-3.12 | ✅ | ✅ | ✅
+| HarvestSeeds                     | 3.13-    | ✅ | ✅ | ✅
 | HarvestSeedTypes                 | 3.11-3.12 | ✅ | ✅ | ✅
 | HarvestSpecialCraftCosts         | 3.11-3.12 | ✅ | ✅ | ✅
 | HarvestSpecialCraftOptions       | 3.11-3.12 | ✅ | ✅ | ✅
@@ -477,7 +477,7 @@
 | HellscapeMonsterPacks            | 3.16-    | ✅ | ✅ | ✅
 | HellscapePassives                | 3.16-    | ✅ | ✅ | ✅
 | HellscapePassiveTree             | 3.16-    | ✅ | ✅ | ✅
-| HideoutDoodadCategory            | 3.17-    | ✅ | ✅ | n/a
+| HideoutDoodadCategory            | 3.17-    | ✅ | ✅ | ✅
 | HideoutDoodads                   | 1.2-     | ✅ | ✅ | ❌
 | HideoutDoodadTags                | 3.16-    | ❌ | ❌ | ✅
 | HideoutInteractable              | 1.2-2.6  | ❓ | ❓ | ❓
@@ -547,7 +547,7 @@
 | File                             | Releases | current  | dat64 | history
 | -------------------------------- | -------- | -------- | ----- | --------
 | KillstreakThresholds             | 1.2-     | ✅ | ✅ | ✅
-| KiracLevels                      | 3.17-    | ✅ | ✅ | n/a
+| KiracLevels                      | 3.17-    | ✅ | ✅ | ✅
 
 ## L
 
@@ -871,9 +871,9 @@
 | SalvageBoxes                     | 3.8-     | ✅ | ✅ | ✅
 | Scarabs                          | 3.11-    | ✅ | ✅ | ✅
 | ScarabTypes                      | 3.11-    | ✅ | ✅ | ✅
-| ScoutingReports                  | 3.17-    | ✅ | ✅ | n/a
+| ScoutingReports                  | 3.17-    | ✅ | ✅ | ✅
 | SessionQuestFlags                | 3.4-     | ✅ | ✅ | ✅
-| ShaperGuardians                  | 3.17-    | ✅ | ✅ | n/a
+| ShaperGuardians                  | 3.17-    | ✅ | ✅ | ✅
 | ShaperMemoryFragments            | 3.2-3.8  | ❓ | ❓ | ❓
 | ShaperOrbs                       | 3.2-3.8  | ❓ | ❓ | ❓
 | ShieldTypes                      | all      | ✅ | ✅ | ✅

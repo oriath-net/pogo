@@ -364,7 +364,7 @@ func (ds *dataState) readField(tgt reflect.Value, typ FieldType, rowdat []byte, 
 	}
 }
 
-func (ds *dataState) rawReadArray(tgt reflect.Value, rowdat []byte, dyndat []byte) (int, int, error) {
+func (ds *dataState) rawReadArray(tgt reflect.Value, rowdat []byte, dyndat []byte) (int, int, int, error) {
 	var offset, count int64
 	if ds.rowFormat.width.is64Bit() {
 		count = int64(binary.LittleEndian.Uint64(rowdat[0:]))
@@ -375,37 +375,37 @@ func (ds *dataState) rawReadArray(tgt reflect.Value, rowdat []byte, dyndat []byt
 	}
 
 	if offset < 8 {
-		return 0, 0, fmt.Errorf("array offset too low (%x)", offset)
+		return 0, 0, 0, fmt.Errorf("array offset too low (%x)", offset)
 	}
 	if offset > int64(len(dyndat)) {
-		return 0, 0, fmt.Errorf("array offset too large (%x)", offset)
+		return 0, 0, 0, fmt.Errorf("array offset too large (%x)", offset)
 	}
 	if count < 0 {
-		return 0, 0, fmt.Errorf("array count negative (%x)", count)
+		return 0, 0, 0, fmt.Errorf("array count negative (%x)", count)
 	}
 	if count > 65535 {
-		return 0, 0, fmt.Errorf("array count too large (%x)", count)
+		return 0, 0, 0, fmt.Errorf("array count too large (%x)", count)
 	}
 
 	rdr := bytes.NewReader(dyndat[offset:])
 	arr := reflect.MakeSlice(tgt.Type(), int(count), int(count))
 	err := binary.Read(rdr, binary.LittleEndian, arr.Interface())
 	if err != nil {
-		return 0, 0, err
+		return 0, 0, 0, err
 	}
 	tgt.Set(arr)
 
 	readLength, _ := rdr.Seek(0, io.SeekCurrent)
-	return int(offset), int(readLength), nil
+	return int(offset), int(readLength), int(count), nil
 }
 
 func (ds *dataState) readArray(tgt reflect.Value, rowdat []byte, dyndat []byte) error {
-	offset, length, err := ds.rawReadArray(tgt, rowdat, dyndat)
+	offset, length, count, err := ds.rawReadArray(tgt, rowdat, dyndat)
 	if err != nil {
 		return err
 	}
 
-	return ds.usedDyndat("array", offset, length)
+	return ds.usedDyndat("array", offset, length, count)
 }
 
 func (ds *dataState) readString(tgt reflect.Value, rowdat []byte, dyndat []byte) error {
@@ -433,7 +433,7 @@ func (ds *dataState) readStringArray(tgt reflect.Value, rowdat []byte, dyndat []
 		offsets = reflect.New(reflect.TypeOf([]int32{})).Elem()
 	}
 
-	offsetBase, offsetLength, err := ds.rawReadArray(offsets, rowdat, dyndat)
+	offsetBase, offsetLength, offsetCount, err := ds.rawReadArray(offsets, rowdat, dyndat)
 	if err != nil {
 		return fmt.Errorf("unable to read string array offsets: %w", err)
 	}
@@ -452,7 +452,7 @@ func (ds *dataState) readStringArray(tgt reflect.Value, rowdat []byte, dyndat []
 
 	tgt.Set(reflect.ValueOf(strs))
 
-	return ds.usedDyndat("offsets", offsetBase, offsetLength)
+	return ds.usedDyndat("offsets", offsetBase, offsetLength, offsetCount)
 }
 
 func (ds *dataState) readStringFrom(dyndat []byte, offset int) (string, error) {
@@ -473,7 +473,7 @@ func (ds *dataState) readStringFrom(dyndat []byte, offset int) (string, error) {
 			ch := rune(binary.LittleEndian.Uint32(dyndat[offset:]))
 			offset += 4
 			if ch == 0 {
-				return string(str), ds.usedDyndat("string", origOffset, offset-origOffset)
+				return string(str), ds.usedDyndat("string", origOffset, offset-origOffset, 0)
 			}
 			str = append(str, ch)
 		}
@@ -486,7 +486,7 @@ func (ds *dataState) readStringFrom(dyndat []byte, offset int) (string, error) {
 			ch := binary.LittleEndian.Uint16(dyndat[offset:])
 			offset += 2
 			if ch == 0 {
-				return string(utf16.Decode(str)), ds.usedDyndat("string", origOffset, offset-origOffset+2) // +2? yep
+				return string(utf16.Decode(str)), ds.usedDyndat("string", origOffset, offset-origOffset+2, 0) // +2? yep
 			}
 			str = append(str, ch)
 		}
@@ -495,7 +495,7 @@ func (ds *dataState) readStringFrom(dyndat []byte, offset int) (string, error) {
 	return "", io.EOF
 }
 
-func (ds *dataState) usedDyndat(purpose string, offset int, length int) error {
+func (ds *dataState) usedDyndat(purpose string, offset int, length int, count int) error {
 	if ds.parser.debug == 0 && ds.parser.strict == 0 {
 		return nil
 	}
@@ -515,6 +515,9 @@ func (ds *dataState) usedDyndat(purpose string, offset int, length int) error {
 			warning = true
 		}
 		ds.lastOffset = offset + length
+	}
+	if purpose == "array" {
+		purpose += fmt.Sprintf("[%d]", count)
 	}
 	if warning && ds.parser.strict > 0 {
 		return fmt.Errorf("%s before %s %s", message, purpose, ds.curField)

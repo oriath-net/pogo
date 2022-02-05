@@ -1,0 +1,21 @@
+{
+  "file": "ClientLeagueAction",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "Unknown1",
+      "type": "longid"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "ConsoleImage",
+      "type": "string"
+    }
+  ]
+}

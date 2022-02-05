@@ -287,9 +287,8 @@ func (r *validateRunner) validateVersion(out *validateOutput, version string, fi
 	} else {
 		if isCurrentVersion {
 			out.current.update(statusOk)
-		} else {
-			out.history.update(statusOk)
 		}
+		out.history.update(statusOk)
 		// normal parsing worked, now try strict parsing!
 		_, err := q.Parse(bytes.NewReader(buf.Bytes()), filename+".dat")
 		if err != nil {
