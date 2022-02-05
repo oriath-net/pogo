@@ -1,0 +1,13 @@
+{
+  "file": "ShaperGuardians",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "Unknown1",
+      "type": "longid"
+    }
+  ]
+}

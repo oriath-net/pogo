@@ -1,0 +1,13 @@
+{
+  "file": "HideoutDoodadCategory",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    }
+  ]
+}

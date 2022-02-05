@@ -47,7 +47,8 @@
     {
       "name": "IsMavenFight",
       "type": "bool",
-      "since": "3.13"
+      "since": "3.13",
+      "until": "3.17"
     },
     {
       "name": "Flag10",

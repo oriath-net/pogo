@@ -26,7 +26,14 @@
     {
       "name": "ModsKey",
       "type": "longid",
-      "ref": "Mods"
+      "ref": "Mods",
+      "until": "3.10"
+    },
+    {
+      "name": "Mods",
+      "type": "longid[]",
+      "ref": "Mods",
+      "since": "3.10"
     },
     {
       "name": "PresentARMFile",
@@ -82,7 +89,8 @@
     },
     {
       "name": "Key18",
-      "type": "longid"
+      "type": "longid",
+      "since": "3.14"
     }
   ]
 }

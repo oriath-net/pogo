@@ -32,11 +32,13 @@
     },
     {
       "name": "ItemImages",
-      "type": "string[]"
+      "type": "string[]",
+      "until": "3.17"
     },
     {
       "name": "HoverImages",
-      "type": "string[]"
+      "type": "string[]",
+      "until": "3.17"
     },
     {
       "name": "TrailerVideoLink",
@@ -53,6 +55,11 @@
     {
       "name": "Flag12",
       "type": "bool"
+    },
+    {
+      "name": "ItemBlobs",
+      "type": "string[]",
+      "since": "3.17"
     }
   ]
 }

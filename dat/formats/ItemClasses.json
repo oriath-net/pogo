@@ -12,7 +12,13 @@
     },
     {
       "name": "Category",
-      "type": "string"
+      "type": "string",
+      "until": "3.17"
+    },
+    {
+      "name": "Category",
+      "type": "longid",
+      "since": "3.17"
     },
     {
       "name": "ItemClassCategory",
@@ -86,11 +92,18 @@
     },
     {
       "name": "CanScourge",
-      "type": "bool"
+      "type": "bool",
+      "since": "3.16"
     },
     {
-      "name": "Flag21",
-      "type": "bool"
+      "name": "CanScourge2",
+      "type": "bool",
+      "since": "3.16"
+    },
+    {
+      "name": "Flag317",
+      "type": "bool",
+      "since": "3.17"
     }
   ]
 }

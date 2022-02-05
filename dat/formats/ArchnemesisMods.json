@@ -1,0 +1,67 @@
+{
+  "file": "ArchnemesisMods",
+  "fields": [
+    {
+      "name": "Mod",
+      "type": "longid",
+      "ref": "Mods"
+    },
+    {
+      "name": "Unknown1",
+      "type": "longid[]"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    },
+    {
+      "name": "Icon",
+      "type": "string"
+    },
+    {
+      "name": "Flag1",
+      "type": "bool"
+    },
+    {
+      "name": "Flag2",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown6",
+      "type": "longid"
+    },
+    {
+      "name": "Unknown7",
+      "type": "longid[]"
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    },
+    {
+      "name": "DefeatAchievement",
+      "type": "longid",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "Unknown8",
+      "type": "i32"
+    }
+  ]
+}

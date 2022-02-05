@@ -7,7 +7,7 @@
       "unique": true
     },
     {
-      "name": "Hash",
+      "name": "HASH16",
       "type": "i32"
     },
     {
@@ -308,6 +308,17 @@
       "name": "BuffTemplate",
       "type": "longid",
       "ref": "BuffTemplates"
+    },
+    {
+      "name": "ArchnemesisMinionMod",
+      "type": "shortid",
+      "ref": "Mods",
+      "since": "3.17"
+    },
+    {
+      "name": "HASH32",
+      "type": "i32",
+      "since": "3.17"
     }
   ]
 }

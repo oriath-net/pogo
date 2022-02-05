@@ -50,6 +50,12 @@
     {
       "name": "Key11",
       "type": "longid"
+    },
+    {
+      "name": "HideoutDoodadCategory",
+      "type": "longid",
+      "ref": "HideoutDoodadCategory",
+      "since": "3.17"
     }
   ]
 }

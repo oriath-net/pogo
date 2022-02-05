@@ -123,7 +123,8 @@
     },
     {
       "name": "Flag28",
-      "type": "bool"
+      "type": "bool",
+      "until": "3.17"
     },
     {
       "name": "Key29",
@@ -146,6 +147,11 @@
     {
       "name": "Flag33",
       "type": "bool"
+    },
+    {
+      "name": "Unknown317",
+      "type": "i32",
+      "since": "3.17"
     }
   ]
 }

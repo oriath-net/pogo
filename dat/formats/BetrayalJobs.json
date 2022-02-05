@@ -34,17 +34,38 @@
     {
       "name": "Completion_AchievementItemsKey",
       "type": "longid",
-      "ref": "AchievementItems"
+      "ref": "AchievementItems",
+      "until": "3.12"
     },
     {
       "name": "OpenChests_AchievementItemsKey",
       "type": "longid",
-      "ref": "AchievementItems"
+      "ref": "AchievementItems",
+      "until": "3.12"
     },
     {
       "name": "MissionCompletion_AcheivementItemsKey",
       "type": "longid",
-      "ref": "AchievementItems"
+      "ref": "AchievementItems",
+      "until": "3.12"
+    },
+    {
+      "name": "Completion_AchievementItems",
+      "type": "longid[]",
+      "ref": "AchievementItems",
+      "since": "3.12"
+    },
+    {
+      "name": "OpenChests_AchievementItems",
+      "type": "longid[]",
+      "ref": "AchievementItems",
+      "since": "3.12"
+    },
+    {
+      "name": "MissionCompletion_AchievementItems",
+      "type": "longid[]",
+      "ref": "AchievementItems",
+      "since": "3.12"
     }
   ]
 }

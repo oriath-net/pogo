@@ -1,0 +1,29 @@
+{
+  "file": "AtlasPrimordialAltarChoiceTypes",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "TopIconTangled",
+      "type": "string"
+    },
+    {
+      "name": "BottomIconTangled",
+      "type": "string"
+    },
+    {
+      "name": "TopIconCleansingFire",
+      "type": "string"
+    },
+    {
+      "name": "BottomIconCleansingFire",
+      "type": "string"
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    }
+  ]
+}

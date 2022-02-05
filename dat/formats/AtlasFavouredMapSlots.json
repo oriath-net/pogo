@@ -1,0 +1,17 @@
+{
+  "file": "AtlasFavouredMapSlots",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    }
+  ]
+}

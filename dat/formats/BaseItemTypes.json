@@ -100,7 +100,8 @@
     {
       "name": "ItemThemesKey",
       "type": "longid",
-      "ref": "ItemThemes"
+      "ref": "ItemThemes",
+      "until": "3.17"
     },
     {
       "name": "IdentifyMagic_AchievementItemsKeys",
@@ -120,7 +121,8 @@
     {
       "name": "ItemShopType",
       "type": "longid",
-      "ref": "ItemShopType"
+      "ref": "ItemShopType",
+      "until": "3.17"
     },
     {
       "name": "Key26",
@@ -133,6 +135,11 @@
     {
       "name": "Flag28",
       "type": "bool"
+    },
+    {
+      "name": "Key317",
+      "type": "longid",
+      "since": "3.17"
     }
   ]
 }

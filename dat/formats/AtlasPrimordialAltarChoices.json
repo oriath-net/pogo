@@ -1,0 +1,17 @@
+{
+  "file": "AtlasPrimordialAltarChoices",
+  "fields": [
+    {
+      "name": "Unknown1",
+      "type": "longid"
+    },
+    {
+      "name": "Unknown2",
+      "type": "longid"
+    },
+    {
+      "name": "Flag",
+      "type": "bool"
+    }
+  ]
+}

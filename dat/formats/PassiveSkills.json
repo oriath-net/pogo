@@ -109,32 +109,44 @@
     {
       "name": "GrantedEffectsPerLevel",
       "type": "longid",
-      "ref": "GrantedEffectsPerLevel"
+      "ref": "GrantedEffectsPerLevel",
+      "since": "3.8"
     },
     {
       "name": "IsAnointmentOnly",
-      "type": "bool"
+      "type": "bool",
+      "since": "3.8"
     },
     {
       "name": "Unknown26",
-      "type": "i32"
+      "type": "i32",
+      "since": "3.9"
     },
     {
       "name": "IsExpansion",
-      "type": "bool"
+      "type": "bool",
+      "since": "3.9"
     },
     {
       "name": "IsProxyPassive",
-      "type": "bool"
+      "type": "bool",
+      "since": "3.10"
     },
     {
       "name": "SkillType",
-      "type": "i32"
+      "type": "i32",
+      "since": "3.13"
     },
     {
       "name": "MasteryGroup",
       "type": "longid",
-      "ref": "PassiveSkillMasteryGroups"
+      "ref": "PassiveSkillMasteryGroups",
+      "since": "3.16"
+    },
+    {
+      "name": "Unknown317",
+      "type": "longid",
+      "since": "3.17"
     }
   ]
 }

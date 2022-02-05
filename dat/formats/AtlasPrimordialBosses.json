@@ -1,0 +1,61 @@
+{
+  "file": "AtlasPrimordialBosses",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown4",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown5",
+      "type": "longid"
+    },
+    {
+      "name": "Unknown6",
+      "type": "longid"
+    },
+    {
+      "name": "Unknown7",
+      "type": "longid"
+    },
+    {
+      "name": "Unknown8",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown9",
+      "type": "longid"
+    },
+    {
+      "name": "Unknown10",
+      "type": "longid"
+    },
+    {
+      "name": "Unknown11",
+      "type": "longid"
+    },
+    {
+      "name": "Unknown12",
+      "type": "longid"
+    },
+    {
+      "name": "Unknown13",
+      "type": "longid"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "file": "ArchnemesisModVisuals",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "Unknown1",
+      "type": "longid",
+      "ref": "MiscAnimated"
+    },
+    {
+      "name": "Unknown2",
+      "type": "longid"
+    },
+    {
+      "name": "Unknown3",
+      "type": "longid"
+    },
+    {
+      "name": "Unknown4",
+      "type": "longid[]",
+      "ref": "BuffVisuals"
+    },
+    {
+      "name": "Unknown5",
+      "type": "longid[]",
+      "ref": "MonsterVarieties"
+    },
+    {
+      "name": "Unknown6",
+      "type": "longid[]",
+      "ref": "MiscAnimated"
+    },
+    {
+      "name": "Unknown7",
+      "type": "longid[]"
+    }
+  ]
+}

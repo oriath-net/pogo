@@ -9,7 +9,13 @@
     },
     {
       "name": "IsEnabled",
-      "type": "bool"
+      "type": "bool",
+      "since": "2.6"
+    },
+    {
+      "name": "Flag1",
+      "type": "bool",
+      "since": "3.17"
     }
   ]
 }

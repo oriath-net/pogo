@@ -1,0 +1,15 @@
+{
+  "file": "ArchnemesisModComboAchievements",
+  "fields": [
+    {
+      "name": "Achievement",
+      "type": "longid",
+      "ref": "AchievementItems"
+    },
+    {
+      "name": "ArchnemesisMods",
+      "type": "longid[]",
+      "ref": "ArchnemesisMods"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "file": "ArchnemesisMetaRewards",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "RewardText",
+      "type": "string"
+    },
+    {
+      "name": "RewardGroup",
+      "type": "i32"
+    },
+    {
+      "name": "ScriptArgument",
+      "type": "string"
+    },
+    {
+      "name": "MinLevel",
+      "type": "i32"
+    },
+    {
+      "name": "MaxLevel",
+      "type": "i32"
+    }
+  ]
+}

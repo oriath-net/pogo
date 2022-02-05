@@ -1,0 +1,49 @@
+{
+  "file": "AtlasPrimordialBossOptions",
+  "fields": [
+    {
+      "name": "Unknown1",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "MapDeviceDefaultImage",
+      "type": "string"
+    },
+    {
+      "name": "MapDeviceHoverImage",
+      "type": "string"
+    },
+    {
+      "name": "MapDeviceHighlightImage",
+      "type": "string"
+    },
+    {
+      "name": "MapDeviceEmptySlotImage",
+      "type": "string"
+    },
+    {
+      "name": "Unknown7",
+      "type": "longid"
+    },
+    {
+      "name": "Unknown8",
+      "type": "longid"
+    },
+    {
+      "name": "TrackerImage",
+      "type": "string"
+    },
+    {
+      "name": "TrackerFillImage",
+      "type": "string"
+    },
+    {
+      "name": "Name",
+      "type": "string"
+    }
+  ]
+}

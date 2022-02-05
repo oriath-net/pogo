@@ -91,7 +91,8 @@
     },
     {
       "name": "Key21",
-      "type": "longid[]"
+      "type": "longid[]",
+      "until": "3.17"
     },
     {
       "name": "Key22",
