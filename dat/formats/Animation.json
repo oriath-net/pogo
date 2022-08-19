@@ -15,6 +15,11 @@
       "type": "bool"
     },
     {
+      "name": "Unknown1",
+      "type": "i32",
+      "until": "3.14"
+    },
+    {
       "name": "Flag3",
       "type": "bool"
     },
@@ -32,7 +37,13 @@
     },
     {
       "name": "Flag6",
-      "type": "bool"
+      "type": "bool",
+      "since": "3.14"
+    },
+    {
+      "name": "Unknown2",
+      "type": "longid",
+      "since": "3.18"
     }
   ]
 }

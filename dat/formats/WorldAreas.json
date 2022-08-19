@@ -49,11 +49,23 @@
     },
     {
       "name": "Unknown11",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.19"
+    },
+    {
+      "name": "Unknown11",
+      "type": "longid",
+      "since": "3.19"
     },
     {
       "name": "Unknown12",
-      "type": "i32[]"
+      "type": "i32[]",
+      "until": "3.19"
+    },
+    {
+      "name": "Unknown12",
+      "type": "longid[]",
+      "since": "3.19"
     },
     {
       "name": "Unknown13",
@@ -75,11 +87,23 @@
     },
     {
       "name": "Unknown17",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.19"
+    },
+    {
+      "name": "Unknown17",
+      "type": "longid",
+      "since": "3.19"
     },
     {
       "name": "Unknown18",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.19"
+    },
+    {
+      "name": "Unknown18",
+      "type": "longid",
+      "since": "3.19"
     },
     {
       "name": "Bosses_MonsterVarietiesKeys",
@@ -522,6 +546,16 @@
       "type": "i32",
       "since": "3.15",
       "until": "3.16"
+    },
+    {
+      "name": "Unknown69",
+      "type": "longid",
+      "since": "3.18"
+    },
+    {
+      "name": "Unknown70",
+      "type": "i32",
+      "since": "3.18"
     }
   ]
 }

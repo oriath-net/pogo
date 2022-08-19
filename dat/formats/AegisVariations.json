@@ -40,6 +40,11 @@
     {
       "name": "Key9",
       "type": "longid"
+    },
+    {
+      "name": "Unknown10",
+      "type": "longid[]",
+      "since": "3.19"
     }
   ]
 }

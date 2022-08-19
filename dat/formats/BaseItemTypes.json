@@ -61,7 +61,13 @@
     },
     {
       "name": "IsDropDisabled",
-      "type": "bool"
+      "type": "bool",
+      "until": "3.18"
+    },
+    {
+      "name": "SiteVisibility",
+      "type": "i32",
+      "since": "3.18"
     },
     {
       "name": "ItemVisualIdentityKey",

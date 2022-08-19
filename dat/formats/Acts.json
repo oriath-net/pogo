@@ -44,7 +44,13 @@
     },
     {
       "name": "Unknown10",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.19"
+    },
+    {
+      "name": "Unknown10",
+      "type": "longid[]",
+      "since": "3.19"
     }
   ]
 }
