@@ -92,7 +92,7 @@ func do_analyze(c *cli.Context) error {
 		sep := strings.Repeat("-- ", rowBytes)
 
 		for i := 0; i < rowBytes; i++ {
-			tmp := fmt.Sprintf("%02d", i%100)
+			tmp := fmt.Sprintf("%02x", i%256)
 			hdr[i*3+0] = tmp[0]
 			hdr[i*3+1] = tmp[1]
 			hdr[i*3+2] = ' '

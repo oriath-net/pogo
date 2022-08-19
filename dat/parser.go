@@ -200,7 +200,7 @@ func (p *DataParser) dumpDataFormat(df DataFormat) {
 	log.Printf("Data file width: %s", df.width.String())
 	log.Printf("Fixed fields are %d bytes:", size)
 	for _, f := range df.Fields {
-		log.Printf(" -> %-24s %-10s @ %-3d", f.Name, f.Type, f.Offset)
+		log.Printf(" -> +%-3x | %-40s %s", f.Offset, f.Name, f.Type)
 	}
 }
 
@@ -224,6 +224,9 @@ func (ds *dataState) readRow(id int) (interface{}, error) {
 
 	for i, field := range ds.rowFormat.Fields {
 		ds.curField = field.Name
+		if ds.parser.debug >= 2 {
+			log.Printf(" -> %12s %-40s | fix %x", field.Type, field.Name, 4+id*ds.rowSize+field.Offset)
+		}
 		err := ds.readField(
 			r.Field(i+1),
 			field.Type,
@@ -526,7 +529,7 @@ func (ds *dataState) usedDyndat(purpose string, offset int, length int, count in
 		if warning {
 			message = strings.ToUpper(message)
 		}
-		log.Printf(" -> %10s %-24s | %6x + %-4x -> %-8x%s", purpose, ds.curField, offset, length, offset+length, message)
+		log.Printf(" ---> %10s %-10s @ dyn %x + %x -> %x %s", "", purpose, offset, length, offset+length, message)
 	} else if warning { // implies ds.parser.debug > 0
 		log.Printf("*** Row %d, %s %s, at %x + %x: %s", ds.curRow, purpose, ds.curField, offset, length, message)
 	}
