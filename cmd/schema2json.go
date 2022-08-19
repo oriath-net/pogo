@@ -14,9 +14,10 @@ import (
 )
 
 type schemaTopLevel struct {
-	Version   int           `json:"version"`
-	CreatedAt int           `json:"createdAt"`
-	Tables    []schemaTable `json:"tables"`
+	Version      int                 `json:"version"`
+	CreatedAt    int                 `json:"createdAt"`
+	Tables       []schemaTable       `json:"tables"`
+	Enumerations []schemaEnumeration `json:"enumerations"`
 }
 
 type schemaTable struct {
@@ -39,6 +40,12 @@ type schemaColumn struct {
 	Until string   `json:"until"`
 	File  string   `json:"file"`  // TODO
 	Files []string `json:"files"` // TODO
+}
+
+type schemaEnumeration struct {
+	Name        string   `json:"name"`
+	Indexing    int      `json:"indexing"`
+	Enumerators []string `json:"enumerators"`
 }
 
 type schemaMetaData struct {
