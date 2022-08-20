@@ -1,0 +1,13 @@
+{
+  "file": "LakeMetaOptionsUnlockText",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "i32"
+    },
+    {
+      "name": "Text",
+      "type": "string"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "file": "LakeMetaOptions",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "Unknown1",
+      "type": "i32[]",
+      "ref": "LakeMetaOptionsUnlockText"
+    }
+  ]
+}

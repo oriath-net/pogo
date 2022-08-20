@@ -1,0 +1,81 @@
+{
+  "file": "LakeRooms",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "Arms",
+      "type": "string[]"
+    },
+    {
+      "name": "Unknown2",
+      "type": "string"
+    },
+    {
+      "name": "Unknown3",
+      "type": "longid[]"
+    },
+    {
+      "name": "Unknown4",
+      "type": "longid[]"
+    },
+    {
+      "name": "Unknown5",
+      "type": "i32[]"
+    },
+    {
+      "name": "ContentsDescription",
+      "type": "string"
+    },
+    {
+      "name": "ReflectionName",
+      "type": "string"
+    },
+    {
+      "name": "Unknown8",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown9",
+      "type": "longid"
+    },
+    {
+      "name": "TileIconPath",
+      "type": "string"
+    },
+    {
+      "name": "Unknown11",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown12",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown13",
+      "type": "longid"
+    },
+    {
+      "name": "Unknown14",
+      "type": "bool"
+    },
+    {
+      "name": "Unknown15",
+      "type": "longid[]"
+    },
+    {
+      "name": "Unknown16",
+      "type": "i32[]"
+    },
+    {
+      "name": "DifficultyEffectString",
+      "type": "string"
+    },
+    {
+      "name": "Unknown18",
+      "type": "longid"
+    }
+  ]
+}

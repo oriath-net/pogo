@@ -1,0 +1,21 @@
+{
+  "file": "ClientLakeDifficulty",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown1",
+      "type": "f32"
+    },
+    {
+      "name": "Unknown2",
+      "type": "i32"
+    },
+    {
+      "name": "Unknown3",
+      "type": "i32"
+    }
+  ]
+}
