@@ -223,15 +223,15 @@
 
 | File                             | Releases | current  | dat64 | history
 | -------------------------------- | -------- | -------- | ----- | --------
-| CharacterAudioEvents             | all      | ❌ | ❌ | ❌
-| CharacterEventTextAudio          | 3.19-    | ❓ | ❓ | ❓
+| CharacterAudioEvents             | all      | ✅ | ✅ | ✅
+| CharacterEventTextAudio          | 3.19-    | ✅ | ✅ | ✅
 | CharacterPanelDescriptionModes   | 1.2-     | ✅ | ✅ | ❌
 | CharacterPanelStatContexts       | 1.2-     | ✅ | ✅ | ✅
-| CharacterPanelStats              | 1.2-     | ❌ | ❌ | ❌
-| CharacterPanelTabs               | 1.2-     | ❌ | ❌ | ❌
-| Characters                       | all      | ❌ | ❌ | ❌
+| CharacterPanelStats              | 1.2-     | ✅ | ✅ | ✅
+| CharacterPanelTabs               | 1.2-     | ✅ | ✅ | ✅
+| Characters                       | all      | ✅ | ✅ | ✅
 | CharacterStartItems              | 1.3-3.11 | ❓ | ❓ | ❓
-| CharacterStartQuestState         | 2.2-     | ⚠️ | ❌ | ❌
+| CharacterStartQuestState         | 2.2-     | ✅ | ✅ | ✅
 | CharacterStartStates             | 1.3-     | ✅ | ✅ | ❌
 | CharacterStartStateSet           | 2.2-     | ✅ | ✅ | ✅
 | CharacterTextAudio               | 2.0-     | ✅ | ✅ | ✅
@@ -240,7 +240,7 @@
 | ChestEffects                     | 2.2-     | ✅ | ✅ | ✅
 | ChestItemTemplates               | 3.3-3.11 | ❓ | ❓ | ❓
 | Chests                           | all      | ❌ | ❌ | ❌
-| ClientLakeDifficulty             | 3.19-    | ❓ | ❓ | ❓
+| ClientLakeDifficulty             | 3.19-    | ✅ | ✅ | ✅
 | ClientLeagueAction               | 3.17-    | ✅ | ✅ | ✅
 | ClientStrings                    | all      | ✅ | ✅ | ❌
 | ClientUIScreens                  | 3.10-    | ✅ | ✅ | ✅
@@ -591,11 +591,11 @@
 | LabyrinthSectionLayout           | 2.1-     | ✅ | ✅ | ❌
 | LabyrinthTrials                  | 3.0-     | ❌ | ❌ | ❌
 | LabyrinthTrinkets                | 2.2-     | ✅ | ✅ | ❌
-| LakeBossLifeScalingPerLevel      | 3.19-    | ❓ | ❓ | ❓
-| LakeMetaOptions                  | 3.19-    | ❓ | ❓ | ❓
-| LakeMetaOptionsUnlockText        | 3.19-    | ❓ | ❓ | ❓
-| LakeRoomCompletion               | 3.19-    | ❓ | ❓ | ❓
-| LakeRooms                        | 3.19-    | ❓ | ❓ | ❓
+| LakeBossLifeScalingPerLevel      | 3.19-    | ✅ | ✅ | ✅
+| LakeMetaOptions                  | 3.19-    | ✅ | ✅ | ✅
+| LakeMetaOptionsUnlockText        | 3.19-    | ✅ | ✅ | ✅
+| LakeRoomCompletion               | 3.19-    | ✅ | ✅ | ✅
+| LakeRooms                        | 3.19-    | ✅ | ✅ | ✅
 | Languages                        | 2.1-     | ❓ | n/a | ❓
 | LeagueCategory                   | all      | ✅ | ✅ | ✅
 | LeagueFlag                       | all      | ✅ | ✅ | ❌
