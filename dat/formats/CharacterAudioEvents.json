@@ -7,69 +7,134 @@
       "unique": true
     },
     {
+      "name": "Marauder_SoundFiles",
+      "type": "string[]",
+      "until": "2.0"
+    },
+    {
+      "name": "Ranger_SoundFiles",
+      "type": "string[]",
+      "until": "2.0"
+    },
+    {
+      "name": "Witch_SoundFiles",
+      "type": "string[]",
+      "until": "2.0"
+    },
+    {
+      "name": "Duelist_SoundFiles",
+      "type": "string[]",
+      "until": "2.0"
+    },
+    {
+      "name": "Shadow_SoundFiles",
+      "type": "string[]",
+      "until": "2.0"
+    },
+    {
+      "name": "Templar_SoundFiles",
+      "type": "string[]",
+      "until": "2.0"
+    },
+    {
+      "name": "Scion_SoundFiles",
+      "type": "string[]",
+      "until": "2.0"
+    },
+    {
       "name": "QuestState",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.19"
     },
     {
-      "name": "Unknown2",
-      "type": "i32"
+      "name": "QuestState",
+      "type": "longid",
+      "since": "3.19"
     },
     {
-      "name": "Unknown3",
-      "type": "i32"
+      "name": "Delay",
+      "type": "i32",
+      "description": "looks like a delay in milliseconds"
+    },
+    {
+      "name": "Cooldown",
+      "type": "i32",
+      "description": "looks like a cooldown in milliseconds"
+    },
+    {
+      "name": "Ambient_SoundFile",
+      "type": "string",
+      "description": "only used for the Tolman scream in 0.11",
+      "until": "1.0"
     },
     {
       "name": "Marauder_CharacterTextAudioKeys",
       "type": "longid[]",
-      "ref": "CharacterTextAudio"
+      "ref": "CharacterTextAudio",
+      "since": "2.0",
+      "until": "3.19"
     },
     {
       "name": "Ranger_CharacterTextAudioKeys",
       "type": "longid[]",
-      "ref": "CharacterTextAudio"
+      "ref": "CharacterTextAudio",
+      "since": "2.0",
+      "until": "3.19"
     },
     {
       "name": "Witch_CharacterTextAudioKeys",
       "type": "longid[]",
-      "ref": "CharacterTextAudio"
+      "ref": "CharacterTextAudio",
+      "since": "2.0",
+      "until": "3.19"
     },
     {
       "name": "Duelist_CharacterTextAudioKeys",
       "type": "longid[]",
-      "ref": "CharacterTextAudio"
+      "ref": "CharacterTextAudio",
+      "since": "2.0",
+      "until": "3.19"
     },
     {
       "name": "Shadow_CharacterTextAudioKeys",
       "type": "longid[]",
-      "ref": "CharacterTextAudio"
+      "ref": "CharacterTextAudio",
+      "since": "2.0",
+      "until": "3.19"
     },
     {
       "name": "Templar_CharacterTextAudioKeys",
       "type": "longid[]",
-      "ref": "CharacterTextAudio"
+      "ref": "CharacterTextAudio",
+      "since": "2.0",
+      "until": "3.19"
     },
     {
       "name": "Scion_CharacterTextAudioKeys",
       "type": "longid[]",
-      "ref": "CharacterTextAudio"
+      "ref": "CharacterTextAudio",
+      "since": "2.0",
+      "until": "3.19"
     },
     {
       "name": "Goddess_CharacterTextAudioKeys",
       "type": "longid[]",
-      "description": "For the Goddess Bound/Scorned/Unleashed unique",
-      "ref": "CharacterTextAudio"
+      "description": "For The Goddess Unleashed / Oni-Goroshi unique",
+      "ref": "CharacterTextAudio",
+      "since": "2.0"
     },
     {
       "name": "JackTheAxe_CharacterTextAudioKeys",
       "type": "longid[]",
       "description": "For Jack the Axe unique",
-      "ref": "CharacterTextAudio"
+      "ref": "CharacterTextAudio",
+      "since": "2.0"
     },
     {
       "name": "IsGameplayEvent",
       "type": "bool",
       "description": "affects 'disable gameplay event voices'",
-      "since": "3.0"
+      "since": "2.4"
     },
     {
       "name": "Flag1",

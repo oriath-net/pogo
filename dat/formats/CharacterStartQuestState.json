@@ -12,7 +12,13 @@
     },
     {
       "name": "QuestStates",
-      "type": "i32[]"
+      "type": "i32[]",
+      "until": "3.19"
+    },
+    {
+      "name": "QuestStates",
+      "type": "longid[]",
+      "since": "3.19"
     },
     {
       "name": "Key3",
@@ -21,15 +27,23 @@
     {
       "name": "MapPinsKeys",
       "type": "longid[]",
-      "ref": "MapPins"
+      "ref": "MapPins",
+      "description": "not used after 3.0"
     },
     {
       "name": "Unknown5",
-      "type": "i32[]"
+      "type": "i32[]",
+      "until": "3.19"
+    },
+    {
+      "name": "Unknown5",
+      "type": "longid[]",
+      "since": "3.19"
     },
     {
       "name": "Key6",
-      "type": "longid[]"
+      "type": "longid[]",
+      "since": "3.0"
     }
   ]
 }

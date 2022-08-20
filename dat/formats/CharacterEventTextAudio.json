@@ -1,0 +1,20 @@
+{
+  "file": "CharacterEventTextAudio",
+  "fields": [
+    {
+      "name": "Event",
+      "type": "longid",
+      "ref": "CharacterAudioEvents"
+    },
+    {
+      "name": "Character",
+      "type": "longid",
+      "ref": "Characters"
+    },
+    {
+      "name": "CharacterTextAudioKeys",
+      "type": "longid[]",
+      "ref": "CharacterTextAudio"
+    }
+  ]
+}
