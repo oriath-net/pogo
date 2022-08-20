@@ -360,7 +360,7 @@ func (ds *dataState) readField(tgt reflect.Value, typ FieldType, rowdat []byte, 
 		// gaze into the abyss
 		voidArray := make([]interface{}, count)
 		tgt.Set(reflect.ValueOf(voidArray))
-		return nil
+		return ds.usedDyndat("array", ds.lastOffset, 0, int(count))
 
 	default:
 		panic(fmt.Errorf("type '%s' not handled in readField", typ))
