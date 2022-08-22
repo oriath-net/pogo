@@ -312,8 +312,8 @@
     {
       "name": "ArchnemesisMinionMod",
       "type": "shortid",
-      "ref": "Mods",
-      "since": "3.17"
+      "since": "3.17",
+      "ref": "Mods"
     },
     {
       "name": "HASH32",

@@ -106,8 +106,8 @@
     {
       "name": "ItemThemesKey",
       "type": "longid",
-      "ref": "ItemThemes",
-      "until": "3.17"
+      "until": "3.17",
+      "ref": "ItemThemes"
     },
     {
       "name": "IdentifyMagic_AchievementItemsKeys",
@@ -127,8 +127,8 @@
     {
       "name": "ItemShopType",
       "type": "longid",
-      "ref": "ItemShopType",
-      "until": "3.17"
+      "until": "3.17",
+      "ref": "ItemShopType"
     },
     {
       "name": "Key26",

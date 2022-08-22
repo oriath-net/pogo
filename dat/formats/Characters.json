@@ -102,9 +102,9 @@
     {
       "name": "StartWeapon",
       "type": "longid",
-      "ref": "BaseItemTypes",
       "since": "1.3",
-      "until": "3.19"
+      "until": "3.19",
+      "ref": "BaseItemTypes"
     },
     {
       "name": "StartWeapons",

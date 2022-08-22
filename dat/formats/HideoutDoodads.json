@@ -54,8 +54,8 @@
     {
       "name": "HideoutDoodadCategory",
       "type": "longid",
-      "ref": "HideoutDoodadCategory",
-      "since": "3.17"
+      "since": "3.17",
+      "ref": "HideoutDoodadCategory"
     }
   ]
 }

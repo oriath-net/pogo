@@ -27,8 +27,8 @@
     {
       "name": "MapPinsKeys",
       "type": "longid[]",
-      "ref": "MapPins",
-      "description": "not used after 3.0"
+      "description": "not used after 3.0",
+      "ref": "MapPins"
     },
     {
       "name": "Unknown5",

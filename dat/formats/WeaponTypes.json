@@ -14,7 +14,7 @@
     {
       "name": "Speed",
       "type": "i32",
-      "description": "1000 / speed -\u003e attacks per second"
+      "description": "1000 / speed -> attacks per second"
     },
     {
       "name": "DamageMin",

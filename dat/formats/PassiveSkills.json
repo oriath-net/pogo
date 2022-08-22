@@ -109,8 +109,8 @@
     {
       "name": "GrantedEffectsPerLevel",
       "type": "longid",
-      "ref": "GrantedEffectsPerLevel",
-      "since": "3.8"
+      "since": "3.8",
+      "ref": "GrantedEffectsPerLevel"
     },
     {
       "name": "IsAnointmentOnly",
@@ -140,8 +140,8 @@
     {
       "name": "MasteryGroup",
       "type": "longid",
-      "ref": "PassiveSkillMasteryGroups",
-      "since": "3.16"
+      "since": "3.16",
+      "ref": "PassiveSkillMasteryGroups"
     },
     {
       "name": "Unknown317",

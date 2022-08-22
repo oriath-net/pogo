@@ -70,65 +70,65 @@
     {
       "name": "Marauder_CharacterTextAudioKeys",
       "type": "longid[]",
-      "ref": "CharacterTextAudio",
       "since": "2.0",
-      "until": "3.19"
+      "until": "3.19",
+      "ref": "CharacterTextAudio"
     },
     {
       "name": "Ranger_CharacterTextAudioKeys",
       "type": "longid[]",
-      "ref": "CharacterTextAudio",
       "since": "2.0",
-      "until": "3.19"
+      "until": "3.19",
+      "ref": "CharacterTextAudio"
     },
     {
       "name": "Witch_CharacterTextAudioKeys",
       "type": "longid[]",
-      "ref": "CharacterTextAudio",
       "since": "2.0",
-      "until": "3.19"
+      "until": "3.19",
+      "ref": "CharacterTextAudio"
     },
     {
       "name": "Duelist_CharacterTextAudioKeys",
       "type": "longid[]",
-      "ref": "CharacterTextAudio",
       "since": "2.0",
-      "until": "3.19"
+      "until": "3.19",
+      "ref": "CharacterTextAudio"
     },
     {
       "name": "Shadow_CharacterTextAudioKeys",
       "type": "longid[]",
-      "ref": "CharacterTextAudio",
       "since": "2.0",
-      "until": "3.19"
+      "until": "3.19",
+      "ref": "CharacterTextAudio"
     },
     {
       "name": "Templar_CharacterTextAudioKeys",
       "type": "longid[]",
-      "ref": "CharacterTextAudio",
       "since": "2.0",
-      "until": "3.19"
+      "until": "3.19",
+      "ref": "CharacterTextAudio"
     },
     {
       "name": "Scion_CharacterTextAudioKeys",
       "type": "longid[]",
-      "ref": "CharacterTextAudio",
       "since": "2.0",
-      "until": "3.19"
+      "until": "3.19",
+      "ref": "CharacterTextAudio"
     },
     {
       "name": "Goddess_CharacterTextAudioKeys",
       "type": "longid[]",
       "description": "For The Goddess Unleashed / Oni-Goroshi unique",
-      "ref": "CharacterTextAudio",
-      "since": "2.0"
+      "since": "2.0",
+      "ref": "CharacterTextAudio"
     },
     {
       "name": "JackTheAxe_CharacterTextAudioKeys",
       "type": "longid[]",
       "description": "For Jack the Axe unique",
-      "ref": "CharacterTextAudio",
-      "since": "2.0"
+      "since": "2.0",
+      "ref": "CharacterTextAudio"
     },
     {
       "name": "IsGameplayEvent",

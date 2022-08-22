@@ -13,14 +13,14 @@
     {
       "name": "CharactersKey",
       "type": "longid",
-      "ref": "Characters",
-      "until": "3.18"
+      "until": "3.18",
+      "ref": "Characters"
     },
     {
       "name": "Characters",
       "type": "longid[]",
-      "ref": "Characters",
-      "since": "3.18"
+      "since": "3.18",
+      "ref": "Characters"
     },
     {
       "name": "CoordinateRect",
