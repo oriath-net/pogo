@@ -243,10 +243,17 @@ func (ds *dataState) readRow(id int) (any, error) {
 
 func (ds *dataState) readField(tgt reflect.Value, typ FieldType, rowdat []byte, dyndat []byte) error {
 	switch typ {
+	case TypeBool:
+		val := rowdat[0]
+		if ds.parser.strict > 0 && val > 1 {
+			return fmt.Errorf("non-boolean value %02x in bool field", val)
+		}
+		tgt.Set(reflect.ValueOf(val != 0))
+		return nil
+
 	case TypeUint8, TypeUint16, TypeUint32, TypeUint64,
 		TypeInt32, TypeInt64,
-		TypeFloat32, TypeFloat64,
-		TypeBool:
+		TypeFloat32, TypeFloat64:
 		return binary.Read(bytes.NewReader(rowdat), binary.LittleEndian, tgt.Addr().Interface())
 
 	case TypeShortID:
@@ -263,9 +270,10 @@ func (ds *dataState) readField(tgt reflect.Value, typ FieldType, rowdat []byte, 
 				return nil
 			}
 		}
-		tmp := reflect.New(tgt.Type().Elem())
-		reflect.Indirect(tmp).SetUint(val)
-		tgt.Set(tmp)
+		if ds.parser.strict > 0 && val > 0x10_0000 {
+			return fmt.Errorf("improbably large shortid %x", val)
+		}
+		tgt.Set(reflect.ValueOf(&val))
 		return nil
 
 	case TypeLongID:
@@ -284,9 +292,10 @@ func (ds *dataState) readField(tgt reflect.Value, typ FieldType, rowdat []byte, 
 				return nil
 			}
 		}
-		tmp := reflect.New(tgt.Type().Elem())
-		reflect.Indirect(tmp).SetUint(val)
-		tgt.Set(tmp)
+		if ds.parser.strict > 0 && val > 0x10_0000 {
+			return fmt.Errorf("improbably large longid %x", val)
+		}
+		tgt.Set(reflect.ValueOf(&val))
 		return nil
 
 	case TypeListUint8, TypeListUint16,
