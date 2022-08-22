@@ -7,11 +7,12 @@
       "unique": true
     },
     {
-      "name": "Text",
-      "type": "string"
+      "name": "FormattedDescription",
+      "type": "string",
+      "unique": true
     },
     {
-      "name": "Key2",
+      "name": "HarvestCraftTiersKey",
       "type": "longid"
     },
     {
@@ -23,38 +24,75 @@
       "type": "string"
     },
     {
-      "name": "AchievementItemsKeys",
+      "name": "AchievementItems",
       "type": "longid[]",
-      "ref": "AchievementItems"
+      "ref": "AchievementItems",
+      "until": "3.19"
     },
     {
       "name": "Flag6",
-      "type": "bool"
+      "type": "bool",
+      "until": "3.19"
     },
     {
-      "name": "Unknown7",
+      "name": "Unknown9",
+      "type": "void[]",
+      "since": "3.19"
+    },
+    {
+      "name": "HASH16",
       "type": "i32"
     },
     {
       "name": "HarvestCraftOptionIconsKeys",
       "type": "longid[]",
-      "ref": "HarvestCraftOptionIcons"
+      "ref": "HarvestCraftOptionIcons",
+      "until": "3.19"
     },
     {
-      "name": "Description",
+      "name": "PlainDescription",
       "type": "string"
     },
     {
       "name": "DDSFile",
-      "type": "string"
+      "type": "string",
+      "until": "3.19"
     },
     {
-      "name": "Flag11",
-      "type": "bool"
+      "name": "ResultsAreDropped",
+      "type": "bool",
+      "until": "3.19"
     },
     {
-      "name": "Flag12",
-      "type": "bool"
+      "name": "IsEnchant",
+      "type": "bool",
+      "since": "3.15"
+    },
+    {
+      "name": "LifeforceType",
+      "type": "i32",
+      "since": "3.19"
+    },
+    {
+      "name": "LifeforceCost",
+      "type": "i32",
+      "since": "3.19"
+    },
+    {
+      "name": "SacredCost",
+      "type": "i32",
+      "since": "3.19"
+    },
+    {
+      "name": "CostScalesWithStackSize",
+      "type": "bool",
+      "since": "3.19"
+    },
+    {
+      "name": "AchievementItems",
+      "type": "longid[]",
+      "ref": "AchievementItems",
+      "since": "3.19"
     }
   ]
 }

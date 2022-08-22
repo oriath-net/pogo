@@ -1,0 +1,17 @@
+{
+  "file": "GenericLeagueRewardTypes",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "string"
+    },
+    {
+      "name": "MinLevel",
+      "type": "i32"
+    },
+    {
+      "name": "MaxLevel",
+      "type": "i32"
+    }
+  ]
+}

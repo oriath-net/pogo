@@ -42,6 +42,11 @@
       "type": "string"
     },
     {
+      "name": "Unknown9",
+      "type": "i32",
+      "until": "3.15"
+    },
+    {
       "name": "SilhouetteFile",
       "type": "string"
     },
@@ -87,7 +92,8 @@
     },
     {
       "name": "Key19",
-      "type": "longid"
+      "type": "longid",
+      "since": "3.15"
     }
   ]
 }

@@ -63,11 +63,11 @@
 | AdvancedSkillsTutorial           | 3.4-     | ✅ | ✅ | ❌
 | AegisVariations                  | 3.13-    | ✅ | ✅ | ✅
 | AfflictionBalancePerLevel        | 3.10-    | ✅ | ✅ | ✅
-| AfflictionEndgameAreas           | 3.10-3.11 | ❓ | ❓ | ❓
+| AfflictionEndgameAreas           | 3.10-3.11 | ✅ | ✅ | ✅
 | AfflictionEndgameWaveMods        | 3.10-    | ✅ | ✅ | ✅
 | AfflictionFixedMods              | 3.10-    | ✅ | ✅ | ❌
 | AfflictionRandomModCategories    | 3.10-    | ✅ | ✅ | ✅
-| AfflictionRandomSpawns           | 3.10-3.11 | ❓ | ❓ | ❓
+| AfflictionRandomSpawns           | 3.10-3.11 | ✅ | ✅ | ✅
 | AfflictionRewardMapMods          | 3.10-    | ✅ | ✅ | ❌
 | AfflictionRewardTypes            | 3.10-    | ✅ | ✅ | ✅
 | AfflictionRewardTypeVisuals      | 3.10-    | ✅ | ✅ | ✅
@@ -119,7 +119,7 @@
 | AtlasFog                         | 3.6-     | ✅ | ✅ | ✅
 | AtlasInfluenceData               | 3.17-    | ❓ | ❓ | ❓
 | AtlasInfluenceOutcomes           | 3.2-     | ❌ | ❌ | ❌
-| AtlasInfluenceOutcomeTypes       | 3.17-    | ❓ | ❓ | ❓
+| AtlasInfluenceOutcomeTypes       | 3.17-    | ✅ | ✅ | ✅
 | AtlasInfluenceSets               | 3.17-    | ❓ | ❓ | ❓
 | AtlasMemoryLine                  | 3.19-    | ❓ | ❓ | ❓
 | AtlasMods                        | 3.9-     | ✅ | ✅ | ✅
@@ -400,8 +400,8 @@
 | GemTags                          | all      | ✅ | ✅ | ❌
 | GemTypes                         | all      | ✅ | ✅ | ✅
 | GenericBuffAuras                 | 3.10-    | ✅ | ✅ | ✅
-| GenericLeagueRewardTypes         | 3.17-    | ❓ | ❓ | ❓
-| GenericLeagueRewardTypeVisuals   | 3.17-    | ❓ | ❓ | ❓
+| GenericLeagueRewardTypes         | 3.17-    | ✅ | ✅ | ✅
+| GenericLeagueRewardTypeVisuals   | 3.17-    | ✅ | ✅ | ✅
 | GeometryAttack                   | 3.3-     | ❌ | ❌ | ❌
 | GeometryAttackShapes             | 3.2-3.2  | ❓ | ❓ | ❓
 | GeometryAttackTargetTypes        | 3.2-3.2  | ❓ | ❓ | ❓
@@ -434,7 +434,7 @@
 | HarvestCraftCostScalingByBasetype | 3.19-    | ❓ | ❓ | ❓
 | HarvestCraftFilters              | 3.19-    | ❓ | ❓ | ❓
 | HarvestCraftOptionIcons          | 3.12-    | ✅ | ✅ | ✅
-| HarvestCraftOptions              | 3.11-    | ❌ | ❌ | ❌
+| HarvestCraftOptions              | 3.11-    | ✅ | ✅ | ❌
 | HarvestCraftTiers                | 3.11-    | ✅ | ✅ | ✅
 | HarvestDurability                | 3.11-3.12 | ✅ | ✅ | ✅
 | HarvestEncounterScaling          | 3.11-3.18 | ✅ | ✅ | ✅
@@ -466,7 +466,7 @@
 | HeistDoors                       | 3.12-    | ✅ | ✅ | ✅
 | HeistEquipment                   | 3.12-    | ✅ | ✅ | ✅
 | HeistFormationMarkerType         | 3.12-    | ✅ | ✅ | ✅
-| HeistGeneration                  | 3.12-    | ✅ | ✅ | ❌
+| HeistGeneration                  | 3.12-    | ✅ | ✅ | ✅
 | HeistIntroAreas                  | 3.12-    | ✅ | ✅ | ✅
 | HeistJobs                        | 3.12-    | ✅ | ✅ | ❌
 | HeistJobsExperiencePerLevel      | 3.12-    | ✅ | ✅ | ✅
@@ -474,12 +474,12 @@
 | HeistNPCAuras                    | 3.12-    | ✅ | ✅ | ✅
 | HeistNPCBlueprintTypes           | 3.12-    | ✅ | ✅ | ✅
 | HeistNPCDialogue                 | 3.12-    | ✅ | ✅ | ✅
-| HeistNPCs                        | 3.12-    | ✅ | ✅ | ❌
+| HeistNPCs                        | 3.12-    | ✅ | ✅ | ✅
 | HeistNPCStats                    | 3.12-    | ✅ | ✅ | ✅
 | HeistObjectives                  | 3.12-    | ✅ | ✅ | ✅
 | HeistObjectiveValueDescriptions  | 3.13-    | ✅ | ✅ | ✅
 | HeistPatrolPacks                 | 3.12-    | ✅ | ✅ | ✅
-| HeistQuestContracts              | 3.12-    | ❌ | ❌ | ❌
+| HeistQuestContracts              | 3.12-    | ✅ | ✅ | ❌
 | HeistRevealingNPCs               | 3.12-    | ✅ | ✅ | ✅
 | HeistRooms                       | 3.12-    | ✅ | ✅ | ✅
 | HeistRoomTypes                   | 3.12-    | ✅ | ✅ | ✅
@@ -689,7 +689,7 @@
 | MicrotransactionRecycleSalvageValues | 3.8-     | ✅ | ✅ | ✅
 | MicrotransactionSlot             | 3.17-    | ❓ | ❓ | ❓
 | MicrotransactionSlotId           | 3.0-     | ✅ | ✅ | ✅
-| MicrotransactionSocialFrameVariations | 1.1-     | ✅ | ❌ | ❌
+| MicrotransactionSocialFrameVariations | 1.1-     | ✅ | ✅ | ✅
 | MinimapIcons                     | 2.1-     | ✅ | ✅ | ❌
 | MiniQuestStates                  | 3.14-    | ❌ | ❌ | ❌
 | MiscAnimated                     | all      | ✅ | ✅ | ❌
@@ -829,7 +829,7 @@
 | PassiveSkillTrees                | 3.15-    | ❌ | ❌ | ❌
 | PassiveSkillTreeTutorial         | 3.0-     | ✅ | ✅ | ❌
 | PassiveSkillTreeUIArt            | 3.17-    | ❓ | ❓ | ❓
-| PassiveSkillTypes                | 3.13-    | ❓ | ❓ | ❓
+| PassiveSkillTypes                | 3.13-    | ✅ | ✅ | ✅
 | PassiveTreeExpansionJewels       | 3.10-    | ❌ | ❌ | ✅
 | PassiveTreeExpansionJewelSizes   | 3.10-    | ✅ | ✅ | ✅
 | PassiveTreeExpansionSkills       | 3.10-    | ✅ | ✅ | ✅

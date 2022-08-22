@@ -1,0 +1,10 @@
+{
+  "file": "AfflictionEndgameAreas",
+  "fields": [
+    {
+      "name": "WorldArea",
+      "type": "longid",
+      "ref": "WorldAreas"
+    }
+  ]
+}

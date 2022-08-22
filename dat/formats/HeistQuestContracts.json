@@ -73,7 +73,13 @@
     },
     {
       "name": "Unknown16",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.19"
+    },
+    {
+      "name": "Unknown16",
+      "type": "longid",
+      "since": "3.19"
     },
     {
       "name": "Flag17",
@@ -81,15 +87,33 @@
     },
     {
       "name": "Unknown18",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.19"
+    },
+    {
+      "name": "Unknown18",
+      "type": "longid",
+      "since": "3.19"
     },
     {
       "name": "Unknown19",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.19"
+    },
+    {
+      "name": "Unknown19",
+      "type": "longid",
+      "since": "3.19"
     },
     {
       "name": "Unknown20",
-      "type": "i32"
+      "type": "i32",
+      "until": "3.19"
+    },
+    {
+      "name": "Unknown20",
+      "type": "longid",
+      "since": "3.19"
     },
     {
       "name": "Flag21",

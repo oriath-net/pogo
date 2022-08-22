@@ -4,7 +4,9 @@
     {
       "name": "Id",
       "type": "i32",
-      "unique": true
+      "unique": true,
+      "since": "3.12",
+      "until": "3.14"
     },
     {
       "name": "BaseItemTypesKey",
@@ -12,8 +14,15 @@
       "ref": "BaseItemTypes"
     },
     {
+      "name": "Id",
+      "type": "i32",
+      "unique": true,
+      "since": "3.14"
+    },
+    {
       "name": "BK2File",
-      "type": "string"
+      "type": "string",
+      "since": "3.10"
     }
   ]
 }
