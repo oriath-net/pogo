@@ -117,7 +117,7 @@ func (p *DataParser) getFormat(filename string) (DataFormat, error) {
 	return df, nil
 }
 
-func (p *DataParser) Parse(r io.Reader, filename string) ([]interface{}, error) {
+func (p *DataParser) Parse(r io.Reader, filename string) ([]any, error) {
 	var err error
 
 	filename = path.Base(filename)
@@ -168,7 +168,7 @@ func (p *DataParser) Parse(r io.Reader, filename string) ([]interface{}, error) 
 		return nil, p.debugBoundary(dat, rowSize, rowCount)
 	}
 
-	rows := make([]interface{}, ds.rowCount)
+	rows := make([]any, ds.rowCount)
 	for i := range rows {
 		ds.curRow = i
 		if ds.parser.debug >= 2 {
@@ -218,7 +218,7 @@ func (p *DataParser) debugBoundary(data []byte, rowSize int, rowCount int) error
 	)
 }
 
-func (ds *dataState) readRow(id int) (interface{}, error) {
+func (ds *dataState) readRow(id int) (any, error) {
 	r := reflect.New(ds.rowType).Elem()
 	r.FieldByName("PogoRowID").SetInt(int64(id))
 
@@ -358,7 +358,7 @@ func (ds *dataState) readField(tgt reflect.Value, typ FieldType, rowdat []byte, 
 			return fmt.Errorf("non-empty void[]")
 		}
 		// gaze into the abyss
-		voidArray := make([]interface{}, count)
+		voidArray := make([]any, count)
 		tgt.Set(reflect.ValueOf(voidArray))
 		return ds.usedDyndat("array", ds.lastOffset, 0, int(count))
 

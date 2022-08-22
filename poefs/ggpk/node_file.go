@@ -110,7 +110,7 @@ func (ffi *fsFileNodeStat) IsDir() bool {
 	return false
 }
 
-func (ffi *fsFileNodeStat) Sys() interface{} {
+func (ffi *fsFileNodeStat) Sys() any {
 	return nil
 }
 

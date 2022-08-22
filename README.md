@@ -6,7 +6,7 @@ Installation
 
     go get -u github.com/oriath-net/pogo
 
-You'll need to have [Go 1.16](https://golang.org/dl/) or later installed.
+You'll need to have [Go 1.18](https://golang.org/dl/) or later installed.
 
 
 Usage
@@ -56,4 +56,4 @@ useful in interpreting it.
 
 
 Most of these commands have a bunch of additional options; they can be viewed
-from within the application using e.g. `pogo cat --help`.
+from within the application using e.g. `pogo help cat`.

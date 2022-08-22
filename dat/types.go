@@ -151,7 +151,7 @@ func (ft FieldType) reflectType() reflect.Type {
 		// properly
 		return reflect.TypeOf([]uint64{})
 	case TypeListVoid:
-		return reflect.TypeOf([]interface{}(nil))
+		return reflect.TypeOf([]any(nil))
 	default:
 		panic("invalid FieldType")
 	}

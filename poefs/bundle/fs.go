@@ -180,7 +180,7 @@ func (bffi bundleFsFileInfo) IsDir() bool {
 	return false
 }
 
-func (bffi bundleFsFileInfo) Sys() interface{} {
+func (bffi bundleFsFileInfo) Sys() any {
 	return nil
 }
 
@@ -291,7 +291,7 @@ func (bfdi bundleFsDirInfo) IsDir() bool {
 	return true
 }
 
-func (bfdi bundleFsDirInfo) Sys() interface{} {
+func (bfdi bundleFsDirInfo) Sys() any {
 	return nil
 }
 

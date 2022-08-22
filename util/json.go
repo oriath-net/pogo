@@ -6,13 +6,13 @@ import (
 	"os"
 )
 
-func ReadJson(r io.Reader, target interface{}) error {
+func ReadJson(r io.Reader, target any) error {
 	jdec := json.NewDecoder(r)
 	jdec.DisallowUnknownFields()
 	return jdec.Decode(target)
 }
 
-func WriteJson(w io.Writer, data interface{}, pretty bool) error {
+func WriteJson(w io.Writer, data any, pretty bool) error {
 	jenc := json.NewEncoder(w)
 	jenc.SetEscapeHTML(false)
 	if pretty {
@@ -21,7 +21,7 @@ func WriteJson(w io.Writer, data interface{}, pretty bool) error {
 	return jenc.Encode(data)
 }
 
-func ReadJsonFromFile(filename string, target interface{}) error {
+func ReadJsonFromFile(filename string, target any) error {
 	f, err := os.Open(filename)
 	if err != nil {
 		return err
@@ -30,7 +30,7 @@ func ReadJsonFromFile(filename string, target interface{}) error {
 	return ReadJson(f, target)
 }
 
-func WriteJsonToFile(filename string, data interface{}, pretty bool) error {
+func WriteJsonToFile(filename string, data any, pretty bool) error {
 	f, err := os.Create(filename)
 	if err != nil {
 		return err

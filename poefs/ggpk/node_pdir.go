@@ -218,7 +218,7 @@ func (ffi *fsPdirNodeStat) IsDir() bool {
 	return true
 }
 
-func (ffi *fsPdirNodeStat) Sys() interface{} {
+func (ffi *fsPdirNodeStat) Sys() any {
 	return nil
 }
 

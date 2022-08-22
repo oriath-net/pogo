@@ -151,7 +151,7 @@ func (uds *unionFSMergedDirectoryStat) IsDir() bool {
 	return true
 }
 
-func (uds *unionFSMergedDirectoryStat) Sys() interface{} {
+func (uds *unionFSMergedDirectoryStat) Sys() any {
 	return nil
 }
 
