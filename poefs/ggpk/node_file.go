@@ -99,7 +99,7 @@ func (ffs *fsFileNodeStat) Size() int64 {
 }
 
 func (ffs *fsFileNodeStat) Mode() fs.FileMode {
-	return 0444
+	return 0o444
 }
 
 func (ffi *fsFileNodeStat) ModTime() time.Time {

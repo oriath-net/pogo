@@ -11,9 +11,7 @@ import (
 	"time"
 )
 
-var (
-	errIsDir = errors.New("cannot read a directory")
-)
+var errIsDir = errors.New("cannot read a directory")
 
 type unionFS struct {
 	members []fs.FS
@@ -142,7 +140,7 @@ func (uds *unionFSMergedDirectoryStat) Size() int64 {
 }
 
 func (uds *unionFSMergedDirectoryStat) Mode() fs.FileMode {
-	return 0444 | fs.ModeDir
+	return 0o444 | fs.ModeDir
 }
 
 func (uds *unionFSMergedDirectoryStat) ModTime() time.Time {

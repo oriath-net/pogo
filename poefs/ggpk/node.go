@@ -11,9 +11,7 @@ type anyNode interface {
 	Name() string
 }
 
-var (
-	errNodeTooShort = errors.New("node too small")
-)
+var errNodeTooShort = errors.New("node too small")
 
 func (g *ggpkFS) getNodeAt(offset int64) (anyNode, error) {
 	// long enough to fully read all node headers, hopefully long enough for

@@ -1,5 +1,7 @@
 *.ggpk
 /Data/
+/Data.zip
 /out/
 /pogo
 /pogo.exe
+/schema.min.json

@@ -12,9 +12,7 @@ import (
 	"github.com/oriath-net/pogo/poefs/ggpk"
 )
 
-var (
-	errBadPath = errors.New("invalid source path")
-)
+var errBadPath = errors.New("invalid source path")
 
 func Open(p string) (fs.FS, error) {
 	fi, err := os.Stat(p)

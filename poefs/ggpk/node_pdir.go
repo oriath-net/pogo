@@ -171,9 +171,9 @@ func (fde *fsDirEnt) IsDir() bool {
 
 func (fde *fsDirEnt) Type() fs.FileMode {
 	if fde.IsDir() {
-		return 0444 | fs.ModeDir
+		return 0o444 | fs.ModeDir
 	} else {
-		return 0444
+		return 0o444
 	}
 }
 
@@ -207,7 +207,7 @@ func (fps *fsPdirNodeStat) Size() int64 {
 }
 
 func (fps *fsPdirNodeStat) Mode() fs.FileMode {
-	return 0444 | fs.ModeDir
+	return 0o444 | fs.ModeDir
 }
 
 func (ffi *fsPdirNodeStat) ModTime() time.Time {

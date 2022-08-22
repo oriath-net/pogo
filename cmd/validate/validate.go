@@ -1,4 +1,4 @@
-package cmd
+package validate
 
 import (
 	"bytes"
@@ -8,40 +8,20 @@ import (
 	"log"
 	"os"
 	"reflect"
+	"sort"
 	"strings"
 
+	"github.com/oriath-net/pogo/cmd"
 	"github.com/oriath-net/pogo/dat"
 	"github.com/oriath-net/pogo/poefs"
-
-	cli "github.com/urfave/cli/v2"
+	"github.com/spf13/pflag"
 )
 
-var Validate = cli.Command{
-	Name:      "validate",
-	Usage:     "Perform cross-version validation on data formats.",
-	UsageText: "pogo validate <source path pattern> <data file names...>",
+//go:embed header.md
+var reportHeader string
 
-	Flags: []cli.Flag{
-		&cli.StringFlag{
-			Name:  "report",
-			Usage: "output status to a Markdown file",
-		},
-		&cli.StringSliceFlag{
-			Name:  "version",
-			Usage: "specify versions to test against",
-		},
-		&cli.StringFlag{
-			Name:  "fmt",
-			Usage: "path to a directory containing formats",
-		},
-		&cli.BoolFlag{
-			Name:  "verbose",
-			Usage: "display details about failures",
-		},
-	},
-
-	Action: do_validate,
-}
+//go:embed formats.txt
+var allFormats string
 
 type validateStatus byte
 
@@ -93,20 +73,12 @@ func (s *validateStatus) update(to validateStatus) {
 	}
 }
 
-type validateRunner struct {
-	opencache poefs.OpenCache
-	pathspec  string
-	fmtDir    string
-	versions  []string
-	verbose   bool
-}
-
 type validateOutput struct {
 	oldestSeen, newestSeen  string
 	current, dat64, history validateStatus
 }
 
-func (ro validateOutput) VersionRange(r validateRunner) string {
+func (ro validateOutput) VersionRange(r *validateRunner) string {
 	if ro.newestSeen != r.versions[len(r.versions)-1] {
 		return ro.oldestSeen + "-" + ro.newestSeen
 	} else if ro.oldestSeen != r.versions[0] {
@@ -116,7 +88,7 @@ func (ro validateOutput) VersionRange(r validateRunner) string {
 	}
 }
 
-func (ro validateOutput) Log(r validateRunner, filename string) {
+func (ro validateOutput) Log(r *validateRunner, filename string) {
 	log.Printf(
 		"%-32s [%-8s] - structure %-8s dat64 %-8s history %-8s\n",
 		filename,
@@ -127,104 +99,89 @@ func (ro validateOutput) Log(r validateRunner, filename string) {
 	)
 }
 
-//go:embed validate.header.md
-var reportHeader string
+type validateRunner struct {
+	opencache poefs.OpenCache
+	pathspec  string
+	fmtDir    string
+	reportTo  string
+	versions  []string
+	verbose   bool
 
-func do_validate(c *cli.Context) error {
-	if c.NArg() < 2 {
-		return errNotEnoughArguments
-	}
+	looseParsers, strictParsers map[string]*dat.DataParser
 
-	r := validateRunner{
-		opencache: poefs.NewOpenCache(),
-		pathspec:  c.Args().Get(0),
-		fmtDir:    c.String("fmt"),
-		versions:  c.StringSlice("version"),
-		verbose:   c.Bool("verbose"),
-	}
-
-	if !strings.Contains(r.pathspec, "%v") {
-		return fmt.Errorf("pathspec must contain a %%v version placeholder")
-	}
-
-	if len(r.versions) == 0 {
-		r.versions = []string{
-			"0.11", "1.0", "1.1", "1.2", "1.3",
-			"2.0", "2.1", "2.2", "2.3", "2.4", "2.5", "2.6",
-			"3.0", "3.1", "3.2", "3.3", "3.4", "3.5", "3.6", "3.7", "3.8", "3.9",
-			"3.10", "3.11", "3.12", "3.13", "3.14", "3.15", "3.16", "3.17", "3.18", "3.19",
-		}
-	}
-
-	reportLetter := byte(0)
-	reportFile := io.Writer(nil)
-	if reportTo := c.String("report"); reportTo != "" {
-		fd, err := os.Create(reportTo)
-		if err != nil {
-			return err
-		}
-		reportFile = fd
-		fmt.Fprint(reportFile, reportHeader)
-	}
-
-	for i := 1; i < c.NArg(); i++ {
-		filename := c.Args().Get(i)
-
-		result, err := r.Validate(filename)
-		if err != nil {
-			return err
-		}
-
-		result.Log(r, filename)
-
-		if reportFile != nil {
-			if filename[0] != reportLetter {
-				reportLetter = filename[0]
-				fmt.Fprintf(reportFile, "\n## %c\n\n", reportLetter)
-				fmt.Fprintf(reportFile, "| File                             | Releases | current  | dat64 | history\n")
-				fmt.Fprintf(reportFile, "| -------------------------------- | -------- | -------- | ----- | --------\n")
-			}
-			fmt.Fprintf(reportFile,
-				"| %-32s | %-8s | %s | %s | %s\n",
-				filename,
-				result.VersionRange(r),
-				result.current.Glyph(),
-				result.dat64.Glyph(),
-				result.history.Glyph(),
-			)
-		}
-	}
-
-	return nil
+	reportFh     io.WriteCloser
+	reportLetter byte
 }
 
-func (r *validateRunner) Validate(filename string) (validateOutput, error) {
-	out := validateOutput{
+func (vr *validateRunner) Init() {
+	if vr.reportTo != "" {
+		fh, err := os.Create(vr.reportTo)
+		if err != nil {
+			log.Fatal(err)
+		}
+		fmt.Fprint(fh, reportHeader)
+		vr.reportFh = fh
+	}
+
+	vr.looseParsers = make(map[string]*dat.DataParser)
+	vr.strictParsers = make(map[string]*dat.DataParser)
+
+	for _, v := range vr.versions {
+		lp := dat.InitParser(v)
+		sp := dat.InitParser(v)
+
+		if vr.fmtDir != "" {
+			lp.SetFormatDir(vr.fmtDir)
+			sp.SetFormatDir(vr.fmtDir)
+		}
+		sp.SetStrict(1)
+
+		vr.looseParsers[v], vr.strictParsers[v] = lp, sp
+	}
+}
+
+func (vr *validateRunner) Validate(filename string) {
+	result := validateOutput{
 		current: statusMissing,
 		dat64:   statusNA,
 		history: statusNA,
 	}
 
-	for i := len(r.versions) - 1; i >= 0; i-- {
-		v := r.versions[i]
-		basename := strings.Replace(r.pathspec, "%v", v, -1) + filename
-		err := r.validateVersion(&out, v, filename, basename)
-		if err != nil {
-			return validateOutput{}, err
+	if vr.reportFh != nil {
+		if filename[0] != vr.reportLetter {
+			vr.reportLetter = filename[0]
+			fmt.Fprintf(vr.reportFh, "\n## %c\n\n", vr.reportLetter)
+			fmt.Fprintf(vr.reportFh, "| File                             | Releases | current  | dat64 | history\n")
+			fmt.Fprintf(vr.reportFh, "| -------------------------------- | -------- | -------- | ----- | --------\n")
 		}
 	}
 
-	return out, nil
+	for i := len(vr.versions) - 1; i >= 0; i-- {
+		v := vr.versions[i]
+		basename := strings.Replace(vr.pathspec, "%v", v, -1) + filename
+		err := vr.validateVersion(&result, v, filename, basename)
+		if err != nil {
+			log.Fatal(err)
+		}
+	}
+
+	result.Log(vr, filename)
+
+	if vr.reportFh != nil {
+		fmt.Fprintf(vr.reportFh,
+			"| %-32s | %-8s | %s | %s | %s\n",
+			filename,
+			result.VersionRange(vr),
+			result.current.Glyph(),
+			result.dat64.Glyph(),
+			result.history.Glyph(),
+		)
+	}
 }
 
 func (r *validateRunner) validateVersion(out *validateOutput, version string, filename, basename string) error {
-	p := dat.InitParser(version) // normal parser
-	q := dat.InitParser(version) // strict parser
-	if r.fmtDir != "" {
-		p.SetFormatDir(r.fmtDir)
-		q.SetFormatDir(r.fmtDir)
-	}
-	q.SetStrict(1)
+	p := r.looseParsers[version]
+	q := r.strictParsers[version]
 
 	f32, err := r.opencache.OpenFile(basename + ".dat")
 	if err != nil {
@@ -337,4 +294,67 @@ func (r *validateRunner) validateVersion(out *validateOutput, version string, fi
 	}
 
 	return nil
+}
+
+func (vr *validateRunner) Close() {
+	if vr.reportFh != nil {
+		vr.reportFh.Close()
+	}
+}
+
+func init() {
+	flags := pflag.NewFlagSet("analyze", pflag.ExitOnError)
+	flagReport := flags.String("report", "", "output status to a Markdown file")
+	flagVersions := flags.StringArray("version", []string{}, "only test against specific versions")
+
+	cmd.AddCommand(&cmd.Command{
+		Name:        "validate",
+		Description: "Perform cross-version validation on data formats",
+		Usage:       "pogo validate <source path pattern> <data file names...>",
+
+		MinArgs: 1,
+		MaxArgs: -1,
+
+		Flags: flags,
+
+		Action: func(args []string) {
+			versions := *flagVersions
+			if len(versions) == 0 {
+				versions = []string{
+					"0.11", "1.0", "1.1", "1.2", "1.3",
+					"2.0", "2.1", "2.2", "2.3", "2.4", "2.5", "2.6",
+					"3.0", "3.1", "3.2", "3.3", "3.4", "3.5", "3.6", "3.7", "3.8", "3.9",
+					"3.10", "3.11", "3.12", "3.13", "3.14", "3.15", "3.16", "3.17", "3.18", "3.19",
+				}
+			}
+
+			r := validateRunner{
+				opencache: poefs.NewOpenCache(),
+				pathspec:  args[0],
+				fmtDir:    *cmd.GlobalFmt,
+				reportTo:  *flagReport,
+				verbose:   *cmd.GlobalVerbose > 0,
+				versions:  versions,
+			}
+
+			formats := args[1:]
+			if len(formats) == 0 {
+				for _, f := range strings.Split(allFormats, "\n") {
+					if f != "" {
+						formats = append(formats, f)
+					}
+				}
+			}
+
+			sort.Slice(formats, func(a, b int) bool {
+				return strings.ToLower(formats[a]) < strings.ToLower(formats[b])
+			})
+
+			r.Init()
+			for _, filename := range formats {
+				r.Validate(filename)
+			}
+			r.Close()
+		},
+	})
 }

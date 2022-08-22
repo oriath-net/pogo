@@ -169,7 +169,7 @@ func (bffi bundleFsFileInfo) Size() int64 {
 }
 
 func (bffi bundleFsFileInfo) Mode() fs.FileMode {
-	return 0444
+	return 0o444
 }
 
 func (bffi bundleFsFileInfo) ModTime() time.Time {
@@ -280,7 +280,7 @@ func (bfdi bundleFsDirInfo) Size() int64 {
 }
 
 func (bfdi bundleFsDirInfo) Mode() fs.FileMode {
-	return 0444 | fs.ModeDir
+	return 0o444 | fs.ModeDir
 }
 
 func (bfdi bundleFsDirInfo) ModTime() time.Time {
@@ -321,9 +321,9 @@ func (bfde *bundleFsDirEnt) IsDir() bool {
 
 func (bfde *bundleFsDirEnt) Type() fs.FileMode {
 	if bfde.IsDir() {
-		return 0444 | fs.ModeDir
+		return 0o444 | fs.ModeDir
 	} else {
-		return 0444
+		return 0o444
 	}
 }
 
