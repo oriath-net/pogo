@@ -1,4 +1,18 @@
 {
   "file": "ShopPackagePlatform",
-  "fields": []
+  "fields": [],
+  "enum": [
+    {
+      "id": 1,
+      "name": "PC"
+    },
+    {
+      "id": 2,
+      "name": "XBOX"
+    },
+    {
+      "id": 3,
+      "name": "SONY"
+    }
+  ]
 }

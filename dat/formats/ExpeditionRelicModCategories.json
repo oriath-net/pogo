@@ -1,4 +1,22 @@
 {
   "file": "ExpeditionRelicModCategories",
-  "fields": []
+  "fields": [],
+  "enum": [
+    {
+      "id": 0,
+      "name": "GENERIC"
+    },
+    {
+      "id": 1,
+      "name": "RUNIC"
+    },
+    {
+      "id": 2,
+      "name": "REWARD_CHEST"
+    },
+    {
+      "id": 3,
+      "name": "REWARD_PACK_SIZE"
+    }
+  ]
 }

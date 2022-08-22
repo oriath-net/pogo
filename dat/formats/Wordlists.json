@@ -1,4 +1,42 @@
 {
   "file": "Wordlists",
-  "fields": []
+  "fields": [],
+  "enum": [
+    {
+      "id": 1,
+      "name": "ITEM_PREFIX"
+    },
+    {
+      "id": 2,
+      "name": "ITEM_SUFFIX"
+    },
+    {
+      "id": 3,
+      "name": "MONSTER_PREFIX"
+    },
+    {
+      "id": 4,
+      "name": "MONSTER_SUFFIX"
+    },
+    {
+      "id": 5,
+      "name": "MONSTER_TITLE"
+    },
+    {
+      "id": 6,
+      "name": "UNIQUE_ITEM"
+    },
+    {
+      "id": 7,
+      "name": "STRONGBOX_PREFIX"
+    },
+    {
+      "id": 8,
+      "name": "STRONGBOX_SUFFIX"
+    },
+    {
+      "id": 9,
+      "name": "ESSENCE"
+    }
+  ]
 }

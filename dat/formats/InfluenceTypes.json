@@ -1,4 +1,34 @@
 {
   "file": "InfluenceTypes",
-  "fields": []
+  "fields": [],
+  "enum": [
+    {
+      "id": 0,
+      "name": "SHAPER"
+    },
+    {
+      "id": 1,
+      "name": "ELDER"
+    },
+    {
+      "id": 2,
+      "name": "CRUSADER"
+    },
+    {
+      "id": 3,
+      "name": "EYRIE"
+    },
+    {
+      "id": 4,
+      "name": "BASILISK"
+    },
+    {
+      "id": 5,
+      "name": "ADJUDICATOR"
+    },
+    {
+      "id": 6,
+      "name": "NONE"
+    }
+  ]
 }

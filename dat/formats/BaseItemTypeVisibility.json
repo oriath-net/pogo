@@ -1,0 +1,14 @@
+{
+  "file": "BaseItemTypeVisibility",
+  "fields": [],
+  "enum": [
+    {
+      "id": 0,
+      "name": "HIDDEN"
+    },
+    {
+      "id": 1,
+      "name": "VISIBLE"
+    }
+  ]
+}

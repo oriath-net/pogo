@@ -131,8 +131,7 @@ func (tbl schemaTable) makeJson() any {
 		}
 
 		switch sf.Type {
-		case "foreignrow":
-		case "enumrow":
+		case "foreignrow", "enumrow":
 			jfield.Type = "longid"
 		case "row":
 			jfield.Type = "shortid"
@@ -155,9 +154,18 @@ func (enum schemaEnumeration) makeJson() any {
 	jfmt := dat.JsonFormat{
 		File:   enum.Name,
 		Fields: []dat.JsonField{},
+		Enum:   []dat.JsonEnum{},
 	}
 
-	// TODO: We don't currently have any way to represent these values
+	for i, name := range enum.Enumerators {
+		if name == "" {
+			continue
+		}
+		jfmt.Enum = append(jfmt.Enum, dat.JsonEnum{
+			Id:   enum.Indexing + i,
+			Name: name,
+		})
+	}
 
 	return jfmt
 }

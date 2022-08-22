@@ -1,4 +1,114 @@
 {
   "file": "ModDomains",
-  "fields": []
+  "fields": [],
+  "enum": [
+    {
+      "id": 1,
+      "name": "ITEM"
+    },
+    {
+      "id": 2,
+      "name": "FLASK"
+    },
+    {
+      "id": 3,
+      "name": "MONSTER"
+    },
+    {
+      "id": 4,
+      "name": "CHEST"
+    },
+    {
+      "id": 5,
+      "name": "AREA"
+    },
+    {
+      "id": 9,
+      "name": "CRAFTED"
+    },
+    {
+      "id": 10,
+      "name": "MISC"
+    },
+    {
+      "id": 11,
+      "name": "ATLAS"
+    },
+    {
+      "id": 12,
+      "name": "LEAGUESTONE"
+    },
+    {
+      "id": 13,
+      "name": "ABYSS_JEWEL"
+    },
+    {
+      "id": 14,
+      "name": "MAP_DEVICE"
+    },
+    {
+      "id": 15,
+      "name": "DUMMY"
+    },
+    {
+      "id": 16,
+      "name": "DELVE"
+    },
+    {
+      "id": 17,
+      "name": "DELVE_AREA"
+    },
+    {
+      "id": 18,
+      "name": "SYNTHESIS_A"
+    },
+    {
+      "id": 19,
+      "name": "SYNTHESIS_GLOBALS"
+    },
+    {
+      "id": 20,
+      "name": "SYNTHESIS_BONUS"
+    },
+    {
+      "id": 21,
+      "name": "AFFLICTION_JEWEL"
+    },
+    {
+      "id": 22,
+      "name": "HEIST_AREA"
+    },
+    {
+      "id": 23,
+      "name": "HEIST_NPC"
+    },
+    {
+      "id": 24,
+      "name": "HEIST_TRINKET"
+    },
+    {
+      "id": 25,
+      "name": "WATCHSTONE"
+    },
+    {
+      "id": 26,
+      "name": "VEILED"
+    },
+    {
+      "id": 27,
+      "name": "EXPEDITION_RELIC"
+    },
+    {
+      "id": 28,
+      "name": "UNVEILED"
+    },
+    {
+      "id": 29,
+      "name": "ELDRITCH_ALTAR"
+    },
+    {
+      "id": 30,
+      "name": "SENTINEL"
+    }
+  ]
 }

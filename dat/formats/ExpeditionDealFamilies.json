@@ -1,4 +1,94 @@
 {
   "file": "ExpeditionDealFamilies",
-  "fields": []
+  "fields": [],
+  "enum": [
+    {
+      "id": 1,
+      "name": "REROLL_PREFIXES_BEST"
+    },
+    {
+      "id": 2,
+      "name": "REROLL_SUFFIXES_BEST"
+    },
+    {
+      "id": 3,
+      "name": "VALUES_AFFIXES_LUCKY"
+    },
+    {
+      "id": 4,
+      "name": "VALUES_PREFIXES_LUCKY"
+    },
+    {
+      "id": 5,
+      "name": "VALUES_SUFFIXES_LUCKY"
+    },
+    {
+      "id": 6,
+      "name": "VALUES_IMPLICITS_LUCKY"
+    },
+    {
+      "id": 7,
+      "name": "UPGRADE_HIGHEST_TIER"
+    },
+    {
+      "id": 8,
+      "name": "UPGRADE_ONE_TIER"
+    },
+    {
+      "id": 9,
+      "name": "REMOVE_LOWEST_LEVEL"
+    },
+    {
+      "id": 10,
+      "name": "ADD_PREFIX_BEST"
+    },
+    {
+      "id": 11,
+      "name": "ADD_SUFFIX_BEST"
+    },
+    {
+      "id": 12,
+      "name": "FILL_EMPTY_MODS"
+    },
+    {
+      "id": 13,
+      "name": "REFORGE_SOCKETS"
+    },
+    {
+      "id": 14,
+      "name": "REFORGE_LINKS"
+    },
+    {
+      "id": 15,
+      "name": "APPLY_INCUBATOR"
+    },
+    {
+      "id": 16,
+      "name": "APPLY_RANDOM_QUALITY"
+    },
+    {
+      "id": 17,
+      "name": "SET_QUALITY"
+    },
+    {
+      "id": 18,
+      "name": "APPLY_ANOINTMENT"
+    },
+    {
+      "id": 19,
+      "name": "CORRUPT"
+    },
+    {
+      "id": 20,
+      "name": "ADD_INFLUENCE"
+    },
+    {
+      "id": 21,
+      "name": "REMOVE_ALL_PREFIXES"
+    },
+    {
+      "id": 22,
+      "name": "REMOVE_ALL_SUFFIXES"
+    }
+  ]
 }

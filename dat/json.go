@@ -9,6 +9,7 @@ import (
 type JsonFormat struct {
 	File        string      `json:"file"`
 	Fields      []JsonField `json:"fields"`
+	Enum        []JsonEnum  `json:"enum,omitempty"`
 	Description string      `json:"description,omitempty"`
 	Since       string      `json:"since,omitempty"`
 	Until       string      `json:"until,omitempty"`
@@ -24,6 +25,11 @@ type JsonField struct {
 	Ref         string `json:"ref,omitempty"`
 	RefField    string `json:"ref-field,omitempty"`
 	Path        string `json:"path,omitempty"`
+}
+
+type JsonEnum struct {
+	Id   int    `json:"id"`
+	Name string `json:"name"`
 }
 
 func (jfmt JsonFormat) BuildType(dp *DataParser) (DataFormat, error) {

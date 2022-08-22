@@ -1,0 +1,26 @@
+{
+  "file": "AtlasInfluenceOutcomeTypes",
+  "fields": [],
+  "enum": [
+    {
+      "id": 0,
+      "name": "MONSTER_PACKS"
+    },
+    {
+      "id": 1,
+      "name": "EMPOWERED_BOSS"
+    },
+    {
+      "id": 2,
+      "name": "ON_KILL"
+    },
+    {
+      "id": 3,
+      "name": "INITIAL_PACKS"
+    },
+    {
+      "id": 4,
+      "name": "AWAKENER"
+    }
+  ]
+}

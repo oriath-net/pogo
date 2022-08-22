@@ -1,4 +1,34 @@
 {
   "file": "StatSemantics",
-  "fields": []
+  "fields": [],
+  "enum": [
+    {
+      "id": 1,
+      "name": "PERCENT"
+    },
+    {
+      "id": 2,
+      "name": "OVERRIDE_VALUE"
+    },
+    {
+      "id": 3,
+      "name": "VALUE"
+    },
+    {
+      "id": 4,
+      "name": "FLAG"
+    },
+    {
+      "id": 5,
+      "name": "OVERRIDE_PERCENT"
+    },
+    {
+      "id": 6,
+      "name": "PERMYRIAD"
+    },
+    {
+      "id": 7,
+      "name": "OVERRIDE_PERMYRIAD"
+    }
+  ]
 }

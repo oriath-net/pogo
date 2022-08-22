@@ -1,4 +1,46 @@
 {
   "file": "ActiveSkillTargetTypes",
-  "fields": []
+  "fields": [],
+  "enum": [
+    {
+      "id": 1,
+      "name": "TARGETABLE_GROUND"
+    },
+    {
+      "id": 2,
+      "name": "ENEMY"
+    },
+    {
+      "id": 3,
+      "name": "WALKABLE_GROUND"
+    },
+    {
+      "id": 4,
+      "name": "ANYWHERE_SELF_TARGET"
+    },
+    {
+      "id": 5,
+      "name": "ITEM"
+    },
+    {
+      "id": 6,
+      "name": "CORPSE"
+    },
+    {
+      "id": 8,
+      "name": "NO_LINE_OF_SIGHT"
+    },
+    {
+      "id": 9,
+      "name": "BEHIND_MONSTER"
+    },
+    {
+      "id": 10,
+      "name": "SELF_ORIGIN"
+    },
+    {
+      "id": 11,
+      "name": "ROTATE_TO_TARGET"
+    }
+  ]
 }

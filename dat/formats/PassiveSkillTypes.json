@@ -1,0 +1,14 @@
+{
+  "file": "PassiveSkillTypes",
+  "fields": [],
+  "enum": [
+    {
+      "id": 0,
+      "name": "PASSIVE_TREE"
+    },
+    {
+      "id": 1,
+      "name": "ATLAS_TREE"
+    }
+  ]
+}

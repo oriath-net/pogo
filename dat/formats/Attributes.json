@@ -1,4 +1,22 @@
 {
   "file": "Attributes",
-  "fields": []
+  "fields": [],
+  "enum": [
+    {
+      "id": 1,
+      "name": "STRENGTH"
+    },
+    {
+      "id": 2,
+      "name": "DEXTERITY"
+    },
+    {
+      "id": 3,
+      "name": "INTELLIGENCE"
+    },
+    {
+      "id": 4,
+      "name": "NONE"
+    }
+  ]
 }

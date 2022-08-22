@@ -83,6 +83,25 @@
     },
     "description": {
       "type": "string"
+    },
+    "enum": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "name": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name"
+        ]
+      }
     }
   },
   "additionalProperties": false,

@@ -1,4 +1,114 @@
 {
   "file": "ModGenerationType",
-  "fields": []
+  "fields": [],
+  "enum": [
+    {
+      "id": 1,
+      "name": "PREFIX"
+    },
+    {
+      "id": 2,
+      "name": "SUFFIX"
+    },
+    {
+      "id": 3,
+      "name": "UNIQUE"
+    },
+    {
+      "id": 4,
+      "name": "NEMESIS"
+    },
+    {
+      "id": 5,
+      "name": "CORRUPTED"
+    },
+    {
+      "id": 6,
+      "name": "BLOODLINES"
+    },
+    {
+      "id": 7,
+      "name": "TORMENT"
+    },
+    {
+      "id": 8,
+      "name": "TEMPEST"
+    },
+    {
+      "id": 9,
+      "name": "TALISMAN"
+    },
+    {
+      "id": 10,
+      "name": "ENCHANTMENT"
+    },
+    {
+      "id": 11,
+      "name": "ESSENCE"
+    },
+    {
+      "id": 13,
+      "name": "BESTIARY"
+    },
+    {
+      "id": 14,
+      "name": "DELVE_AREA"
+    },
+    {
+      "id": 15,
+      "name": "SYNTHESIS_A"
+    },
+    {
+      "id": 16,
+      "name": "SYNTHESIS_GLOBALS"
+    },
+    {
+      "id": 17,
+      "name": "SYNTHESIS_BONUS"
+    },
+    {
+      "id": 18,
+      "name": "BLIGHT"
+    },
+    {
+      "id": 19,
+      "name": "BLIGHT_TOWER"
+    },
+    {
+      "id": 20,
+      "name": "MONSTER_AFFLICTION"
+    },
+    {
+      "id": 21,
+      "name": "FLASK_ENCHANTMENT_ENKINDLING"
+    },
+    {
+      "id": 22,
+      "name": "FLASK_ENCHANTMENT_INSTILLING"
+    },
+    {
+      "id": 23,
+      "name": "EXPEDITION_LOGBOOK"
+    },
+    {
+      "id": 24,
+      "name": "SCOURGE_UPSIDE"
+    },
+    {
+      "id": 25,
+      "name": "SCOURGE_DOWNSIDE"
+    },
+    {
+      "id": 26,
+      "name": "SCOURGE_MAP"
+    },
+    {
+      "id": 28,
+      "name": "EXARCH_IMPLICIT"
+    },
+    {
+      "id": 29,
+      "name": "EATER_IMPLICIT"
+    }
+  ]
 }

@@ -1,4 +1,18 @@
 {
   "file": "StatInterpolationTypes",
-  "fields": []
+  "fields": [],
+  "enum": [
+    {
+      "id": 1,
+      "name": "CONSTANT"
+    },
+    {
+      "id": 2,
+      "name": "LINEAR"
+    },
+    {
+      "id": 3,
+      "name": "EXPONENTIAL"
+    }
+  ]
 }
